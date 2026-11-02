@@ -1,0 +1,22 @@
+{
+  "version": "2026-11-02",
+  "publishedAt": null,
+  "lastSourceFetchAt": "2026-11-02T00:09:45.854Z",
+  "lastClinicalVerificationAt": "2026-11-02",
+  "curatedCount": 95,
+  "updateStatus": "Expanded verified edition prepared; external hosting connection pending",
+  "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "type": "initial",
+      "note": "原版39项研究，84条引用。"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "evidence",
+      "note": "扩展至95项研究；加入研究方案、原研究内结果图及结论/局限；负面研究和未成熟终点单独标明。"
+    }
+  ],
+  "lastSourceReviewAt": "2026-11-02T15:41:48.636194+00:00"
+}

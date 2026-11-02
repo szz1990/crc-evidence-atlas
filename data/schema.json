@@ -1,0 +1,93 @@
+{
+  "version": "3.0",
+  "required": [
+    "id",
+    "name",
+    "cancer",
+    "category",
+    "setting",
+    "patientGroup",
+    "molecular",
+    "line",
+    "design",
+    "phase",
+    "n",
+    "arms",
+    "primaryEndpoint",
+    "results",
+    "followup",
+    "safety",
+    "limitations",
+    "practiceImpact",
+    "status",
+    "publicationDate",
+    "sources",
+    "keywords",
+    "comparisonGroup",
+    "verifiedAt"
+  ],
+  "newFields": {
+    "conclusion": "Chinese study conclusion, restrained to tested question",
+    "scheme": {
+      "population": "exact inclusion/resectability/stage",
+      "allocation": "e.g. randomized 1:1 or single arm",
+      "arms": [
+        {
+          "label": "experimental/control",
+          "steps": [
+            "Treatment and dose if verified",
+            "surgery",
+            "adjuvant or follow-up"
+          ]
+        }
+      ],
+      "primaryEndpoint": "exact endpoint",
+      "sourceUrl": "primary source"
+    },
+    "resultCharts": [
+      {
+        "title": "Exact endpoint + timepoint + population",
+        "type": "proportion|median|hazard_ratio",
+        "endpoint": "DFS/PFS/OS/pCR/cCR/etc",
+        "timepoint": "e.g. 3 years or median",
+        "population": "ITT/mITT/PP/biomarker subgroup, with n",
+        "unit": "%|months|HR",
+        "arms": [
+          {
+            "label": "experimental",
+            "value": 0,
+            "n": null,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "control",
+            "value": 0,
+            "n": null,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "No reconstructed KM, exact metric not cross-trial rank",
+        "sourceUrl": "verified primary source",
+        "sourceDate": "YYYY-MM-DD"
+      }
+    ],
+    "evidenceLevel": "peer-reviewed RCT / single-arm / observational / conference abstract",
+    "reviewStatus": "verified",
+    "changeNote": "initial inclusion / updated follow-up"
+  },
+  "rules": [
+    "Preserve null for missing data. Never infer CI/sample size or invent arms.",
+    "No curves unless actual IPD or published digitized data explicitly provided; use bars/points with clear metric.",
+    "Each resultChart is WITHIN one trial and same endpoint/timepoint/analysis population.",
+    "Single arm chart contains one arm only; do not create historical comparator.",
+    "n may retain display string to preserve multiple denominators.",
+    "Keep original citation links and dates; each quantitative chart must cite exact source.",
+    "Return JSON array file; new records use unique lowercase-hyphen id."
+  ]
+}
