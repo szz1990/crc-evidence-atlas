@@ -1,10 +1,10 @@
 {
   "version": "2026-11-02",
-  "publishedAt": null,
+  "publishedAt": "2026-11-03T11:31:53Z",
   "lastSourceFetchAt": "2026-11-02T00:09:45.854Z",
   "lastClinicalVerificationAt": "2026-11-02",
   "curatedCount": 95,
-  "updateStatus": "Expanded verified edition prepared; external hosting connection pending",
+  "updateStatus": "Daily reviewed updating enabled; first scheduled run after migration pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -16,6 +16,11 @@
       "date": "2026-11-02",
       "type": "evidence",
       "note": "扩展至95项研究；加入研究方案、原研究内结果图及结论/局限；负面研究和未成熟终点单独标明。"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "publication",
+      "note": "公开网页版上线；每日来源核验更新任务已迁移，临床证据日期保持不变。"
     }
   ],
   "lastSourceReviewAt": "2026-11-02T15:41:48.636194+00:00"

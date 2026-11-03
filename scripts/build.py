@@ -1,6 +1,6 @@
 import json,re,pathlib,datetime
 root=pathlib.Path(__file__).resolve().parent.parent
-html=(root/'template.html').read_text();trials=json.loads((root/'data/trials.json').read_text());count=len(trials);refs=sum(len(t['sources']) for t in trials);now=datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
+html=(root/'template.html').read_text();trials=json.loads((root/'data/trials.json').read_text());count=len(trials);refs=sum(len(t['sources']) for t in trials);now=json.loads((root/'data/meta.json').read_text())['version']
 html=re.sub(r'(<script id="trial-data" type="application/json">)[\s\S]*?(</script>)',lambda m:m[1]+json.dumps(trials,ensure_ascii=False).replace('</','<\\/')+m[2],html)
 html=html.replace('结直肠癌临床研究工作台 · 独立网页版','CRC Evidence Atlas · 结直肠癌临床研究证据库').replace('独立网页版','在线证据库').replace('本地独立网页 · 无需登录','公开文献 · 版本更新').replace('✓ 本地独立文件<br>浏览研究无需网络和登录<br>原始文献链接需联网访问','✓ 公开临床文献证据<br>无需登录 · 不含患者资料<br>原始文献可追溯')
 html=html.replace('<strong>39<small>项</small></strong>',f'<strong>{count}<small>项</small></strong>').replace('— 精选证据库 · 核实截至 2026.11.01 · 文件制作 2026.11.02',f'— 精选证据库 · 证据版本 {now} · 每条研究标注核实日期')
@@ -27,7 +27,7 @@ html=html.replace("(m==='all'||molecular[m].includes(t.id))", "(m==='all'||(t.mo
 html=html.replace('<div class="card-top"><span class="badge ', '<div class="card-top"><span class="badge ')
 html=html.replace("+'<div class=\"trial-tags\"><span>'", "+'<div class=\"trial-tags\"><span>'")
 
-coverageHtml='<h3>收录范围与待补充方向</h3><p>'+coverage['scope']+'</p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['currentCoverage'])+'</ul><p><strong>下一轮补充：</strong></p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['priorityGaps'])+'</ul><h3>版本记录</h3><ul>'+''.join('<li>'+x['date']+'：'+x['note']+'</li>' for x in meta['history'])+'</ul><p><strong>日期说明：</strong>临床证据核实截至 '+meta['lastClinicalVerificationAt']+'；来源抓取时间不等于临床核实时间。新平台自动更新目前尚待连接及端到端验证，不能视为已启用。</p>'
+coverageHtml='<h3>收录范围与待补充方向</h3><p>'+coverage['scope']+'</p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['currentCoverage'])+'</ul><p><strong>下一轮补充：</strong></p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['priorityGaps'])+'</ul><h3>版本记录</h3><ul>'+''.join('<li>'+x['date']+'：'+x['note']+'</li>' for x in meta['history'])+'</ul><p><strong>日期说明：</strong>临床证据核实截至 '+meta['lastClinicalVerificationAt']+'；来源抓取时间不等于临床核实时间。已设置每日北京时间 08:00 左右检索与核验更新。新证据经来源核验后发布，普通抓取不改写研究结论；首次新版定时核验尚待执行。</p>'
 html=html.replace("与个体化 MDT 判断。</p></div>'", "与个体化 MDT 判断。</p>"+coverageHtml+"</div>'")
 (root/'index.html').write_text(html)
 (root/'dist').mkdir(exist_ok=True)

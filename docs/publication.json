@@ -6,6 +6,7 @@
   "schemes": 95,
   "resultCharts": 114,
   "clinicalVerificationDate": "2026-11-02",
-  "automaticReview": "activation_pending",
-  "note": "Publication verification is distinct from clinical evidence review."
+  "automaticReview": "enabled; first post-migration scheduled review pending",
+  "schedule": "Daily around 08:00 UTC+08:00",
+  "configuredAt": "2026-11-03T11:33:55Z"
 }
