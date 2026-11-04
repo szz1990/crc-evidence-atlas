@@ -10888,5 +10888,212 @@
     ],
     "molecularTags": [],
     "selectionNote": "非该工作台五类突变/免疫标志物专属入组；请阅读精确入组及亚组定义。"
+  },
+  {
+    "id": "unicorn-bot-bal",
+    "name": "UNICORN（BOT±BAL，队列4–7）",
+    "cancer": "结肠癌",
+    "category": "colon",
+    "setting": "可切除局部进展期 · 短程新辅助免疫",
+    "patientGroup": "未经治疗、可根治切除的rT3–4、N0/N+、M0结肠腺癌，≥18岁、ECOG 0–1；本报告56例均为结肠癌，无直肠癌",
+    "molecular": "pMMR/MSS或dMMR/MSI-H分层；均排除POLE/POLD1校对结构域致病性超突变，pMMR队列另排除HER2过表达/扩增",
+    "molecularTags": [],
+    "line": "初治 / 术前",
+    "design": "多中心、开放标签、非随机Ⅱ期伞式平台；各MMR层内先BOT单药、后BOT+BAL依次入组，各队列独立进行Fleming单阶段检验",
+    "phase": "II",
+    "n": "56例入组、治疗并手术，全部纳入ITT及安全性分析；4队列各14例；54例完成全部给药",
+    "arms": [
+      "pMMR BOT（队列4，n=14）：botensilimab 1 mg/kg静脉，D1 → D35±5手术",
+      "pMMR BOT+BAL（队列5，n=14）：botensilimab 1 mg/kg静脉，D1 + balstilimab 3 mg/kg静脉，D1、D15 → D35±5手术",
+      "dMMR BOT（队列6，n=14）：同BOT单药方案 → D35±5手术",
+      "dMMR BOT+BAL（队列7，n=14）：同BOT+BAL联合方案 → D35±5手术"
+    ],
+    "primaryEndpoint": "盲态中央病理评估的主要病理缓解率（pMR，残余存活肿瘤≤10%，包括pCR）；各队列独立检验",
+    "results": [
+      "pMMR：BOT的pMR 0%（95%CI 0–23.2%）；BOT+BAL的pMR 36%（95%CI 12.8–64.9%），pCR 4/14（29%）。",
+      "dMMR：BOT的pMR 36%（95%CI 12.8–64.9%），pCR 4/14（29%）；BOT+BAL的pMR 100%（95%CI 76.8–100%），pCR 13/14（93%）。",
+      "各队列独立预设成功界值为≥5/14达到pMR（包括pCR）；除pMMR BOT外均达到。不是随机组间优效性检验。",
+      "探索性12个月EFS：pMMR BOT 93%（95%CI 59–99%），dMMR BOT 79%（95%CI 47–93%）；两个BOT+BAL队列均100%。截止时共6个EFS事件，两个BOT单药队列各3个；联合队列观察期较短。"
+    ],
+    "followup": "截止2026-02-09；中位随访：pMMR BOT 25.6个月（IQR 22.4–26.4）、pMMR BOT+BAL 19.2个月（18.5–21.9）、dMMR BOT 23.4个月（17.5–26.0）、dMMR BOT+BAL 16.7个月（15.6–18.6）",
+    "safety": "任何AE 30/56（54%）；irAE：BOT 8/28（29%）、BOT+BAL 15/28（54%）。2例因irAE未接受第二次BAL；其中1例dMMR BOT+BAL患者出现3级甲亢，于D50手术。全部手术，98%符合及时手术定义（治疗相关延迟距D35≤14天）；3例手术并发症与研究治疗无关，无AE相关死亡或未恢复后遗症。",
+    "limitations": "非随机依次入组，每队列仅14例且随访不等，几乎均为白人；两队列恰达5/14决策界值，多队列检验可能增加总体Ⅰ类错误。EFS及生物标志物为探索性，尚无随机生存获益证据。全体接受手术，不能支持免手术或跨试验判优。",
+    "practiceImpact": "提供pMMR及dMMR结肠癌术前BOT+BAL的早期病理活性信号，需更大随机研究确认；不据此替代标准手术或辅助治疗决策。",
+    "conclusion": "短程BOT+BAL在pMMR及dMMR结肠癌均出现深度病理缓解；BOT单药在pMMR未达预设目标。非随机小样本结果不能证明生存改善或安全省略手术。",
+    "status": "队列4–7完整同行评议结果已发表；平台仍在开展",
+    "publicationDate": "2026-11-02",
+    "verifiedAt": "2026-11-04",
+    "lastVerified": "2026-11-04",
+    "registrationId": "NCT05845450",
+    "registryId": "NCT05845450",
+    "sources": [
+      {
+        "title": "UNICORN队列4–7原始研究全文，Nature Medicine，2026-11-02",
+        "url": "https://www.nature.com/articles/s41591-026-04710-1"
+      },
+      {
+        "title": "UNICORN原始研究 PubMed 42972108（电子发表2026-11-02）",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42972108/"
+      },
+      {
+        "title": "试验注册 NCT05845450（UNICORN平台）",
+        "url": "https://clinicaltrials.gov/study/NCT05845450"
+      }
+    ],
+    "keywords": [
+      "UNICORN",
+      "botensilimab",
+      "balstilimab",
+      "BOT",
+      "BAL",
+      "pMMR",
+      "dMMR",
+      "MSS",
+      "MSI-H",
+      "新辅助",
+      "pMR",
+      "pCR",
+      "CTLA-4",
+      "PD-1"
+    ],
+    "comparisonGroup": "可切除结肠癌 · 分层新辅助免疫",
+    "evidenceLevel": "同行评议、多中心非随机Ⅱ期多队列研究",
+    "reviewStatus": "verified",
+    "changeNote": "2026-11-04新增：依据2026-11-02原始全文核验队列4–7、剂量、ITT分母、病理缓解及CI、安全性和随访；区分pMMR/dMMR及非随机顺序队列",
+    "scheme": {
+      "population": "未经治疗、可根治切除的rT3–4、N0/N+、M0结肠腺癌，≥18岁、ECOG 0–1；本报告56例均为结肠癌，无直肠癌",
+      "allocation": "按MMR分层，各层先BOT、后BOT+BAL依次入组；4队列各14例，非随机、无同期标准治疗对照",
+      "arms": [
+        {
+          "label": "队列4：pMMR BOT（n=14）",
+          "steps": [
+            "BOT 1 mg/kg静脉，D1",
+            "计划D35±5根治手术",
+            "盲态中央病理评价 → MDT按指南决定辅助治疗和随访"
+          ]
+        },
+        {
+          "label": "队列5：pMMR BOT+BAL（n=14）",
+          "steps": [
+            "BOT 1 mg/kg静脉，D1 + BAL 3 mg/kg静脉，D1、D15",
+            "计划D35±5根治手术",
+            "盲态中央病理评价 → MDT按指南决定辅助治疗和随访"
+          ]
+        },
+        {
+          "label": "队列6：dMMR BOT（n=14）",
+          "steps": [
+            "BOT 1 mg/kg静脉，D1",
+            "计划D35±5根治手术",
+            "盲态中央病理评价 → MDT按指南决定辅助治疗和随访"
+          ]
+        },
+        {
+          "label": "队列7：dMMR BOT+BAL（n=14）",
+          "steps": [
+            "BOT 1 mg/kg静脉，D1 + BAL 3 mg/kg静脉，D1、D15",
+            "计划D35±5根治手术",
+            "盲态中央病理评价 → MDT按指南决定辅助治疗和随访"
+          ]
+        }
+      ],
+      "primaryEndpoint": "盲态中央病理评估的主要病理缓解率（pMR，残余存活肿瘤≤10%，包括pCR）；各队列独立检验",
+      "sourceUrl": "https://www.nature.com/articles/s41591-026-04710-1"
+    },
+    "resultCharts": [
+      {
+        "title": "pMMR：术后pMR率（非随机依次入组）",
+        "type": "proportion",
+        "endpoint": "pMR",
+        "timepoint": "术后中央病理（计划D35±5手术）",
+        "population": "pMMR层ITT共28例，BOT与BOT+BAL各14例，全部手术",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "BOT",
+            "value": 0,
+            "n": 14,
+            "ciLow": 0,
+            "ciHigh": 23.2
+          },
+          {
+            "label": "BOT+BAL",
+            "value": 36,
+            "n": 14,
+            "ciLow": 12.8,
+            "ciHigh": 64.9
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "sourceUrl": "https://www.nature.com/articles/s41591-026-04710-1",
+        "sourceDate": "2026-11-02",
+        "note": "原文Results / Treatment activity及Fig.1c；同MMR层非随机顺序队列，仅描述性展示，不构成因果优效比较。pMR包含pCR；CI为原文Clopper–Pearson 95%CI。"
+      },
+      {
+        "title": "dMMR：术后pMR率（非随机依次入组）",
+        "type": "proportion",
+        "endpoint": "pMR",
+        "timepoint": "术后中央病理（计划D35±5手术）",
+        "population": "dMMR层ITT共28例，BOT与BOT+BAL各14例，全部手术",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "BOT",
+            "value": 36,
+            "n": 14,
+            "ciLow": 12.8,
+            "ciHigh": 64.9
+          },
+          {
+            "label": "BOT+BAL",
+            "value": 100,
+            "n": 14,
+            "ciLow": 76.8,
+            "ciHigh": 100
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "sourceUrl": "https://www.nature.com/articles/s41591-026-04710-1",
+        "sourceDate": "2026-11-02",
+        "note": "原文Results / Treatment activity及Fig.1c；同MMR层非随机顺序队列，仅描述性展示，不构成因果优效比较。pMR包含pCR；CI为原文Clopper–Pearson 95%CI。"
+      },
+      {
+        "title": "dMMR：术后pCR率（非随机依次入组）",
+        "type": "proportion",
+        "endpoint": "pCR",
+        "timepoint": "术后中央病理（计划D35±5手术）",
+        "population": "dMMR层ITT共28例，BOT与BOT+BAL各14例，全部手术",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "BOT",
+            "value": 29,
+            "n": 14,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "BOT+BAL",
+            "value": 93,
+            "n": 14,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "sourceUrl": "https://www.nature.com/articles/s41591-026-04710-1",
+        "sourceDate": "2026-11-02",
+        "note": "原文Results / Treatment activity及Fig.1c；同MMR层非随机顺序队列，仅描述性展示，不构成因果优效比较。pCR指原发灶和淋巴结无存活肿瘤；CI未报告，保留null。原文人数为4/14及13/14。"
+      }
+    ]
   }
 ]

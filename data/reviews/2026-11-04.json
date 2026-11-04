@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-04",
+  "windowStart": "2026-11-02",
+  "windowEnd": "2026-11-04",
+  "sources": {
+    "pubmed": {
+      "ok": true,
+      "total": 69,
+      "retrieved": 69,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/02:2026/11/04[EDAT])",
+      "pages": 1
+    },
+    "clinicaltrials": {
+      "ok": true,
+      "total": 53,
+      "retrieved": 53,
+      "pages": 1
+    }
+  },
+  "limits": [
+    "PubMed entry-date search plus modification-date correction/retraction search; indexing lag can omit newly available publications.",
+    "ClinicalTrials.gov last-update-post date window; includes screening/non-CRC mixed tumor studies; not all registry updates are new results.",
+    "Journal/meeting coverage is not exhaustive; sources blocked by publisher access remain pending."
+  ],
+  "screenedPublications": 69,
+  "screenedRegistrations": 53,
+  "deepReviewLimit": 10,
+  "selectedForReview": [
+    "UNICORN PMID42972108",
+    "BOT+BAL PMID42663536",
+    "EMB-01 PMID42635595",
+    "DEB-TACE PMID42969685",
+    "Liver resection IPD PMID42970859",
+    "Retraction PMID42559736",
+    "Correction PMID42970094",
+    "Correction PMID40898123",
+    "Registry NCT00645710"
+  ],
+  "decisions": [
+    {
+      "id": "42970859",
+      "decision": "Supporting pooled analysis, not a new randomized surgery trial. Do not duplicate the nine source RCTs or infer a causal resection benefit; exploratory high-TBS HR0.69 CI0.45–1.05 crosses1."
+    },
+    {
+      "id": "42559736",
+      "decision": "Retracted electroacupuncture RCT is not in existing95 curated trials; no existing record requires correction."
+    },
+    {
+      "id": "42970094",
+      "decision": "Correction concerns LARS observational study not in curated95."
+    },
+    {
+      "id": "40898123",
+      "decision": "Correction concerns case report not in curated95."
+    },
+    {
+      "id": "NCT00645710",
+      "decision": "Registry updatedNov3 but first results posted2019-03-28; not newly reported efficacy. No current curated95 registry ID matched this update window."
+    }
+  ],
+  "completedAt": "2026-11-04T00:24:52.460247+00:00",
+  "addedTrialIds": [
+    "unicorn-bot-bal"
+  ],
+  "deepReviewedCandidates": 9,
+  "existingTrialRecordsChanged": 0,
+  "pendingCandidateCount": 3
+}

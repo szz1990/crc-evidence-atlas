@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-02",
+  "version": "2026-11-04",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-02T00:09:45.854Z",
-  "lastClinicalVerificationAt": "2026-11-02",
-  "curatedCount": 95,
-  "updateStatus": "Daily reviewed updating enabled; first scheduled run after migration pending",
+  "lastSourceFetchAt": "2026-11-04T00:24:52.460247+00:00",
+  "lastClinicalVerificationAt": "2026-11-04",
+  "curatedCount": 96,
+  "updateStatus": "Daily reviewed update completed; 1 verified study added, 3 candidates remain pending full-source verification",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -21,7 +21,12 @@
       "date": "2026-11-03",
       "type": "publication",
       "note": "公开网页版上线；每日来源核验更新任务已迁移，临床证据日期保持不变。"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "evidence",
+      "note": "首次公开版日更完成：检索69篇文献与53项登记，新增UNICORN队列4–7及3张分层病理结果图；其他95项数据未改。三条全文核验不足线索保留待审。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-02T15:41:48.636194+00:00"
+  "lastSourceReviewAt": "2026-11-04T00:24:52.460247+00:00"
 }

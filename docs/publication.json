@@ -1,12 +1,19 @@
 {
   "site": "CRC Evidence Atlas",
   "verifiedPublicAt": "2026-11-03T11:31:53Z",
-  "evidenceVersion": "2026-11-02",
-  "trials": 95,
-  "schemes": 95,
-  "resultCharts": 114,
-  "clinicalVerificationDate": "2026-11-02",
-  "automaticReview": "enabled; first post-migration scheduled review pending",
+  "evidenceVersion": "2026-11-04",
+  "trials": 96,
+  "schemes": 96,
+  "resultCharts": 117,
+  "clinicalVerificationDate": "2026-11-04",
+  "automaticReview": "enabled; first post-migration scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
-  "configuredAt": "2026-11-03T11:33:55Z"
+  "configuredAt": "2026-11-03T11:33:55Z",
+  "lastReviewAt": "2026-11-04T00:24:52.460247+00:00",
+  "reviewSummary": {
+    "pubmedScreened": 69,
+    "registriesScreened": 53,
+    "added": 1,
+    "pending": 3
+  }
 }

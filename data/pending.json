@@ -1,0 +1,51 @@
+{
+  "updatedAt": "2026-11-04",
+  "status": "unreviewed-for-curated-inclusion",
+  "items": [
+    {
+      "pmid": "42663536",
+      "title": "BOT+BAL extended follow-up",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42663536/",
+        "https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-26-1610/788397/Extended-Follow-up-of-Botensilimab-plus"
+      ],
+      "sourceLevel": "Primary abstract verified; publisher metadata indexed; full article/PDF not read.",
+      "reason": "Abstract-level only; not full-source-verified; check duplicate/older publication before adding.",
+      "dates": {
+        "issue": "2026-11-02",
+        "publisher_landing": "2026-09-21",
+        "first_online": "Not independently established. Earlier August date appears elsewhere; do not conflate issue date with first disclosure."
+      }
+    },
+    {
+      "pmid": "42635595",
+      "title": "EMB-01 in heavily pretreated mCRC",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42635595/",
+        "https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-26-2128/788360/EMB-01-an-Anti-EGFR-c-MET-Bispecific-Antibody-in"
+      ],
+      "sourceLevel": "Primary abstract and PubMed figure captions verified; publisher metadata indexed; full text not read.",
+      "reason": "Abstract-level only; hold full verification pending article; check prior September/August entry.",
+      "dates": {
+        "issue": "2026-11-02",
+        "publisher_landing": "2026-09-17",
+        "first_online": "Not independently established."
+      }
+    },
+    {
+      "pmid": "42969685",
+      "title": "UniPearls versus HepaSphere irinotecan DEB-TACE",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42969685/",
+        "https://clinicaltrials.gov/study/NCT06021015",
+        "https://onlinelibrary.wiley.com/doi/10.1111/liv.70931"
+      ],
+      "sourceLevel": "PubMed primary abstract available through official search index; publisher/full text inaccessible; registry page yielded no study content.",
+      "reason": "Hold. Need full paper, outcome denominators/timepoint, margin/CI, safety details and online publication date.",
+      "dates": {
+        "issue": "2026-12",
+        "first_online": "Unverified; issue date is after review date."
+      }
+    }
+  ]
+}

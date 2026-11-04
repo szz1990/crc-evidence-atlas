@@ -27,7 +27,7 @@ html=html.replace("(m==='all'||molecular[m].includes(t.id))", "(m==='all'||(t.mo
 html=html.replace('<div class="card-top"><span class="badge ', '<div class="card-top"><span class="badge ')
 html=html.replace("+'<div class=\"trial-tags\"><span>'", "+'<div class=\"trial-tags\"><span>'")
 
-coverageHtml='<h3>收录范围与待补充方向</h3><p>'+coverage['scope']+'</p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['currentCoverage'])+'</ul><p><strong>下一轮补充：</strong></p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['priorityGaps'])+'</ul><h3>版本记录</h3><ul>'+''.join('<li>'+x['date']+'：'+x['note']+'</li>' for x in meta['history'])+'</ul><p><strong>日期说明：</strong>临床证据核实截至 '+meta['lastClinicalVerificationAt']+'；来源抓取时间不等于临床核实时间。已设置每日北京时间 08:00 左右检索与核验更新。新证据经来源核验后发布，普通抓取不改写研究结论；首次新版定时核验尚待执行。</p>'
+coverageHtml='<h3>收录范围与待补充方向</h3><p>'+coverage['scope']+'</p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['currentCoverage'])+'</ul><p><strong>下一轮补充：</strong></p><ul>'+''.join('<li>'+x+'</li>' for x in coverage['priorityGaps'])+'</ul><h3>版本记录</h3><ul>'+''.join('<li>'+x['date']+'：'+x['note']+'</li>' for x in meta['history'])+'</ul><p><strong>日期说明：</strong>临床证据核实截至 '+meta['lastClinicalVerificationAt']+'；来源抓取时间不等于临床核实时间。已设置每日北京时间 08:00 左右检索与核验更新。新证据经来源核验后发布，普通抓取不改写研究结论；首次新版定时核验已完成；逐项核实日期与来源抓取日期分别记录。</p>'
 html=html.replace("与个体化 MDT 判断。</p></div>'", "与个体化 MDT 判断。</p>"+coverageHtml+"</div>'")
 (root/'index.html').write_text(html)
 (root/'dist').mkdir(exist_ok=True)
