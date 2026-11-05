@@ -11095,5 +11095,285 @@
         "note": "原文Results / Treatment activity及Fig.1c；同MMR层非随机顺序队列，仅描述性展示，不构成因果优效比较。pCR指原发灶和淋巴结无存活肿瘤；CI未报告，保留null。原文人数为4/14及13/14。"
       }
     ]
+  },
+  {
+    "id": "fantastic-mfolfoxiri",
+    "name": "FANTASTIC（转移灶切除后mFOLFOXIRI）",
+    "category": "metastatic",
+    "cancer": "结直肠癌",
+    "setting": "初始可切除寡转移 · 根治意图切除后辅助治疗",
+    "patientGroup": "无需转化化疗即可行根治意图转移灶切除的结直肠癌，≤75岁、ECOG 0–1；既往未接受转移灶手术。实际73例包括肝53、肺11、腹膜8、卵巢1例；R0为70/73，另有2例R1、1例R2，不能标为全体R0或肝转移限定研究。",
+    "molecular": "实际73例均为MSS；RAS突变36例。Signatera肿瘤知情ctDNA在术后28天和7个月检测，样本在研究结束后回顾分析，未据ctDNA结果随机分配或指导治疗。",
+    "molecularTags": [
+      "MSS",
+      "ctDNA"
+    ],
+    "line": "转移灶切除后辅助治疗，非不可切除转移性一线",
+    "design": "日本多中心、非随机Ⅱ期可行性试验；符合术后标准且同意者接受mFOLFOXIRI，其余进入异质性SOC队列。无随机对照，生存和生物标志物分析为探索性。",
+    "phase": "II",
+    "n": "83例初始登记，73例入组：mFOLFOXIRI 39例、SOC 34例；ctDNA结果可用72例。",
+    "arms": [
+      "mFOLFOXIRI（n=39）：伊立替康150 mg/m²、奥沙利铂85 mg/m²、L-LV 200 mg/m²、5-FU 2400 mg/m²持续46小时，每2周一次，共8周期；随后4周期5-FU/L-LV（相同剂量及间隔）。",
+      "非随机SOC（n=34）：CAPOX 6例、5-FU 5例、观察23例；不是统一双药化疗对照。"
+    ],
+    "primaryEndpoint": "完成8周期mFOLFOXIRI的比例，要求奥沙利铂和伊立替康均至少使用8周期；可行性阈值35%，不是RFS或OS优效性终点。",
+    "results": [
+      "主要终点：mFOLFOXIRI 8周期完成率74%（80%CI 63–83%），相对预设35%阈值P<0.001。",
+      "探索性整体RFS：mFOLFOXIRI与SOC的HR 0.44（95%CI 0.23–0.83；P=0.012）；中位RFS未达到与15.87个月。非随机关联，不能解释为已证明的因果获益。",
+      "术后28天ctDNA阳性亚组：中位RFS为14.37与3.35个月，HR 0.60（95%CI 0.25–1.46；P=0.260），组间差异未达统计学显著。",
+      "ctDNA清除：mFOLFOXIRI 3/9（33%），SOC 2/10（20%），仅限初始阳性且有后续检测者；SOC最初有16例阳性，不能用34例或16例替代清除率分母。"
+    ],
+    "followup": "结果论文报告入组期2020-10至2024-01，中位随访37.1个月；ctDNA主要分析时点为术后28天和7个月。可读正文未明确数据截止日期。",
+    "safety": "正文报告mFOLFOXIRI组≥3级腹泻8%；发热性中性粒细胞减少、神经病变、输注反应及肠梗阻各3%。完成率存在部位差异：腹膜转移仅1/6完成。完整补充AE表未读取，不推断总≥3级AE率或零治疗相关死亡。",
+    "limitations": "小样本、非随机选择及未测量混杂；SOC中23/34仅观察，不能验证三药优于双药。不同转移部位异质，实际含非R0病例；BRAF突变4例均在SOC。ctDNA回顾检测且部分纵向数据缺失，阴性不代表无残留病灶。未证明OS获益或ctDNA指导升降阶有效。",
+    "practiceImpact": "支持特定体能较好术后患者接受mFOLFOXIRI的可行性研究信号；不足以改变辅助治疗标准，也不能据ctDNA阴性省略常规影像随访。",
+    "conclusion": "主要完成率终点达到预设可行性要求；RFS及ctDNA结果应作为假设生成证据，不能据此确认三药优效或ctDNA阳性人群获益。",
+    "status": "同行评议主要结果已发表；非随机Ⅱ期可行性证据",
+    "publicationDate": "2026-11-04",
+    "verifiedAt": "2026-11-05",
+    "lastVerified": "2026-11-05",
+    "registryId": "jRCTs051200026",
+    "registrationId": "jRCTs051200026",
+    "sources": [
+      {
+        "title": "FANTASTIC原始结果正文及图注，BJS Open，出版方日期2026-11-04，DOI 10.1093/bjsopen/zrag144",
+        "url": "https://academic.oup.com/bjsopen/article/10/6/zrag144/9012595?searchresult=1"
+      },
+      {
+        "title": "FANTASTIC已发表试验方案全文PDF，J Anus Rectum Colon 2024；剂量、纳排及主要终点定义",
+        "url": "https://www.jstage.jst.go.jp/article/jarc/8/3/8_2024-025/_pdf/-char/en"
+      }
+    ],
+    "keywords": [
+      "FANTASTIC",
+      "mFOLFOXIRI",
+      "寡转移",
+      "转移灶切除",
+      "辅助化疗",
+      "肝转移",
+      "肺转移",
+      "腹膜转移",
+      "ctDNA",
+      "MRD",
+      "Signatera",
+      "RFS",
+      "非随机",
+      "可行性"
+    ],
+    "comparisonGroup": "可切除寡转移 · 转移灶切除后辅助治疗",
+    "evidenceLevel": "同行评议、多中心非随机Ⅱ期可行性研究；疗效比较为探索性",
+    "reviewStatus": "verified",
+    "changeNote": "2026-11-05新增：核验原始结果的索引正文（方法、结果、表1、图注、安全性及局限）及直接可读方案全文PDF；未读取结果论文补充表。出版方日期为2026-11-04；与PubMed发现条目日期分别保留。",
+    "scheme": {
+      "population": "初始可切除寡转移结直肠癌；肝、肺、腹膜或卵巢转移，计划根治意图切除；实际R0 70/73。术后mFOLFOXIRI要求满足器官功能及UGT1A1等标准。",
+      "allocation": "非随机：按术后适格性、患者选择和医师判断分配；ctDNA回顾检测，不参与治疗分配。",
+      "arms": [
+        {
+          "label": "mFOLFOXIRI（n=39）",
+          "steps": [
+            "根治意图切除 → 术后28–70天第二次登记",
+            "每2周：伊立替康150、奥沙利铂85、L-LV 200、5-FU 2400 mg/m²持续46小时，8周期",
+            "5-FU 2400 mg/m²持续46小时 + L-LV 200 mg/m²，每2周一次，4周期 → 随访"
+          ]
+        },
+        {
+          "label": "SOC（n=34，非随机）",
+          "steps": [
+            "根治意图切除",
+            "CAPOX 6例 / 5-FU 5例 / 观察23例",
+            "临床随访；与治疗队列均于术后28天、7个月进行ctDNA主要分析"
+          ]
+        }
+      ],
+      "primaryEndpoint": "8周期mFOLFOXIRI完成率（奥沙利铂及伊立替康均至少8周期）",
+      "sourceUrl": "https://www.jstage.jst.go.jp/article/jarc/8/3/8_2024-025/_pdf/-char/en"
+    },
+    "resultCharts": [
+      {
+        "title": "mFOLFOXIRI：8周期完成率（80%CI）",
+        "type": "proportion",
+        "endpoint": "8周期治疗完成率",
+        "timepoint": "8周期mFOLFOXIRI后，不含随后4周期5-FU/L-LV完成要求",
+        "population": "mFOLFOXIRI治疗队列，n=39",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "mFOLFOXIRI",
+            "value": 74,
+            "n": 39,
+            "ciLow": 63,
+            "ciHigh": 83
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": "<0.001（相对35%预设可行性阈值）",
+        "sourceUrl": "https://academic.oup.com/bjsopen/article/10/6/zrag144/9012595?searchresult=1",
+        "sourceDate": "2026-11-04",
+        "note": "原始结果正文Safety and completion rate。误差线为原文80%CI，非95%CI。仅一个治疗队列的主要可行性终点，无虚构SOC完成率；P值不是两组疗效比较。"
+      },
+      {
+        "title": "ctDNA清除率（纵向可评价人群；非随机描述）",
+        "type": "proportion",
+        "endpoint": "术后ctDNA由阳性转为阴性",
+        "timepoint": "术后28天至7个月／辅助治疗结束",
+        "population": "术后28天ctDNA阳性且有后续数据者：mFOLFOXIRI n=9，SOC n=10",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "mFOLFOXIRI（3/9）",
+            "value": 33,
+            "n": 9,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "SOC（2/10）",
+            "value": 20,
+            "n": 10,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "sourceUrl": "https://academic.oup.com/bjsopen/article/10/6/zrag144/9012595?searchresult=1",
+        "sourceDate": "2026-11-04",
+        "note": "原始Fig.5及ctDNA clearance正文。仅描述性比较，不代表随机治疗效果；SOC初始16例阳性仅10例有后续数据。原文未报告该比例CI，保留null，不反推。"
+      }
+    ],
+    "publicationDateNote": "出版方文章历史为2026-11-04；PubMed发现条目42981165记为2026-11-03，两者保留，不将索引日期当作出版方日期。",
+    "pubmedIndexedPublicationDate": "2026-11-03",
+    "pmid": "42981165"
+  },
+  {
+    "id": "zanidatamab-crc-registry",
+    "name": "Zanidatamab + mFOLFOX6 ± BEV（CRC Part 1登记结果）",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "不可切除、局部进展/复发/转移性 · HER2表达 · 一线",
+    "patientGroup": "HER2表达、扩展RAS（KRAS/NRAS）及BRAF野生型、不可切除局部进展/复发/转移性CRC；ECOG 0–1，未接受HER2靶向治疗；CRC仅入组Part 1",
+    "molecular": "HER2 IHC 3+（不限扩增）或IHC 0/1+/2+伴基因扩增，中央检测；扩展RAS及BRAF野生型",
+    "molecularTags": [
+      "HER2",
+      "RAS-WT"
+    ],
+    "line": "一线（允许已接受不超过1周期、少于1个月的5-FU方案）",
+    "design": "多中心、开放标签、非随机Ⅱ期GI篮子研究；此条仅为Part 1的两个CRC小队列，无标准治疗对照",
+    "phase": "II",
+    "n": "Part 1 CRC共13例入组/安全集（6+7）；缓解可评价集6+5例，+BEV队列有2/7未进入缓解可评价集；非全研究74例",
+    "arms": [
+      "Zanidatamab 1200/1600 mg（按体重）每2周静脉 + mFOLFOX6；入组/安全集n=6，缓解可评价n=6",
+      "Zanidatamab 1200/1600 mg（按体重）每2周静脉 + mFOLFOX6 + bevacizumab（或生物类似药）；入组/安全集n=7，缓解可评价n=5"
+    ],
+    "primaryEndpoint": "Part 1 DLT、安全性/≥3级实验室异常；登记同时列RECIST 1.1确认ORR，按缓解可评价集报告",
+    "results": [
+      "确认ORR：不含BEV队列6/6；+BEV队列5/5。百分比均为可评价者100%，不是全体入组者100%；+BEV的2/7未进入缓解可评价集，登记未逐例说明原因。ORR置信区间未报告。",
+      "疾病控制及临床获益人数同为6/6与5/5，均为缓解可评价集；不是随机组间比较，也不能归因于zanidatamab单药。",
+      "两CRC队列的DOR、PFS及OS中位数均为NA：登记注明KM事件数不足，无法估计。不得以其他GI癌种数值替代；不绘制或重建生存曲线。",
+      "生存表结构化字段标为95%CI：不含BEV队列DOR/PFS/OS仅分别提供下限6.77/8.18/36.34个月，上限均NA；+BEV队列上下限均NA。以上不是中位数，未据此计算新估计。"
+    ],
+    "followup": "登记结局观察窗最长约68个月，并非CRC队列中位随访；CRC中位随访未报告。全研究实际完成日期2025-08-30，结果首次公开2026-11-04。",
+    "safety": "按不含BEV/+BEV顺序：DLT（首周期28天）1/6、1/7；任何TEAE 6/6、7/7；严重AE 1/6、1/7；≥3级实验室异常2/6、1/7，不能解释为总体≥3级AE率。AE表全因死亡1/6、0/7，未说明治疗归因。AE观察窗为首次给药至末次治疗后30天或下一抗癌疗程前（较早者），最长约68个月。",
+    "limitations": "登记结果，非同行评议CRC全文；CRC仅Part 1共13例，非随机、无对照。ORR分母只含11例可评价者，+BEV排除2/7，缺失原因不详，ORR CI未报告；生存中位数不可估计。结局表描述称range，但结构化离散度字段为95%CI，保留来源标记而不自行改算。患者流程显示9例因申办方终止研究、3例撤回同意、1例死亡而未完成研究；不等于治疗均失败或均因毒性停药。关联的2025年Lancet Oncology论文为GEA人群，不能当作CRC全文证据。",
+    "practiceImpact": "提供HER2表达、RAS/BRAF野生型CRC一线联合方案的早期活性与安全性描述；不足以支持标准治疗替代、组间优效或生存获益。",
+    "conclusion": "两个CRC小队列的缓解可评价者均出现确认缓解，但+BEV仅5/7进入可评价集；不能表述为100% ITT疗效或比较优效，生存获益仍未知。",
+    "status": "registry results, not peer-reviewed publication",
+    "evidenceLevel": "registry results, not peer-reviewed publication",
+    "publicationDate": "2026-11-04",
+    "publicationDateNote": "此日期为ClinicalTrials.gov结果首次公开日期，不是期刊论文发表日期。",
+    "registryStatus": "COMPLETED",
+    "registryResultsFirstPosted": "2026-11-04",
+    "lastVerified": "2026-11-05",
+    "verifiedAt": "2026-11-05",
+    "registryId": "NCT03929666",
+    "registrationId": "NCT03929666",
+    "sources": [
+      {
+        "title": "NCT03929666官方登记结果（首次公开2026-11-04；非同行评议论文）",
+        "url": "https://clinicaltrials.gov/study/NCT03929666?tab=results"
+      },
+      {
+        "title": "ClinicalTrials.gov API v2：原始方案、分队列分母、结果与安全性",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03929666"
+      }
+    ],
+    "keywords": [
+      "zanidatamab",
+      "ZW25",
+      "ZWI-ZW25-201",
+      "HER2",
+      "RAS野生型",
+      "BRAF野生型",
+      "mFOLFOX6",
+      "bevacizumab",
+      "一线",
+      "登记结果"
+    ],
+    "comparisonGroup": "HER2表达、RAS/BRAF野生型 · 一线联合 · 非随机早期队列",
+    "reviewStatus": "verified",
+    "changeNote": "2026-11-05新增：依据官方API核验2026-11-04首次公开登记结果，分离CRC Part 1与其他GI癌种，保留6+7安全分母、6+5缓解分母、缺失ORR CI及不可估计生存；不得标为同行评议全文。",
+    "scheme": {
+      "population": "Part 1 HER2表达、扩展RAS/BRAF野生型CRC，未接受HER2靶向治疗；不可切除局部进展/复发/转移性，ECOG 0–1",
+      "allocation": "非随机两个小队列，CRC仅Part 1；无标准治疗或安慰剂对照，不进行因果优效比较",
+      "arms": [
+        {
+          "label": "ZW25 + mFOLFOX6（入组/安全6例）",
+          "steps": [
+            "Zanidatamab 1200/1600 mg每2周 + mFOLFOX6",
+            "首周期28天评估DLT；全6例安全评价",
+            "6例进入RECIST 1.1缓解可评价集，6例确认缓解"
+          ]
+        },
+        {
+          "label": "ZW25 + mFOLFOX6 + BEV（入组/安全7例）",
+          "steps": [
+            "Zanidatamab 1200/1600 mg每2周 + mFOLFOX6 + bevacizumab或生物类似药",
+            "首周期28天评估DLT；全7例安全评价",
+            "仅5/7进入RECIST 1.1缓解可评价集，5例确认缓解；2/7未纳入此分析"
+          ]
+        }
+      ],
+      "primaryEndpoint": "Part 1 DLT及安全性；登记确认ORR按缓解可评价集报告",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03929666?tab=results"
+    },
+    "resultCharts": [
+      {
+        "title": "仅可评价者确认ORR：6/6与5/5；+BEV有2/7未纳入",
+        "type": "proportion",
+        "endpoint": "RECIST 1.1确认ORR（Response Evaluable Analysis Set）",
+        "timepoint": "治疗期间确认最佳缓解；登记观察窗最长约68个月，非固定时点率",
+        "population": "CRC Part 1：安全集6+7例；ORR仅6+5例。+BEV有2/7未进入可评价集，非ITT分析。",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "ZW25 + mFOLFOX6：6/6",
+            "value": 100,
+            "n": 6,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "+ BEV：5/5（入组7例）",
+            "value": 100,
+            "n": 5,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "仅为同研究内非随机两队列的描述；+BEV的2/7不在缓解可评价分母中，原因未逐例报告。100%由登记人数6/6、5/5换算，不是100% ITT，不证明两方案等效或优效。ORR CI未报告，保留null。来源是登记结果，不是同行评议CRC论文；sourceDate为首次结果公开日。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT03929666?tab=results",
+        "sourceDate": "2026-11-04",
+        "sourceDateNote": "2026-11-04为ClinicalTrials.gov首次结果公开日期，并非论文发表日期；本条仅为登记结果，非同行评议全文。"
+      }
+    ],
+    "sourceDateNote": "2026-11-04为ClinicalTrials.gov首次结果公开日期，并非论文发表日期；本条仅为登记结果，非同行评议全文。"
   }
 ]

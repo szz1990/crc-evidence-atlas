@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -47,5 +47,6 @@
         "first_online": "Unverified; issue date is after review date."
       }
     }
-  ]
+  ],
+  "lastReviewNote": "三条既有候选仍未完成全文核验；访问挑战不绕过。"
 }

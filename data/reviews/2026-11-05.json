@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-05",
+  "windowStart": "2026-11-04",
+  "windowEnd": "2026-11-05",
+  "sources": {
+    "pubmed": {
+      "ok": true,
+      "total": 30,
+      "retrieved": 30,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/04:2026/11/05[EDAT])",
+      "pages": 1
+    },
+    "clinicaltrials": {
+      "ok": true,
+      "total": 35,
+      "retrieved": 35,
+      "pages": 1
+    }
+  },
+  "screenedPublications": 30,
+  "screenedRegistrations": 35,
+  "deepReviewLimit": 10,
+  "selectedForReview": [
+    "FANTASTIC PMID42981165",
+    "BOT+BAL PMID42663536",
+    "EMB-01 PMID42635595",
+    "DEB-TACE PMID42969685",
+    "Correction PMID42979002",
+    "Correction PMID42360596",
+    "Registry NCT03929666",
+    "Registry NCT04165772"
+  ],
+  "limits": [
+    "PubMed entry-date and modification-date correction search may miss not-yet-indexed papers.",
+    "Registry query returns recent updates, not necessarily new results.",
+    "Journal/meeting search is not exhaustive; access challenges are not bypassed."
+  ],
+  "decisions": [
+    {
+      "id": "42979002",
+      "decision": "Correction to prostate cancer spacer case report; unrelated to curated96 CRC clinical trials."
+    },
+    {
+      "id": "42360596",
+      "decision": "Correction to pilonidal surgery meta-analysis; unrelated to curated96."
+    },
+    {
+      "id": "42663536",
+      "decision": "Retain pending; initial PMC metadata accessible but methods/results request challenged. Full-source verification not completed; issue date not new-results date."
+    },
+    {
+      "id": "42635595",
+      "decision": "Retain pending; PMC challenge prevented adequate full-source verification."
+    },
+    {
+      "id": "42969685",
+      "decision": "Retain pending; no newly accessible independent primary fulltext established."
+    },
+    {
+      "id": "NCT04165772",
+      "decision": "Current registry recruiting, estimated212, no results section; historical field delta unavailable. Preserve published49/49 rectal completers and117 mixed-cancer outcomes."
+    },
+    {
+      "id": "NCT03929666",
+      "decision": "Add clearly labeled registry-only CRC Part1 record. Safety6+7, response6+5, two excluded from response denominator. No estimable median survival."
+    },
+    {
+      "id": "42981165",
+      "decision": "Add original FANTASTIC feasibility study; nonrandomized cohorts, primary80%CI and nonsignificant ctDNA-positive subgroup preserved."
+    }
+  ],
+  "completedAt": "2026-11-05T00:21:18.971255+00:00",
+  "addedTrialIds": [
+    "fantastic-mfolfoxiri",
+    "zanidatamab-crc-registry"
+  ],
+  "deepReviewedCandidates": 8,
+  "existingTrialRecordsChanged": 0
+}
