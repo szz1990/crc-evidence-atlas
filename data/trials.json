@@ -9949,7 +9949,8 @@
     "molecularTags": [
       "BRAF"
     ],
-    "selectionNote": "非该工作台五类突变/免疫标志物专属入组；请阅读精确入组及亚组定义。"
+    "selectionNote": "前瞻性BRAF V600E突变筛选；本卡为EC+mFOLFOX6与标准治疗的主要随机比较，不含独立FOLFIRI队列。",
+    "metadataCorrectionDate": "2026-11-06"
   },
   {
     "id": "beacon",

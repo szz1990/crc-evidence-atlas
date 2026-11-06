@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -46,7 +46,38 @@
         "issue": "2026-12",
         "first_online": "Unverified; issue date is after review date."
       }
+    },
+    {
+      "pmid": "42982911",
+      "title": "Anastomotic reinforcement versus preventive stoma, retrospective PSM",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42982911/",
+        "https://link.springer.com/article/10.1007/s00464-026-13530-w"
+      ],
+      "sourceLevel": "Primary PubMed abstract verified; full primary source not verified.",
+      "reason": "Primary abstract only; full article requires institutional access. Retrospective PSM cannot establish equivalence; retain pending full methods and safety verification."
+    },
+    {
+      "pmid": "42984935",
+      "title": "Tumor-informed ctDNA AccuScan cohort, n=28",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42984935/",
+        "https://doi.org/10.32604/or.2026.080218"
+      ],
+      "sourceLevel": "Primary PubMed abstract verified; full primary source not verified.",
+      "reason": "Primary abstract only; publisher access returned403. Small observational assay cohort, not ctDNA-guided randomized treatment evidence; retain pending complete denominator and validation review."
+    },
+    {
+      "pmid": "42219860",
+      "title": "BREAKWATER Cohort3 EC+FOLFIRI historical coverage gap",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42219860/",
+        "https://doi.org/10.1016/j.annonc.2026.04.017",
+        "https://clinicaltrials.gov/study/NCT04607421?tab=results"
+      ],
+      "sourceLevel": "Primary abstract and registry outcomes verified, complete later publication not verified.",
+      "reason": "Separate73/74patient cohort; May31 publication not new November readout. Full publisher text403; keep apart from mFOLFOX6 cohort. Registry still does not post this cohort PFS/OS."
     }
   ],
-  "lastReviewNote": "三条既有候选仍未完成全文核验；访问挑战不绕过。"
+  "lastReviewNote": "既有三条候选继续待审；新增两条观察性研究线索需全文核验，未纳入已核实临床比较。"
 }

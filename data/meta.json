@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-05",
+  "version": "2026-11-06",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-05T00:21:18.971255+00:00",
+  "lastSourceFetchAt": "2026-11-06T00:41:56.524937+00:00",
   "lastClinicalVerificationAt": "2026-11-05",
   "curatedCount": 98,
-  "updateStatus": "Daily review completed; source-verified additions distinguish full papers and registry results",
+  "updateStatus": "Daily review completed; BREAKWATER selection label corrected, no efficacy changes; six candidates pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -31,7 +31,12 @@
       "date": "2026-11-05",
       "type": "evidence",
       "note": "检索30篇文献与35项登记；新增2项来源核实研究。明确区分非随机可行性研究、登记结果和已发表论文；原96项结论未改。"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "review",
+      "note": "检索56篇文献与36项登记，保留98项研究及120张图。未发现本轮可完整核实并纳入的新结论；三条新线索留待全文核验，共六条待审。来源检索更新不改变既有临床核实日期。 校正BREAKWATER入组标志物提示为BRAF V600E特定筛选，疗效数据不变。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-05T00:21:18.971255+00:00"
+  "lastSourceReviewAt": "2026-11-06T00:41:56.524937+00:00"
 }
