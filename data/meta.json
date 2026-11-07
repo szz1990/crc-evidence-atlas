@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-06",
+  "version": "2026-11-07",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-06T00:41:56.524937+00:00",
-  "lastClinicalVerificationAt": "2026-11-05",
-  "curatedCount": 98,
-  "updateStatus": "Daily review completed; BREAKWATER selection label corrected, no efficacy changes; six candidates pending",
+  "lastSourceFetchAt": "2026-11-07T01:06:39.600166+00:00",
+  "lastClinicalVerificationAt": "2026-11-07",
+  "curatedCount": 99,
+  "updateStatus": "Daily review completed; one established cohort added using verified SITC poster with explicit source limitations; seven full-source checks pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -36,7 +36,12 @@
       "date": "2026-11-06",
       "type": "review",
       "note": "检索56篇文献与36项登记，保留98项研究及120张图。未发现本轮可完整核实并纳入的新结论；三条新线索留待全文核验，共六条待审。来源检索更新不改变既有临床核实日期。 校正BREAKWATER入组标志物提示为BRAF V600E特定筛选，疗效数据不变。"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "evidence",
+      "note": "检索41篇新索引文献与20项登记，并完成现有研究名称/注册号及勘误核查。以完整SITC原始海报补齐C-800-01无活动性肝转移队列，明确与既有论文同一人群、同一数据截止，非新全队列疗效读出；共99项研究、121张结果图。SCOT生物标志物分析待全文核验，既有98项结论和数值未改。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-06T00:41:56.524937+00:00"
+  "lastSourceReviewAt": "2026-11-07T01:06:39.600166+00:00"
 }

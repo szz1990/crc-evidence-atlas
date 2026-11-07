@@ -11376,5 +11376,111 @@
       }
     ],
     "sourceDateNote": "2026-11-04为ClinicalTrials.gov首次结果公开日期，并非论文发表日期；本条仅为登记结果，非同行评议全文。"
+  },
+  {
+    "id": "c80001-botbal-nlm",
+    "name": "C-800-01 BOT＋BAL（SITC 2026海报）",
+    "cancer": "转移性结直肠癌",
+    "setting": "经治MSS转移性结直肠癌 · 无活动性肝转移",
+    "patientGroup": "经治MSS/pMMR转移性结直肠癌，无活动性肝转移",
+    "molecular": "MSS/pMMR",
+    "line": "经治 / 后线",
+    "design": "开放标签、非随机Ⅰb期扩展队列；海报另含事后生存者分析",
+    "phase": "Ib",
+    "n": "123例接受≥1次给药；非整个登记试验499例",
+    "arms": [
+      "Botensilimab 1或2 mg/kg，每6周一次 ＋ balstilimab 3 mg/kg，每2周一次"
+    ],
+    "primaryEndpoint": "安全性/耐受性；登记主要终点含TEAE、DLT和推荐Ⅱ期剂量；ORR为次要终点，OS属探索性分析",
+    "results": [
+      "全123例ORR为26/123（21%；95%CI 14–29）。",
+      "全队列中位PFS为4.0个月（95%CI 2.8–4.1）；探索性中位OS为21.2个月（95%CI 16.2–23.8），36个月OS为33%（95%CI 24–43）。",
+      "63/123（51%）满足事后定义的OS≥18个月。该生存者亚组按结局筛选，不能用其缓解率或生存估计代表所有治疗患者。",
+      "SITC海报与既有CCR论文摘要的数据截止日均为2025-12-13；不是新的全队列生存随访读出。"
+    ],
+    "followup": "截至2025-12-13；中位随访20.2个月（范围0.7–62.3）；reverse-KM随访34.8个月，方法不同不可混用",
+    "safety": "全123例治疗相关免疫介导不良事件72例（59%），≥3级37例（30%）；腹泻/结肠炎51例（41%），≥3级19例（15%）。海报未报告治疗相关死亡。以上为医学判定的免疫介导事件分类，排除仅接受外用激素的皮肤事件，不等于所有TRAE。",
+    "limitations": "非随机、无对照，限定无活动性肝转移；仅约30%既往接受过瑞戈非尼、FTD/TPI±贝伐珠单抗或呋喹替尼，不能假定均已用尽现代后线治疗；不能外推有活动性肝转移者或与其他后线试验跨研究比较OS。长期生存者分析属事后结局筛选；海报与同队列论文不应重复计为独立人群。当前核实依据为完整原始海报、论文摘要/部分方法和登记；论文全文及补充材料仍待完整核验。",
+    "practiceImpact": "提示该选择人群存在持久缓解信号，但不能据此替代标准后线治疗，仍需随机对照证据。",
+    "status": "SITC 2026海报已核实；同队列论文全文待完整核验",
+    "publicationDate": "2026-11-06",
+    "sources": [
+      {
+        "title": "SITC 2026 poster 472：原始全队列及事后长期生存者分析（2026-11-06公开）",
+        "url": "https://cdn.prod.website-files.com/6937c982c2307c9830dea4fb/6aed3a81b8aabebbc496dfed_SITC%202026_C-800-01%20BOTBAL%20MSS%20mCRC%20NLM%20LTS_Poster_FINAL.pdf"
+      },
+      {
+        "title": "Agenus官方海报目录",
+        "url": "https://www.agenusbio.com/publications"
+      },
+      {
+        "title": "CCR同队列论文摘要，首次在线2026-08-28；卷期2026-11-02",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42663536/"
+      },
+      {
+        "title": "试验登记NCT03860272（全试验与本123例队列分母不同）",
+        "url": "https://clinicaltrials.gov/study/NCT03860272"
+      }
+    ],
+    "keywords": [
+      "botensilimab",
+      "balstilimab",
+      "BOT",
+      "BAL",
+      "MSS",
+      "无活动性肝转移",
+      "SITC",
+      "早期信号"
+    ],
+    "lastVerified": "2026-11-07",
+    "registryId": "NCT03860272",
+    "category": "metastatic",
+    "comparisonGroup": "MSS经治转移性 · 无活动性肝转移 · 非随机早期队列",
+    "verifiedAt": "2026-11-07",
+    "conclusion": "无活动性肝转移的经治MSS患者中观察到缓解与长期存活信号；单臂、选择性人群和探索性OS限制了因果解释。",
+    "evidenceLevel": "primary conference poster; nonrandomized phase Ib",
+    "reviewStatus": "verified",
+    "changeNote": "基于完整SITC原始海报补齐既有待审C-800-01队列；明确与CCR同数据截止、未形成独立新队列或新的全队列疗效读出。论文全文核验仍保留待办。",
+    "scheme": {
+      "population": "123例经治MSS mCRC，无活动性肝转移",
+      "allocation": "非随机单臂Ⅰb期；仅描述该扩展队列",
+      "arms": [
+        {
+          "label": "BOT＋BAL",
+          "steps": [
+            "Botensilimab 1或2 mg/kg，每6周一次",
+            "Balstilimab 3 mg/kg，每2周一次",
+            "安全性及RECIST 1.1疗效评估；探索性OS随访"
+          ]
+        }
+      ],
+      "primaryEndpoint": "安全性/耐受性；ORR次要、OS探索性",
+      "sourceUrl": "https://cdn.prod.website-files.com/6937c982c2307c9830dea4fb/6aed3a81b8aabebbc496dfed_SITC%202026_C-800-01%20BOTBAL%20MSS%20mCRC%20NLM%20LTS_Poster_FINAL.pdf"
+    },
+    "resultCharts": [
+      {
+        "title": "全队列客观缓解率",
+        "type": "proportion",
+        "endpoint": "RECIST 1.1 ORR",
+        "timepoint": "截至2025-12-13",
+        "population": "全部123例接受≥1次给药的无活动性肝转移MSS患者",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "BOT＋BAL（26/123）",
+            "value": 21,
+            "n": 123,
+            "ciLow": 14,
+            "ciHigh": 29
+          }
+        ],
+        "note": "95%CI；单臂，不设置外部对照。不是长期生存者亚组的缓解率；与CCR同队列不得重复计数。",
+        "sourceUrl": "https://cdn.prod.website-files.com/6937c982c2307c9830dea4fb/6aed3a81b8aabebbc496dfed_SITC%202026_C-800-01%20BOTBAL%20MSS%20mCRC%20NLM%20LTS_Poster_FINAL.pdf",
+        "sourceDate": "2026-11-06"
+      }
+    ],
+    "molecularTags": [
+      "MSS"
+    ]
   }
 ]

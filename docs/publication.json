@@ -1,19 +1,21 @@
 {
   "site": "CRC Evidence Atlas",
   "verifiedPublicAt": "2026-11-03T11:31:53Z",
-  "evidenceVersion": "2026-11-06",
-  "trials": 98,
-  "schemes": 98,
-  "resultCharts": 120,
-  "clinicalVerificationDate": "2026-11-05",
+  "evidenceVersion": "2026-11-07",
+  "trials": 99,
+  "schemes": 99,
+  "resultCharts": 121,
+  "clinicalVerificationDate": "2026-11-07",
   "automaticReview": "enabled; scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
   "configuredAt": "2026-11-03T11:33:55Z",
-  "lastReviewAt": "2026-11-06T00:41:56.524937+00:00",
+  "lastReviewAt": "2026-11-07T01:06:39.600166+00:00",
   "reviewSummary": {
-    "pubmedScreened": 56,
-    "registriesScreened": 36,
-    "added": 0,
-    "pending": 6
-  }
+    "pubmedScreened": 41,
+    "registriesScreened": 20,
+    "added": 1,
+    "pending": 7
+  },
+  "sourceBaseCommit": "3c7a6593e9baedfe079459cecc9570b09b694963",
+  "publicationMarker": "crc-2026-11-07-c80001-poster"
 }
