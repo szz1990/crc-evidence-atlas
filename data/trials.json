@@ -11482,5 +11482,184 @@
     "molecularTags": [
       "MSS"
     ]
+  },
+  {
+    "id": "miracle-1",
+    "name": "MIRACLE-1（ASCO 2026更新摘要）",
+    "cancer": "转移性直肠癌",
+    "category": "metastatic",
+    "setting": "MSS直肠癌 · 同步可切除肝和/或肺转移 · 初始治疗",
+    "patientGroup": "MSS直肠癌，MRI显示原发灶距肛缘≤10 cm，伴有限、可切除的同步肝和/或肺转移；不是单纯肝转移队列",
+    "molecular": "MSS",
+    "molecularTags": [
+      "MSS"
+    ],
+    "line": "一线 / 初始治疗",
+    "design": "前瞻性、单臂Ⅱ期；登记为多中心、开放标签、非随机研究",
+    "phase": "II",
+    "n": "50例疗效可评价；实际入组/接受治疗总数未报告；登记计划52例，不能代替结果分析分母",
+    "arms": [
+      "原发灶HFRT＋转移灶HFRT或SBRT → 6周期CAPOX＋替雷利珠单抗 → 按疗效行原发灶手术及转移灶切除/局部消融；达到NED者术后替雷利珠单抗最多1年"
+    ],
+    "primaryEndpoint": "1年无疾病证据（NED）率；本次仅报告27/50达到NED，未单独给出1年NED估计或CI",
+    "results": [
+      "50例疗效可评价者中，肝转移、肺转移、肝肺同时转移分别占62%、20%、18%；原发灶RAS/BRAF突变占62%。",
+      "ORR为76.0%（38/50）；PR 38例、SD 10例、PD 2例。ORR的95%CI未报告。",
+      "27/50（54%）达到NED；该数值没有明确的一年评估时间点，不能标为“1年NED率54%”。",
+      "中位PFS 17.0个月（95%CI 8.7–25.3），1年PFS 61.2%；中位OS尚未达到，1年OS 83.5%。1年PFS/OS的95%CI未报告。"
+    ],
+    "followup": "数据截止2025-12-31；中位随访18.7个月（95%CI 15.5–21.9）",
+    "safety": "发生1例治疗相关死亡，原因为免疫治疗诱导的肝炎。任意级别TRAE：血小板减少93.8%、淋巴细胞减少81.3%、贫血77.1%；3/4级TRAE：血小板减少39.6%、淋巴细胞减少14.6%、中性粒细胞减少12.5%。摘要未明确安全性分母，不以疗效分母50例换算人数。",
+    "limitations": "会议摘要、单臂、样本量小，无同期对照，不能分离放疗、CAPOX、免疫治疗及局部治疗各自贡献；无肝/肺分层疗效。NED不等于影像CR或病理完全缓解，且预设1年NED终点未单独量化。未交代实际入组总数、排除原因或安全性分母。登记最后更新于2022-11-14且无结果上传；登记MSS/dMMR纳入措辞存在内部不一致，但摘要明确MSS。原始摘要已通过ASCO/JCO官方域名检索索引核验，直开网页403，该来源为会议摘要，并非完整结果论文。",
+    "practiceImpact": "提供同步可切除肝/肺转移MSS直肠癌多模式治疗的初步信号；存在致死性免疫毒性，不能据此替代标准治疗或确认免疫治疗的增量获益。",
+    "status": "ASCO 2026原始摘要索引及试验登记已核实；会议摘要证据",
+    "publicationDate": "2026-05-27",
+    "sources": [
+      {
+        "title": "ASCO 2026 / JCO e15555：MIRACLE-1更新结果（官方索引摘要内容；直开403）",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15555"
+      },
+      {
+        "title": "ASCO官方摘要页面：e15555，Publication Only",
+        "url": "https://www.asco.org/abstracts-presentations/262791/"
+      },
+      {
+        "title": "ClinicalTrials.gov NCT05359393（直接API核验；登记计划52例，2022-11最后更新）",
+        "url": "https://clinicaltrials.gov/study/NCT05359393"
+      }
+    ],
+    "keywords": [
+      "MIRACLE-1",
+      "MSS",
+      "替雷利珠单抗",
+      "tislelizumab",
+      "CAPOX",
+      "同步转移",
+      "肝转移",
+      "肺转移",
+      "可切除",
+      "NED",
+      "HFRT",
+      "SBRT",
+      "ASCO 2026"
+    ],
+    "lastVerified": "2026-11-08",
+    "registryId": "NCT05359393",
+    "comparisonGroup": "MSS直肠癌同步可切除肝/肺转移 · 初始多模式治疗 · 单臂Ⅱ期",
+    "verifiedAt": "2026-11-08",
+    "conclusion": "观察到缓解及达到NED的信号，但未给出预设1年NED估计；致死性免疫肝炎及无对照设计限制临床推广。",
+    "evidenceLevel": "primary conference abstract; nonrandomized single-arm phase II",
+    "reviewStatus": "verified",
+    "changeNote": "补齐2026年ASCO既有会议摘要覆盖缺口；不是11月新增疗效读出。所有结果均保持会议摘要证据等级。",
+    "scheme": {
+      "population": "MSS直肠癌，原发灶距肛缘≤10 cm，同步可切除肝和/或肺转移；50例疗效可评价",
+      "allocation": "非随机单臂Ⅱ期，无对照",
+      "arms": [
+        {
+          "label": "放疗 → CAPOX＋替雷利珠单抗 → 局部处理",
+          "steps": [
+            "原发灶HFRT，转移灶HFRT或SBRT",
+            "CAPOX＋替雷利珠单抗6周期，第3及第6周期后评估",
+            "原发灶手术及转移灶切除/局部消融；原发灶cCR且难以保肛者可考虑观察等待",
+            "达到NED者术后替雷利珠单抗最多1年；其余由研究者决定后续治疗"
+          ]
+        }
+      ],
+      "primaryEndpoint": "1年NED率（本次未单独报告该时间点估计）",
+      "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15555"
+    },
+    "resultCharts": [],
+    "lastSourceFetchAt": "2026-11-08T00:33:25.135255+00:00"
+  },
+  {
+    "id": "miracle-2",
+    "name": "MIRACLE-2（ASCO 2026更新摘要）",
+    "cancer": "转移性直肠癌",
+    "category": "metastatic",
+    "setting": "MSS直肠癌 · 同步不可切除肝和/或肺转移 · 一线治疗",
+    "patientGroup": "MSS直肠癌，MRI显示原发灶距肛缘≤10 cm，伴同步不可切除转移；实际队列包含肝转移、肺转移及肝肺同时转移",
+    "molecular": "MSS",
+    "molecularTags": [
+      "MSS"
+    ],
+    "line": "一线 / 初始治疗",
+    "design": "前瞻性、单臂Ⅱ期；登记为多中心、开放标签、非随机研究；基因型决定系统治疗方案，并非随机对照分组",
+    "phase": "II",
+    "n": "50例疗效可评价；实际入组/接受治疗总数未报告；登记计划51例，不能代替结果分析分母",
+    "arms": [
+      "原发灶HFRT＋转移灶HFRT或SBRT → RAS/BRAF突变者FOLFOX＋贝伐珠单抗＋替雷利珠单抗，野生型者FOLFIRI＋西妥昔单抗＋替雷利珠单抗 → 每8周评估可切除性"
+    ],
+    "primaryEndpoint": "早期肿瘤缩小（ETS）率：系统治疗开始8周时靶病灶缩小≥20%；不是ORR",
+    "results": [
+      "50例疗效可评价者中，肝转移、肺转移、肝肺同时转移分别占52%、8%、40%；原发灶RAS/BRAF突变占56%；系统治疗中位8个疗程（范围3–12）。",
+      "8周ETS率76.0%，DCR 88.0%，9/50（18%）达到NED；以上比例的95%CI未报告。",
+      "DOR分析包含34例CR/PR患者；未拆分CR与PR人数。中位DOR 8.0个月（95%CI 5.2–10.8），1年DOR率20%。",
+      "中位PFS 9.3个月（95%CI 7.1–11.5），1年PFS 33.4%；中位OS 23.2个月（95%CI 15.1–31.3），1年OS 93.3%。1年DOR/PFS/OS的95%CI未报告。"
+    ],
+    "followup": "数据截止2025-12-31；中位随访19.9个月（95%CI 16.4–23.4）",
+    "safety": "未报告5级治疗相关不良事件（不等于无任何原因死亡）。任意级别TRAE：淋巴细胞减少95.9%、贫血91.8%、白细胞减少69.4%；3/4级TRAE：淋巴细胞减少36.7%、中性粒细胞减少26.5%、白细胞减少20.4%。摘要未明确安全性分母，不以疗效分母50例换算人数。",
+    "limitations": "会议摘要、单臂，无对照；基因型对应不同化疗与靶向药骨架，不能单独证明免疫治疗增量获益或比较两种方案。无肝/肺分层结果，NED不等于单纯药物CR。摘要仅报告34例CR/PR，未直接给出ORR数值或CR/PR拆分；不沿用早期摘要人数。登记最后更新于2022-11-15且无上传结果；年龄纳入/结构化上限70岁、排除上限75岁与摘要实际年龄上限73岁不一致，未取得修订解释。原始摘要已通过ASCO/JCO官方域名检索索引核验，直开网页403，该来源为会议摘要，并非完整结果论文。",
+    "practiceImpact": "提示一线不可切除MSS直肠癌多模式治疗存在早期缩瘤信号；仍需对照证据和长期随访，不能据此替代标准一线治疗。",
+    "status": "ASCO 2026原始摘要索引及试验登记已核实；会议摘要证据",
+    "publicationDate": "2026-05-27",
+    "sources": [
+      {
+        "title": "ASCO 2026 / JCO 3578：MIRACLE-2更新结果（官方索引摘要内容；直开403）",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3578"
+      },
+      {
+        "title": "ASCO官方摘要页面：3578",
+        "url": "https://www.asco.org/abstracts-presentations/267888"
+      },
+      {
+        "title": "ClinicalTrials.gov NCT05359406（直接API核验；登记计划51例，2022-11最后更新）",
+        "url": "https://clinicaltrials.gov/study/NCT05359406"
+      }
+    ],
+    "keywords": [
+      "MIRACLE-2",
+      "MSS",
+      "替雷利珠单抗",
+      "tislelizumab",
+      "FOLFOX",
+      "FOLFIRI",
+      "贝伐珠单抗",
+      "西妥昔单抗",
+      "同步转移",
+      "肝转移",
+      "肺转移",
+      "不可切除",
+      "ETS",
+      "HFRT",
+      "SBRT",
+      "ASCO 2026"
+    ],
+    "lastVerified": "2026-11-08",
+    "registryId": "NCT05359406",
+    "comparisonGroup": "MSS直肠癌同步不可切除肝/肺转移 · 一线多模式治疗 · 单臂Ⅱ期",
+    "verifiedAt": "2026-11-08",
+    "conclusion": "报告8周ETS率76%及部分患者达到NED；非随机多模式治疗结果不能证明PD-1治疗的独立获益。",
+    "evidenceLevel": "primary conference abstract; nonrandomized single-arm phase II",
+    "reviewStatus": "verified",
+    "changeNote": "补齐2026年ASCO既有会议摘要覆盖缺口；不是11月新增疗效读出。所有结果均保持会议摘要证据等级。",
+    "scheme": {
+      "population": "MSS直肠癌，原发灶距肛缘≤10 cm，同步不可切除肝和/或肺转移；50例疗效可评价",
+      "allocation": "非随机单臂Ⅱ期；不同基因型方案不是随机比较臂",
+      "arms": [
+        {
+          "label": "放疗 → 基因型指导系统治疗＋替雷利珠单抗",
+          "steps": [
+            "原发灶HFRT，转移灶HFRT或SBRT",
+            "RAS/BRAF突变：FOLFOX＋贝伐珠单抗＋替雷利珠单抗；野生型：FOLFIRI＋西妥昔单抗＋替雷利珠单抗",
+            "每8周评估；达到可切除标准后行原发灶手术及转移灶切除/局部消融",
+            "原发灶cCR且难以保肛者可考虑观察等待；否则系统治疗至进展或不可耐受毒性"
+          ]
+        }
+      ],
+      "primaryEndpoint": "系统治疗开始8周的ETS率（靶病灶缩小≥20%）",
+      "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3578"
+    },
+    "resultCharts": [],
+    "lastSourceFetchAt": "2026-11-08T00:33:25.135255+00:00"
   }
 ]

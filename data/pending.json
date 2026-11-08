@@ -110,7 +110,21 @@
         "original_abstract_release": "Regular supplement generally released 2026-11-03; individual abstract metadata unverified."
       },
       "key": "sitc2026-553-p53-tcr"
+    },
+    {
+      "key": "miracle3-nct06593548",
+      "title": "MIRACLE-3 (NCT06593548): trial-in-progress, clinical results pending",
+      "sources": [
+        "https://www.annalsofoncology.org/article/S0923-7534%2825%2900361-8/abstract",
+        "https://clinicaltrials.gov/study/NCT06593548"
+      ],
+      "sourceLevel": "Official registry JSON and official publisher-indexed ESMO GI 2025 trial-in-progress abstract; no clinical results posted.",
+      "reason": "Protocol-only, planned 36 (33 evaluable), not observed enrollment or efficacy. Do not promote to outcome evidence. Annals calls AK112 ivonescimab, while registry currently names Ivosidenib/Lvosidenib; retain explicit unresolved discrepancy. Current registry status UNKNOWN, last update 2024-09-19; planned completion is not proof of study completion.",
+      "dates": {
+        "registry_last_update": "2024-09-19",
+        "source_review": "2026-11-08"
+      }
     }
   ],
-  "lastReviewNote": "本轮无可完整核实并纳入的新临床结果；会议新线索单独保留待审，既有研究结论、数值和逐条核实日期不变。"
+  "lastReviewNote": "MIRACLE-1/2按已公开ASCO会议摘要补录；MIRACLE-3仅有试验方案、无结果且登记药名不一致，单列待审，不计入已核实疗效研究。"
 }

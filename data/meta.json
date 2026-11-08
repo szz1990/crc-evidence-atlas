@@ -1,10 +1,10 @@
 {
   "version": "2026-11-08",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-08T00:23:21.359535+00:00",
-  "lastClinicalVerificationAt": "2026-11-07",
-  "curatedCount": 99,
-  "updateStatus": "Daily bounded review completed; no verified clinical changes; pending conference/full-source checks retained",
+  "lastSourceFetchAt": "2026-11-08T00:33:25.135255+00:00",
+  "lastClinicalVerificationAt": "2026-11-08",
+  "curatedCount": 101,
+  "updateStatus": "Targeted historical conference backfill completed; MIRACLE-1/2 abstract evidence added, MIRACLE-3 protocol-only retained pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -46,7 +46,12 @@
       "date": "2026-11-08",
       "type": "review",
       "note": "PubMed新索引、勘误/撤稿、既有研究名称/注册号及ClinicalTrials.gov日期窗口检索均未返回新增记录；另核查官方会议来源。保留99项研究、121张结果图，不将会议新闻或未完整核验线索改写为治疗结论。临床核实日期保持不变。"
+    },
+    {
+      "date": "2026-11-08",
+      "type": "evidence-backfill",
+      "note": "补齐MIRACLE-1/2的2026年ASCO既有会议摘要，共101项研究。两项均为单臂Ⅱ期，包含肝和/或肺转移；明确疗效可评价分母、MIRACLE-1免疫性肝炎相关死亡，以及NED达到比例不等于1年NED率。MIRACLE-3仅方案且药名存在登记冲突，留待结果核验；原99项不改。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-08T00:23:21.359535+00:00"
+  "lastSourceReviewAt": "2026-11-08T00:33:25.135255+00:00"
 }

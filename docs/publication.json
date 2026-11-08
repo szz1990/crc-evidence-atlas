@@ -2,20 +2,22 @@
   "site": "CRC Evidence Atlas",
   "verifiedPublicAt": "2026-11-03T11:31:53Z",
   "evidenceVersion": "2026-11-08",
-  "trials": 99,
-  "schemes": 99,
+  "trials": 101,
+  "schemes": 101,
   "resultCharts": 121,
-  "clinicalVerificationDate": "2026-11-07",
+  "clinicalVerificationDate": "2026-11-08",
   "automaticReview": "enabled; scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
   "configuredAt": "2026-11-03T11:33:55Z",
-  "lastReviewAt": "2026-11-08T00:23:21.359535+00:00",
+  "lastReviewAt": "2026-11-08T00:33:25.135255+00:00",
   "reviewSummary": {
     "pubmedScreened": 0,
     "registriesScreened": 0,
-    "added": 0,
-    "pending": 8
+    "added": 2,
+    "pending": 9,
+    "targetedCandidatesReviewed": 3,
+    "note": "Daily bounded search returned 0 new records; later targeted historical backfill added 2 conference records, not new November readouts."
   },
-  "sourceBaseCommit": "23b35fb9162ae0e16b6d04ff2ef09b772ee73d4d",
-  "publicationMarker": "crc-2026-11-08-reviewed-no-clinical-change"
+  "sourceBaseCommit": "9c4e9281dbf3242cd313a7535cde3e37d5edcaa6",
+  "publicationMarker": "crc-2026-11-08-miracle-backfill"
 }
