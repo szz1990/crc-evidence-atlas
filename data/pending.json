@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -93,7 +93,24 @@
         "first_online": "2026-11-06"
       },
       "linkedCuratedId": "scot"
+    },
+    {
+      "title": "SITC 2026 abstract 553: mutant-p53 TCR-T phase II interim",
+      "sources": [
+        "https://www.sitcancer.org/blogs/keegan-mager/2026/11/07/sitc-2026-science-coverage-nov-6",
+        "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
+        "https://jitc.bmj.com/content/14/Suppl_2",
+        "https://info.bmj.com/view/733231857/"
+      ],
+      "sourceLevel": "Official Nov7 conference recap verified; complete original abstract/poster unavailable.",
+      "reason": "Newly discovered conference backfill, not a new Nov7 efficacy readout. Mixed-tumor phase II interim includes CRC; verify original CRC denominator, response criteria, cutoff, confidence intervals and complete safety before inclusion. No numeric conclusions promoted.",
+      "dates": {
+        "recap": "2026-11-07",
+        "presentation": "2026-11-06",
+        "original_abstract_release": "Regular supplement generally released 2026-11-03; individual abstract metadata unverified."
+      },
+      "key": "sitc2026-553-p53-tcr"
     }
   ],
-  "lastReviewNote": "新增SCOT影像CMS转化分析待全文核验；C-800-01以完整原始海报单队列收录，同队列论文全文核验继续待审，不重复计数。"
+  "lastReviewNote": "本轮无可完整核实并纳入的新临床结果；会议新线索单独保留待审，既有研究结论、数值和逐条核实日期不变。"
 }

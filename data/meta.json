@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-07",
+  "version": "2026-11-08",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-07T01:06:39.600166+00:00",
+  "lastSourceFetchAt": "2026-11-08T00:23:21.359535+00:00",
   "lastClinicalVerificationAt": "2026-11-07",
   "curatedCount": 99,
-  "updateStatus": "Daily review completed; one established cohort added using verified SITC poster with explicit source limitations; seven full-source checks pending",
+  "updateStatus": "Daily bounded review completed; no verified clinical changes; pending conference/full-source checks retained",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -41,7 +41,12 @@
       "date": "2026-11-07",
       "type": "evidence",
       "note": "检索41篇新索引文献与20项登记，并完成现有研究名称/注册号及勘误核查。以完整SITC原始海报补齐C-800-01无活动性肝转移队列，明确与既有论文同一人群、同一数据截止，非新全队列疗效读出；共99项研究、121张结果图。SCOT生物标志物分析待全文核验，既有98项结论和数值未改。"
+    },
+    {
+      "date": "2026-11-08",
+      "type": "review",
+      "note": "PubMed新索引、勘误/撤稿、既有研究名称/注册号及ClinicalTrials.gov日期窗口检索均未返回新增记录；另核查官方会议来源。保留99项研究、121张结果图，不将会议新闻或未完整核验线索改写为治疗结论。临床核实日期保持不变。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-07T01:06:39.600166+00:00"
+  "lastSourceReviewAt": "2026-11-08T00:23:21.359535+00:00"
 }

@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-08",
+  "baseCommit": "23b35fb9162ae0e16b6d04ff2ef09b772ee73d4d",
+  "sourceFetchAt": "2026-11-08T00:23:21.359535+00:00",
+  "completedAt": "2026-11-08T00:23:21.359535+00:00",
+  "window": [
+    "2026-11-07",
+    "2026-11-08"
+  ],
+  "priorSourceReviewAt": "2026-11-07T01:06:39.600166+00:00",
+  "windowNote": "Date-granular overlap with preceding review; zero hits do not exclude indexing delays or unindexed evidence.",
+  "sources": {
+    "pubmed": {
+      "ok": true,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/07:2026/11/08[EDAT])",
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1
+    },
+    "clinicaltrials": {
+      "ok": true,
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1,
+      "query": {
+        "query.cond": "Colorectal Cancer",
+        "query.term": "AREA[LastUpdatePostDate]RANGE[2026-11-07,2026-11-08]",
+        "pageSize": 100,
+        "countTotal": "true",
+        "format": "json"
+      }
+    },
+    "corrections": {
+      "ok": true,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/07:2026/11/08[MDAT]) AND (retraction of publication[Publication Type] OR retracted publication[Publication Type] OR published erratum[Publication Type] OR correction[Title])",
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1
+    },
+    "existingTrialSweep": {
+      "batches": 11,
+      "totalHits": 0,
+      "retrievedAllPages": true,
+      "queries": [
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"RAPIDO\"[Title/Abstract] OR \"NCT01558921\"[All Fields] OR \"UNICANCER-PRODIGE 23\"[Title/Abstract] OR \"NCT01804790\"[All Fields] OR \"OPRA\"[Title/Abstract] OR \"NCT02008656\"[All Fields] OR \"PROSPECT\"[Title/Abstract] OR \"NCT01515787\"[All Fields] OR \"STELLAR\"[Title/Abstract] OR \"NCT02533271\"[All Fields] OR \"TORCH\"[Title/Abstract] OR \"NCT04518280\"[All Fields] OR \"TORCH-E\"[Title/Abstract] OR \"NCT05555888\"[All Fields] OR \"Dostarlimab\"[Title/Abstract] OR \"NCT04165772\"[All Fields]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"OPERA\"[Title/Abstract] OR \"NCT02505750\"[All Fields] OR \"GRECCAR 2\"[Title/Abstract] OR \"NCT00427375\"[All Fields] OR \"UNION\"[Title/Abstract] OR \"NCT04928807\"[All Fields] OR \"STELLAR II\"[Title/Abstract] OR \"NCT05484024\"[All Fields] OR \"NRG-GI002\"[Title/Abstract] OR \"NCT02921256\"[All Fields] OR \"TREC\"[Title/Abstract] OR \"STAR-TREC\"[Title/Abstract] OR \"CAO/ARO/AIO-12\"[Title/Abstract] OR \"NCT02363374\"[All Fields] OR \"FOWARC\"[Title/Abstract] OR \"NCT01211210\"[All Fields]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT05198934\"[All Fields] OR \"KRYSTAL-1\"[Title/Abstract] OR \"NCT03785249\"[All Fields] OR \"SUNLIGHT\"[Title/Abstract] OR \"NCT04737187\"[All Fields] OR \"FRESCO-2\"[Title/Abstract] OR \"NCT04322539\"[All Fields] OR \"EORTC 40983\"[Title/Abstract] OR \"NCT00006479\"[All Fields] OR \"JCOG0603\"[Title/Abstract] OR \"UNICORN\"[Title/Abstract] OR \"NCT05845450\"[All Fields] OR \"FANTASTIC\"[Title/Abstract] OR \"NCT03929666\"[All Fields] OR \"NCT03860272\"[All Fields]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"ADORE\"[Title/Abstract] OR \"NCT00807911\"[All Fields] OR \"CAO/ARO/AIO-04\"[Title/Abstract] OR \"NCT00349076\"[All Fields] OR \"Polish II\"[Title/Abstract] OR \"NCT00833131\"[All Fields] OR \"Stockholm III\"[Title/Abstract] OR \"NCT00904813\"[All Fields] OR \"TROG 01.04\"[Title/Abstract] OR \"NCT00145769\"[All Fields] OR \"CONVERT\"[Title/Abstract] OR \"NCT02288195\"[All Fields] OR \"IWWD\"[Title/Abstract] OR \"Neo-STAR\"[Title/Abstract] OR \"NCT05086627\"[All Fields] OR \"COLOR II\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00297791\"[All Fields] OR \"COLOR III\"[Title/Abstract] OR \"NCT02736942\"[All Fields] OR \"ROLARR\"[Title/Abstract] OR \"COLRAR\"[Title/Abstract] OR \"NCT01423214\"[All Fields] OR \"REAL\"[Title/Abstract] OR \"NCT02817126\"[All Fields] OR \"ACOSOG Z6051\"[Title/Abstract] OR \"NCT00726622\"[All Fields] OR \"ALaCaRT\"[Title/Abstract] OR \"MOSAIC\"[Title/Abstract] OR \"NCT00275210\"[All Fields] OR \"IDEA collaboration\"[Title/Abstract] OR \"DYNAMIC\"[Title/Abstract] OR \"DYNAMIC-III\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"CIRCULATE-Japan GALAXY\"[Title/Abstract] OR \"NICHE-2\"[Title/Abstract] OR \"NCT03026140（NICHE平台）\"[All Fields] OR \"NICHE-3\"[Title/Abstract] OR \"FOxTROT\"[Title/Abstract] OR \"OPTICAL\"[Title/Abstract] OR \"NCT02572141\"[All Fields] OR \"ATOMIC / Alliance A021502\"[Title/Abstract] OR \"NCT02912559\"[All Fields] OR \"QUASAR\"[Title/Abstract] OR \"NCT00005586\"[All Fields] OR \"X-ACT\"[Title/Abstract] OR \"NCT00009737\"[All Fields] OR \"NSABP C-07\"[Title/Abstract] OR \"NCT00004931\"[All Fields] OR \"NSABP C-08\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00096278\"[All Fields] OR \"AVANT / S-AVANT\"[Title/Abstract] OR \"NCT00112918\"[All Fields] OR \"PETACC-3\"[Title/Abstract] OR \"NCT00026273\"[All Fields] OR \"PETACC-8\"[Title/Abstract] OR \"NCT00265811\"[All Fields] OR \"NCCTG N0147\"[Title/Abstract] OR \"NCT00079274\"[All Fields] OR \"SCOT\"[Title/Abstract] OR \"ACHIEVE\"[Title/Abstract] OR \"NCT03068455\"[All Fields] OR \"ALASCCA\"[Title/Abstract] OR \"NCT02647099\"[All Fields] OR \"ASCOLT\"[Title/Abstract] OR \"NCT00565708\"[All Fields]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"CHALLENGE\"[Title/Abstract] OR \"NCT00819208\"[All Fields] OR \"CIRCULATE-Japan ALTAIR\"[Title/Abstract] OR \"NCT04457297\"[All Fields] OR \"RELARC\"[Title/Abstract] OR \"NCT02619942\"[All Fields] OR \"CIRCULATE-Japan VEGA\"[Title/Abstract] OR \"CRYSTAL\"[Title/Abstract] OR \"PRIME\"[Title/Abstract] OR \"NCT00364013\"[All Fields] OR \"TAILOR\"[Title/Abstract] OR \"NCT01228734\"[All Fields] OR \"TRIPLETE\"[Title/Abstract] OR \"NCT03231722\"[All Fields] OR \"OLIVIA\"[Title/Abstract] OR \"CAIRO5\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT02162563\"[All Fields] OR \"BECOME\"[Title/Abstract] OR \"CAIRO3\"[Title/Abstract] OR \"NCT00442637\"[All Fields] OR \"PRODIGE 9\"[Title/Abstract] OR \"NCT00952029\"[All Fields] OR \"PanaMa / PANAMA\"[Title/Abstract] OR \"NCT01991873\"[All Fields] OR \"New EPOC\"[Title/Abstract] OR \"EPOCH\"[Title/Abstract] OR \"NCT01483027\"[All Fields] OR \"RECOURSE\"[Title/Abstract] OR \"NCT01607957\"[All Fields] OR \"CORRECT\"[Title/Abstract] OR \"NCT01103323\"[All Fields] OR \"FRESCO\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT02314819\"[All Fields] OR \"DESTINY-CRC01\"[Title/Abstract] OR \"DESTINY-CRC02\"[Title/Abstract] OR \"NCT04744831\"[All Fields] OR \"KEYNOTE-164\"[Title/Abstract] OR \"NCT02460198\"[All Fields] OR \"CheckMate 142\"[Title/Abstract] OR \"CHRONOS\"[Title/Abstract] OR \"NCT03227926\"[All Fields] OR \"COMMIT / NRG-GI004-SWOG-S1610\"[Title/Abstract] OR \"NCT02997228\"[All Fields] OR \"PARADIGM\"[Title/Abstract] OR \"NCT02394795\"[All Fields] OR \"FIRE-3\"[Title/Abstract] OR \"NCT00433927\"[All Fields] OR \"CALGB/SWOG 80405\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00265850\"[All Fields] OR \"TRIBE\"[Title/Abstract] OR \"NCT00719797\"[All Fields] OR \"TRIBE2\"[Title/Abstract] OR \"NCT02339116\"[All Fields] OR \"KEYNOTE-177\"[Title/Abstract] OR \"NCT02563002\"[All Fields] OR \"CheckMate 8HW\"[Title/Abstract] OR \"NCT04008030\"[All Fields] OR \"BREAKWATER\"[Title/Abstract] OR \"NCT04607421\"[All Fields] OR \"BEACON CRC\"[Title/Abstract] OR \"NCT02928224\"[All Fields] OR \"MOUNTAINEER\"[Title/Abstract] OR \"NCT03043313\"[All Fields] OR \"CodeBreaK 300\"[Title/Abstract]) AND ((2026/11/07:2026/11/08[EDAT]) OR (2026/11/07:2026/11/08[MDAT]))"
+      ]
+    }
+  },
+  "screenedPublications": [],
+  "screenedRegistries": [],
+  "addedIds": [],
+  "existingRecordsChanged": [],
+  "pendingCount": 8,
+  "clinicalVerificationDateUnchanged": "2026-11-07",
+  "clinicalDataBlobUnchanged": "fec797522c9ce81d56d0a1f9dbbf0f2dd0f78b93",
+  "primarySourceReview": {
+    "reviewedAt": "2026-11-08T00:22:57.179598+00:00",
+    "window": {
+      "from": "2026-11-07T01:06:39Z",
+      "through": "2026-11-08T00:22:57.179598+00:00",
+      "rule": "Publication, initial posting and presentation dates are distinct. Newly discovered older evidence is a backfill, not a new result."
+    },
+    "summary": {
+      "clinicalNumericChanges": 0,
+      "verifiedNewStudies": 0,
+      "verifiedNewCorrectionsOrRetractions": 0,
+      "deepReviews": 3,
+      "recommendedNewPendingItems": 1,
+      "recommendation": "Retain 99 studies, 121 charts and last clinical verification date 2026-11-07. Record source review separately; one conference backfill lead can be retained pending."
+    },
+    "priorityReviews": [
+      {
+        "key": "sitc2026-553-mutant-p53-tcr",
+        "title": "Adoptive transfer of T cells engineered with mutant p53-specific TCRs for the treatment of metastatic solid epithelial cancers: interim report of ongoing phase II clinical trial",
+        "decision": "pending_backfill_no_numeric_promotion",
+        "sources": [
+          {
+            "url": "https://www.sitcancer.org/blogs/keegan-mager/2026/11/07/sitc-2026-science-coverage-nov-6",
+            "type": "official_conference_secondary_recap",
+            "date": "2026-11-07 (URL and indexed publication date)",
+            "status": "read"
+          },
+          {
+            "url": "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
+            "type": "official_conference_source_index",
+            "status": "read; abstract table not exposed in extracted text"
+          },
+          {
+            "url": "https://jitc.bmj.com/content/14/Suppl_2",
+            "type": "original_conference_supplement",
+            "status": "HTTP 403"
+          },
+          {
+            "url": "https://info.bmj.com/view/733231857/",
+            "type": "official_alternate_supplement",
+            "status": "No readable content in web extraction; direct HTTP fetch 502"
+          }
+        ],
+        "dates": {
+          "recap_published": "2026-11-07",
+          "presentation": "2026-11-06 per official recap",
+          "general_regular_abstract_release": "2026-11-03 09:00 ET",
+          "general_poster_release": "2026-11-06 09:00 ET; oral updated data separately embargoed until presentation",
+          "trial_data_cutoff": null,
+          "new_since_window": "Recap is new in window; cannot establish a new trial-data posting in the window."
+        },
+        "sourceLevel": "Official conference science recap only; original abstract, oral slides and poster not fully verified.",
+        "limitations": [
+          "Very small selected mixed-tumor population.",
+          "No randomized comparator.",
+          "Original abstract/poster, cutoff, CRC-specific evaluability, response criteria, CI and complete safety unverified.",
+          "Do not calculate a CRC ORR from the recap or infer durable population benefit."
+        ]
+      },
+      {
+        "key": "scot-imcms",
+        "title": "Image-Based Consensus Molecular Subtyping Refines Prognostication in Stage II/III Colorectal Cancer: A Retrospective Analysis of the SCOT Trial",
+        "decision": "retain_existing_pending_unchanged",
+        "sources": [
+          {
+            "url": "https://ascopubs.org/doi/10.1200/JCO-25-02761",
+            "type": "original_journal",
+            "status": "Not accessible via web tool on Nov8"
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42993920/",
+            "type": "primary_abstract_index",
+            "status": "Direct web read not accessible on Nov8; prior canonical abstract verification retained, not represented as newly read."
+          }
+        ],
+        "dates": {
+          "first_online": "2026-11-06 (canonical pending record; corroborated by indexed publication listings)"
+        },
+        "limitations": "Do not change SCOT chemotherapy-duration conclusions. Canonical abstract reports prognostic information without demonstrated differential treatment benefit; full source required."
+      },
+      {
+        "key": "sitc2026-497-ng348",
+        "title": "Phase 1 first-in-human study of NG-348, an oncolytic adenovirus expressing CD80 and anti-CD3 scFv in patients with advanced epithelial tumors",
+        "decision": "screening_lead_only_no_curated_addition",
+        "sources": [
+          {
+            "url": "https://www.akamisbio.com/news/akamis-bio-to-present-data-from-a-phase-1-study-of-ng-348-in-patients-with-advanced-epithelial-tumors-at-sitc-2026/",
+            "type": "sponsor_announcement",
+            "date": "2026-11-03",
+            "status": "read"
+          },
+          {
+            "url": "https://www.akamisbio.com/science-pipeline/publications/",
+            "type": "sponsor_primary_materials_index",
+            "status": "read; no publications added"
+          },
+          {
+            "url": "https://info.bmj.com/view/733231857/",
+            "type": "original_abstract_supplement",
+            "status": "not readable"
+          }
+        ],
+        "dates": {
+          "announcement": "2026-11-03",
+          "presentation": "2026-11-06",
+          "new_since_window": false
+        },
+        "limitations": "Company focus on CRC does not establish CRC-specific trial outcomes. No numeric inference or formal dataset addition."
+      }
+    ],
+    "screenedNotNew": [
+      {
+        "key": "c80001-botbal-nlm",
+        "url": "https://investor.agenusbio.com/news/news-details/2026/Agenus-Reports-More-Than-Half-of-Patients-with-Refractory-MSS-Metastatic-Colorectal-Cancer-Achieved-Long-Term-Survival-Following-BOTBAL-Treatment-at-SITC-2026/default.aspx",
+        "date": "2026-11-06",
+        "decision": "Existing represented cohort; Nov7 presentation and news recirculation are not new full-cohort efficacy. Do not duplicate or replace figures."
+      },
+      {
+        "key": "galaxy-crlm-correction",
+        "url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2856311",
+        "date": "2026-11-05",
+        "decision": "Already logged Nov7, outside window; no duplicate correction and no change to canonical 2024 GALAXY figures."
+      },
+      {
+        "key": "agent797-sitc270",
+        "url": "https://investor.minktherapeutics.com/news-releases/news-release-details/mink-therapeutics-new-data-highlights-its-shelf-inkt-cell",
+        "date": "2026-11-06",
+        "decision": "Preclinical human organoid CRC liver-metastasis model; not a clinical efficacy result."
+      },
+      {
+        "key": "copanlisib-nivolumab",
+        "url": "https://www.nature.com/articles/s41467-026-72985-6",
+        "date": "2026-07-23",
+        "related_url": "https://www.sitcancer.org/2026/schedule/industry-presentations",
+        "decision": "SITC Nov6 translational spatial-biopsy talk points to previously published July phase1/2 cohort. No new clinical efficacy readout identified; outside incremental window."
+      },
+      {
+        "key": "sar445877-sitc518",
+        "url": "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
+        "discovery_url": "https://tnuki.com/conferences/sitc-2026/topic/biomarkers",
+        "decision": "Third-party title/protocol-language lead only. Nov7 presentation is not evidence of new results; original abstract unreadable. No numeric inclusion."
+      }
+    ],
+    "conferencePublicationRules": {
+      "url": "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
+      "verified": "Regular/ECIA abstracts released Nov3 09:00 ET; LBAs released Nov6 09:00 ET. All posters available Nov6 09:00 ET, except new oral-presentation data embargoed until presentation. Nov7 even-poster presentation date must not be treated as first data availability."
+    },
+    "searchCoverage": [
+      {
+        "kind": "date-specific clinical search",
+        "queries": [
+          "\"colorectal\" \"November 7, 2026\" trial",
+          "\"colorectal\" \"November 8, 2026\" trial",
+          "\"colorectal\" (\"trial\" OR \"follow-up\") (\"7 November 2026\" OR \"07 November 2026\" OR \"November 7, 2026\")",
+          "\"rectal\" (\"trial\" OR \"follow-up\") (\"7 November 2026\" OR \"07 November 2026\" OR \"November 7, 2026\")"
+        ],
+        "finding": "No complete eligible new primary clinical report verified."
+      },
+      {
+        "kind": "official journal recency search",
+        "queries": [
+          "colorectal clinical trial",
+          "rectal colon correction retraction"
+        ],
+        "domains": [
+          "nejm.org",
+          "thelancet.com",
+          "nature.com",
+          "jamanetwork.com",
+          "ascopubs.org",
+          "annalsofoncology.org",
+          "aacrjournals.org"
+        ],
+        "recency_days": 2,
+        "finding": "Returned older/crawled-current results; publication dates individually distinguished. No qualifying new verified report."
+      },
+      {
+        "kind": "correction and mature followup search",
+        "queries": [
+          "(\"colorectal\" OR \"colon\" OR \"rectal\") (\"correction\" OR \"retraction\" OR \"erratum\") after:2026-11-06 before:2026-11-09",
+          "(\"RAPIDO\" OR \"PRODIGE 23\" OR \"OPRA\" OR \"PROSPECT\" OR \"STELLAR\" OR \"TORCH\" OR \"OPERA\" OR \"UNICORN\") (\"correction\" OR \"retraction\" OR \"erratum\") after:2026-11-06 before:2026-11-09",
+          "(\"DYNAMIC\" OR \"GALAXY\" OR \"ALTAIR\" OR \"NICHE\" OR \"ATOMIC\" OR \"SCOT\" OR \"ALASCCA\" OR \"FOxTROT\") (\"correction\" OR \"retraction\" OR \"erratum\") after:2026-11-06 before:2026-11-09",
+          "(\"BREAKWATER\" OR \"BEACON\" OR \"MOUNTAINEER\" OR \"CheckMate 8HW\" OR \"KEYNOTE-177\" OR \"CodeBreaK 300\" OR \"SUNLIGHT\" OR \"FRESCO\") (\"correction\" OR \"retraction\" OR \"erratum\") after:2026-11-06 before:2026-11-09",
+          "(\"colorectal\" OR \"rectal\") (\"mature\" OR \"long-term\" OR \"final analysis\") after:2026-11-06 before:2026-11-09"
+        ],
+        "finding": "No qualifying new correction/retraction or mature readout verified; not an assertion of exhaustive absence."
+      },
+      {
+        "kind": "SITC discovery and primary-source checks",
+        "queries": [
+          "site.sitcancer.org 2026 \"colorectal\" \"November 7\"",
+          "site.jitc.bmj.com \"2026\" \"colorectal\" \"SITC\"",
+          "\"SITC 2026\" \"colorectal\" \"phase\" -Agenus -MiNK -botensilimab -atebimetinib -JPM -2025",
+          "\"Adoptive transfer\" \"p53-specific\" \"2026\" \"553\"",
+          "\"SAR445877\" \"SITC\" \"2026\"",
+          "\"NG-348\" \"SITC\" \"2026\" results",
+          "\"SITC 2026\" \"rectal\" results",
+          "\"Copanlisib in combination with nivolumab\" \"2026\""
+        ],
+        "finding": "One useful pending CRC conference backfill, one announcement-only screening lead, existing/old data and preclinical studies; no numeric promotion."
+      }
+    ],
+    "sourceAccessLimitations": [
+      {
+        "action": "Read original SITC regular supplement",
+        "url": "https://jitc.bmj.com/content/14/Suppl_2",
+        "outcome": "HTTP 403; original abstract coverage incomplete."
+      },
+      {
+        "action": "Read original SITC late-breaking supplement",
+        "url": "https://jitc.bmj.com/content/14/Suppl_3",
+        "outcome": "HTTP 403; original abstract coverage incomplete."
+      },
+      {
+        "action": "Read official alternate regular supplement",
+        "urls": [
+          "https://info.bmj.com/view/733231857/",
+          "https://info.bmj.com/view/733231857/4/"
+        ],
+        "outcome": "Web extraction returned zero readable lines; direct fetch of base page HTTP502."
+      },
+      {
+        "action": "Read official alternate LBA supplement",
+        "urls": [
+          "https://info.bmj.com/view/638855727/",
+          "https://info.bmj.com/view/638855727/2/"
+        ],
+        "outcome": "Base page web extraction returned zero readable lines; page2 not accessible; direct fetch of base page HTTP502."
+      },
+      {
+        "action": "Read filtered SITC original title table",
+        "urls": [
+          "https://www.sitcancer.org/2026/abstracts/titles-and-publications?SITC+2026+Abstracts%5Bquery%5D=colorectal",
+          "https://www.sitcancer.org/2026/abstracts/titles-and-publications?SITC+2026+Abstracts%5Bquery%5D=p53"
+        ],
+        "outcome": "Not accessible via web tool. Base official index read successfully but dynamically rendered abstract table absent."
+      },
+      {
+        "action": "Read full SCOT imCMS paper",
+        "url": "https://ascopubs.org/doi/10.1200/JCO-25-02761",
+        "outcome": "Not accessible via web tool; pending retained."
+      },
+      {
+        "action": "Read SCOT primary abstract directly",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993920/",
+        "outcome": "Not accessible via web tool; did not mislabel existing abstract verification as a new successful check."
+      }
+    ],
+    "scopeLimitations": "Web indexing and source-access limitations preclude exhaustive negative claim, especially unreadable SITC supplements. Source review is complete only to the documented bounded scope; not equivalent to new clinical verification."
+  },
+  "reviewScope": "Bounded daily primary-source review, not exhaustive systematic review."
+}
