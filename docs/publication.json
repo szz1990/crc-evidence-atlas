@@ -1,7 +1,7 @@
 {
   "site": "CRC Evidence Atlas",
   "verifiedPublicAt": "2026-11-03T11:31:53Z",
-  "evidenceVersion": "2026-11-08",
+  "evidenceVersion": "2026-11-09",
   "trials": 101,
   "schemes": 101,
   "resultCharts": 121,
@@ -9,15 +9,20 @@
   "automaticReview": "enabled; scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
   "configuredAt": "2026-11-03T11:33:55Z",
-  "lastReviewAt": "2026-11-08T00:33:25.135255+00:00",
+  "lastReviewAt": "2026-11-09T00:18:49Z",
   "reviewSummary": {
-    "pubmedScreened": 0,
+    "pubmedScreened": 53,
     "registriesScreened": 0,
-    "added": 2,
-    "pending": 9,
-    "targetedCandidatesReviewed": 3,
-    "note": "Daily bounded search returned 0 new records; later targeted historical backfill added 2 conference records, not new November readouts."
+    "correctionRecords": 2,
+    "existingStudyMetadataHits": 260,
+    "existingStudyMetadataUnique": 238,
+    "priorityCandidatesReviewed": 10,
+    "added": 0,
+    "regulatoryApplicabilityChanges": 1,
+    "pending": 13,
+    "note": "Historical FDA indication withdrawal clarified; trial outcomes unchanged. Metadata modifications and new indexing do not establish new clinical results."
   },
-  "sourceBaseCommit": "9c4e9281dbf3242cd313a7535cde3e37d5edcaa6",
-  "publicationMarker": "crc-2026-11-08-miracle-backfill"
+  "sourceBaseCommit": "adfdca9a0ffbd737c2caa6108495d298e36e3bd2",
+  "publicationMarker": "crc-2026-11-09-fda-applicability-reviewed",
+  "regulatoryVerificationDate": "2026-11-09"
 }

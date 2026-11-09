@@ -1,0 +1,2221 @@
+{
+  "date": "2026-11-09",
+  "baseCommit": "adfdca9a0ffbd737c2caa6108495d298e36e3bd2",
+  "sourceFetchAt": "2026-11-09T00:18:49Z",
+  "completedAt": "2026-11-09T00:18:49Z",
+  "window": [
+    "2026-11-08",
+    "2026-11-09"
+  ],
+  "priorSourceReviewAt": "2026-11-08T00:33:25.135255+00:00",
+  "windowNote": "Date-granular overlap. Retrieval not capped to newest30; all returned pages consumed. New indexing/MDAT is not equivalent to new clinical publication.",
+  "sources": {
+    "pubmed": {
+      "ok": true,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/08:2026/11/09[EDAT])",
+      "total": 53,
+      "retrieved": 53,
+      "pages": 1
+    },
+    "clinicaltrials": {
+      "ok": true,
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1,
+      "query": {
+        "query.cond": "Colorectal Cancer",
+        "query.term": "AREA[LastUpdatePostDate]RANGE[2026-11-08,2026-11-09]",
+        "pageSize": 100,
+        "countTotal": "true",
+        "format": "json"
+      }
+    },
+    "corrections": {
+      "ok": true,
+      "query": "(colorectal neoplasms[MeSH Terms] OR colorectal cancer[Title/Abstract] OR rectal cancer[Title/Abstract] OR colon cancer[Title/Abstract]) AND (2026/11/08:2026/11/09[MDAT]) AND (retraction of publication[Publication Type] OR retracted publication[Publication Type] OR published erratum[Publication Type] OR correction[Title])",
+      "total": 2,
+      "retrieved": 2,
+      "pages": 1
+    },
+    "existingTrialSweep": {
+      "batches": 12,
+      "totalHits": 260,
+      "uniqueRecords": 238,
+      "retrievedAllPages": true,
+      "queries": [
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"RAPIDO\"[Title/Abstract] OR \"NCT01558921\"[All Fields] OR \"UNICANCER-PRODIGE 23\"[Title/Abstract] OR \"NCT01804790\"[All Fields] OR \"OPRA\"[Title/Abstract] OR \"NCT02008656\"[All Fields] OR \"PROSPECT\"[Title/Abstract] OR \"NCT01515787\"[All Fields] OR \"STELLAR\"[Title/Abstract] OR \"NCT02533271\"[All Fields] OR \"TORCH\"[Title/Abstract] OR \"NCT04518280\"[All Fields] OR \"TORCH-E\"[Title/Abstract] OR \"NCT05555888\"[All Fields] OR \"Dostarlimab\"[Title/Abstract] OR \"NCT04165772\"[All Fields]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"OPERA\"[Title/Abstract] OR \"NCT02505750\"[All Fields] OR \"GRECCAR 2\"[Title/Abstract] OR \"NCT00427375\"[All Fields] OR \"UNION\"[Title/Abstract] OR \"NCT04928807\"[All Fields] OR \"STELLAR II\"[Title/Abstract] OR \"NCT05484024\"[All Fields] OR \"NRG-GI002\"[Title/Abstract] OR \"NCT02921256\"[All Fields] OR \"TREC\"[Title/Abstract] OR \"STAR-TREC\"[Title/Abstract] OR \"CAO/ARO/AIO-12\"[Title/Abstract] OR \"NCT02363374\"[All Fields] OR \"FOWARC\"[Title/Abstract] OR \"NCT01211210\"[All Fields]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT05198934\"[All Fields] OR \"KRYSTAL-1\"[Title/Abstract] OR \"NCT03785249\"[All Fields] OR \"SUNLIGHT\"[Title/Abstract] OR \"NCT04737187\"[All Fields] OR \"FRESCO-2\"[Title/Abstract] OR \"NCT04322539\"[All Fields] OR \"EORTC 40983\"[Title/Abstract] OR \"NCT00006479\"[All Fields] OR \"JCOG0603\"[Title/Abstract] OR \"UNICORN\"[Title/Abstract] OR \"NCT05845450\"[All Fields] OR \"FANTASTIC\"[Title/Abstract] OR \"NCT03929666\"[All Fields] OR \"NCT03860272\"[All Fields] OR \"MIRACLE-1\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT05359393\"[All Fields] OR \"MIRACLE-2\"[Title/Abstract] OR \"NCT05359406\"[All Fields]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"ADORE\"[Title/Abstract] OR \"NCT00807911\"[All Fields] OR \"CAO/ARO/AIO-04\"[Title/Abstract] OR \"NCT00349076\"[All Fields] OR \"Polish II\"[Title/Abstract] OR \"NCT00833131\"[All Fields] OR \"Stockholm III\"[Title/Abstract] OR \"NCT00904813\"[All Fields] OR \"TROG 01.04\"[Title/Abstract] OR \"NCT00145769\"[All Fields] OR \"CONVERT\"[Title/Abstract] OR \"NCT02288195\"[All Fields] OR \"IWWD\"[Title/Abstract] OR \"Neo-STAR\"[Title/Abstract] OR \"NCT05086627\"[All Fields] OR \"COLOR II\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00297791\"[All Fields] OR \"COLOR III\"[Title/Abstract] OR \"NCT02736942\"[All Fields] OR \"ROLARR\"[Title/Abstract] OR \"COLRAR\"[Title/Abstract] OR \"NCT01423214\"[All Fields] OR \"REAL\"[Title/Abstract] OR \"NCT02817126\"[All Fields] OR \"ACOSOG Z6051\"[Title/Abstract] OR \"NCT00726622\"[All Fields] OR \"ALaCaRT\"[Title/Abstract] OR \"MOSAIC\"[Title/Abstract] OR \"NCT00275210\"[All Fields] OR \"IDEA collaboration\"[Title/Abstract] OR \"DYNAMIC\"[Title/Abstract] OR \"DYNAMIC-III\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"CIRCULATE-Japan GALAXY\"[Title/Abstract] OR \"NICHE-2\"[Title/Abstract] OR \"NCT03026140（NICHE平台）\"[All Fields] OR \"NICHE-3\"[Title/Abstract] OR \"FOxTROT\"[Title/Abstract] OR \"OPTICAL\"[Title/Abstract] OR \"NCT02572141\"[All Fields] OR \"ATOMIC / Alliance A021502\"[Title/Abstract] OR \"NCT02912559\"[All Fields] OR \"QUASAR\"[Title/Abstract] OR \"NCT00005586\"[All Fields] OR \"X-ACT\"[Title/Abstract] OR \"NCT00009737\"[All Fields] OR \"NSABP C-07\"[Title/Abstract] OR \"NCT00004931\"[All Fields] OR \"NSABP C-08\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00096278\"[All Fields] OR \"AVANT / S-AVANT\"[Title/Abstract] OR \"NCT00112918\"[All Fields] OR \"PETACC-3\"[Title/Abstract] OR \"NCT00026273\"[All Fields] OR \"PETACC-8\"[Title/Abstract] OR \"NCT00265811\"[All Fields] OR \"NCCTG N0147\"[Title/Abstract] OR \"NCT00079274\"[All Fields] OR \"SCOT\"[Title/Abstract] OR \"ACHIEVE\"[Title/Abstract] OR \"NCT03068455\"[All Fields] OR \"ALASCCA\"[Title/Abstract] OR \"NCT02647099\"[All Fields] OR \"ASCOLT\"[Title/Abstract] OR \"NCT00565708\"[All Fields]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"CHALLENGE\"[Title/Abstract] OR \"NCT00819208\"[All Fields] OR \"CIRCULATE-Japan ALTAIR\"[Title/Abstract] OR \"NCT04457297\"[All Fields] OR \"RELARC\"[Title/Abstract] OR \"NCT02619942\"[All Fields] OR \"CIRCULATE-Japan VEGA\"[Title/Abstract] OR \"CRYSTAL\"[Title/Abstract] OR \"PRIME\"[Title/Abstract] OR \"NCT00364013\"[All Fields] OR \"TAILOR\"[Title/Abstract] OR \"NCT01228734\"[All Fields] OR \"TRIPLETE\"[Title/Abstract] OR \"NCT03231722\"[All Fields] OR \"OLIVIA\"[Title/Abstract] OR \"CAIRO5\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT02162563\"[All Fields] OR \"BECOME\"[Title/Abstract] OR \"CAIRO3\"[Title/Abstract] OR \"NCT00442637\"[All Fields] OR \"PRODIGE 9\"[Title/Abstract] OR \"NCT00952029\"[All Fields] OR \"PanaMa / PANAMA\"[Title/Abstract] OR \"NCT01991873\"[All Fields] OR \"New EPOC\"[Title/Abstract] OR \"EPOCH\"[Title/Abstract] OR \"NCT01483027\"[All Fields] OR \"RECOURSE\"[Title/Abstract] OR \"NCT01607957\"[All Fields] OR \"CORRECT\"[Title/Abstract] OR \"NCT01103323\"[All Fields] OR \"FRESCO\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT02314819\"[All Fields] OR \"DESTINY-CRC01\"[Title/Abstract] OR \"DESTINY-CRC02\"[Title/Abstract] OR \"NCT04744831\"[All Fields] OR \"KEYNOTE-164\"[Title/Abstract] OR \"NCT02460198\"[All Fields] OR \"CheckMate 142\"[Title/Abstract] OR \"CHRONOS\"[Title/Abstract] OR \"NCT03227926\"[All Fields] OR \"COMMIT / NRG-GI004-SWOG-S1610\"[Title/Abstract] OR \"NCT02997228\"[All Fields] OR \"PARADIGM\"[Title/Abstract] OR \"NCT02394795\"[All Fields] OR \"FIRE-3\"[Title/Abstract] OR \"NCT00433927\"[All Fields] OR \"CALGB/SWOG 80405\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))",
+        "(colorectal[Title/Abstract] OR rectal[Title/Abstract] OR colon[Title/Abstract]) AND (\"NCT00265850\"[All Fields] OR \"TRIBE\"[Title/Abstract] OR \"NCT00719797\"[All Fields] OR \"TRIBE2\"[Title/Abstract] OR \"NCT02339116\"[All Fields] OR \"KEYNOTE-177\"[Title/Abstract] OR \"NCT02563002\"[All Fields] OR \"CheckMate 8HW\"[Title/Abstract] OR \"NCT04008030\"[All Fields] OR \"BREAKWATER\"[Title/Abstract] OR \"NCT04607421\"[All Fields] OR \"BEACON CRC\"[Title/Abstract] OR \"NCT02928224\"[All Fields] OR \"MOUNTAINEER\"[Title/Abstract] OR \"NCT03043313\"[All Fields] OR \"CodeBreaK 300\"[Title/Abstract]) AND ((2026/11/08:2026/11/09[EDAT]) OR (2026/11/08:2026/11/09[MDAT]))"
+      ]
+    }
+  },
+  "screenedPublications": [
+    {
+      "pmid": "42999034",
+      "title": "Cell-penetrating peptide functionalized ZIF-90 platform for photodynamic-chemical combined therapy in colorectal cancer.",
+      "doi": "10.1080/10717544.2026.2746812"
+    },
+    {
+      "pmid": "42999013",
+      "title": "Long-Term Survival After CRS-HIPEC for colorectal Cancer Peritoneal Metastases.",
+      "doi": "10.1245/s10434-026-20753-7"
+    },
+    {
+      "pmid": "42998808",
+      "title": "Rigosertib promotes ferroptosis in colorectal cancer by increasing Keap1, reducing Nrf2/SLC7A11 signaling, and facilitating autophagic GPX4 degradation.",
+      "doi": "10.1016/j.cellsig.2026.112995"
+    },
+    {
+      "pmid": "42998759",
+      "title": "Reply - Analysis of the national situation of right hemicolectomy with complete mesocolic excision in ascending and proximal traverse colon cancer.",
+      "doi": "10.1016/j.cireng.2026.800418"
+    },
+    {
+      "pmid": "42998225",
+      "title": "From Radical Resection to Organ Preservation in Locally Advanced Rectal Cancer: A Narrative Review of Risk-Adapted Management.",
+      "doi": "10.1007/s12029-026-01623-7"
+    },
+    {
+      "pmid": "42998208",
+      "title": "Digital health support for colorectal cancer patients: a patient centred approach.",
+      "doi": "10.1007/s00520-026-11454-8"
+    },
+    {
+      "pmid": "42998039",
+      "title": "Ultrasensitive and Multiplex Detection of RNAs with Single-Nucleotide Resolution Using Lambda Exonuclease-Assisted Probe Signal Amplification-Rolling Circle Amplification.",
+      "doi": "10.1021/acssensors.6c02576"
+    },
+    {
+      "pmid": "42995349",
+      "title": "Squamous cell carcinoma involving the anal sac region in a cat: clinical course and multimodal management with toceranib and electrochemotherapy.",
+      "doi": "10.1007/s11259-026-11621-6"
+    },
+    {
+      "pmid": "42995329",
+      "title": "Incidence of Colorectal Cancer After Endoscopic Mucosal Resection: A Multicenter Electronic Health Record Cohort Study.",
+      "doi": "10.1007/s12029-026-01634-4"
+    },
+    {
+      "pmid": "42995314",
+      "title": "Preoperative classification of histopathological growth patterns in colorectal liver metastases using prospective 18 F-FDG PET/CT.",
+      "doi": "10.1007/s10585-026-10441-x"
+    },
+    {
+      "pmid": "42999708",
+      "title": "Neoadjuvant FOLFOXIRI in a Locally Advanced Right Colon Cancer Patient: A Case Report From a Limited-Resource Setting.",
+      "doi": "10.1155/crom/5532415"
+    },
+    {
+      "pmid": "42997961",
+      "title": "Minimal residual disease testing in gastrointestinal cancers: a US perspective.",
+      "doi": "10.1093/gastro/goag111"
+    },
+    {
+      "pmid": "42995362",
+      "title": "ASO Visual Abstract: Risk of Ovarian Metastasis in Colorectal Cancer-Related Carcinomatosis.",
+      "doi": "10.1245/s10434-026-20305-z"
+    },
+    {
+      "pmid": "42995357",
+      "title": "Editorial Comment: Drawing Blood is the Easy Part-A New Blood Test for Colorectal Cancer Screening.",
+      "doi": "10.1245/s10434-026-20884-x"
+    },
+    {
+      "pmid": "42995356",
+      "title": "ASO Visual Abstract: Smoking Status and Response to Total Neoadjuvant Therapy for Rectal Cancer-A National Cohort Study.",
+      "doi": "10.1245/s10434-026-20852-5"
+    },
+    {
+      "pmid": "42995214",
+      "title": "Origins and heterogeneity of colorectal cancer.",
+      "doi": "10.1038/s41568-026-00988-y"
+    },
+    {
+      "pmid": "42998516",
+      "title": "Recurrent transcriptional signatures of acquired chemoresistance across cancer models.",
+      "doi": "10.1016/j.compbiolchem.2026.109557"
+    },
+    {
+      "pmid": "42995531",
+      "title": "Longitudinal gut microbiome dynamics in rectal cancer: associations with neoadjuvant therapy and tumor regression.",
+      "doi": "10.1186/s12866-026-05859-y"
+    },
+    {
+      "pmid": "42999633",
+      "title": "ANKRD22 Downregulation Reprograms Lipid Metabolism to Activate the Notch/Hes1 Pathway, Driving Immunosuppressive Macrophage Polarization in Colorectal Cancer.",
+      "doi": "10.2147/ITT.S642879"
+    },
+    {
+      "pmid": "42998026",
+      "title": "HtrA3 Promotes Malignant Progression of Colorectal Cancer and Is Associated With PI3K-AKT-FOXO1 Signaling.",
+      "doi": "10.1002/cam4.72496"
+    },
+    {
+      "pmid": "42997936",
+      "title": "Dual context attentive feature network: an interpretable dual-pathway deep learning framework for accurate gastrointestinal endoscopic image classification.",
+      "doi": "10.21037/qims-2026-1389"
+    },
+    {
+      "pmid": "42997866",
+      "title": "Effects of metformin on cell viability and inflammatory status of human colonocytes: an in vitro preliminary analysis.",
+      "doi": "10.5603/rpor.113084"
+    },
+    {
+      "pmid": "42997740",
+      "title": "Analysis of prognostic features associated with extracellular matrix and lymph node metastasis in colorectal cancer.",
+      "doi": "10.21037/tcr-2026-0895"
+    },
+    {
+      "pmid": "42997101",
+      "title": "Nephrogenic adenoma of the bladder: a case report and review of the literature.",
+      "doi": "10.21037/tau-2026-0871"
+    },
+    {
+      "pmid": "42996882",
+      "title": "Comparing the efficacy and safety of raltitrexed combined with irinotecan administered in different dose-schedule patterns for the second-line treatment of metastatic colorectal cancer: an exploratory, observational post hoc analysis from the prospective SALLY registry cohort.",
+      "doi": "10.21037/jgo-2026-1127"
+    },
+    {
+      "pmid": "42996877",
+      "title": "Earlier colorectal cancer or earlier recognition of inherited risk? Interpreting age shifts in hereditary cancer cohorts.",
+      "doi": "10.21037/jgo-2026-1089"
+    },
+    {
+      "pmid": "42996875",
+      "title": "The gut microbiota across the colorectal cancer surgical continuum-a narrative review.",
+      "doi": "10.21037/jgo-2026-0868"
+    },
+    {
+      "pmid": "42996874",
+      "title": "Can pyruvate kinase M2 identify who benefits from adjuvant oxaliplatin in colorectal cancer?",
+      "doi": "10.21037/jgo-2026-1053"
+    },
+    {
+      "pmid": "42996867",
+      "title": "Prognostic and predictive biomarkers in colorectal cancer: from established molecular markers to Mediator complex-related transcriptional reprogramming-a narrative review.",
+      "doi": "10.21037/jgo-2026-0686"
+    },
+    {
+      "pmid": "42996853",
+      "title": "ANGPT2 promotes angiogenesis and immunosuppressive microenvironment in colorectal cancer.",
+      "doi": "10.21037/jgo-2025-1-965"
+    },
+    {
+      "pmid": "42996844",
+      "title": "A phase II pilot evaluation of lurbinectedin in patients with advanced gastrointestinal malignancies with DNA repair mutations.",
+      "doi": "10.21037/jgo-2026-0468"
+    },
+    {
+      "pmid": "42996609",
+      "title": "An immunogenic cell death-related classification for prognostic stratification and immunotherapy response prediction in proficient mismatch repair/microsatellite stable colorectal cancer.",
+      "doi": "10.21037/jgo-2026-0748"
+    },
+    {
+      "pmid": "42996595",
+      "title": "Trastuzumab rezetecan (SHR-A1811) for the treatment of HER2-positive advanced colorectal cancer: a report of two cases.",
+      "doi": "10.21037/jgo-2026-1142"
+    },
+    {
+      "pmid": "42996590",
+      "title": "Development and temporal validation of a pathology-based model incorporating the lymph node ratio to predict recurrence in stage III colorectal cancer.",
+      "doi": "10.21037/jgo-2026-0718"
+    },
+    {
+      "pmid": "42996589",
+      "title": "Tumor deposits in stage III colorectal cancer: time for the TNM system to catch up.",
+      "doi": "10.21037/jgo-2026-0880"
+    },
+    {
+      "pmid": "42996553",
+      "title": "Erratum: MS4A3 as a potential prognostic biomarker for colon cancer: integrated analysis of expression patterns and immune cell infiltration.",
+      "doi": "10.21037/jgo-20262-06"
+    },
+    {
+      "pmid": "42996548",
+      "title": "Nursing coordination in enhanced recovery after colorectal cancer surgery: from bundled care to accountable implementation.",
+      "doi": "10.21037/jgo-2026-0967"
+    },
+    {
+      "pmid": "42996256",
+      "title": "Diet and Cancer Risk: Global Food Systems Transition and Emerging Dietary Exposures.",
+      "doi": "10.15430/JCP.26.045"
+    },
+    {
+      "pmid": "42998930",
+      "title": "Mosaic chromosomal alterations for colorectal cancer risk stratification in a large multicenter case-control study.",
+      "doi": "10.1016/j.scib.2026.10.052"
+    },
+    {
+      "pmid": "42997242",
+      "title": "The role and mechanisms of ESM1 in tumors.",
+      "doi": "10.3389/fonc.2026.1955529"
+    },
+    {
+      "pmid": "42997159",
+      "title": "Helicobacter pylori and colorectal neoplasia with emphasis on microbial mechanisms and causal evidence.",
+      "doi": "10.3389/fcimb.2026.1996461"
+    },
+    {
+      "pmid": "42997004",
+      "title": "Reprogramming the gut-brain axis in neurodegeneration: comparative microbiome, metabolite, immunometabolic, polyphenol, probiotic, and epigenetic mechanisms in Alzheimer's and Parkinson's diseases.",
+      "doi": "10.3389/fnagi.2026.1865514"
+    },
+    {
+      "pmid": "42996982",
+      "title": "Roles of protein crotonylation in tumors: regulatory mechanisms and therapeutic potential.",
+      "doi": "10.3389/fimmu.2026.1952793"
+    },
+    {
+      "pmid": "42996759",
+      "title": "Clinicopathological and molecular characteristics of second primary colorectal cancer in cancer survivors including MSI-H status and anatomical distribution.",
+      "doi": "10.3389/fonc.2026.1952368"
+    },
+    {
+      "pmid": "42995932",
+      "title": "Inflammation is an essential trigger for POLE-driven ultramutated colorectal cancer.",
+      "doi": "10.64898/2026.10.19.760274"
+    },
+    {
+      "pmid": "42999406",
+      "title": "Antibody-drug conjugate combination therapy targeting LGR5 and MET with different payloads enhances efficacy in preclinical colorectal cancer models.",
+      "doi": "10.64898/2026.07.18.739355"
+    },
+    {
+      "pmid": "42999117",
+      "title": "Cellular proximity and conditional coordination in the colorectal and pancreatic tumor microenvironment: a patient-level analysis of multiplexed imaging.",
+      "doi": "10.64898/2026.10.08.757632"
+    },
+    {
+      "pmid": "42999733",
+      "title": "Association of Caudal-Type Homeobox 2 Immunohistochemical Expression With Pathological Stage, Tumor Grade, and Histological Subtype in Colorectal Malignancies: A Single-Center Observational Study.",
+      "doi": "10.7759/cureus.117620"
+    },
+    {
+      "pmid": "42996811",
+      "title": "Evolving Experience with Minimally Invasive Rectal Cancer Surgery: A Nine-Year Single-Centre Propensity-Matched Analysis from South India.",
+      "doi": "10.1007/s13193-026-02615-6"
+    },
+    {
+      "pmid": "42996772",
+      "title": "Wait-and-Watch Strategy Following Neoadjuvant Chemoradiotherapy for Rectal Cancer: a Prospective Cohort Study from an Indian Tertiary Care Center.",
+      "doi": "10.1007/s13193-026-02542-6"
+    },
+    {
+      "pmid": "42996529",
+      "title": "Real-World Institutional Benchmarking of Surgical Quality and Observed Long-Term Oncologic Outcomes Following Curative-Intent Colorectal Cancer Resection in a Low-Volume Tertiary Referral Center in Mexico: A 14-Year STROBE-Compliant Cohort Study.",
+      "doi": "10.1007/s13193-026-02585-9"
+    },
+    {
+      "pmid": "42996513",
+      "title": "Lighting the Anastomosis: Role of Intraoperative ICG Fluorescence in Reducing Leak Rates in Minimally Invasive Rectal Cancer Surgery.",
+      "doi": "10.1007/s13193-026-02571-1"
+    },
+    {
+      "pmid": "42995662",
+      "title": "Health Literacy and Colorectal Cancer Screening: A Community-Based Programme.",
+      "doi": "10.1177/21501319261470063"
+    }
+  ],
+  "correctionScreen": [
+    {
+      "pmid": "42996553",
+      "title": "Erratum: MS4A3 as a potential prognostic biomarker for colon cancer: integrated analysis of expression patterns and immune cell infiltration.",
+      "related": [
+        {
+          "RefType": "ErratumFor",
+          "text": "J Gastrointest Oncol. 2026 Aug 31;17(4):232. doi: 10.21037/jgo-2026-0374. 42703502"
+        }
+      ]
+    },
+    {
+      "pmid": "22872060",
+      "title": "Ethanol enhances tumor angiogenesis in vitro induced by low-dose arsenic in colon cancer cells through hypoxia-inducible factor 1 alpha pathway.",
+      "related": [
+        {
+          "RefType": "RetractionIn",
+          "text": "Toxicol Sci. 2020 May 1;175(1):146. doi: 10.1093/toxsci/kfaa013. 32105321"
+        }
+      ]
+    }
+  ],
+  "existingStudyMetadataScreen": [
+    {
+      "pmid": "42998225",
+      "title": "From Radical Resection to Organ Preservation in Locally Advanced Rectal Cancer: A Narrative Review of Risk-Adapted Management.",
+      "doi": "10.1007/s12029-026-01623-7"
+    },
+    {
+      "pmid": "27124050",
+      "title": "Multiple Primary Malignancies in Patients With Hepatocellular Carcinoma: A Largest Series With 26-Year Follow-Up.",
+      "doi": "10.1097/MD.0000000000003491"
+    },
+    {
+      "pmid": "24927332",
+      "title": "MultiNotch MS3 enables accurate, sensitive, and multiplexed detection of differential expression across cancer cell line proteomes.",
+      "doi": "10.1021/ac502040v"
+    },
+    {
+      "pmid": "23247939",
+      "title": "One-year risk for advanced colorectal neoplasia: U.S. versus U.K. risk-stratification guidelines.",
+      "doi": "10.7326/0003-4819-157-12-201212180-00005"
+    },
+    {
+      "pmid": "17030172",
+      "title": "Increased serum levels of complement C3a anaphylatoxin indicate the presence of colorectal tumors.",
+      "doi": "10.1053/j.gastro.2006.07.011"
+    },
+    {
+      "pmid": "20056631",
+      "title": "Plasma 25-hydroxyvitamin D levels and the risk of colorectal cancer: the multiethnic cohort study.",
+      "doi": "10.1158/1055-9965.EPI-09-0475"
+    },
+    {
+      "pmid": "21916491",
+      "title": "11-Oxoeicosatetraenoic acid is a cyclooxygenase-2/15-hydroxyprostaglandin dehydrogenase-derived antiproliferative eicosanoid.",
+      "doi": "10.1021/tx200336f"
+    },
+    {
+      "pmid": "20515470",
+      "title": "Pim1 promotes human prostate cancer cell tumorigenicity and c-MYC transcriptional activity.",
+      "doi": "10.1186/1471-2407-10-248"
+    },
+    {
+      "pmid": "19788750",
+      "title": "Estimation of colorectal adenoma recurrence with dependent censoring.",
+      "doi": "10.1186/1471-2288-9-66"
+    },
+    {
+      "pmid": "42998683",
+      "title": "Real-World HER2 Testing Practices and Performance of HER2 immunohistochemistry in Non-Breast, Non-Gastroesophageal Solid Tumors: Experience at a Large U.S. Academic Institution.",
+      "doi": "10.1016/j.humpath.2026.106304"
+    },
+    {
+      "pmid": "42995329",
+      "title": "Incidence of Colorectal Cancer After Endoscopic Mucosal Resection: A Multicenter Electronic Health Record Cohort Study.",
+      "doi": "10.1007/s12029-026-01634-4"
+    },
+    {
+      "pmid": "42998628",
+      "title": "Targeting PDGFRβ from radiopharmacy to nuclear medicine: Translational implementation of [68Ga]Ga-ATH001 PET/CT at an academic center.",
+      "doi": "10.1016/j.ejrad.2026.113346"
+    },
+    {
+      "pmid": "42997936",
+      "title": "Dual context attentive feature network: an interpretable dual-pathway deep learning framework for accurate gastrointestinal endoscopic image classification.",
+      "doi": "10.21037/qims-2026-1389"
+    },
+    {
+      "pmid": "42997866",
+      "title": "Effects of metformin on cell viability and inflammatory status of human colonocytes: an in vitro preliminary analysis.",
+      "doi": "10.5603/rpor.113084"
+    },
+    {
+      "pmid": "42996882",
+      "title": "Comparing the efficacy and safety of raltitrexed combined with irinotecan administered in different dose-schedule patterns for the second-line treatment of metastatic colorectal cancer: an exploratory, observational post hoc analysis from the prospective SALLY registry cohort.",
+      "doi": "10.21037/jgo-2026-1127"
+    },
+    {
+      "pmid": "42996867",
+      "title": "Prognostic and predictive biomarkers in colorectal cancer: from established molecular markers to Mediator complex-related transcriptional reprogramming-a narrative review.",
+      "doi": "10.21037/jgo-2026-0686"
+    },
+    {
+      "pmid": "42996595",
+      "title": "Trastuzumab rezetecan (SHR-A1811) for the treatment of HER2-positive advanced colorectal cancer: a report of two cases.",
+      "doi": "10.21037/jgo-2026-1142"
+    },
+    {
+      "pmid": "42998930",
+      "title": "Mosaic chromosomal alterations for colorectal cancer risk stratification in a large multicenter case-control study.",
+      "doi": "10.1016/j.scib.2026.10.052"
+    },
+    {
+      "pmid": "42999259",
+      "title": "A role for CIZ1, a Nuclear Matrix Protein Overexpressed in Cancer Cells, in Controlling the Initiation of DNA Replication.",
+      "doi": "10.64898/2026.10.10.758243"
+    },
+    {
+      "pmid": "42996529",
+      "title": "Real-World Institutional Benchmarking of Surgical Quality and Observed Long-Term Oncologic Outcomes Following Curative-Intent Colorectal Cancer Resection in a Low-Volume Tertiary Referral Center in Mexico: A 14-Year STROBE-Compliant Cohort Study.",
+      "doi": "10.1007/s13193-026-02585-9"
+    },
+    {
+      "pmid": "41668532",
+      "title": "Safety and effectiveness of budesonide rectal foam for ulcerative colitis in a large-scale, multicenter, prospective observational study: final report of post-marketing surveillance in Japan.",
+      "doi": "10.5217/ir.2025.00164"
+    },
+    {
+      "pmid": "41253508",
+      "title": "Efficacy and safety of filgotinib in the treatment of ulcerative colitis with a focus on rapid and sustained efficacy: a narrative review.",
+      "doi": "10.5217/ir.2025.00155"
+    },
+    {
+      "pmid": "42989294",
+      "title": "MAP of molecular analyses in real-worlD oncology centers - MAPpaMoNDO: a study of the translational research Young GOIM group.",
+      "doi": "10.1186/s12967-026-08810-x"
+    },
+    {
+      "pmid": "42897542",
+      "title": "Patient-derived organoids for precision oncology in colorectal cancer: from tumor modeling to clinical translation.",
+      "doi": "10.1186/s12943-026-02747-x"
+    },
+    {
+      "pmid": "42764565",
+      "title": "Deep Learning Discrimination of Colorectal Cancer using Retinal Fundus Photographs: UK Biobank Case-Control Study.",
+      "doi": "10.2174/0115734056494970260902110339"
+    },
+    {
+      "pmid": "40063581",
+      "title": "Longitudinal Monitoring of Inflammatory Bowel Disease in Mice Using Endoscopic Optical Coherence Tomography.",
+      "doi": "10.1093/ibd/izaf045"
+    },
+    {
+      "pmid": "40187668",
+      "title": "Gut microbiota promote the propagation of pathologic α-syn from gut to brain in a gut-originated mouse model of Parkinson's disease.",
+      "doi": "10.1016/j.bbi.2025.04.001"
+    },
+    {
+      "pmid": "29330370",
+      "title": "A RNA-Sequencing approach for the identification of novel long non-coding RNA biomarkers in colorectal cancer.",
+      "doi": "10.1038/s41598-017-18407-6"
+    },
+    {
+      "pmid": "28955343",
+      "title": "Inflammasomes and Cancer: The Dynamic Role of the Inflammasome in Tumor Development.",
+      "doi": "10.3389/fimmu.2017.01132"
+    },
+    {
+      "pmid": "28487466",
+      "title": "The National Cancer Institute Community Cancer Centers Program (NCCCP): Sustaining Quality and Reducing Disparities in Guideline-Concordant Breast and Colon Cancer Care.",
+      "doi": "10.1634/theoncologist.2016-0252"
+    },
+    {
+      "pmid": "28288099",
+      "title": "NLRP12 attenuates colon inflammation by maintaining colonic microbial diversity and promoting protective commensal bacterial growth.",
+      "doi": "10.1038/ni.3690"
+    },
+    {
+      "pmid": "28405523",
+      "title": "Histidine decarboxylase (HDC)-expressing granulocytic myeloid cells induce and recruit Foxp3+ regulatory T cells in murine colon cancer.",
+      "doi": "10.1080/2162402X.2017.1290034"
+    },
+    {
+      "pmid": "27902713",
+      "title": "Association of N-Linked Glycoprotein Acetyls and Colorectal Cancer Incidence and Mortality.",
+      "doi": "10.1371/journal.pone.0165615"
+    },
+    {
+      "pmid": "27153934",
+      "title": "HIV Exposure to the Epithelia in Ectocervical and Colon Tissues Induces Inflammatory Cytokines Without Tight Junction Disruption.",
+      "doi": "10.1089/AID.2015.0185"
+    },
+    {
+      "pmid": "26515606",
+      "title": "NDRG4 stratifies the prognostic value of body mass index in colorectal cancer.",
+      "doi": "10.18632/oncotarget.6182"
+    },
+    {
+      "pmid": "26039341",
+      "title": "Design of Protease Activated Optical Contrast Agents That Exploit a Latent Lysosomotropic Effect for Use in Fluorescence-Guided Surgery.",
+      "doi": "10.1021/acschembio.5b00205"
+    },
+    {
+      "pmid": "25721303",
+      "title": "Optical reconstruction of murine colorectal mucosa at cellular resolution.",
+      "doi": "10.1152/ajpgi.00310.2014"
+    },
+    {
+      "pmid": "25434400",
+      "title": "Dynamic changes and functions of macrophages and M1/M2 subpopulations during ulcerative colitis-associated carcinogenesis in an AOM/DSS mouse model.",
+      "doi": "10.3892/mmr.2014.3018"
+    },
+    {
+      "pmid": "25663688",
+      "title": "Comparative effectiveness of laparoscopy vs open colectomy among nonmetastatic colon cancer patients: an analysis using the National Cancer Data Base.",
+      "doi": "10.1093/jnci/dju491"
+    },
+    {
+      "pmid": "25477374",
+      "title": "Tumor suppressors miR-143 and miR-145 and predicted target proteins API5, ERK5, K-RAS, and IRS-1 are differentially expressed in proximal and distal colon.",
+      "doi": "10.1152/ajpgi.00208.2014"
+    },
+    {
+      "pmid": "25659031",
+      "title": "A dynamic exchange of TCF3 and TCF4 transcription factors controls MYC expression in colorectal cancer cells.",
+      "doi": "10.4161/15384101.2014.980643"
+    },
+    {
+      "pmid": "25487746",
+      "title": "In vivo molecular mapping of the tumor microenvironment in an azoxymethane-treated mouse model of colon carcinogenesis.",
+      "doi": "10.1002/lsm.22309"
+    },
+    {
+      "pmid": "25547486",
+      "title": "Upregulation of TLRs and IL-6 as a marker in human colorectal cancer.",
+      "doi": "10.3390/ijms16010159"
+    },
+    {
+      "pmid": "24981014",
+      "title": "The route to pathologies in chronic inflammatory diseases characterized by T helper type 2 immune cells.",
+      "doi": "10.1111/cei.12409"
+    },
+    {
+      "pmid": "25100204",
+      "title": "Development of siRNA payloads to target KRAS-mutant cancer.",
+      "doi": "10.1158/2159-8290.CD-13-0900"
+    },
+    {
+      "pmid": "24986863",
+      "title": "Cancer-associated isocitrate dehydrogenase 1 (IDH1) R132H mutation and d-2-hydroxyglutarate stimulate glutamine metabolism under hypoxia.",
+      "doi": "10.1074/jbc.M114.575183"
+    },
+    {
+      "pmid": "24992099",
+      "title": "Differential induction of isolated lymphoid follicles in the gut by 18β-glycyrrhetinic acid.",
+      "doi": "10.1371/journal.pone.0100878"
+    },
+    {
+      "pmid": "24727325",
+      "title": "Association study of the let-7 miRNA-complementary site variant in the 3' untranslated region of the KRAS gene in stage III colon cancer (NCCTG N0147 Clinical Trial).",
+      "doi": "10.1158/1078-0432.CCR-14-0069"
+    },
+    {
+      "pmid": "24885658",
+      "title": "Gene expression profiling of 49 human tumor xenografts from in vitro culture through multiple in vivo passages--strategies for data mining in support of therapeutic studies.",
+      "doi": "10.1186/1471-2164-15-393"
+    },
+    {
+      "pmid": "24550213",
+      "title": "Ex vivo culture of primary human colonic tissue for studying transcriptional responses to 1α,25(OH)2 and 25(OH) vitamin D.",
+      "doi": "10.1152/physiolgenomics.00194.2013"
+    },
+    {
+      "pmid": "24712338",
+      "title": "Mucosal gene therapy using a pseudotyped lentivirus vector encoding murine interleukin-10 (mIL-10) suppresses the development and relapse of experimental murine colitis.",
+      "doi": "10.1186/1471-230X-14-68"
+    },
+    {
+      "pmid": "24681603",
+      "title": "Potentiation of colon cancer susceptibility in mice by colonic epithelial PPAR-δ/β overexpression.",
+      "doi": "10.1093/jnci/dju052"
+    },
+    {
+      "pmid": "24336194",
+      "title": "Differential effects of 2- and 3-series E-prostaglandins on in vitro expansion of Lgr5+ colonic stem cells.",
+      "doi": "10.1093/carcin/bgt412"
+    },
+    {
+      "pmid": "24065619",
+      "title": "Evaluation of YO-PRO-1 as an early marker of apoptosis following radiofrequency ablation of colon cancer liver metastases.",
+      "doi": "10.1007/s10616-013-9565-3"
+    },
+    {
+      "pmid": "24575161",
+      "title": "Dynamic Switch Between Two Adhesion Phenotypes in Colorectal Cancer Cells.",
+      "doi": "10.1007/s12195-013-0313-8"
+    },
+    {
+      "pmid": "24216139",
+      "title": "Decision Aid to Technologically Enhance Shared decision making (DATES): study protocol for a randomized controlled trial.",
+      "doi": "10.1186/1745-6215-14-381"
+    },
+    {
+      "pmid": "24119218",
+      "title": "Estimating the contribution of the gut to plasma viral load in early SIV infection.",
+      "doi": "10.1186/1742-4690-10-105"
+    },
+    {
+      "pmid": "24094028",
+      "title": "CD24+/CD38- as new prognostic marker for non-small cell lung cancer.",
+      "doi": "10.1186/2049-6958-8-65"
+    },
+    {
+      "pmid": "23924263",
+      "title": "Efficacy to effectiveness transition of an Educational Program to Increase Colorectal Cancer Screening (EPICS): study protocol of a cluster randomized controlled trial.",
+      "doi": "10.1186/1748-5908-8-86"
+    },
+    {
+      "pmid": "23423976",
+      "title": "CYP24A1 and CYP27B1 polymorphisms modulate vitamin D metabolism in colon cancer cells.",
+      "doi": "10.1158/0008-5472.CAN-12-4134"
+    },
+    {
+      "pmid": "23584346",
+      "title": "Using NCCN clinical practice guidelines in oncology to measure the quality of colorectal cancer care in the veterans health administration.",
+      "doi": "10.6004/jnccn.2013.0058"
+    },
+    {
+      "pmid": "23402869",
+      "title": "Epigenetic regulation of colon cancer and intestinal stem cells.",
+      "doi": "10.1016/j.ceb.2013.01.007"
+    },
+    {
+      "pmid": "24032000",
+      "title": "The IDEA (International Duration Evaluation of Adjuvant Chemotherapy) Collaboration: Prospective Combined Analysis of Phase III Trials Investigating Duration of Adjuvant Therapy with the FOLFOX (FOLFOX4 or Modified FOLFOX6) or XELOX (3 versus 6 months) Regimen for Patients with Stage III Colon Cancer: Trial Design and Current Status.",
+      "doi": "10.1007/s11888-013-0181-6"
+    },
+    {
+      "pmid": "22310288",
+      "title": "DNA demethylation in normal colon tissue predicts predisposition to multiple cancers.",
+      "doi": "10.1038/onc.2011.652"
+    },
+    {
+      "pmid": "23174018",
+      "title": "IL-1β promotes stemness and invasiveness of colon cancer cells through Zeb1 activation.",
+      "doi": "10.1186/1476-4598-11-87"
+    },
+    {
+      "pmid": "22791816",
+      "title": "Both stromal cell and colonocyte epidermal growth factor receptors control HCT116 colon cancer cell growth in tumor xenografts.",
+      "doi": "10.1093/carcin/bgs231"
+    },
+    {
+      "pmid": "23006636",
+      "title": "A role for low-abundance miRNAs in colon cancer: the miR-206/Krüppel-like factor 4 (KLF4) axis.",
+      "doi": "10.1186/1868-7083-4-16"
+    },
+    {
+      "pmid": "22689960",
+      "title": "Infection-induced colitis in mice causes dynamic and tissue-specific changes in stress response and DNA damage leading to colon cancer.",
+      "doi": "10.1073/pnas.1207829109"
+    },
+    {
+      "pmid": "21377311",
+      "title": "Representing randomness in the communication of individualized cancer risk estimates: effects on cancer risk perceptions, worry, and subjective uncertainty about risk.",
+      "doi": "10.1016/j.pec.2011.01.033"
+    },
+    {
+      "pmid": "22056152",
+      "title": "Combined androgen deprivation therapy and radiation therapy for locally advanced prostate cancer: a randomised, phase 3 trial.",
+      "doi": "10.1016/S0140-6736(11)61095-7"
+    },
+    {
+      "pmid": "21920951",
+      "title": "Tissue distribution and gender-divergent expression of 78 cytochrome P450 mRNAs in mice.",
+      "doi": "10.1093/toxsci/kfr240"
+    },
+    {
+      "pmid": "21752725",
+      "title": "Prognostic significance of miR-215 in colon cancer.",
+      "doi": "10.1016/j.clcc.2011.06.002"
+    },
+    {
+      "pmid": "21645643",
+      "title": "Intraperitoneal photodynamic therapy mediated by a fullerene in a mouse model of abdominal dissemination of colon adenocarcinoma.",
+      "doi": "10.1016/j.nano.2011.04.007"
+    },
+    {
+      "pmid": "21929751",
+      "title": "Nanoparticle-based delivery of siDCAMKL-1 increases microRNA-144 and inhibits colorectal cancer tumor growth via a Notch-1 dependent mechanism.",
+      "doi": "10.1186/1477-3155-9-40"
+    },
+    {
+      "pmid": "21864401",
+      "title": "Betulinic acid inhibits colon cancer cell and tumor growth and induces proteasome-dependent and -independent downregulation of specificity proteins (Sp) transcription factors.",
+      "doi": "10.1186/1471-2407-11-371"
+    },
+    {
+      "pmid": "21555655",
+      "title": "Long-term outcomes following positive fecal occult blood test results in older adults: benefits and burdens.",
+      "doi": "10.1001/archinternmed.2011.206"
+    },
+    {
+      "pmid": "21653642",
+      "title": "EGFR signals downregulate tumor suppressors miR-143 and miR-145 in Western diet-promoted murine colon cancer: role of G1 regulators.",
+      "doi": "10.1158/1541-7786.MCR-10-0531"
+    },
+    {
+      "pmid": "21415415",
+      "title": "Suppression of colitis in mice by Cl-amidine: a novel peptidylarginine deiminase inhibitor.",
+      "doi": "10.1152/ajpgi.00435.2010"
+    },
+    {
+      "pmid": "20967519",
+      "title": "Anti-inflammatory/Anti-oxidative stress activities and differential regulation of Nrf2-mediated genes by non-polar fractions of tea Chrysanthemum zawadskii and licorice Glycyrrhiza uralensis.",
+      "doi": "10.1208/s12248-010-9239-4"
+    },
+    {
+      "pmid": "21232124",
+      "title": "The mitochondrial DNA 4,977-bp deletion and its implication in copy number alteration in colorectal cancer.",
+      "doi": "10.1186/1471-2350-12-8"
+    },
+    {
+      "pmid": "21156070",
+      "title": "HIVBrainSeqDB: a database of annotated HIV envelope sequences from brain and other anatomical sites.",
+      "doi": "10.1186/1742-6405-7-43"
+    },
+    {
+      "pmid": "20392785",
+      "title": "Predictive biomarker validation in practice: lessons from real trials.",
+      "doi": "10.1177/1740774510368574"
+    },
+    {
+      "pmid": "20406842",
+      "title": "Assessment of the in vivo antitumor effects of ENMD-2076, a novel multitargeted kinase inhibitor, against primary and cell line-derived human colorectal cancer xenograft models.",
+      "doi": "10.1158/1078-0432.CCR-10-0325"
+    },
+    {
+      "pmid": "20500855",
+      "title": "Suppressor of cytokine signaling 3 (SOCS3) is not an independent biomarker of colorectal adenoma risk.",
+      "doi": "10.1186/1756-0500-3-144"
+    },
+    {
+      "pmid": "20459837",
+      "title": "Effective in vivo and ex vivo gene transfer to intestinal mucosa by VSV-G-pseudotyped lentiviral vectors.",
+      "doi": "10.1186/1471-230X-10-44"
+    },
+    {
+      "pmid": "20123731",
+      "title": "Translational control analysis by translationally active RNA capture/microarray analysis (TrIP-Chip).",
+      "doi": "10.1093/nar/gkq024"
+    },
+    {
+      "pmid": "20157112",
+      "title": "Coordinate down-regulation of adenylyl cyclase isoforms and the stimulatory G protein (G(s)) in intestinal epithelial cell differentiation.",
+      "doi": "10.1074/jbc.M109.059741"
+    },
+    {
+      "pmid": "20143439",
+      "title": "Effectiveness of a patient- and practice-level colorectal cancer screening intervention in health plan members: design and baseline findings of the CHOICE trial.",
+      "doi": "10.1002/cncr.24962"
+    },
+    {
+      "pmid": "20205720",
+      "title": "Transient Receptor Potential Vanilloid 1 is essential for cisplatin-induced heat hyperalgesia in mice.",
+      "doi": "10.1186/1744-8069-6-15"
+    },
+    {
+      "pmid": "19903783",
+      "title": "Epidermal growth factor receptor is required for colonic tumor promotion by dietary fat in the azoxymethane/dextran sulfate sodium model: roles of transforming growth factor-{alpha} and PTGS2.",
+      "doi": "10.1158/1078-0432.CCR-09-1678"
+    },
+    {
+      "pmid": "19888451",
+      "title": "Screening for microsatellite instability identifies frequent 3'-untranslated region mutation of the RB1-inducible coiled-coil 1 gene in colon tumors.",
+      "doi": "10.1371/journal.pone.0007715"
+    },
+    {
+      "pmid": "19399640",
+      "title": "P2X(7) receptor expression is decreased in epithelial cancer cells of ectodermal, uro-genital sinus, and distal paramesonephric duct origin.",
+      "doi": "10.1007/s11302-009-9161-3"
+    },
+    {
+      "pmid": "19597023",
+      "title": "Clinical trial designs for predictive biomarker validation: theoretical considerations and practical challenges.",
+      "doi": "10.1200/JCO.2009.22.3701"
+    },
+    {
+      "pmid": "19369484",
+      "title": "Mesalamine suppresses the expression of TC22, a novel tropomyosin isoform associated with colonic neoplasia.",
+      "doi": "10.1124/mol.109.056028"
+    },
+    {
+      "pmid": "21188121",
+      "title": "Results of a phase I pilot clinical trial examining the effect of plant-derived resveratrol and grape powder on Wnt pathway target gene expression in colonic mucosa and colon cancer.",
+      "doi": ""
+    },
+    {
+      "pmid": "19223408",
+      "title": "Quantification of tryptophan transport and metabolism in lung tumors using PET.",
+      "doi": "10.2967/jnumed.108.058776"
+    },
+    {
+      "pmid": "19138410",
+      "title": "Paxillin-Y118 phosphorylation contributes to the control of Src-induced anchorage-independent growth by FAK and adhesion.",
+      "doi": "10.1186/1471-2407-9-12"
+    },
+    {
+      "pmid": "19056647",
+      "title": "Quercetin may suppress rat aberrant crypt foci formation by suppressing inflammatory mediators that influence proliferation and apoptosis.",
+      "doi": "10.3945/jn.108.096271"
+    },
+    {
+      "pmid": "18802031",
+      "title": "American ginseng suppresses inflammation and DNA damage associated with mouse colitis.",
+      "doi": "10.1093/carcin/bgn211"
+    },
+    {
+      "pmid": "18567620",
+      "title": "Ginkgo biloba extract EGb 761 has anti-inflammatory properties and ameliorates colitis in mice by driving effector T cell apoptosis.",
+      "doi": "10.1093/carcin/bgn143"
+    },
+    {
+      "pmid": "18443660",
+      "title": "Efficient methods for estimating constrained parameters with applications to lasso logistic regression.",
+      "doi": "10.1016/j.csda.2007.11.007"
+    },
+    {
+      "pmid": "18084616",
+      "title": "IGFBP3 promoter methylation in colorectal cancer: relationship with microsatellite instability, CpG island methylator phenotype, and p53.",
+      "doi": "10.1593/neo.07760"
+    },
+    {
+      "pmid": "27154508",
+      "title": "A Clinical Wide-Field Fluorescence Endoscopic Device for Molecular Imaging Demonstrating Cathepsin Protease Activity in Colon Cancer.",
+      "doi": "10.1007/s11307-016-0956-7"
+    },
+    {
+      "pmid": "27605888",
+      "title": "Can optical diagnosis of small colon polyps be accurate? Comparing standard scope without narrow banding to high definition scope with narrow banding.",
+      "doi": "10.3748/wjg.v22.i28.6539"
+    },
+    {
+      "pmid": "26950857",
+      "title": "Optogenetic activation of mechanically insensitive afferents in mouse colorectum reveals chemosensitivity.",
+      "doi": "10.1152/ajpgi.00430.2015"
+    },
+    {
+      "pmid": "26992914",
+      "title": "Visualization of the Biological Behavior of Tumor-Associated Macrophages in Living Mice with Colon Cancer Using Multimodal Optical Reporter Gene Imaging.",
+      "doi": "10.1016/j.neo.2016.01.004"
+    },
+    {
+      "pmid": "26229451",
+      "title": "Patient willingness for repeat screening and preference for CT colonography and optical colonoscopy in ACRIN 6664: the National CT Colonography trial.",
+      "doi": "10.2147/PPA.S81901"
+    },
+    {
+      "pmid": "25595934",
+      "title": "Impact of age and medical comorbidity on adjuvant treatment outcomes for stage III colon cancer: a pooled analysis of individual patient data from four randomized, controlled trials.",
+      "doi": "10.1093/annonc/mdv003"
+    },
+    {
+      "pmid": "24156073",
+      "title": "Multi-modal approach using Raman spectroscopy and optical coherence tomography for the discrimination of colonic adenocarcinoma from normal colon.",
+      "doi": "10.1364/BOE.4.002179"
+    },
+    {
+      "pmid": "23821759",
+      "title": "Defective mismatch repair and benefit from bevacizumab for colon cancer: findings from NSABP C-08.",
+      "doi": "10.1093/jnci/djt140"
+    },
+    {
+      "pmid": "23431406",
+      "title": "Biological mechanisms underlying structural changes induced by colorectal field carcinogenesis measured with low-coherence enhanced backscattering (LEBS) spectroscopy.",
+      "doi": "10.1371/journal.pone.0057206"
+    },
+    {
+      "pmid": "21042865",
+      "title": "In vivo, dual-modality OCT/LIF imaging using a novel VEGF receptor-targeted NIR fluorescent probe in the AOM-treated mouse model.",
+      "doi": "10.1007/s11307-010-0450-6"
+    },
+    {
+      "pmid": "21997132",
+      "title": "Outcomes among black patients with stage II and III colon cancer receiving chemotherapy: an analysis of ACCENT adjuvant trials.",
+      "doi": "10.1093/jnci/djr310"
+    },
+    {
+      "pmid": "20233444",
+      "title": "A rapid, sensitive, reproducible and cost-effective method for mutation profiling of colon cancer and metastatic lymph nodes.",
+      "doi": "10.1186/1471-2407-10-101"
+    },
+    {
+      "pmid": "20102220",
+      "title": "Two-step synthesis of galactosylated human serum albumin as a targeted optical imaging agent for peritoneal carcinomatosis.",
+      "doi": "10.1021/jm901228u"
+    },
+    {
+      "pmid": "19048626",
+      "title": "At what costs will screening with CT colonography be competitive? A cost-effectiveness approach.",
+      "doi": "10.1002/ijc.24025"
+    },
+    {
+      "pmid": "42999708",
+      "title": "Neoadjuvant FOLFOXIRI in a Locally Advanced Right Colon Cancer Patient: A Case Report From a Limited-Resource Setting.",
+      "doi": "10.1155/crom/5532415"
+    },
+    {
+      "pmid": "29316620",
+      "title": "Could Aspirin and Diets High in Fiber Act Synergistically to Reduce the Risk of Colon Cancer in Humans?",
+      "doi": "10.3390/ijms19010166"
+    },
+    {
+      "pmid": "24096621",
+      "title": "Use of survivorship care plans in the United States: associations with survivorship care.",
+      "doi": "10.1093/jnci/djt258"
+    },
+    {
+      "pmid": "24451087",
+      "title": "HIV Infection is associated with compositional and functional shifts in the rectal mucosal microbiota.",
+      "doi": "10.1186/2049-2618-1-26"
+    },
+    {
+      "pmid": "23359688",
+      "title": "DNA and virus particle vaccination protects against acquisition and confers control of viremia upon heterologous simian immunodeficiency virus challenge.",
+      "doi": "10.1073/pnas.1215393110"
+    },
+    {
+      "pmid": "22527160",
+      "title": "Methyl bromide exposure and cancer risk in the Agricultural Health Study.",
+      "doi": "10.1007/s10552-012-9949-2"
+    },
+    {
+      "pmid": "22474202",
+      "title": "Effect of oxaliplatin, fluorouracil, and leucovorin with or without cetuximab on survival among patients with resected stage III colon cancer: a randomized trial.",
+      "doi": "10.1001/jama.2012.385"
+    },
+    {
+      "pmid": "23150730",
+      "title": "Patterns of cancer genetic testing: a randomized survey of Oregon clinicians.",
+      "doi": "10.1155/2012/294730"
+    },
+    {
+      "pmid": "21622011",
+      "title": "Reliability of superficial surgical site infections as a hospital quality measure.",
+      "doi": "10.1016/j.jamcollsurg.2011.04.004"
+    },
+    {
+      "pmid": "20236781",
+      "title": "Liquid chromatography-tandem mass spectrometric assay for the quantitation in human plasma of the novel indenoisoquinoline topoisomerase I inhibitors, NSC 743400 and NSC 725776.",
+      "doi": "10.1016/j.jpba.2010.02.020"
+    },
+    {
+      "pmid": "20383599",
+      "title": "Fecal occult blood testing beliefs and practices of U.S. primary care physicians: serious deviations from evidence-based recommendations.",
+      "doi": "10.1007/s11606-010-1328-7"
+    },
+    {
+      "pmid": "20101210",
+      "title": "Knock in of the AKT1 E17K mutation in human breast epithelial cells does not recapitulate oncogenic PIK3CA mutations.",
+      "doi": "10.1038/onc.2009.516"
+    },
+    {
+      "pmid": "19594950",
+      "title": "Synergistic antitumor activity of oncolytic reovirus and chemotherapeutic agents in non-small cell lung cancer cells.",
+      "doi": "10.1186/1476-4598-8-47"
+    },
+    {
+      "pmid": "19197353",
+      "title": "Genetic mechanisms in Apc-mediated mammary tumorigenesis.",
+      "doi": "10.1371/journal.pgen.1000367"
+    },
+    {
+      "pmid": "20148130",
+      "title": "Semiparametric latent covariate mixed-effects models with application to a colon carcinogenesis study.",
+      "doi": "10.4310/sii.2008.v1.n1.a7"
+    },
+    {
+      "pmid": "17698160",
+      "title": "GM-CSF DNA: an adjuvant for higher avidity IgG, rectal IgA, and increased protection against the acute phase of a SHIV-89.6P challenge by a DNA/MVA immunodeficiency virus vaccine.",
+      "doi": "10.1016/j.virol.2007.07.017"
+    },
+    {
+      "pmid": "16099790",
+      "title": "Teduglutide (ALX-0600), a dipeptidyl peptidase IV resistant glucagon-like peptide 2 analogue, improves intestinal function in short bowel syndrome patients.",
+      "doi": "10.1136/gut.2004.061440"
+    },
+    {
+      "pmid": "42990091",
+      "title": "Global burden of colorectal cancer mortality by age and sex, 1990-2050: a population-based analysis.",
+      "doi": "10.7189/jogh.16.04383"
+    },
+    {
+      "pmid": "42999465",
+      "title": "Right-Sided Colonic Wall Thickening on Abdominal Computed Tomography as a Potential Adjunctive Imaging Clue in Thrombotic Microangiopathy Presenting With Gastrointestinal Symptoms.",
+      "doi": "10.7759/cureus.117615"
+    },
+    {
+      "pmid": "42637888",
+      "title": "Colibactin produced by a honeybee gut symbiont mediates pathogen defence.",
+      "doi": "10.1038/s41564-026-02438-9"
+    },
+    {
+      "pmid": "29570743",
+      "title": "Novel putative drivers revealed by targeted exome sequencing of advanced solid tumors.",
+      "doi": "10.1371/journal.pone.0194790"
+    },
+    {
+      "pmid": "28977555",
+      "title": "Chromosome-scale mega-haplotypes enable digital karyotyping of cancer aneuploidy.",
+      "doi": "10.1093/nar/gkx712"
+    },
+    {
+      "pmid": "28625419",
+      "title": "Recommendation of colorectal cancer testing among primary care patients younger than 50 with elevated risk.",
+      "doi": "10.1016/j.ypmed.2017.06.014"
+    },
+    {
+      "pmid": "28817791",
+      "title": "Using Practice Facilitation to Increase Rates of Colorectal Cancer Screening in Community Health Centers, North Carolina, 2012-2013: Feasibility, Facilitators, and Barriers.",
+      "doi": "10.5888/pcd14.160454"
+    },
+    {
+      "pmid": "28824725",
+      "title": "Mutational Landscapes of Smoking-Related Cancers in Caucasians and African Americans: Precision Oncology Perspectives at Wake Forest Baptist Comprehensive Cancer Center.",
+      "doi": "10.7150/thno.20355"
+    },
+    {
+      "pmid": "28494185",
+      "title": "Functional analysis of rare variants in mismatch repair proteins augments results from computation-based predictive methods.",
+      "doi": "10.1080/15384047.2017.1326439"
+    },
+    {
+      "pmid": "28629348",
+      "title": "Applying the Plan-Do-Study-Act (PDSA) approach to a large pragmatic study involving safety net clinics.",
+      "doi": "10.1186/s12913-017-2364-3"
+    },
+    {
+      "pmid": "28222180",
+      "title": "Pre-existing neutralizing antibody mitigates B cell dysregulation and enhances the Env-specific antibody response in SHIV-infected rhesus macaques.",
+      "doi": "10.1371/journal.pone.0172524"
+    },
+    {
+      "pmid": "27683750",
+      "title": "High Doses of GM-CSF Inhibit Antibody Responses in Rectal Secretions and Diminish Modified Vaccinia Ankara/Simian Immunodeficiency Virus Vaccine Protection in TRIM5α-Restrictive Macaques.",
+      "doi": "10.4049/jimmunol.1600629"
+    },
+    {
+      "pmid": "27440881",
+      "title": "Relationship between Vaccine-Induced Antibody Capture of Infectious Virus and Infection Outcomes following Repeated Low-Dose Rectal Challenges with Simian Immunodeficiency Virus SIVmac251.",
+      "doi": "10.1128/JVI.00812-16"
+    },
+    {
+      "pmid": "25402767",
+      "title": "GSK-3 modulates cellular responses to a broad spectrum of kinase inhibitors.",
+      "doi": "10.1038/nchembio.1690"
+    },
+    {
+      "pmid": "25274805",
+      "title": "Multiple low-dose challenges in a rhesus macaque AIDS vaccine trial result in an evolving host response that affects protective outcome.",
+      "doi": "10.1128/CVI.00455-14"
+    },
+    {
+      "pmid": "24862094",
+      "title": "Tenofovir diphosphate concentrations and prophylactic effect in a macaque model of rectal simian HIV transmission.",
+      "doi": "10.1093/jac/dku162"
+    },
+    {
+      "pmid": "24920599",
+      "title": "Nonneutralizing functional antibodies: a new \"old\" paradigm for HIV vaccines.",
+      "doi": "10.1128/CVI.00230-14"
+    },
+    {
+      "pmid": "23934194",
+      "title": "Epithelial ovarian cancer experimental models.",
+      "doi": "10.1038/onc.2013.321"
+    },
+    {
+      "pmid": "24807713",
+      "title": "Deep transcriptional sequencing of mucosal challenge compartment from rhesus macaques acutely infected with simian immunodeficiency virus implicates loss of cell adhesion preceding immune activation.",
+      "doi": "10.1128/JVI.00543-14"
+    },
+    {
+      "pmid": "24887396",
+      "title": "Chlorogenic acid decreases intestinal permeability and increases expression of intestinal tight junction proteins in weaned rats challenged with LPS.",
+      "doi": "10.1371/journal.pone.0097815"
+    },
+    {
+      "pmid": "24884551",
+      "title": "Resistance to simian immunodeficiency virus low dose rectal challenge is associated with higher constitutive TRIM5α expression in PBMC.",
+      "doi": "10.1186/1742-4690-11-39"
+    },
+    {
+      "pmid": "24740100",
+      "title": "A potent combination microbicide that targets SHIV-RT, HSV-2 and HPV.",
+      "doi": "10.1371/journal.pone.0094547"
+    },
+    {
+      "pmid": "24667371",
+      "title": "Tracking the luminal exposure and lymphatic drainage pathways of intravaginal and intrarectal inocula used in nonhuman primate models of HIV transmission.",
+      "doi": "10.1371/journal.pone.0092830"
+    },
+    {
+      "pmid": "24656147",
+      "title": "How to get the most from microarray data: advice from reverse genomics.",
+      "doi": "10.1186/1471-2164-15-223"
+    },
+    {
+      "pmid": "24626482",
+      "title": "DNA and protein co-immunization improves the magnitude and longevity of humoral immune responses in macaques.",
+      "doi": "10.1371/journal.pone.0091550"
+    },
+    {
+      "pmid": "24291713",
+      "title": "A vaccine formulated with a combination of TLR-2 and TLR-9 adjuvants and the recombinant major outer membrane protein elicits a robust immune response and significant protection against a Chlamydia muridarum challenge.",
+      "doi": "10.1016/j.micinf.2013.11.009"
+    },
+    {
+      "pmid": "24312117",
+      "title": "Genome-wide multi-omics profiling of colorectal cancer identifies immune determinants strongly associated with relapse.",
+      "doi": "10.3389/fgene.2013.00236"
+    },
+    {
+      "pmid": "23749460",
+      "title": "Spiritual well-being in long-term colorectal cancer survivors with ostomies.",
+      "doi": "10.1002/pon.3318"
+    },
+    {
+      "pmid": "23752515",
+      "title": "A modified zinc acetate gel, a potential nonantiretroviral microbicide, is safe and effective against simian-human immunodeficiency virus and herpes simplex virus 2 infection in vivo.",
+      "doi": "10.1128/AAC.00796-13"
+    },
+    {
+      "pmid": "23630663",
+      "title": "Activating Mutations in ERBB2 and Their Impact on Diagnostics and Treatment.",
+      "doi": "10.3389/fonc.2013.00086"
+    },
+    {
+      "pmid": "23454745",
+      "title": "Formylpeptide receptor-2 contributes to colonic epithelial homeostasis, inflammation, and tumorigenesis.",
+      "doi": "10.1172/JCI65569"
+    },
+    {
+      "pmid": "23281928",
+      "title": "Paraptosis and NF-κB activation are associated with protopanaxadiol-induced cancer chemoprevention.",
+      "doi": "10.1186/1472-6882-13-2"
+    },
+    {
+      "pmid": "22949379",
+      "title": "A multifactorial likelihood model for MMR gene variant classification incorporating probabilities based on sequence bioinformatics and tumor characteristics: a report from the Colon Cancer Family Registry.",
+      "doi": "10.1002/humu.22213"
+    },
+    {
+      "pmid": "22943559",
+      "title": "RMP-02/MTN-006: A phase 1 rectal safety, acceptability, pharmacokinetic, and pharmacodynamic study of tenofovir 1% gel compared with oral tenofovir disoproxil fumarate.",
+      "doi": "10.1089/aid.2012.0262"
+    },
+    {
+      "pmid": "22740397",
+      "title": "Pathogenic consequences of vaginal infection with CCR5-tropic simian-human immunodeficiency virus SHIVSF162P3N.",
+      "doi": "10.1128/JVI.00852-12"
+    },
+    {
+      "pmid": "22763439",
+      "title": "Tumour micro-environment elicits innate resistance to RAF inhibitors through HGF secretion.",
+      "doi": "10.1038/nature11183"
+    },
+    {
+      "pmid": "22292922",
+      "title": "Metacridamides A and B, macrocycles from conidia of the entomopathogenic fungus Metarhizium acridum.",
+      "doi": "10.1021/np2007044"
+    },
+    {
+      "pmid": "21869824",
+      "title": "Inhibition and promotion of tumor growth with adeno-associated virus carcinoembryonic antigen vaccine and Toll-like receptor agonists.",
+      "doi": "10.1038/cgt.2011.54"
+    },
+    {
+      "pmid": "21628671",
+      "title": "Prevention of infection by a granulocyte-macrophage colony-stimulating factor co-expressing DNA/modified vaccinia Ankara simian immunodeficiency virus vaccine.",
+      "doi": "10.1093/infdis/jir199"
+    },
+    {
+      "pmid": "21411526",
+      "title": "The nonnucleoside reverse transcriptase inhibitor MIV-150 in carrageenan gel prevents rectal transmission of simian/human immunodeficiency virus infection in macaques.",
+      "doi": "10.1128/JVI.02422-10"
+    },
+    {
+      "pmid": "20567829",
+      "title": "BACPTDP: a water-soluble camptothecin pro-drug with enhanced activity in hypoxic/acidic tumors.",
+      "doi": "10.1007/s00280-010-1388-8"
+    },
+    {
+      "pmid": "21694499",
+      "title": "Diversity of the autochthonous colonic microbiota.",
+      "doi": "10.4161/gmic.2.2.15416"
+    },
+    {
+      "pmid": "21135542",
+      "title": "Lipopolysaccharide increases plasma levels of corticotropin-releasing hormone in rats.",
+      "doi": "10.1159/000322590"
+    },
+    {
+      "pmid": "21170319",
+      "title": "DNA aptamers as molecular probes for colorectal cancer study.",
+      "doi": "10.1371/journal.pone.0014269"
+    },
+    {
+      "pmid": "21129206",
+      "title": "Exploring multilocus associations of inflammation genes and colorectal cancer risk using hapConstructor.",
+      "doi": "10.1186/1471-2350-11-170"
+    },
+    {
+      "pmid": "21041730",
+      "title": "Robust vaccine-elicited cellular immune responses in breast milk following systemic simian immunodeficiency virus DNA prime and live virus vector boost vaccination of lactating rhesus monkeys.",
+      "doi": "10.4049/jimmunol.1002751"
+    },
+    {
+      "pmid": "20889884",
+      "title": "Non-oral treatment with ivermectin for disseminated strongyloidiasis.",
+      "doi": "10.4269/ajtmh.2010.10-0258"
+    },
+    {
+      "pmid": "20670955",
+      "title": "MET receptor sequence variants R970C and T992I lack transforming capacity.",
+      "doi": "10.1158/0008-5472.CAN-10-0429"
+    },
+    {
+      "pmid": "20537136",
+      "title": "The role of T cell PPAR gamma in mice with experimental inflammatory bowel disease.",
+      "doi": "10.1186/1471-230X-10-60"
+    },
+    {
+      "pmid": "20233870",
+      "title": "Colitis-associated cancer is dependent on the interplay between the hemostatic and inflammatory systems and supported by integrin alpha(M)beta(2) engagement of fibrinogen.",
+      "doi": "10.1158/0008-5472.CAN-09-3465"
+    },
+    {
+      "pmid": "19740911",
+      "title": "Emergence of blaKPC-containing Klebsiella pneumoniae in a long-term acute care hospital: a new challenge to our healthcare system.",
+      "doi": "10.1093/jac/dkp327"
+    },
+    {
+      "pmid": "19526347",
+      "title": "Cancer survivorship research: the challenge of recruiting adult long term cancer survivors from a cooperative clinical trials group.",
+      "doi": "10.1007/s11764-009-0093-2"
+    },
+    {
+      "pmid": "19115930",
+      "title": "Cellular gene expression profiles in rhesus macaques challenged mucosally with a pathogenic R5 tropic simian human immunodeficiency virus isolate.",
+      "doi": "10.1089/vim.2008.0076"
+    },
+    {
+      "pmid": "18684007",
+      "title": "Prevention of SIV rectal transmission and priming of T cell responses in macaques after local pre-exposure application of tenofovir gel.",
+      "doi": "10.1371/journal.pmed.0050157"
+    },
+    {
+      "pmid": "18579768",
+      "title": "cis-Diammine(pyridine)chloroplatinum(II), a monofunctional platinum(II) antitumor agent: Uptake, structure, function, and prospects.",
+      "doi": "10.1073/pnas.0803441105"
+    },
+    {
+      "pmid": "18063416",
+      "title": "American founder mutation for attenuated familial adenomatous polyposis.",
+      "doi": "10.1016/j.cgh.2007.09.017"
+    },
+    {
+      "pmid": "17893198",
+      "title": "Endotoxemia and sepsis mortality reduction by non-anticoagulant activated protein C.",
+      "doi": "10.1084/jem.20070404"
+    },
+    {
+      "pmid": "17892325",
+      "title": "Comparing the DNA hypermethylome with gene mutations in human colorectal cancer.",
+      "doi": "10.1371/journal.pgen.0030157"
+    },
+    {
+      "pmid": "16128917",
+      "title": "Polyvalent DNA prime and envelope protein boost HIV-1 vaccine elicits humoral and cellular responses and controls plasma viremia in rhesus macaques following rectal challenge with an R5 SHIV isolate.",
+      "doi": "10.1111/j.1600-0684.2005.00120.x"
+    },
+    {
+      "pmid": "9456249",
+      "title": "Targeted lymph-node immunization with whole inactivated simian immunodeficiency virus (SIV) or envelope and core subunit antigen vaccines does not reliably protect rhesus macaques from vaginal challenge with SIVmac251.",
+      "doi": "10.1097/00002030-199801000-00001"
+    },
+    {
+      "pmid": "42997961",
+      "title": "Minimal residual disease testing in gastrointestinal cancers: a US perspective.",
+      "doi": "10.1093/gastro/goag111"
+    },
+    {
+      "pmid": "42997242",
+      "title": "The role and mechanisms of ESM1 in tumors.",
+      "doi": "10.3389/fonc.2026.1955529"
+    },
+    {
+      "pmid": "41210922",
+      "title": "Img2ST-Net: efficient high-resolution spatial omics prediction from whole-slide histology images via fully convolutional image-to-image learning.",
+      "doi": "10.1117/1.JMI.12.6.061410"
+    },
+    {
+      "pmid": "30202791",
+      "title": "Cardiotoxicity with vascular endothelial growth factor inhibitor therapy.",
+      "doi": "10.1038/s41698-018-0056-z"
+    },
+    {
+      "pmid": "25239471",
+      "title": "Global loss of DNA methylation uncovers intronic enhancers in genes showing expression changes.",
+      "doi": "10.1186/s13059-014-0469-0"
+    },
+    {
+      "pmid": "24742777",
+      "title": "The frequency of diagnostic errors in outpatient care: estimations from three large observational studies involving US adult populations.",
+      "doi": "10.1136/bmjqs-2013-002627"
+    },
+    {
+      "pmid": "24719375",
+      "title": "Human enteroids as an ex-vivo model of host-pathogen interactions in the gastrointestinal tract.",
+      "doi": "10.1177/1535370214529398"
+    },
+    {
+      "pmid": "23975432",
+      "title": "The role of KCNQ1 in mouse and human gastrointestinal cancers.",
+      "doi": "10.1038/onc.2013.350"
+    },
+    {
+      "pmid": "24793956",
+      "title": "Patterns of colorectal cancer screening uptake in newly eligible men and women.",
+      "doi": "10.1158/1055-9965.EPI-13-1360"
+    },
+    {
+      "pmid": "24911876",
+      "title": "Enteric bacterial protein AvrA promotes colonic tumorigenesis and activates colonic beta-catenin signaling pathway.",
+      "doi": "10.1038/oncsis.2014.20"
+    },
+    {
+      "pmid": "24690092",
+      "title": "Tissue-specific regulation of pregnane X receptor in cancer development and therapy.",
+      "doi": "10.1186/2045-3701-4-17"
+    },
+    {
+      "pmid": "24376287",
+      "title": "Selecting the Number of Principal Components in Functional Data.",
+      "doi": "10.1080/01621459.2013.788980"
+    },
+    {
+      "pmid": "24833941",
+      "title": "Inflammatory bowel disease: an expanding global health problem.",
+      "doi": "10.4137/CGast.S12731"
+    },
+    {
+      "pmid": "23382084",
+      "title": "Proteomic patterns of colonic mucosal tissues delineate Crohn's colitis and ulcerative colitis.",
+      "doi": "10.1002/prca.201200107"
+    },
+    {
+      "pmid": "24451366",
+      "title": "Multiphasic analysis of the temporal development of the distal gut microbiota in patients following ileal pouch anal anastomosis.",
+      "doi": "10.1186/2049-2618-1-9"
+    },
+    {
+      "pmid": "23173715",
+      "title": "Identifying stage-specific protein subnetworks for colorectal cancer.",
+      "doi": "10.1186/1753-6561-6-S7-S1"
+    },
+    {
+      "pmid": "24273599",
+      "title": "Future of targeted agents in metastatic colorectal cancer.",
+      "doi": "10.2217/crc.12.52"
+    },
+    {
+      "pmid": "22859365",
+      "title": "Luminal hypertonicity and acidity modulate colorectal afferents and induce persistent visceral hypersensitivity.",
+      "doi": "10.1152/ajpgi.00259.2012"
+    },
+    {
+      "pmid": "22909066",
+      "title": "A gene expression profile of stem cell pluripotentiality and differentiation is conserved across diverse solid and hematopoietic cancers.",
+      "doi": "10.1186/gb-2012-13-8-r71"
+    },
+    {
+      "pmid": "22370768",
+      "title": "The role of primary care physicians in improving colorectal cancer screening in patients with HIV.",
+      "doi": "10.1007/s11606-012-2010-z"
+    },
+    {
+      "pmid": "22561392",
+      "title": "Tracking and tracing of participants in two large cancer screening trials.",
+      "doi": "10.1016/j.cct.2012.04.006"
+    },
+    {
+      "pmid": "22244322",
+      "title": "Using visual displays to communicate risk of cancer to women from diverse race/ethnic backgrounds.",
+      "doi": "10.1016/j.pec.2011.11.014"
+    },
+    {
+      "pmid": "22640407",
+      "title": "H3K4me3 inversely correlates with DNA methylation at a large class of non-CpG-island-containing start sites.",
+      "doi": "10.1186/gm346"
+    },
+    {
+      "pmid": "22249847",
+      "title": "β-blocker continuation after noncardiac surgery: a report from the surgical care and outcomes assessment program.",
+      "doi": "10.1001/archsurg.2011.1698"
+    },
+    {
+      "pmid": "22180570",
+      "title": "Vitamin D resistance and colon cancer prevention.",
+      "doi": "10.1093/carcin/bgr301"
+    },
+    {
+      "pmid": "21625590",
+      "title": "Viral CTL escape mutants are generated in lymph nodes and subsequently become fixed in plasma and rectal mucosa during acute SIV infection of macaques.",
+      "doi": "10.1371/journal.ppat.1002048"
+    },
+    {
+      "pmid": "20495880",
+      "title": "Conditional bicistronic Cre reporter line expressing both firefly luciferase and β-galactosidase.",
+      "doi": "10.1007/s11307-010-0333-x"
+    },
+    {
+      "pmid": "21949562",
+      "title": "Semiparametric Bayesian analysis of gene-environment interactions with error in measurement of environmental covariates and missing genetic data.",
+      "doi": "10.4310/sii.2011.v4.n3.a5"
+    },
+    {
+      "pmid": "21143937",
+      "title": "Characterization of influenza virus sialic acid receptors in minor poultry species.",
+      "doi": "10.1186/1743-422X-7-365"
+    },
+    {
+      "pmid": "20849625",
+      "title": "A targeted decision aid for the elderly to decide whether to undergo colorectal cancer screening: development and results of an uncontrolled trial.",
+      "doi": "10.1186/1472-6947-10-54"
+    },
+    {
+      "pmid": "20673348",
+      "title": "GU81, a VEGFR2 antagonist peptoid, enhances the anti-tumor activity of doxorubicin in the murine MMTV-PyMT transgenic model of breast cancer.",
+      "doi": "10.1186/1471-2407-10-397"
+    },
+    {
+      "pmid": "20543966",
+      "title": "miRNAs as biomarkers in colorectal cancer diagnosis and prognosis.",
+      "doi": "10.4155/bio.10.45"
+    },
+    {
+      "pmid": "19576232",
+      "title": "Genetic pathways to colorectal cancer.",
+      "doi": "10.1016/j.mrfmmm.2009.06.011"
+    },
+    {
+      "pmid": "19779203",
+      "title": "Effect of rising chemotherapy costs on the cost savings of colorectal cancer screening.",
+      "doi": "10.1093/jnci/djp319"
+    },
+    {
+      "pmid": "19210743",
+      "title": "Combining information from cancer registry and medical records data to improve analyses of adjuvant cancer therapies.",
+      "doi": "10.1111/j.1541-0420.2008.01164.x"
+    },
+    {
+      "pmid": "19454482",
+      "title": "Gamma-tubulin-containing abnormal centrioles are induced by insufficient Plk4 in human HCT116 colorectal cancer cells.",
+      "doi": "10.1242/jcs.036715"
+    },
+    {
+      "pmid": "18215308",
+      "title": "Estimating the accuracy of geographical imputation.",
+      "doi": "10.1186/1476-072X-7-3"
+    },
+    {
+      "pmid": "17360473",
+      "title": "A target-selected Apc-mutant rat kindred enhances the modeling of familial human colon cancer.",
+      "doi": "10.1073/pnas.0611690104"
+    },
+    {
+      "pmid": "16284361",
+      "title": "SERCA pump inhibitors do not correct biosynthetic arrest of deltaF508 CFTR in cystic fibrosis.",
+      "doi": "10.1165/rcmb.2005-0286OC"
+    },
+    {
+      "pmid": "42329941",
+      "title": "Boundary-Aware Spectral and Morphological Guidance Method for Feature-Driven Colorectal Cancer Segmentation.",
+      "doi": "10.1109/TMI.2026.3705577"
+    },
+    {
+      "pmid": "41800922",
+      "title": "Rectal cancer: organ preservation versus unnecessary radical surgery. A radiograph of a new paradigm.",
+      "doi": "10.17235/reed.2026.11468/2025"
+    },
+    {
+      "pmid": "20818437",
+      "title": "MI-219-zinc combination: a new paradigm in MDM2 inhibitor-based therapy.",
+      "doi": "10.1038/onc.2010.403"
+    },
+    {
+      "pmid": "20528165",
+      "title": "Noxious colorectal distention in spinalized rats reduces pseudorabies virus labeling of sympathetic neurons.",
+      "doi": "10.1089/neu.2010.1321"
+    },
+    {
+      "pmid": "18566015",
+      "title": "Enterotoxin preconditioning restores calcium-sensing receptor-mediated cytostasis in colon cancer cells.",
+      "doi": "10.1093/carcin/bgn148"
+    },
+    {
+      "pmid": "18609678",
+      "title": "Evolving management of colorectal cancer.",
+      "doi": "10.3748/wjg.14.3956"
+    }
+  ],
+  "addedIds": [],
+  "existingRecordsChanged": [
+    "krystal1"
+  ],
+  "changedFieldsScope": "US regulatory applicability only; all original numeric outcomes, safety data, charts and per-study clinical verification dates unchanged.",
+  "clinicalVerificationDateUnchanged": "2026-11-08",
+  "pendingCount": 13,
+  "priorityCandidatesReviewed": 10,
+  "primaryReviews": {
+    "conference": {
+      "review_date": "2026-11-09",
+      "scope": "Primary journal and official conference source review since 2026-11-08, with pending SITC 2026 leads rechecked. Three priority leads retained: p53 TCR-T, BOT+BAL long-term survival, UNICORN.",
+      "summary": {
+        "new_since_nov8_primary_crc_outcomes_verified": 0,
+        "new_since_nov8_corrections_verified": 0,
+        "recommended_new_outcome_rows": 0,
+        "conclusion": "No new post-November-8 primary clinical outcome or correction was verified. Do not promote promotional or official-recap-only numbers to curated outcomes. The pending p53 lead should not be linked to NCT05194735 without direct abstract evidence."
+      },
+      "candidates": [
+        {
+          "id": "SITC2026-553-p53-TCR",
+          "title": "Adoptive transfer of T cells engineered with mutant p53-specific TCRs for the treatment of metastatic solid epithelial cancers: interim report of ongoing phase II clinical trial",
+          "dates": {
+            "presentation": "2026-11-06",
+            "official_recap": "2026-11-07",
+            "regular_abstract_release_scheduled": "2026-11-03T09:00:00-05:00"
+          },
+          "evidence_status": "Official society recap located; original abstract, poster, and safety table not successfully retrieved.",
+          "recap_only_findings_not_for_curated_endpoints": "The recap describes eight treated patients, five with CRC; three partial responses overall, including two in CRC. CRC response durations were 19 months and over 11 months ongoing. This is not independently verified primary outcome extraction.",
+          "identity_review": {
+            "NCT05194735": "Do not assign: NCI identifies this as Alaunos' Sleeping Beauty phase I/II program, administratively complete, with a distinct mutation/HLA library. It is not established as the ongoing NCI phase II study reported at SITC.",
+            "NCT03412877": "Plausible match, not confirmed for abstract 553. The official NCI record describes a phase II NCI/Rosenberg trial of retroviral neoantigen-reactive PBL, permits shared TP53 targets, and includes pembrolizumab plus IL-2. Obtain the abstract's explicit registration before assigning."
+          },
+          "curation_gate": {
+            "primary_population": false,
+            "primary_crc_denominator": false,
+            "primary_endpoint_definition_and_results": false,
+            "primary_safety": false,
+            "decision": "Keep pending; do not calculate or publish a CRC ORR from the recap. No primary safety results, analysis cutoff, or abstract registration were verified."
+          },
+          "sources": [
+            {
+              "type": "official_society_recap",
+              "url": "https://www.sitcancer.org/blogs/keegan-mager/2026/11/07/sitc-2026-science-coverage-nov-6",
+              "access": "read"
+            },
+            {
+              "type": "official_trial_record",
+              "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2022-00604",
+              "access": "read"
+            },
+            {
+              "type": "official_trial_record_candidate_match_only",
+              "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2018-03627",
+              "access": "read"
+            }
+          ]
+        },
+        {
+          "id": "SITC2026-472-BOT-BAL",
+          "title": "Clinical features of long-term survivors treated with botensilimab plus balstilimab in refractory MSS metastatic colorectal cancer",
+          "trial_id": "NCT03860272",
+          "dates": {
+            "sponsor_release": "2026-11-06",
+            "poster_presentation": "2026-11-07",
+            "data_cutoff_reported": "2025-12-13",
+            "prior_full_cohort_journal_issue": "2026-11-02",
+            "prior_full_cohort_publisher_page_date": "2026-09-21"
+          },
+          "evidence_status": "SITC poster 472 is listed on sponsor publications page; primary poster text was not exposed. Sponsor release is a locator only. Prior full-cohort original journal abstract is available from PubMed and publisher search indexing.",
+          "prior_primary_cohort_findings": "Previously treated MSS mCRC without active liver metastases, n=123; median follow-up 20.2 months. Safety/tolerability was primary; OS exploratory. ORR 21% (95% CI 14-29), median PFS 4.0 months, median OS 21.2 months (95% CI 16.2-23.8), 36-month OS 33% (95% CI 24-43). Common treatment-related AEs: diarrhea 39% (grade >=3, 8%) and fatigue 37% (grade >=3, 2%). These are earlier cohort results, not new Nov 9 data.",
+          "interpretation": "The SITC analysis selects survivors of at least 18 months from the same cohort. Its conditional survival and response figures must not be presented as overall-cohort efficacy or as a randomized benefit estimate. No newer follow-up cutoff was verified.",
+          "curation_gate": {
+            "prior_primary_population_denominator_endpoints_safety": true,
+            "new_sitc_primary_population_denominator_endpoints_safety": false,
+            "decision": "No new row. Preserve any prior curated full-cohort result; leave SITC post-hoc outcome changes pending primary poster/abstract retrieval."
+          },
+          "sources": [
+            {
+              "type": "original_journal_abstract_via_pubmed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42663536/",
+              "doi": "10.1158/1078-0432.CCR-26-1610",
+              "access": "read"
+            },
+            {
+              "type": "publisher_indexed_abstract",
+              "url": "https://aacrjournals.org/clincancerres/article-lookup/doi/10.1158/1078-0432.CCR-26-1610",
+              "access": "search indexing readable; direct page 403"
+            },
+            {
+              "type": "sponsor_publication_locator",
+              "url": "https://www.agenusbio.com/publications",
+              "access": "read; poster download link not exposed by extracted page"
+            },
+            {
+              "type": "sponsor_release_locator_only",
+              "url": "https://investor.agenusbio.com/news/news-details/2026/Agenus-Reports-More-Than-Half-of-Patients-with-Refractory-MSS-Metastatic-Colorectal-Cancer-Achieved-Long-Term-Survival-Following-BOTBAL-Treatment-at-SITC-2026/default.aspx",
+              "access": "read"
+            }
+          ]
+        },
+        {
+          "id": "UNICORN-20261102",
+          "title": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: phase 2 UNICORN",
+          "trial_id_reported": "NCT05845450",
+          "dates": {
+            "publication_reported": "2026-11-02",
+            "data_cutoff_reported": "2026-02-09"
+          },
+          "evidence_status": "Original Nature Medicine publication identified, but article redirected to an inaccessible identity endpoint; linked publisher PDF copy could not be opened. No primary outcome data extracted on this pass.",
+          "curation_gate": {
+            "primary_population": false,
+            "primary_denominator": false,
+            "primary_endpoints": false,
+            "primary_safety": false,
+            "decision": "No new row or numerical update. It predates the Nov 8 baseline. Reconcile with existing UNICORN record only once the primary article is accessible; do not substitute sponsor estimates."
+          },
+          "sources": [
+            {
+              "type": "original_journal_article",
+              "url": "https://www.nature.com/articles/s41591-026-04710-1",
+              "doi": "10.1038/s41591-026-04710-1",
+              "access": "500 redirect to inaccessible idp.nature.com endpoint"
+            },
+            {
+              "type": "sponsor_publication_locator",
+              "url": "https://www.agenusbio.com/publications",
+              "access": "read; confirms listed November 2 publication"
+            },
+            {
+              "type": "publicly_linked_article_copy",
+              "url": "https://cdn.prod.website-files.com/692dbab6ef7601c34cf8cd76/6aecbf5c7ebd2ff385b28861_Ghelardi%20UNICORN%202026%20Nat%20Med-compressed.pdf",
+              "access": "non-retryable open failure"
+            }
+          ]
+        }
+      ],
+      "conference_primary_access": {
+        "official_source": "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
+        "official_release_dates": {
+          "regular_and_ECIA": "2026-11-03T09:00:00-05:00",
+          "late_breaking": "2026-11-06T09:00:00-05:00"
+        },
+        "retrievals": [
+          {
+            "url": "https://jitc.bmj.com/content/14/Suppl_2",
+            "result": "403 Forbidden; primary abstracts not read"
+          },
+          {
+            "url": "https://jitc.bmj.com/content/14/Suppl_3",
+            "result": "403 Forbidden; primary abstracts not read"
+          },
+          {
+            "url": "https://info.bmj.com/view/733231857/",
+            "result": "Official linked regular abstract flipbook opened but exposed zero text lines"
+          },
+          {
+            "url": "https://info.bmj.com/view/638855727/",
+            "result": "Official linked late-breaking abstract flipbook opened but exposed zero text lines"
+          },
+          {
+            "url": "https://clinicaltrials.gov/study/NCT05194735?tab=results",
+            "result": "503 Service Unavailable; no results extracted"
+          }
+        ],
+        "limitation": "These are source-fetch limitations, not proof of absent results. No paywall or access restriction was bypassed. No external edits or publication occurred."
+      },
+      "parent_coordination": "An unverified Krazati regulatory lead was handed to parent. Parent independently verified FDA withdrawal as 2026-09-01, not November, and owns that correction; no duplicate regulatory candidate added here."
+    },
+    "clinical": {
+      "review_date": "2026-11-09",
+      "scope": "Read-only review of three newly indexed primary reports; no repository content edited.",
+      "date_source": "pubmed_0.xml ArticleDate, JournalIssue/PubDate and PubmedData/History; cross-checked publisher/PMC",
+      "papers": [
+        {
+          "pmid": "42999013",
+          "doi": "10.1245/s10434-026-20753-7",
+          "title": "Long-Term Survival After CRS-HIPEC for colorectal Cancer Peritoneal Metastases",
+          "publication_date": "2026-11-07",
+          "pubmed_date": "2026-11-08",
+          "entrez_date": "2026-11-07",
+          "source": "https://link.springer.com/article/10.1245/s10434-026-20753-7",
+          "pdf": "https://link.springer.com/content/pdf/10.1245/s10434-026-20753-7.pdf",
+          "access": "Complete open-access publisher HTML and 15-page PDF inspected; PDF pages 4 and 5 visually verified.",
+          "curation_recommendation": "PENDING_SOURCE_RECONCILIATION",
+          "design": "Retrospective consecutive two-center Amsterdam cohort; October 2016 through December 2023; no randomized or untreated comparator.",
+          "population": "Colorectal peritoneal metastases after CC-0 CRS-HIPEC; PCI <=20; only successfully completely resected patients analyzed.",
+          "denominators": {
+            "screened_enrolled": 450,
+            "analyzed": 440,
+            "excluded_PCI_over20": 7,
+            "excluded_incomplete_cytoreduction": 2,
+            "excluded_adjuvant_HIPEC_COLOPEC": 1,
+            "rectal_primary": 36
+          },
+          "interventions": {
+            "mitomycin_C": {
+              "n": 248,
+              "percent": 56.4,
+              "dose_mg_m2": 35,
+              "fraction_percent": [
+                50,
+                25,
+                25
+              ],
+              "interval_minutes": 30,
+              "perfusion_minutes": 90,
+              "target_temperature_C": [
+                41,
+                42
+              ]
+            },
+            "oxaliplatin": {
+              "n": 192,
+              "percent": 43.6,
+              "dose_mg_m2": 460,
+              "perfusion_minutes": 30,
+              "vehicle": "5% dextrose",
+              "concurrent_IV_folic_acid_mg_m2": 20,
+              "concurrent_IV_fluorouracil_mg_m2": 400
+            },
+            "induction_systemic_therapy_percent": 43.1
+          },
+          "endpoints": [
+            "OS",
+            "DFS",
+            "PRFS",
+            "recurrence pattern"
+          ],
+          "endpoint_definition_note": "Exact OS/DFS/PRFS time origins, censoring rules and competing-risk handling were not explicitly defined in the inspected Methods; do not supply inferred definitions as reported facts.",
+          "followup": {
+            "median_months": 35.2,
+            "IQR_months": [
+              25.3,
+              68.7
+            ],
+            "CT_schedule": "Every six months for first two years, beginning six months after surgery; annually thereafter."
+          },
+          "outcomes": {
+            "OS_median_months": 50.2,
+            "OS_95CI_months": [
+              44.3,
+              56.2
+            ],
+            "DFS_median_months": 9.7,
+            "DFS_95CI_months": [
+              8.3,
+              11.1
+            ],
+            "any_recurrence_n": 314,
+            "any_recurrence_percent": 71.4,
+            "first_recurrence_table3": {
+              "none": 126,
+              "peritoneal": 147,
+              "peritoneal_plus_systemic": 84,
+              "liver": 23,
+              "lung": 31,
+              "liver_and_lung": 17,
+              "other": 12
+            },
+            "OS_by_PCI_median_95CI_months": {
+              "1-5": [
+                75.3,
+                62.3,
+                88.3
+              ],
+              "6-10": [
+                43.8,
+                34.0,
+                53.5
+              ],
+              "11-15": [
+                30.8,
+                24.9,
+                36.6
+              ],
+              "16-20": [
+                26.0,
+                19.9,
+                32.0
+              ]
+            }
+          },
+          "safety_as_printed_table2": {
+            "window_days": 90,
+            "grading": "Clavien-Dindo",
+            "grade_0": {
+              "n": 80,
+              "percent": 18.3
+            },
+            "grade_1": {
+              "n": 54,
+              "percent": 12.3
+            },
+            "grade_2": {
+              "n": 72,
+              "percent": 16.4
+            },
+            "grade_3a": {
+              "n": 87,
+              "percent": 19.8
+            },
+            "grade_3b": {
+              "n": 74,
+              "percent": 16.8
+            },
+            "grade_4": {
+              "n": 66,
+              "percent": 14.9
+            },
+            "grade_5_death": {
+              "n": 7,
+              "percent": 1.5
+            },
+            "CD_ge3_as_printed": {
+              "n": 227,
+              "percent": 51.5
+            },
+            "abdominal_septic": {
+              "n": 102,
+              "percent": 23.1
+            },
+            "nonseptic": {
+              "n": 72,
+              "percent": 16.4
+            },
+            "both": {
+              "n": 53,
+              "percent": 11.9
+            }
+          },
+          "table4_multivariable_OS_HR_95CI_p": {
+            "right_vs_left": [
+              1.533,
+              1.076,
+              2.184,
+              0.018
+            ],
+            "rectum_vs_left": [
+              1.271,
+              0.684,
+              2.362,
+              0.449
+            ],
+            "early_vs_late_metachronous": [
+              1.669,
+              1.076,
+              2.59,
+              0.022
+            ],
+            "N1_vs_N0": [
+              2.433,
+              1.498,
+              3.954,
+              "<0.001"
+            ],
+            "N2_vs_N0": [
+              2.076,
+              1.246,
+              3.459,
+              0.005
+            ]
+          },
+          "source_discrepancies_requiring_resolution": [
+            "Table 2 CD>=3 aggregate is 227, but grade 3a+3b+4+5=234. 227 equals grades 3a+3b+4 only. Deaths may have been excluded from an aggregate labeled inclusive; do not silently correct it.",
+            "Table 3 other-recurrence median OS 17.5 has printed CI 44.3-56.2, which does not contain its estimate.",
+            "Narrative left-vs-right HR 0.718 and rectal-vs-right HR 0.542 disagree with Table 4 (left reference; right 1.533; rectum 1.271).",
+            "Narrative says metachronous timing loses multivariable significance; Table 4 early-versus-late HR 1.669, CI 1.076-2.590, p=.022, with categorical omnibus p=.067. These are different hypothesis tests and cannot be collapsed to a single unqualified statement.",
+            "Approximately 30% is variously described as disease-free long-term, OS beyond five years and possible cure. No consistently defined timepoint/denominator/CI supports a cure-rate extraction.",
+            "Figure 1 caption says 450 complete cytoreductions, whereas its exclusion box includes two incomplete cytoreductions. Discussion mentions approximately 10% excluded at exploratory laparotomy without reconciling that population with the 450-to-440 flow."
+          ],
+          "interpretation": "Selection and confounding prevent causal attribution to HIPEC. Never compare this median directly with randomized controls as evidence of benefit. Accessible full text meets access criteria, but safety and subgroup inconsistencies prevent a clean structured evidence card until reconciled. The source inconsistencies are reporting issues, not proof of misconduct."
+        },
+        {
+          "pmid": "42996772",
+          "doi": "10.1007/s13193-026-02542-6",
+          "title": "Wait-and-Watch Strategy Following Neoadjuvant Chemoradiotherapy for Rectal Cancer: a Prospective Cohort Study from an Indian Tertiary Care Center",
+          "publication_date": "2026-04-24",
+          "issue_date": "2026-10",
+          "pubmed_date": "2026-11-08",
+          "entrez_date": "2026-11-07",
+          "pmc_release_date": "2027-10-01",
+          "source": "https://link.springer.com/article/10.1007/s13193-026-02542-6",
+          "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13739891/",
+          "access": "Publisher explicitly labels accessible text a subscription preview. PMC full text is embargoed per fresh PubMed XML; direct PMC access returned no article. No access restriction bypass attempted.",
+          "curation_recommendation": "PENDING_FULL_TEXT",
+          "design_from_abstract": "Retrospective analysis of prospectively maintained single-center 2007-2024 cohort. The title does not make this a prospective comparative trial.",
+          "population": "Rectal cancer complete or near-complete clinical responders after nCRT, selected for watch-and-wait.",
+          "denominator": 98,
+          "abstract_only_results": {
+            "5year_OS_percent": ">85",
+            "organ_preservation_percent": ">75",
+            "local_regrowth_or_recurrence_percent": 19.4,
+            "regrowth_timing": "Predominantly first 24 months",
+            "mrTRG_available_n": 76,
+            "lost_to_followup_n": 26,
+            "lost_to_followup_percent": 26.5
+          },
+          "exact_pending_reason": "Need authorized full text and supplement to verify eligibility/stage distribution, nCRT regimen, surveillance and endpoint definitions, at-risk denominators/CI, exact salvage counts, treatment/salvage morbidity, deaths and attrition handling. Abstract-only results are not curation-ready.",
+          "limitations_visible": "No surgical control; 26.5% attrition; evolving management across 17 years."
+        },
+        {
+          "pmid": "42996844",
+          "doi": "10.21037/jgo-2026-0468",
+          "title": "A phase II pilot evaluation of lurbinectedin in patients with advanced gastrointestinal malignancies with DNA repair mutations",
+          "publication_date": "2026-08-25",
+          "issue_date": "2026-10-30",
+          "pubmed_date": "2026-11-08",
+          "entrez_date": "2026-11-07",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13740528/",
+          "supplement": "https://ame-hz.oss-cn-hangzhou.aliyuncs.com/star/documents/e5ad2a7b-e5ca-466a-975f-8da86ca7706a/jgo-2026-0468-Supplementary.pdf",
+          "registry": "https://clinicaltrials.gov/study/NCT05229588",
+          "access": "Complete PMC primary report including Tables 1-2 and linked one-page Supplementary Table S1 reviewed. Registry page itself was not extractable; registry identity verified in paper.",
+          "curation_recommendation": "NOT_PROMOTED_CRC_APPLICABILITY",
+          "design": "Single-center prospective open-label single-arm phase II; planned Simon two-stage 12 then 7 evaluable patients; stopped after eight for lack of response/activity.",
+          "population": "Adults with ECOG 0-1, unresectable/metastatic GI malignancy, measurable progressive disease and known/suspected deleterious DDR mutation; all enrolled patients had 2-5 prior treatment lines.",
+          "denominators": {
+            "consented": 11,
+            "screen_failed": 3,
+            "treated_evaluable": 8,
+            "pancreas": 7,
+            "rectum": 1,
+            "received_one_dose": 5,
+            "received_two_doses": 2,
+            "received_three_doses": 1
+          },
+          "accrual_start": "2022-09-09",
+          "accrual_end": "2024-10-29",
+          "last_treatment_end": "2024-12-05",
+          "intervention": {
+            "lurbinectedin_IV_mg_m2": 3.2,
+            "infusion_hours": 1,
+            "cycle_days": 21,
+            "antiemetic_prophylaxis": true,
+            "G_CSF": "Protocol amended to add primary prophylaxis after neutropenia; pegfilgrastim 6 mg/cycle or filgrastim 5 microgram/kg/day for five days."
+          },
+          "primary_endpoint": "RECIST 1.1 ORR, reported at 12 weeks",
+          "results": {
+            "ORR_n": 0,
+            "ORR_denominator": 8,
+            "ORR_percent": 0,
+            "ORR_CI": "Not reported; do not manufacture.",
+            "clinical_benefit_CR_PR_or_SD_ge4months_percent": 0,
+            "DOR": "Not estimable; no responders",
+            "PFS_median_months": 1.2,
+            "PFS_95CI_months": [
+              0.7,
+              2.8
+            ],
+            "OS_median_months": 2.4,
+            "OS_95CI_months": [
+              1.2,
+              4.1
+            ],
+            "PFS_3months_percent": 12.5,
+            "PFS_3months_95CI_percent": [
+              0.3,
+              52.7
+            ],
+            "OS_6_and_12months_percent": 14.3,
+            "OS_6_and_12months_95CI_percent": [
+              0.4,
+              57.9
+            ],
+            "deaths_observed": 6
+          },
+          "endpoint_definitions": {
+            "PFS": "First infusion to objective progression, clinical progression or death.",
+            "OS": "First infusion to death; censoring at last known alive.",
+            "assessment": "Radiologic/clinical assessment every six weeks; imaging at least every three cycles.",
+            "safety_window": "CTCAE v5; EOT 30 +/-7 days after last infusion, new antitumor therapy, or death, whichever first."
+          },
+          "related_AEs_table2_n_by_grade_1_2_3_4": {
+            "anemia": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "neutrophils_decreased": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "bloating": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "cheilitis": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "constipation": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "diarrhea": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "dyspepsia": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "oral_mucositis": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "nausea": [
+              0,
+              3,
+              0,
+              0
+            ],
+            "vomiting": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "fatigue": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "malaise": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "anorexia": [
+              1,
+              3,
+              0,
+              0
+            ],
+            "dehydration": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "hypomagnesemia": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "hypophosphatemia": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "dizziness": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "urinary_incontinence": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "papular_rash": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "safety": {
+            "any_related_AE_table_total_n": 4,
+            "any_related_AE_percent": 50,
+            "related_grade3_4_neutropenia_patients": 2,
+            "SAE_patients": 7,
+            "SAE_events": 12,
+            "related_SAE_events": 0,
+            "SAE_terms": "Abdominal pain (four events/three patients), sepsis, pulmonary embolism, fever, confusion, left DVT, constipation, gastric ulcer, S. pneumoniae pneumonia.",
+            "discontinuations": {
+              "progression": 5,
+              "patient_decision_hospice": 2,
+              "investigator_decision": 1
+            },
+            "dose_reductions_actual": "Not reported",
+            "treatment_related_deaths": "No related SAEs reported; six deaths occurred overall, not a treatment-related mortality estimate."
+          },
+          "limitations": "Only one rectal patient; no separate CRC outcomes. Single arm, n=8, heavily pretreated, heterogeneous DDR alterations, early termination and 5/8 receiving just one dose. Neither efficacy nor safety should be generalized to CRC.",
+          "timing_note": "New PubMed indexing, not a new November trial result. Paper also states prior AACR abstract/poster presentation on 2026-04-20.",
+          "exact_pending_reason": "Complete primary report is accessible, but only one rectal patient among eight mixed-GI patients and no separate CRC endpoints. Do not add the pooled outcomes to CRC-specific evidence rows."
+        }
+      ],
+      "final_disposition": "No new outcome rows. HIPEC pending source reconciliation; watch-and-wait pending authorized full text; lurbinectedin retained as reviewed mixed-GI context only, outside CRC-specific quantitative curation."
+    },
+    "additional": {
+      "date": "2026-11-09",
+      "candidates": [
+        {
+          "id": "krystal1-regulatory",
+          "decision": "Update US applicability only; preserve all trial data and original verification dates.",
+          "eventDate": "2026-09-01",
+          "sources": [
+            "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals",
+            "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216340s011lbl.pdf"
+          ],
+          "facts": "FDA withdrawn-indications table explicitly records adagrasib plus cetuximab for previously treated KRAS G12C CRC withdrawal on 2026-09-01. FDA August 2026 label confirms CRC indication removed. This is historical correction discovered Nov9, not new November regulatory action. No statement about Chinese approval or guidelines inferred."
+        },
+        {
+          "id": "ASAC",
+          "pmid": "42777749",
+          "decision": "Pending full source, historical backfill; not Nov8 new readout.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/42777749/",
+            "https://www.sciencedirect.com/science/article/pii/S2468125326002608"
+          ],
+          "publicationDate": "2026-09-23",
+          "facts": "New media item dated Nov8 refers to Sept23 original trial. Primary indexed abstract available; direct full-text retrieval403. Do not promote news as new evidence or supply full trial interpretation without complete methods/safety review."
+        },
+        {
+          "id": "SALLY-schedule",
+          "pmid": "42996882",
+          "decision": "Pending complete primary-text and denominator review.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/42996882/",
+            "https://doi.org/10.21037/jgo-2026-1127"
+          ],
+          "publicationDate": "2026-10-30",
+          "facts": "Newly indexed observational post hoc analysis, no randomization or equivalence claim. Abstract lists q3-week efficacy denominator618, safety619; verify complete analysis sets before curation. DOI primary page unavailable through web tool."
+        },
+        {
+          "id": "PET-HGP",
+          "pmid": "42995314",
+          "decision": "Reviewed negative diagnostic-method cohort; not added to treatment-outcome library this run.",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s10585-026-10441-x"
+          ],
+          "publicationDate": "2026-11-07",
+          "facts": "Open-access primary text reviewed. Prospective exploratory resectable CLM cohort78, final PET-HGP dataset77,130classifiable FDG-avid lesions. PET parameters did not reliably predict HGP; overfitting/unstable subgroup coefficients and no validated clinical decision rule. No inference of effective therapy or new surgical standard."
+        }
+      ],
+      "screeningNotes": [
+        "Two correction-query records: PMID42996553 biomarker MS4A3 erratum, unrelated to curated trials; PMID22872060 preclinical paper retracted in2020, not new clinical retraction.",
+        "Date-window existing-study sweep gives metadata-modified historical papers and acronym false positives; no new canonical study numeric update established.",
+        "Secondary search sources used only for discovery; original FDA source supports the sole change."
+      ],
+      "sourceFailures": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2468125326002608",
+          "result": "403 Forbidden"
+        },
+        {
+          "url": "https://doi.org/10.21037/jgo-2026-1127",
+          "result": "not accessible through web reader"
+        },
+        {
+          "url": "https://www.nature.com/subjects/colorectal-cancer/nm",
+          "result": "500 identity redirect inaccessible"
+        }
+      ]
+    }
+  },
+  "reviewScope": "Bounded priority review, not exhaustive systematic review. Access limits retained; inaccessible primary sources do not replace reviewed conclusions."
+}

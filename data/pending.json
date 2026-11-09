@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -103,7 +103,7 @@
         "https://info.bmj.com/view/733231857/"
       ],
       "sourceLevel": "Official Nov7 conference recap verified; complete original abstract/poster unavailable.",
-      "reason": "Newly discovered conference backfill, not a new Nov7 efficacy readout. Mixed-tumor phase II interim includes CRC; verify original CRC denominator, response criteria, cutoff, confidence intervals and complete safety before inclusion. No numeric conclusions promoted.",
+      "reason": "Newly discovered conference backfill, not a new Nov7 efficacy readout. Mixed-tumor phase II interim includes CRC; verify original CRC denominator, response criteria, cutoff, confidence intervals and complete safety before inclusion. No numeric conclusions promoted. 2026-11-09身份复核：不能将该NCIⅡ期报告直接归于Alaunos NCT05194735；原始摘要注册号仍待核实。",
       "dates": {
         "recap": "2026-11-07",
         "presentation": "2026-11-06",
@@ -124,7 +124,64 @@
         "registry_last_update": "2024-09-19",
         "source_review": "2026-11-08"
       }
+    },
+    {
+      "pmid": "42999013",
+      "title": "Long-Term Survival After CRS-HIPEC for colorectal Cancer Peritoneal Metastases",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42999013/",
+        "https://link.springer.com/article/10.1245/s10434-026-20753-7"
+      ],
+      "sourceLevel": "Full publisher text/PDF checked; quantitative curation deferred for unresolved reporting discrepancies.",
+      "reason": "CC-0-selected uncontrolled cohort does not establish incremental HIPEC benefit. Complication total/subgrades, one survival CI and narrative/table hazard estimates require clarification before consistent extraction. Preserve original values; do not silently repair.",
+      "dates": {
+        "first_online": "2026-11-07",
+        "source_review": "2026-11-09"
+      }
+    },
+    {
+      "pmid": "42996772",
+      "title": "Wait-and-Watch Strategy Following Neoadjuvant Chemoradiotherapy for Rectal Cancer: prospective Indian cohort",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42996772/",
+        "https://link.springer.com/article/10.1007/s13193-026-02542-6"
+      ],
+      "sourceLevel": "Primary abstract verified; publisher full text requires access; PMC release embargoed.",
+      "reason": "New indexing is not new publication. Hold complete population, surveillance, regrowth and salvage/safety verification until primary full text is available.",
+      "dates": {
+        "first_online": "2026-04-24",
+        "issue": "2026-10",
+        "source_review": "2026-11-09"
+      }
+    },
+    {
+      "pmid": "42777749",
+      "title": "ASAC aspirin after curative-intent treatment of CRC liver metastases",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42777749/",
+        "https://www.sciencedirect.com/science/article/pii/S2468125326002608"
+      ],
+      "sourceLevel": "Primary indexed abstract identified; full text retrieval returned403.",
+      "reason": "Historical negative phaseIII evidence gap, not new Nov8 result. Need complete methods, analysis sets and safety verification before curation; retain reported95.44% CI level if later added.",
+      "dates": {
+        "first_online": "2026-09-23",
+        "source_review": "2026-11-09"
+      }
+    },
+    {
+      "pmid": "42996882",
+      "title": "SALLY raltitrexed plus irinotecan q2w versus q3w post-hoc analysis",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42996882/",
+        "https://doi.org/10.21037/jgo-2026-1127"
+      ],
+      "sourceLevel": "Primary PubMed abstract; complete publisher text not retrieved.",
+      "reason": "Observational post-hoc dose-schedule comparison cannot establish equivalence. Verify efficacy and safety analysis sets (abstract q3w denominators618 and619) and full results before curation.",
+      "dates": {
+        "issue": "2026-10-30",
+        "source_review": "2026-11-09"
+      }
     }
   ],
-  "lastReviewNote": "MIRACLE-1/2按已公开ASCO会议摘要补录；MIRACLE-3仅有试验方案、无结果且登记药名不一致，单列待审，不计入已核实疗效研究。"
+  "lastReviewNote": "新增4条待完整核验线索；p53会议线索注册号未定，不推算或发布未核实疗效。既有临床结果未改，仅补充KRYSTAL-1相关美国监管适用性。"
 }

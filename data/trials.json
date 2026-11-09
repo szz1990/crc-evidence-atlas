@@ -10321,7 +10321,7 @@
     "followup": "中位11.9个月",
     "safety": "3–4级治疗相关不良事件27.7%，无5级；无TRAE导致阿达格拉西布停药。",
     "limitations": "单臂I/II期；不能与CodeBreaK 300的不同人群中位PFS/OS直接判断药物优劣。",
-    "practiceImpact": "提供KRAS G12C+EGFR联合靶向的早期至注册支持证据，随机证据强度低于III期。",
+    "practiceImpact": "历史单臂注册支持证据。FDA已于2026年9月1日撤回阿达格拉西布联合西妥昔单抗的既往治疗KRAS G12C结直肠癌加速批准适应证；不应据本队列把该方案描述为当前FDA批准的CRC治疗。其他地区适用性须另核当地批准与指南。",
     "status": "结果已发表",
     "publicationDate": "2024-06-03",
     "sources": [
@@ -10329,6 +10329,16 @@
         "title": "Cancer Discovery扩展队列",
         "url": "https://pubmed.ncbi.nlm.nih.gov/38587856/",
         "accessedAt": "2026-11-02T15:33:00Z"
+      },
+      {
+        "title": "FDA已撤回肿瘤加速批准适应证清单（Krazati，撤回日期2026-09-01）",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals",
+        "accessedAt": "2026-11-09T00:18:49Z"
+      },
+      {
+        "title": "FDA Krazati说明书（2026年8月修订，CRC适应证移除）",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216340s011lbl.pdf",
+        "accessedAt": "2026-11-09T00:18:49Z"
       }
     ],
     "registration": "NCT03785249",
@@ -10365,9 +10375,9 @@
       "primaryEndpoint": "ORR/安全性（单臂队列）",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/38587856/"
     },
-    "conclusion": "提供KRAS G12C+EGFR联合靶向的早期至注册支持证据，随机证据强度低于III期。",
+    "conclusion": "单臂队列显示抗肿瘤活性，但不证明相对标准治疗的生存获益；美国CRC加速批准适应证已于2026年9月1日撤回。历史疗效数值保留，不等于当前适应证推荐。",
     "reviewStatus": "verified",
-    "changeNote": "existing record: scheme and source-linked chart added",
+    "changeNote": "2026-11-09补充已于2026-09-01生效的美国监管适用性变化；研究原始人群、疗效、安全性、图表及临床核实日期均未改。非11月新疗效读出。",
     "queriedAt": "2026-11-02T15:33:00Z",
     "evidenceCutoff": "2026-11-02",
     "resultCharts": [
@@ -10399,7 +10409,14 @@
     "molecularTags": [
       "KRAS"
     ],
-    "selectionNote": "仅KRAS G12C突变，不等于所有KRAS突变。"
+    "selectionNote": "仅KRAS G12C突变，不等于所有KRAS突变。",
+    "regulatoryStatus": {
+      "jurisdiction": "United States FDA",
+      "status": "CRC accelerated approval indication withdrawn",
+      "effectiveDate": "2026-09-01",
+      "verifiedAt": "2026-11-09",
+      "sourceUrl": "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals"
+    }
   },
   {
     "id": "sunlight",
