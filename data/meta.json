@@ -3,8 +3,8 @@
   "publishedAt": "2026-11-03T11:31:53Z",
   "lastSourceFetchAt": "2026-11-09T00:18:49Z",
   "lastClinicalVerificationAt": "2026-11-09",
-  "curatedCount": 102,
-  "updateStatus": "Targeted TORCH historical conference backfill completed; E2 identity conflict and LE protocol retained pending",
+  "curatedCount": 103,
+  "updateStatus": "Targeted TORCH-C conference backfill completed; TORCH-E2 public history checked, drug discrepancy remains pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -61,10 +61,15 @@
       "date": "2026-11-09",
       "type": "targeted-evidence-backfill",
       "note": "另行定向补齐TORCH家族覆盖缺口：新增iTNT的ESMO GI 2026中期会议摘要，192例随机中158例完成治疗，明确不是最终ITT或正式命名的PP集；两组均含CAPOX＋特瑞普利单抗，比较前置短程放疗。E2药名冲突及LE仅方案保留待审。共102项研究、122张图；原101项未改，不混入当日常规检索统计。"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "targeted-evidence-backfill",
+      "note": "另行补齐TORCH-C局部晚期结肠癌ASCO 2026结果及ASTRO重复报告，严格区分随机120、mITT107、手术103分母；不将手术者pCR推为生存获益或全文证据。E2官方公开历史已读取，只有2024年V1且仍为toripalimab，会议药名冲突继续待审。库共103项研究、123张图；原102项未改，不推进当日全来源检索时间。"
     }
   ],
   "lastSourceReviewAt": "2026-11-09T00:18:49Z",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-09",
-  "lastTargetedSourceReviewAt": "2026-11-09T06:32:43.789976+00:00"
+  "lastTargetedSourceReviewAt": "2026-11-09T12:29:31.805004+00:00"
 }

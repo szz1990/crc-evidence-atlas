@@ -189,17 +189,28 @@
       "sources": [
         "https://online.flippingbook.com/view/701322381/735/",
         "https://online.flippingbook.com/view/701322381/736/",
-        "https://clinicaltrials.gov/study/NCT06462053"
+        "https://clinicaltrials.gov/study/NCT06462053",
+        "https://clinicaltrials.gov/study/NCT06462053?tab=history&a=1#version-content-panel"
       ],
-      "sourceLevel": "Original ESTRO 2026 abstract and continuation plus official current registry verified; drug identity conflict unresolved.",
-      "reason": "原始ESTRO摘要标题/方法写帕博利珠单抗（pembrolizumab），TORCH-E2登记NCT06462053写特瑞普利单抗（toripalimab）；原始摘要未列NCT号。登记历史读取失败，未核实到勘误或修订，不能擅自替换药名或将两来源结局合并为已核实记录。摘要仅报告101例入组中的51例治疗完成者，非最终ITT；未命名PP集，未报告比较P值/CI或成熟器官保留随访。",
+      "sourceLevel": "Original ESTRO abstract plus official current registry and public V1 history verified; administered-drug identity conflict remains unresolved.",
+      "reason": "原始ESTRO摘要标题/方法写帕博利珠单抗（pembrolizumab），TORCH-E2登记NCT06462053写特瑞普利单抗（toripalimab）；原始摘要未列NCT号。2026-11-09复核官方公开历史，只有V1（2024-06-12提交、06-17发布），明确toripalimab 240 mg每3周；没有可见后续版本解释差异，未核实到勘误。不能擅自替换药名或将两来源结局合并。摘要仅报告101例入组中的51例治疗完成者，非最终ITT；未命名PP集，未报告比较P值/CI或成熟器官保留随访。",
       "dates": {
         "conference": "ESTRO 2026",
         "data_cutoff": "2025-11（具体日未报告）",
         "registry_last_update": "2024-06-17",
         "source_review": "2026-11-09"
       },
-      "resolutionNeeded": "Original corrected abstract, public protocol amendment or subsequent primary report that verifies the administered PD-1 drug and connects the reported cohort to the registry."
+      "resolutionNeeded": "Original corrected abstract, public protocol amendment or subsequent primary report that verifies the administered PD-1 drug and connects the reported cohort to the registry.",
+      "historyReview": {
+        "reviewedAt": "2026-11-09T12:29:31.805004+00:00",
+        "visibleVersionCount": 1,
+        "version": 1,
+        "submitted": "2024-06-12",
+        "posted": "2024-06-17",
+        "registeredDrug": "toripalimab 240 mg q3w",
+        "administeredDrugResolved": false,
+        "source": "https://clinicaltrials.gov/study/NCT06462053?tab=history&a=1#version-content-panel"
+      }
     },
     {
       "key": "torch-le-nct06455124",
@@ -226,5 +237,5 @@
       }
     }
   ],
-  "lastReviewNote": "另完成TORCH家族定向覆盖核查：iTNT以会议中期治疗完成者结果单列；E2药名冲突与LE无结果方案留待核验。此前13条待审线索保留。"
+  "lastReviewNote": "补齐TORCH-C会议结果；E2官方V1历史已读取，但与原始会议药名仍冲突，保留待审。其余待审线索不改。"
 }

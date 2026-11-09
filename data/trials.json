@@ -11810,5 +11810,150 @@
         "sourceDate": "2026-07"
       }
     ]
+  },
+  {
+    "id": "torch-c",
+    "name": "TORCH-C（ASCO 2026摘要；ASTRO重复报告）",
+    "cancer": "结肠癌",
+    "category": "colon",
+    "setting": "pMMR/MSS高危局部晚期结肠癌 · 新辅助多模式治疗",
+    "patientGroup": "pMMR/MSS、cT4和/或大体积淋巴结、M0结肠腺癌；方案要求距肛缘>15 cm、年龄≥18岁、KPS≥70、既往未抗肿瘤治疗。不是直肠癌研究。",
+    "molecular": "pMMR/MSS",
+    "molecularTags": [
+      "mss"
+    ],
+    "line": "初治 / 新辅助与术后辅助治疗",
+    "design": "前瞻性、多中心、开放标签、1:1随机Ⅱ期；pCR结果采用已手术患者分母",
+    "phase": "II",
+    "n": "120例入组/随机；mITT 107例（A54、B53），另报告手术103例（A53、B50）。实际随机分组人数未直接报告，不以计划60/60替代。",
+    "arms": [
+      "A：SCRT 25 Gy/5次 → 斯鲁利单抗（serplulimab）＋CAPOX 4周期 → 根治切除 → 计划术后CAPOX 4周期",
+      "B：CAPOX 4周期 → 根治切除 → 计划术后CAPOX 4周期"
+    ],
+    "primaryEndpoint": "术后病理完全缓解pCR；方案定义为完整组织学检查无存活肿瘤细胞，由两名独立病理医师评价。当前报告比例为手术者分析，非随机全体或mITT整体pCR率。",
+    "results": [
+      "手术患者pCR：A组24/53（45.3%），B组5/50（10.0%），来源报告P<0.05；未报告CI、确切P值、相对/绝对效应量或检验方法。",
+      "主摘要另列mITT 107例（54/53），但没有解释mITT定义或受试者流向。随机、mITT与手术分母人数分别相差13、4例；这是分母算术差，不能据此确定对应患者或其排除/未手术原因、结局。",
+      "ASTRO 2026原始摘要重复同一120/107/103人群及相同pCR数值，不作为独立队列或新增疗效读出；不得与较早ASCO GI 147摘要的不同分母合并。",
+      "当前主结果摘要未报告R0率、降期率或成熟3年DFS、OS、局部无复发生存；不能把预设终点或作者预期写成已证实获益。"
+    ],
+    "followup": "中位随访及明确临床分析截止日均未报告。入组区间为2023-04-03至2025-09-09；ASCO PDF的2026-05-12是摘要更新元数据，不作为临床数据截止。",
+    "safety": "最常见3–4级AE为血小板减少：A组12/54（22.2%）、B组10/53（18.9%）；该分母与mITT相同，但未另定义安全集。这不是总体严重AE率。未报告总体3–4级AE、免疫相关AE、致死事件或手术并发症的完整数据，不等于零事件。ASTRO另定性提到1–2级腹泻和腹痛，未给人数/比例。",
+    "limitations": "随机疗效结果仍为会议摘要；小样本、开放标签且主要终点为病理替代终点。pCR只纳入手术者，不能当作120例随机全体或107例mITT结果；分析人群定义和流向未说明，完整效应CI、随访及长期获益尚缺。A组同时增加放疗和PD-1治疗，不能分离两者贡献。登记最后更新2023-02-17，状态UNKNOWN、末次已知NOT_YET_RECRUITING，不能用旧登记否定会议报告的实际入组。另有研究方案及40例ART技术实施全文，均不能将本随机pCR结果升级为完整疗效论文。",
+    "practiceImpact": "手术患者分析中观察到较高pCR，来源报告P<0.05；仍需完整随机人群分析、长期生存及安全性验证。该组合策略结果不能证明PD-1或放疗单独增益，不能据此替代标准临床决策。",
+    "status": "ASCO 2026原始摘要已核实；ASTRO 2026重复同一结果。随机疗效为会议摘要证据",
+    "publicationDate": "2026-05-27（ASCO年会摘要发表；ASTRO重复报告2026-09-27）",
+    "sources": [
+      {
+        "title": "ASCO 2026 / JCO摘要3634：TORCH-C主要结果，DOI 10.1200/JCO.2026.44.16_suppl.3634（官方索引全文摘要核验；无完整结果论文组件）",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3634",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ASTRO 2026官方摘要2287：同一120/107/103人群及pCR结果，2026-09-27报告",
+        "url": "https://amportal.astro.org/sessions/pqa-01-22878/neoadjuvant-short-course-radiotherapy-combined-with-immunochemotherapy-vs-chemotherapy-alone-113939",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "BMJ Open 2024研究方案，DOI 10.1136/bmjopen-2023-079442（完整原文XML核验）",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11145982/",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ClinicalTrials.gov NCT05732493：官方API核验；最后更新2023-02-17，该登记页尚未发布结构化结果",
+        "url": "https://clinicaltrials.gov/study/NCT05732493",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ASCO GI 2026摘要147：较早重叠队列，仅保留结果演进来源，不混用其R0或安全性分母",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.147",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "40例TORCH-C相关ART实施研究：技术/可行性全文，非随机疗效全文；DOI 10.1016/j.ctro.2026.101162",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101670/",
+        "accessedAt": "2026-11-09"
+      }
+    ],
+    "keywords": [
+      "TORCH-C",
+      "TORCH-colon",
+      "NCT05732493",
+      "斯鲁利单抗",
+      "serplulimab",
+      "CAPOX",
+      "SCRT",
+      "短程放疗",
+      "新辅助",
+      "结肠癌",
+      "pCR"
+    ],
+    "registryId": "NCT05732493",
+    "comparisonGroup": "高危局部晚期结肠癌 · 放疗联合免疫化疗 · 随机Ⅱ期",
+    "verifiedAt": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "lastSourceFetchDate": "2026-11-09",
+    "conclusion": "SCRT＋斯鲁利单抗＋CAPOX在已手术人群中的pCR为45.3%，CAPOX组为10.0%（来源P<0.05）；该分析不是随机全体或mITT整体结果，尚无成熟生存和完整安全性证据。",
+    "evidenceLevel": "primary conference abstract; randomized phase II, operated-patient pCR analysis",
+    "reviewStatus": "verified",
+    "changeNote": "定向补齐既有2026年会议证据；不是11月新疗效读出。区分随机120、mITT107、手术103及安全性54/53分母；不合并重叠会议或40例ART技术亚组。",
+    "scheme": {
+      "population": "pMMR/MSS、cT4和/或大体积淋巴结、M0结肠癌；距肛缘>15 cm，非直肠癌",
+      "allocation": "1:1随机开放标签Ⅱ期；A组同时增加SCRT及斯鲁利单抗，不能分离两者作用",
+      "arms": [
+        {
+          "label": "A：SCRT＋斯鲁利单抗＋CAPOX",
+          "steps": [
+            "SCRT 25 Gy/5次；方案计划结束后约2周开始系统治疗",
+            "斯鲁利单抗300 mg IV第1天＋CAPOX，每3周1周期，共4周期",
+            "方案计划新辅助后2或4周再评估并根治性结肠切除",
+            "计划术后CAPOX 4周期"
+          ]
+        },
+        {
+          "label": "B：CAPOX",
+          "steps": [
+            "CAPOX每3周1周期，共4周期",
+            "方案计划新辅助后2或4周再评估并根治性结肠切除",
+            "计划术后CAPOX 4周期"
+          ]
+        }
+      ],
+      "primaryEndpoint": "手术标本pCR；当前已报告分母A53/B50，不是全部随机者",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11145982/"
+    },
+    "resultCharts": [
+      {
+        "title": "术后pCR · 仅已手术人群（非ITT/mITT整体）",
+        "type": "proportion",
+        "endpoint": "pCR",
+        "timepoint": "新辅助治疗后手术病理评估；无明确临床分析截止日",
+        "population": "已手术103例（A53/B50）；另有随机120例、mITT107例（54/53）",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "SCRT＋斯鲁利单抗＋CAPOX",
+            "value": 45.3,
+            "n": 53,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "CAPOX",
+            "value": 10.0,
+            "n": 50,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": "<0.05",
+        "note": "分子分别24、5。P<0.05为原摘要报告，CI及确切P值未报告，不补算。不得把手术者比例改称随机/mITT整体pCR率或推断生存获益。",
+        "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3634",
+        "sourceDate": "2026-05-27"
+      }
+    ]
   }
 ]

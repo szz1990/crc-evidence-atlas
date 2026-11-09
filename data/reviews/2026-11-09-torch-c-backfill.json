@@ -1,0 +1,497 @@
+{
+  "date": "2026-11-09",
+  "type": "targeted-TORCH-C-coverage-and-E2-history-check",
+  "baseCommit": "96b5f5572124ed85d0e1420c1e820c7f722be134",
+  "sourceFetchDate": "2026-11-09",
+  "reviewCompletedAt": "2026-11-09T12:29:31.805004+00:00",
+  "broadDailyReviewCursorUnchanged": "2026-11-09T00:18:49Z",
+  "aliasCheck": {
+    "missing": "TORCH-C / TORCH-colon / NCT05732493",
+    "distinctExisting": [
+      "TORCH",
+      "TORCH-E",
+      "TORCH-iTNT"
+    ],
+    "pending": [
+      "TORCH-E2",
+      "TORCH-LE"
+    ]
+  },
+  "priorityStudiesReviewed": 2,
+  "TORCH-C": {
+    "decision": "Add explicitly labeled conference record with operated-patient pCR chart only",
+    "sources": [
+      {
+        "id": "asco_2026_3634",
+        "role": "primary randomized response and safety result",
+        "type": "conference_abstract",
+        "citation": "Zhang H et al. J Clin Oncol. 2026;44(16_suppl):3634.",
+        "doi": "10.1200/JCO.2026.44.16_suppl.3634",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3634",
+        "pdf_url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.3634",
+        "official_presentation_url": "https://www.asco.org/abstracts-presentations/267899",
+        "online_date": "2026-05-27",
+        "print_date": "2026-06-01"
+      },
+      {
+        "id": "protocol_2024",
+        "role": "planned design, eligibility, endpoint definitions, dose and timing",
+        "type": "peer_reviewed_protocol",
+        "citation": "Zhang H et al. BMJ Open. 2024;14:e079442.",
+        "doi": "10.1136/bmjopen-2023-079442",
+        "pmid": "38309748",
+        "pmcid": "PMC11145982",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11145982/",
+        "publisher_url": "https://bmjopen.bmj.com/content/14/2/e079442",
+        "fulltext_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11145982/fullTextXML",
+        "publication_date": "2024-02-02",
+        "protocol_version": "2.0"
+      },
+      {
+        "id": "ctgov_2026_11_09",
+        "role": "official registry, stale administrative record and prespecified outcomes",
+        "type": "registry",
+        "url": "https://clinicaltrials.gov/study/NCT05732493",
+        "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05732493",
+        "retrieved": "2026-11-09",
+        "last_update_posted": "2023-02-17",
+        "status_verified": "2023-02",
+        "overall_status": "UNKNOWN",
+        "last_known_status": "NOT_YET_RECRUITING",
+        "enrollment": {
+          "n": 120,
+          "type": "ESTIMATED"
+        },
+        "has_results": false,
+        "warning": "The latest available registry is stale. Do not override the 2026 conference report of completed enrollment using its old status, estimated dates, or estimated enrollment."
+      },
+      {
+        "id": "asco_gi_2026_147",
+        "role": "earlier result history; do not combine denominator with later report",
+        "type": "conference_abstract",
+        "citation": "Zhang H et al. J Clin Oncol. 2026;44(2_suppl):147.",
+        "doi": "10.1200/JCO.2026.44.2_suppl.147",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.147",
+        "pdf_url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.2_suppl.147",
+        "official_presentation_url": "https://www.asco.org/abstracts-presentations/255301"
+      },
+      {
+        "id": "astro_2026_2287",
+        "role": "later exact-trial conference report repeating main response data and adding RT implementation detail",
+        "type": "conference_abstract",
+        "abstract_number": "2287",
+        "meeting": "ASTRO 2026",
+        "presentation_date": "2026-09-27",
+        "url": "https://amportal.astro.org/sessions/pqa-01-22878/neoadjuvant-short-course-radiotherapy-combined-with-immunochemotherapy-vs-chemotherapy-alone-113939",
+        "poster_link": "https://poster.astro.org/astro/2026/2026-astros-68th-annual-meeting/4212109",
+        "poster_content_retrieval": "Linked poster page returned no extracted text; numerical extraction uses the complete official meeting abstract, not unviewed poster."
+      },
+      {
+        "id": "art_feasibility_2026",
+        "role": "related 40-patient TORCH-C-protocol radiotherapy implementation report; not randomized efficacy publication",
+        "type": "peer_reviewed_original_research_substudy",
+        "citation": "Zhao J et al. Clin Transl Radiat Oncol. 2026;59:101162.",
+        "doi": "10.1016/j.ctro.2026.101162",
+        "pmid": "42028346",
+        "pmcid": "PMC13101670",
+        "online_date": "2026-04-16",
+        "issue_date": "2026-07",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101670/",
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42028346/",
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S2405630826000571"
+      }
+    ],
+    "population": {
+      "disease": "high-risk, nonmetastatic locally advanced colon adenocarcinoma",
+      "biomarker": "pMMR/MSS",
+      "stage": "clinical T4 and/or bulky node-positive disease; M0",
+      "eligibility_protocol": {
+        "inclusion": [
+          "pathologically confirmed adenocarcinoma",
+          "clinical T4 and/or bulky nodes",
+          "tumor more than 15 cm from anal verge",
+          "no distant metastases",
+          "age at least 18 years",
+          "Karnofsky performance status at least 70",
+          "no previous anticancer treatment or immunotherapy",
+          "ability to comply",
+          "written informed consent"
+        ],
+        "exclusion": [
+          "pregnancy/breastfeeding",
+          "another malignancy within 5 years",
+          "serious medical disease, including severe psychiatric disease, cardiac disease or uncontrolled infection",
+          "immunodeficiency or long-term immunosuppressive medication",
+          "failure to meet laboratory thresholds",
+          "allergy to treatment components",
+          "MSI-H"
+        ],
+        "laboratory_thresholds": {
+          "neutrophils_10e9_per_L_min": 1.5,
+          "hemoglobin_g_per_L_min": 90,
+          "platelets_10e9_per_L_min": 100,
+          "ALT_AST_times_ULN_max": 2.5,
+          "serum_creatinine_times_ULN_max": 1.5
+        },
+        "source": "protocol_2024"
+      },
+      "protocol_registry_discrepancies": [
+        "Registry exclusion list does not include MSI-H, while published protocol excludes MSI-H and results explicitly describe pMMR/MSS.",
+        "Registry creatinine threshold is <=1 ULN, whereas the published protocol table is <=1.5 ULN."
+      ],
+      "unreported_in_result": [
+        "age and sex distribution",
+        "baseline stage distribution by arm",
+        "definition/size threshold of bulky nodes",
+        "baseline arm balance",
+        "MMR/MSI test method",
+        "actual participating-site accrual distribution"
+      ]
+    },
+    "design": {
+      "phase": "II",
+      "design": "prospective, multicentre, randomized, two-arm, open-label superiority trial",
+      "allocation_ratio": "1:1",
+      "randomization": "central computer-generated randomization; stratified/balanced by primary tumor location and lymph-node stage/status",
+      "masking": "none",
+      "planned_sample_size": 120,
+      "planned_per_arm": 60,
+      "setting": "Fudan University Shanghai Cancer Center plus six other Chinese centres in published protocol",
+      "sponsor": "Fudan University",
+      "hypothesis_for_sample_size": {
+        "control_pCR_percent": 5,
+        "experimental_pCR_percent": 30,
+        "initial_sample_size": 90,
+        "initial_n_per_arm": 45,
+        "maximum_dropout_assumption_percent": 20,
+        "final_planned_n": 120,
+        "note": "Protocol describes a 95% probability of selecting the superior group. Do not relabel this as a reported treatment-effect CI or reconstruct an unspecified power calculation."
+      },
+      "sources": [
+        "protocol_2024",
+        "ctgov_2026_11_09",
+        "asco_2026_3634"
+      ]
+    },
+    "interventions": {
+      "experimental_A": {
+        "short_label": "SCRT + serplulimab + CAPOX",
+        "sequence": "SCRT, then 4 cycles serplulimab plus CAPOX; radical resection after reassessment; 4 adjuvant CAPOX cycles planned",
+        "radiotherapy": {
+          "total_Gy": 25,
+          "fractions": 5,
+          "protocol_schedule": "5 consecutive treatment days",
+          "target": "primary colon lesion and enlarged nodes only; elective nodal drainage regions excluded",
+          "protocol_technique": "IMRT with colonoscopic titanium clips for image guidance",
+          "later_ASTRO_technique": "CT-linac with daily diagnostic CT-guided online adaptive radiotherapy"
+        },
+        "serplulimab": {
+          "mg": 300,
+          "route": "IV",
+          "day": 1,
+          "cycle_interval_weeks": 3,
+          "neoadjuvant_cycles": 4
+        },
+        "CAPOX": {
+          "oxaliplatin": {
+            "mg_per_m2": 130,
+            "route": "IV",
+            "day": 1
+          },
+          "capecitabine": {
+            "mg_per_m2": 1000,
+            "route": "oral",
+            "days": "1-14",
+            "daily_frequency": "not explicitly stated in the inspected abstract, protocol or registry"
+          },
+          "cycle_interval_weeks": 3,
+          "neoadjuvant_cycles": 4
+        },
+        "protocol_interval_RT_to_systemic_therapy_weeks": 2
+      },
+      "control_B": {
+        "short_label": "CAPOX alone",
+        "sequence": "4 neoadjuvant CAPOX cycles; radical resection after reassessment; 4 adjuvant CAPOX cycles planned",
+        "CAPOX_doses": "same as experimental arm"
+      },
+      "surgery_timing": {
+        "protocol": "reassessment 2 or 4 weeks after neoadjuvant treatment, then radical resection",
+        "registry": "surgery scheduled 2-4 weeks after neoadjuvant therapy",
+        "preferred_procedure": "colectomy with regional en-bloc lymph-node dissection"
+      },
+      "important_causal_scope": "Both radiation and PD-1 blockade are added in A. The two-arm comparison cannot isolate the effect of either addition.",
+      "sources": [
+        "asco_2026_3634",
+        "protocol_2024",
+        "ctgov_2026_11_09",
+        "astro_2026_2287"
+      ]
+    },
+    "denominators": {
+      "enrolled": {
+        "total": 120,
+        "source": "asco_2026_3634"
+      },
+      "randomized": {
+        "total": 120,
+        "allocation_ratio": "1:1",
+        "actual_by_arm": null,
+        "note": "Do not label 60/60 as directly reported actual randomized arm counts. They are the protocol planned allocation; main abstract reports total and ratio only.",
+        "source": "asco_2026_3634"
+      },
+      "mITT": {
+        "total": 107,
+        "A": 54,
+        "B": 53,
+        "definition": "not reported",
+        "exclusion_reasons": "not reported",
+        "source": "asco_2026_3634"
+      },
+      "operated": {
+        "total": 103,
+        "A": 53,
+        "B": 50,
+        "source": "asco_2026_3634"
+      },
+      "pCR_analysis": {
+        "total": 103,
+        "A": 53,
+        "B": 50,
+        "population": "operated patients, per reported fractions",
+        "not_population": [
+          "all randomized patients",
+          "reported mITT set"
+        ],
+        "source": "asco_2026_3634"
+      },
+      "reported_thrombocytopenia_denominators": {
+        "total": 107,
+        "A": 54,
+        "B": 53,
+        "relationship": "numerically identical to reported mITT set; a distinct safety-set definition is not given",
+        "source": "asco_2026_3634"
+      },
+      "completed_neoadjuvant_treatment_latest": null,
+      "participant_flow_gap": "Arithmetic differences between the separately reported totals are 13 (120 minus 107) and 4 (107 minus 103). Participant-level mapping and mITT definition are not reported; do not infer which patients were excluded or unoperated, their reasons or outcomes.",
+      "ASTRO_repeat": "Same counts repeated in astro_2026_2287."
+    },
+    "endpoints": {
+      "primary": {
+        "name": "pathological complete response/regression (pCR)",
+        "definition_protocol": "no viable tumor on complete histological assessment; assessed by two independent pathologists",
+        "definition_registry": "no malignant cells in resected primary site and regional nodes",
+        "observed_assessment": "at resection after neoadjuvant treatment",
+        "registry_planned_timeframe": "after surgery, average 4 weeks",
+        "caution": "Do not describe the response percentages as a 3-year outcome."
+      },
+      "secondary_asco": [
+        "tumor downstaging",
+        "R0 resection",
+        "3-year DFS",
+        "3-year OS",
+        "3-year local recurrence-free survival",
+        "treatment-related toxicity"
+      ],
+      "additional_protocol": [
+        "postoperative complications",
+        "quality of life"
+      ],
+      "toxicity_assessment_protocol": "CTCAE v5.0, recorded each treatment cycle",
+      "QoL_assessment_protocol": "EORTC QLQ-C30 after neoadjuvant therapy and every 6 months during follow-up",
+      "registry_survival_time_origins": {
+        "OS": "randomization to all-cause death, assessed through 3 years",
+        "DFS": "randomization to first documented progression or death, assessed through 3 years",
+        "LRFS": "randomization to first locoregional failure, assessed through 3 years"
+      },
+      "registry_long_term_safety": "grade3-4 events assessed through 5 years; surgical complications assessed through 5 years after surgery",
+      "results_for_3_year_survival": "not reported in verified main results sources"
+    },
+    "results": {
+      "primary_source": "asco_2026_3634",
+      "later_repeated_in": "astro_2026_2287",
+      "pCR": {
+        "A": {
+          "events": 24,
+          "denominator": 53,
+          "percent_reported": 45.3
+        },
+        "B": {
+          "events": 5,
+          "denominator": 50,
+          "percent_reported": 10.0
+        },
+        "analysis_population": "operated",
+        "p_value_reported": "<0.05",
+        "CI_reported": null,
+        "risk_ratio_reported": null,
+        "odds_ratio_reported": null,
+        "risk_difference_reported": null,
+        "hazard_ratio_reported": null,
+        "test_method_reported": null,
+        "do_not_recalculate_as_reported_effect": true
+      },
+      "R0_resection_latest": null,
+      "tumor_downstaging_latest": null,
+      "DFS": null,
+      "OS": null,
+      "LRFS": null,
+      "median_follow_up": null,
+      "safety": {
+        "most_common_grade3_4_AE": "thrombocytopenia",
+        "A": {
+          "events": 12,
+          "denominator": 54,
+          "percent_reported": 22.2
+        },
+        "B": {
+          "events": 10,
+          "denominator": 53,
+          "percent_reported": 18.9
+        },
+        "safety_CI": null,
+        "safety_comparison_P": null,
+        "overall_grade3_4_AE_rate": null,
+        "immune_related_AE_rate": null,
+        "treatment_related_deaths": null,
+        "surgical_complications": null,
+        "ASTRO_only_qualitative_RT_AE": "grade1-2 diarrhea and abdominal pain described as most common; no counts or percentages supplied",
+        "warning": "These thrombocytopenia rates are not overall severe-AE rates. Missing death/immune-AE data are not evidence of zero events."
+      },
+      "authors_interpretation_paraphrase": "The combination produced a promising higher pCR rate. The proposed R0/survival benefits are hypotheses, not measured survival results in these abstracts.",
+      "reviewer_interpretation": "Exploratory phase II evidence of higher pCR among operated patients; does not establish randomized-population pCR, survival benefit, or practice-changing benefit-risk."
+    },
+    "dates": {
+      "ASCO_3634_enrollment_start": "2023-04-03",
+      "ASCO_3634_enrollment_end": "2025-09-09",
+      "ASCO_3634_explicit_clinical_data_cutoff": null,
+      "ASCO_3634_median_followup": null,
+      "ASCO_3634_PDF_abstract_current_as_of": "2026-05-12",
+      "ASCO_3634_online_publication": "2026-05-27",
+      "ASCO_3634_print_publication": "2026-06-01",
+      "ASTRO_presentation": "2026-09-27",
+      "ASTRO_abstract_explicit_clinical_cutoff": null,
+      "protocol_opening_date": "2023-03-01",
+      "protocol_first_recruited_date": "2023-03-24",
+      "registry_estimated_start": "2023-03-01",
+      "registry_estimated_primary_completion": "2023-12-31",
+      "registry_estimated_study_completion": "2024-12-31",
+      "rule": "Keep enrollment range, publication/presentation dates, publisher abstract-currency footer, registry estimates and actual analysis cutoff separate. The current results abstracts do not explicitly name a clinical analysis cutoff.",
+      "date_discrepancy": "Protocol first recruitment Mar24 2023 differs from the 2026 abstract enrollment range starting Apr3 2023. The earlier ASCO GI abstract says 120 enrolled by Aug31 2025, whereas the later report gives an enrollment end Sep9 2025. Do not silently harmonize these dates."
+    },
+    "earlierASCOGI": {
+      "source": "asco_gi_2026_147",
+      "clinical_as_of_date_reported": "2025-08-31",
+      "publisher_abstract_currency_date": "2025-12-15",
+      "enrolled_randomized": 120,
+      "completed_neoadjuvant_and_surgery": 79,
+      "operated": {
+        "experimental": 36,
+        "control": 43
+      },
+      "pCR": {
+        "experimental": {
+          "events": 17,
+          "n": 36,
+          "percent": 47.2
+        },
+        "control": {
+          "events": 5,
+          "n": 43,
+          "percent": 11.6
+        },
+        "definition_label": "TRG0"
+      },
+      "R0": {
+        "experimental": {
+          "events": 35,
+          "n": 36,
+          "percent": 97.2
+        },
+        "control": {
+          "events": 41,
+          "n": 43,
+          "percent": 95.3
+        }
+      },
+      "thrombocytopenia_grade3_4": {
+        "events": 15,
+        "n": 98,
+        "percent": 15.3,
+        "population": "patients completing neoadjuvant treatment, pooled arms",
+        "grade4_cases": 5
+      },
+      "handling": "Retain earlier source and analysis history; do not mix its R0 fractions or n98 safety set into ASCO3634/ASTRO2287 denominators. It is not an independent trial."
+    },
+    "relatedARTPaperScope": "A 40-patient radiotherapy implementation/feasibility full paper exists; it is not the two-arm randomized efficacy publication and its safety denominator is not merged.",
+    "limitations": [
+      "Conference-only main efficacy results with no complete randomized trial report identified.",
+      "Small phase II open-label study; pathological surrogate endpoint rather than demonstrated long-term benefit.",
+      "pCR fractions are for operated patients, despite a separately stated mITT set; mITT definition and post-randomization exclusions are unexplained.",
+      "No confidence interval, exact P value, comparative relative/absolute effect estimate or analysis-test method reported for current pCR results.",
+      "No clinical cutoff or median follow-up reported in current abstracts; planned 3-year endpoints are not observed survival results.",
+      "Limited safety reporting: main abstract supplies one severe AE category; no overall severe AE, immune-related AE, surgery complication or fatal-event count.",
+      "Combination adds two modalities, so the incremental role of radiotherapy versus PD-1 inhibition cannot be separated.",
+      "Latest registry remains an old pre-recruitment record with minor protocol discrepancies, not a contemporary outcome source.",
+      "Related 40-patient ART full paper and later conference repetition do not cure the randomized efficacy reporting limitations."
+    ],
+    "latestEvidenceCheck": {
+      "through_date": "2026-11-09",
+      "not_exhaustive": true,
+      "methods": [
+        "Public web search for exact TORCH-C and NCT05732493, 2026 results, survival/follow-up, full publication, correction/retraction/erratum; primary ASCO and ASTRO sources inspected.",
+        "Official ClinicalTrials.gov API record read.",
+        "PubMed ESearch exact TORCH-C or NCT05732493, publication dates1900-01-01 through2026-11-09; results read."
+      ],
+      "PubMed_query": "(\"TORCH-C\"[All Fields] OR \"NCT05732493\"[All Fields]) AND (\"1900/01/01\"[Date - Publication] : \"2026/11/09\"[Date - Publication])",
+      "PubMed_count": 2,
+      "PubMed_ids": [
+        "42028346",
+        "38309748"
+      ],
+      "findings": "Located ASCO GI147, ASCO3634, ASTRO2287, the protocol and the ART feasibility publication. No full two-arm efficacy publication, mature survival report, correction or retraction was identified in these bounded checks.",
+      "caveat": "Absence from these searches is not proof none exists; indexing lags and unindexed meeting material remain possible.",
+      "excluded_near_names": [
+        "TORCH rectal trial",
+        "TORCH-iTNT rectal trial",
+        "TORCH-C2 later distinct trial",
+        "other nonrandomized rectal short-course radiotherapy studies"
+      ]
+    },
+    "sourceAccessLimits": [
+      "ASCO direct page open returned HTTP403; complete primary publisher-indexed abstract/PDF text was verified.",
+      "Official ASTRO full abstract was read; linked poster page yielded no extracted text, and no values were taken from an unseen poster.",
+      "Full protocol was read via public Europe PMC XML."
+    ]
+  },
+  "TORCH-E2": {
+    "decision": "Retain pending, replace old history-access blocker with verified V1 facts",
+    "historyUrl": "https://clinicaltrials.gov/study/NCT06462053?tab=history",
+    "versionUrl": "https://clinicaltrials.gov/study/NCT06462053?tab=history&a=1#version-content-panel",
+    "visibleVersions": [
+      {
+        "version": 1,
+        "submitted": "2024-06-12",
+        "changes": "None (earliest version on record)",
+        "first_posted": "2024-06-17",
+        "last_update_posted": "2024-06-17",
+        "intervention_name": "PD-1 antibody (Toripalimab)",
+        "intervention_description": "Toripalimab 240mg d1 q3w"
+      }
+    ],
+    "interpretation": "This verifies the registered regimen and the absence of a later visible posted version. It does not establish which drug was administered in the conference-reported cohort.",
+    "abstractSources": [
+      "https://online.flippingbook.com/view/701322381/735/",
+      "https://online.flippingbook.com/view/701322381/736/"
+    ],
+    "abstractFinding": "Page 735 still names pembrolizumab in the title, objective and methods. Page 736 continues the results and states final comparative outcomes await enrollment and further follow-up. No correction or explanation of the drug discrepancy was visible on these pages.",
+    "correctionSearch": "No accessible corrected primary abstract or official explanation was identified. Search indexing still showed the ESTRO program title with pembrolizumab, but the direct session-page open returned Page Not Found/offline content and was not used to resolve the claim."
+  },
+  "existingReviewedRecordChanges": 0,
+  "countsAfter": {
+    "trials": 103,
+    "schemes": 103,
+    "charts": 123,
+    "pending": 15
+  },
+  "scopeLimit": "Targeted historical backfill, not a repeat or extension of the completed daily broad source search. No inferred confidence intervals, survival curves, pooled cohorts, or cross-trial ranking."
+}
