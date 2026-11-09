@@ -2,10 +2,10 @@
   "site": "CRC Evidence Atlas",
   "verifiedPublicAt": "2026-11-03T11:31:53Z",
   "evidenceVersion": "2026-11-09",
-  "trials": 101,
-  "schemes": 101,
-  "resultCharts": 121,
-  "clinicalVerificationDate": "2026-11-08",
+  "trials": 102,
+  "schemes": 102,
+  "resultCharts": 122,
+  "clinicalVerificationDate": "2026-11-09",
   "automaticReview": "enabled; scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
   "configuredAt": "2026-11-03T11:33:55Z",
@@ -20,9 +20,19 @@
     "added": 0,
     "regulatoryApplicabilityChanges": 1,
     "pending": 13,
-    "note": "Historical FDA indication withdrawal clarified; trial outcomes unchanged. Metadata modifications and new indexing do not establish new clinical results."
+    "note": "Historical FDA indication withdrawal clarified; trial outcomes unchanged. Metadata modifications and new indexing do not establish new clinical results.",
+    "scope": "Daily bounded review completed at 2026-11-09T00:18:49Z; statistics exclude later targeted backfill."
   },
-  "sourceBaseCommit": "adfdca9a0ffbd737c2caa6108495d298e36e3bd2",
-  "publicationMarker": "crc-2026-11-09-fda-applicability-reviewed",
-  "regulatoryVerificationDate": "2026-11-09"
+  "sourceBaseCommit": "62e0c8187cd657f9611d12aaf3e2b83f413c99df",
+  "publicationMarker": "crc-2026-11-09-torch-backfill-reviewed",
+  "regulatoryVerificationDate": "2026-11-09",
+  "targetedReview": {
+    "sourceFetchDate": "2026-11-09",
+    "reviewedAt": "2026-11-09T06:32:43.789976+00:00",
+    "candidatesReviewed": 3,
+    "addedConferenceRecords": 1,
+    "newPendingEntries": 2,
+    "totalPendingEntries": 15,
+    "note": "Historical TORCH-iTNT conference response snapshot; TORCH-E2 drug identity unresolved; TORCH-LE protocol only. Existing 101 records unchanged. Broad daily source-review cursor not advanced."
+  }
 }

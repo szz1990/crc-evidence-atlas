@@ -2,9 +2,9 @@
   "version": "2026-11-09",
   "publishedAt": "2026-11-03T11:31:53Z",
   "lastSourceFetchAt": "2026-11-09T00:18:49Z",
-  "lastClinicalVerificationAt": "2026-11-08",
-  "curatedCount": 101,
-  "updateStatus": "Daily review completed; historical FDA applicability correction for KRYSTAL-1; clinical outcomes unchanged",
+  "lastClinicalVerificationAt": "2026-11-09",
+  "curatedCount": 102,
+  "updateStatus": "Targeted TORCH historical conference backfill completed; E2 identity conflict and LE protocol retained pending",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -56,8 +56,15 @@
       "date": "2026-11-09",
       "type": "regulatory-review",
       "note": "检索53篇新索引文献、0项新登记；另核查勘误及既有研究元数据。保留101项研究、121张图；补充FDA已于2026-09-01撤回阿达格拉西布联合西妥昔单抗CRC适应证的历史监管信息，非11月新事件。原临床疗效、安全性与逐条临床核实日期均未改；4条新线索留待完整核验。"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "targeted-evidence-backfill",
+      "note": "另行定向补齐TORCH家族覆盖缺口：新增iTNT的ESMO GI 2026中期会议摘要，192例随机中158例完成治疗，明确不是最终ITT或正式命名的PP集；两组均含CAPOX＋特瑞普利单抗，比较前置短程放疗。E2药名冲突及LE仅方案保留待审。共102项研究、122张图；原101项未改，不混入当日常规检索统计。"
     }
   ],
   "lastSourceReviewAt": "2026-11-09T00:18:49Z",
-  "lastRegulatoryVerificationAt": "2026-11-09"
+  "lastRegulatoryVerificationAt": "2026-11-09",
+  "lastTargetedSourceFetchDate": "2026-11-09",
+  "lastTargetedSourceReviewAt": "2026-11-09T06:32:43.789976+00:00"
 }

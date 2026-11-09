@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-09",
+  "type": "targeted-TORCH-coverage-backfill",
+  "baseCommit": "62e0c8187cd657f9611d12aaf3e2b83f413c99df",
+  "sourceFetchDate": "2026-11-09",
+  "reviewCompletedAt": "2026-11-09T06:32:43.789976+00:00",
+  "dailyReviewCursorUnchanged": "2026-11-09T00:18:49Z",
+  "priorityStudiesReviewed": 3,
+  "aliasCheck": {
+    "previousReviewedMatches": [
+      "TORCH / NCT04518280",
+      "TORCH-E / NCT05555888"
+    ],
+    "missingReviewedOrPending": [
+      "TORCH-iTNT / NCT06281405",
+      "TORCH-E2 / candidate NCT06462053",
+      "TORCH-LE / NCT06455124"
+    ]
+  },
+  "decisions": [
+    {
+      "trial": "TORCH-iTNT",
+      "action": "Added one explicitly labeled conference interim treatment-completer record",
+      "source": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900519-3/fulltext",
+      "dataCutoff": "2026-03-20",
+      "randomized": 192,
+      "completed": 158,
+      "A": {
+        "completed": 75,
+        "CR": 28,
+        "CRPercent": 37.3
+      },
+      "B": {
+        "completed": 83,
+        "CR": 50,
+        "CRPercent": 60.2
+      },
+      "pValue": null,
+      "CI": null,
+      "limits": [
+        "34 of 192 randomized participants are outside the reported completed-treatment denominator; final all-randomized comparison is unavailable. No protocol-defined per-protocol set is named.",
+        "No p-value, confidence interval, relative treatment effect, follow-up duration, or final organ preservation/function/survival result is supplied.",
+        "The primary composite mixes pathology-confirmed response after surgery and clinical response during nonoperative management.",
+        "Early CR and cCR do not establish durable organ preservation, local control, survival, functional benefit, or safety equivalence.",
+        "Current registry summary, enrollment field, and eligibility differ internally. Abstract high-risk prevalence and current eligibility also require historical reconciliation; eligibility includes lateral nodes while abstract high-risk list does not.",
+        "Only the most common G3-4 toxicity is available, not a complete adverse-event analysis."
+      ]
+    },
+    {
+      "trial": "TORCH-E2",
+      "action": "Pending; no reviewed numeric record",
+      "sources": [
+        "https://online.flippingbook.com/view/701322381/735/",
+        "https://online.flippingbook.com/view/701322381/736/",
+        "https://clinicaltrials.gov/study/NCT06462053"
+      ],
+      "reason": "原始ESTRO摘要标题/方法写帕博利珠单抗（pembrolizumab），TORCH-E2登记NCT06462053写特瑞普利单抗（toripalimab）；原始摘要未列NCT号。登记历史读取失败，未核实到勘误或修订，不能擅自替换药名或将两来源结局合并为已核实记录。摘要仅报告101例入组中的51例治疗完成者，非最终ITT；未命名PP集，未报告比较P值/CI或成熟器官保留随访。"
+    },
+    {
+      "trial": "TORCH-LE",
+      "action": "Pending protocol; no outcomes",
+      "sources": [
+        "https://journals.sagepub.com/doi/10.1177/11795549261475518",
+        "https://clinicaltrials.gov/study/NCT06455124",
+        "https://pubmed.ncbi.nlm.nih.gov/42571219/"
+      ],
+      "plannedN": 60,
+      "actualN": null,
+      "resultsPosted": false,
+      "discrepancies": [
+        {
+          "topic": "Tumor height",
+          "protocol": "Narrative <7 cm; Table 1 ≤7 cm.",
+          "registry": "≤7 cm.",
+          "resolution": "Record ≤7 cm per table/registry and disclose narrative boundary difference."
+        },
+        {
+          "topic": "Completion surgery",
+          "protocol": "Refusal or medical unfitness for TME.",
+          "registry": "Explicitly refusal of radical surgery.",
+          "resolution": "Do not imply registry independently verifies medically unfit-only eligibility."
+        },
+        {
+          "topic": "Margin and budding",
+          "protocol": "Positive margin or fragmentation; high-grade budding.",
+          "registry": "Positive or very close margin <1 mm; budding without grade requirement.",
+          "resolution": "Keep source-specific eligibility rather than merge as a verified single rule."
+        },
+        {
+          "topic": "Exclusions",
+          "protocol": "Detailed cardiac, GI, hepatic, stroke, autoimmune and malignancy exceptions.",
+          "registry": "Adds signet-ring histology, DPD deficiency, allergy and numeric laboratory thresholds; less detailed in other domains.",
+          "resolution": "Keep both source lists with provenance."
+        },
+        {
+          "topic": "Centers",
+          "protocol": "Four named Chinese hospitals.",
+          "registry": "Only Fudan University Shanghai Cancer Center listed.",
+          "resolution": "Describe multicenter protocol and single registered location separately."
+        },
+        {
+          "topic": "Surveillance",
+          "protocol": "Methods: colonoscopy q3 months in year 1; Discussion: q6 months throughout years 1–3.",
+          "registry": "No detailed surveillance schedule.",
+          "resolution": "Flag internal inconsistency; prefer Methods for an explicitly attributed schedule."
+        },
+        {
+          "topic": "Registration date",
+          "protocol": "Calls June 6, 2024 registration date.",
+          "registry": "June 6 first submission; June 12 first posting.",
+          "resolution": "Use precise registry date labels; both occur after start."
+        },
+        {
+          "topic": "Safety outcome",
+          "protocol": "All treatment-related AEs plus QoL.",
+          "registry": "Grade 3–4 adverse effects is the only listed safety endpoint; QoL absent.",
+          "resolution": "Do not claim all published endpoints were registered."
+        },
+        {
+          "topic": "Planning CI arithmetic",
+          "protocol": "95% planning CI 85.6%–98.9%, stated width 0.129.",
+          "calculation": "98.9% minus 85.6% = 13.3 percentage points (0.133).",
+          "resolution": "Flag numerical inconsistency; neither is an observed trial result."
+        },
+        {
+          "topic": "Reporting standard reference",
+          "protocol": "Methods claims SPIRIT 2025, but cited reference 33 is the SPIRIT 2013 explanation and elaboration.",
+          "resolution": "Minor bibliographic inconsistency, not a change in evidence maturity."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "conference_abstract",
+      "primary": true,
+      "title": "295RO Immunotherapy-based total neoadjuvant therapy with or without short-course radiotherapy for locally advanced rectal cancer: Updated results of TORCH-iTNT",
+      "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900519-3/fulltext",
+      "doi": "10.1016/j.annonc.2026.05.335",
+      "citation": "Annals of Oncology 2026;37(Suppl 1):S109",
+      "access": "Publisher-indexed full abstract retrieved through web search; direct page open returned HTTP 403. Abstract only, not a full paper."
+    },
+    {
+      "type": "trial_in_progress_conference_abstract",
+      "primary": true,
+      "title": "905eTiP TORCH-iTNT",
+      "url": "https://www.annalsofoncology.org/article/S0923-7534%2825%2902394-4/fulltext",
+      "doi": "10.1016/j.annonc.2025.08.1474",
+      "citation": "Annals of Oncology 2025;36(Suppl 2):S554-S555",
+      "access": "Publisher-indexed full abstract retrieved through web search."
+    },
+    {
+      "type": "conference_abstract",
+      "primary": true,
+      "title": "TORCH-iTNT preliminary results, abstract 3644",
+      "url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.3644",
+      "doi": "10.1200/JCO.2026.44.16_suppl.3644",
+      "citation": "Journal of Clinical Oncology 2026;44(16_suppl):3644",
+      "access": "Publisher-indexed abstract retrieved through web search."
+    },
+    {
+      "type": "conference_abstract",
+      "primary": true,
+      "title": "TORCH-iTNT initial results, abstract 168",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360301626009223",
+      "doi": "10.1016/j.ijrobp.2026.06.081",
+      "citation": "International Journal of Radiation Oncology Biology Physics 2026;126(1 Suppl):S76",
+      "publication_date": "2026-09-01",
+      "access": "Publisher-indexed full abstract retrieved through web search; direct page open returned HTTP 403."
+    },
+    {
+      "type": "conference_abstract",
+      "primary": true,
+      "title": "Poster Discussion 3594: Short-course radiotherapy followed by Pembrolizumab plus chemotherapy versus long-course chemoradiotherapy in early low rectal cancer (TORCH-E2)",
+      "url": "https://online.flippingbook.com/view/701322381/735/",
+      "citation": "ESTRO 2026 Abstract Book Part I, printed p. S727",
+      "access": "Original conference abstract book text retrieved successfully. Two-column extraction order mixes the previous abstract; only TORCH-E2 text attributed."
+    },
+    {
+      "type": "conference_abstract_continuation",
+      "primary": true,
+      "title": "TORCH-E2 abstract 3594 continuation",
+      "url": "https://online.flippingbook.com/view/701322381/736/",
+      "citation": "ESTRO 2026 Abstract Book Part I, printed p. S728",
+      "access": "Original abstract continuation retrieved successfully; TORCH-E2 results and conclusion appear after unrelated extracted text."
+    },
+    {
+      "type": "official_trial_registry_current",
+      "primary": true,
+      "url": "https://clinicaltrials.gov/study/NCT06281405",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06281405",
+      "last_update_posted": "2026-04-03",
+      "access": "Official API HTTP 200; no posted results.",
+      "sha256": "3dc3c8b77e565e3e47211feb06ee06a8e9a3bb2d9c1ba37c226d6bc936b13210"
+    },
+    {
+      "type": "official_trial_registry_current",
+      "primary": true,
+      "url": "https://clinicaltrials.gov/study/NCT06462053",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06462053",
+      "last_update_posted": "2024-06-17",
+      "access": "Official API HTTP 200; no posted results.",
+      "sha256": "a0b18ef1692025dc4c9f114ff04126261bd95f9c63374e4aaeea74f07c60a03e"
+    },
+    {
+      "id": "protocol",
+      "type": "original full-text protocol",
+      "url": "https://journals.sagepub.com/doi/10.1177/11795549261475518",
+      "verified": "Full abstract, Methods, Table 1, Discussion, Trial Status, ethics/funding, and references read through web tool.",
+      "license": "Creative Commons Attribution-NonCommercial 4.0; stated by publisher in Rights and permissions.",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "access_note": "Direct shell retrieval returned 403; public full-text web retrieval succeeded. No circumvention used."
+    },
+    {
+      "id": "registry",
+      "type": "official ClinicalTrials.gov study",
+      "url": "https://clinicaltrials.gov/study/NCT06455124",
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06455124",
+      "verified": "Official API JSON retrieved and saved locally as torch_le_registry.json.",
+      "checked_on": "2026-11-09",
+      "last_update_posted": "2024-06-13",
+      "status_verified": "2024-06"
+    },
+    {
+      "id": "pubmed",
+      "type": "official publication indexing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571219/",
+      "verified": "Title, DOI, date, journal, authors, PMID and PMCID verified from PubMed web result."
+    },
+    {
+      "id": "pmc",
+      "type": "original full-text repository link",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451741/",
+      "verified": false,
+      "access_note": "PMC returned browser verification rather than article text. Full text was instead verified at publisher."
+    }
+  ],
+  "sameStudyPublicationSequence": [
+    {
+      "source": "itnt_tip2025",
+      "role": "Design, no results"
+    },
+    {
+      "source": "itnt_asco2026",
+      "cutoff": "2025-12-31",
+      "completed": 137,
+      "A_completed": 65,
+      "B_completed": 72,
+      "CR_A": "24/65 (36.9%)",
+      "CR_B": "44/72 (61.1%)"
+    },
+    {
+      "source": "itnt_astro2026",
+      "cutoff": "2026-01-31",
+      "completed": 148,
+      "A_completed": 70,
+      "B_completed": 78,
+      "CR_A": "26/70 (37.1%)",
+      "CR_B": "48/78 (61.5%)",
+      "note": "Published later than ESMO, but its cutoff is earlier. Do not overwrite March data with this older snapshot or pool them."
+    },
+    {
+      "source": "itnt_esmo2026",
+      "cutoff": "2026-03-20",
+      "role": "Latest verified data cutoff, still abstract only"
+    }
+  ],
+  "historyAccess": {
+    "status": "Unavailable after bounded attempts",
+    "attempts": [
+      {
+        "url": "https://clinicaltrials.gov/study/NCT06281405?tab=history",
+        "outcome": "Web extraction unavailable"
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT06462053?tab=history",
+        "outcome": "Web extraction unavailable"
+      },
+      {
+        "url": "https://clinicaltrials.gov/api/int/studies/NCT06281405?history=true",
+        "outcome": "HTTP 403; no historical record retrieved"
+      },
+      {
+        "url": "https://clinicaltrials.gov/api/int/studies/NCT06462053?history=true",
+        "outcome": "HTTP 403; no historical record retrieved"
+      }
+    ],
+    "consequence": "Do not claim historical eligibility or drug-amendment reconciliation."
+  },
+  "latestEvidenceCheck": {
+    "cutoff": "2026-11-09",
+    "methods": [
+      "Exact trial aliases and NCT IDs via web search; publisher and official conference matches reviewed.",
+      "Exact alias/ID PubMed ESearch with publication date through 2026-11-09.",
+      "Alias/ID searches for correction, corrigendum, retraction and long-term follow-up; unrelated TORCH/TORCH-E cohorts excluded."
+    ],
+    "finding": "No verified subsequent full paper, mature follow-up, correction or retraction for these exact two trials was found. TORCH-iTNT has multiple overlapping conference snapshots, with March 20 the latest verified data cutoff. TORCH-E2 remains the ESTRO 2026 preliminary abstract plus conflicting current registry.",
+    "limitation": "Bounded negative search, not proof that no additional report exists; indexing and inaccessible publisher/history pages limit completeness."
+  },
+  "pubmedExactAliasIdCounts": {
+    "NCT06281405": 0,
+    "NCT06462053": 0
+  },
+  "existingRecordChanges": 0,
+  "countAfter": 102,
+  "chartsAfter": 122,
+  "pendingAfter": 15,
+  "limits": "This is a focused historical coverage check, not a repeat or extension of the completed daily broad search. Negative searches do not prove absence. No public registry contact payloads or local research paths are published."
+}

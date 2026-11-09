@@ -11678,5 +11678,137 @@
     },
     "resultCharts": [],
     "lastSourceFetchAt": "2026-11-08T00:33:25.135255+00:00"
+  },
+  {
+    "id": "torch-itnt",
+    "name": "TORCH-iTNT（ESMO GI 2026中期摘要）",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "pMMR局部晚期直肠癌 · 免疫化疗加用短程放疗",
+    "patientGroup": "pMMR局部晚期直肠癌，T3–4和/或N+、M0；中期治疗完成者158例中152例（96.2%）有摘要所列MRI/低位高危因素",
+    "molecular": "pMMR（登记为MSS/pMMR）",
+    "molecularTags": [
+      "mss"
+    ],
+    "line": "初治 / 新辅助治疗",
+    "design": "前瞻性、多中心、1:1随机、开放标签Ⅱ期；本次仅为治疗完成者中期分析，摘要未命名PP分析集",
+    "phase": "II",
+    "n": "192例已随机；截至2026-03-20完成治疗158例（A组75、B组83），不是最终ITT分析。计划96例/组不代替实际随机分组人数。",
+    "arms": [
+      "A：CAPOX＋特瑞普利单抗6周期，不预设新辅助放疗",
+      "B：短程放疗25 Gy/5次 → CAPOX＋特瑞普利单抗6周期"
+    ],
+    "primaryEndpoint": "复合完全缓解CR：手术后的pCR与采取观察等待的cCR。登记计划在手术或W&W决定后1个月评估；摘要未报告实际统一评估间隔。",
+    "results": [
+      "治疗完成者复合CR：A组28/75（37.3%），B组50/83（60.2%）；摘要未给出P值、置信区间或相对效应。",
+      "cCR并采取W&W：A组9例、B组27例；手术患者pCR：A组19/58（32.8%）、B组23/53（43.4%）。手术分母不能换成全部随机者。",
+      "非cCR且拒绝手术或接受进一步治疗者分别6例、2例；进展分别2例、1例。34/192名随机者未进入本次治疗完成者分析，不能将其推定为失访或治疗失败。",
+      "未报告成熟器官保留、功能、DFS或OS结果；早期CR与W&W人数不等于持久器官保留或生存获益。"
+    ],
+    "followup": "数据截止2026-03-20；中位随访未报告。后发表的ASTRO摘要截止2026-01-31，不能以发表较晚推定数据更成熟。",
+    "safety": "摘要仅报告最常见3–4级毒性血小板减少：A组13.3%、B组14.5%。安全性分母未单列，不据疗效分母换算人数；总体3–4级AE、免疫相关AE及治疗相关死亡未报告，不等于未发生。",
+    "limitations": "会议摘要而非完整论文；192例随机中仅158例完成治疗，缺少最终ITT及统计检验/CI，不能据作者的显著性措辞确认优效。复合CR混合术后病理与非手术临床评价，长期器官保留、功能、生存及完整安全性尚缺。当前登记摘要计划198例但结构化字段与2025方案摘要为192例；肛缘距离摘要≤12 cm、入组条目≤10 cm，登记还要求高危因素，无法借当前版本重建实际历史入组边界。登记历史未能读取。",
+    "practiceImpact": "两组均含CAPOX＋特瑞普利单抗，比较的是前置短程放疗，不是增加PD-1治疗的独立作用。观察到较高CR的描述性信号，尚不能确认持久器官保留或生存获益、也不能据此常规省略放疗。",
+    "status": "ESMO GI 2026原始会议摘要已核实；中期治疗完成者结果，非最终ITT或全文证据",
+    "publicationDate": "2026-07（期刊增刊；具体上线日未核实）",
+    "sources": [
+      {
+        "title": "ESMO GI 2026 295RO / Ann Oncol 37(Suppl 1):S109：更新中期结果，DOI 10.1016/j.annonc.2026.05.335（官方全文摘要索引核验；直开403）",
+        "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900519-3/fulltext",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ESMO 2025 905eTiP：TORCH-iTNT方案摘要，计划192例；DOI 10.1016/j.annonc.2025.08.1474",
+        "url": "https://www.annalsofoncology.org/article/S0923-7534%2825%2902394-4/fulltext",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ClinicalTrials.gov NCT06281405：官方API核验，最后更新2026-04-03，尚无公开发布结果",
+        "url": "https://clinicaltrials.gov/study/NCT06281405",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "ASTRO 2026摘要168，DOI 10.1016/j.ijrobp.2026.06.081：较晚发表但截止2026-01-31的较早重叠数据，不与ESMO队列合并",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360301626009223",
+        "accessedAt": "2026-11-09"
+      }
+    ],
+    "keywords": [
+      "TORCH-iTNT",
+      "NCT06281405",
+      "CAPOX",
+      "特瑞普利单抗",
+      "toripalimab",
+      "短程放疗",
+      "SCRT",
+      "免放疗",
+      "TNT",
+      "中期分析"
+    ],
+    "registryId": "NCT06281405",
+    "comparisonGroup": "局部晚期直肠癌 · 免疫联合",
+    "verifiedAt": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "lastSourceFetchDate": "2026-11-09",
+    "conclusion": "在158例治疗完成者中，加入短程放疗组的复合CR数值较高；缺少最终ITT、P值/CI及长期结局，不能确认优效或持久器官保留获益。两组都使用特瑞普利单抗，不能估算PD-1的独立增益。",
+    "evidenceLevel": "primary conference abstract; randomized phase II interim treatment-completer analysis",
+    "reviewStatus": "verified",
+    "changeNote": "定向补齐2026年既有会议摘要，不是11月新疗效读出。采用已核实的最新数据截止2026-03-20；不汇总同研究重叠ASCO/ASTRO摘要。",
+    "scheme": {
+      "population": "pMMR T3–4和/或N+、M0局部晚期直肠癌；具体历史入组边界未完全由当前登记重建",
+      "allocation": "随机1:1；两组均含CAPOX＋特瑞普利单抗，比较是否前置SCRT",
+      "arms": [
+        {
+          "label": "A：CAPOX＋特瑞普利单抗",
+          "steps": [
+            "CAPOX＋特瑞普利单抗6周期",
+            "cCR可观察等待，否则建议TME；2025方案摘要规定环周切缘阳性者可追加术后放化疗"
+          ]
+        },
+        {
+          "label": "B：SCRT → CAPOX＋特瑞普利单抗",
+          "steps": [
+            "短程放疗25 Gy/5次",
+            "CAPOX＋特瑞普利单抗6周期",
+            "cCR可观察等待，否则建议TME"
+          ]
+        }
+      ],
+      "primaryEndpoint": "CR＝手术pCR＋采取W&W的cCR；不是生存或持久器官保留终点",
+      "sourceUrl": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900519-3/fulltext"
+    },
+    "resultCharts": [
+      {
+        "title": "复合CR · 中期治疗完成者（非最终ITT）",
+        "type": "proportion",
+        "endpoint": "复合CR（pCR＋cCR/W&W）",
+        "timepoint": "截至2026-03-20；摘要未报告统一评估间隔",
+        "population": "158/192例完成治疗：A组75、B组83；摘要未命名PP分析集",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "A：CAPOX＋特瑞普利单抗",
+            "value": 37.3,
+            "n": 75,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "B：SCRT＋CAPOX＋特瑞普利单抗",
+            "value": 60.2,
+            "n": 83,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "分子分别28、50。仅本研究同一中期截止的完成治疗者；P值与CI未报告，不补算或据此确认优效；不是最终ITT、持久器官保留率或生存结果。",
+        "sourceUrl": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900519-3/fulltext",
+        "sourceDate": "2026-07"
+      }
+    ]
   }
 ]

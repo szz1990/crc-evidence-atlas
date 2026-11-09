@@ -181,7 +181,50 @@
         "issue": "2026-10-30",
         "source_review": "2026-11-09"
       }
+    },
+    {
+      "key": "torch-e2-drug-identity",
+      "title": "TORCH-E2 ESTRO 2026: primary-source drug discrepancy unresolved",
+      "candidateRegistryId": "NCT06462053",
+      "sources": [
+        "https://online.flippingbook.com/view/701322381/735/",
+        "https://online.flippingbook.com/view/701322381/736/",
+        "https://clinicaltrials.gov/study/NCT06462053"
+      ],
+      "sourceLevel": "Original ESTRO 2026 abstract and continuation plus official current registry verified; drug identity conflict unresolved.",
+      "reason": "原始ESTRO摘要标题/方法写帕博利珠单抗（pembrolizumab），TORCH-E2登记NCT06462053写特瑞普利单抗（toripalimab）；原始摘要未列NCT号。登记历史读取失败，未核实到勘误或修订，不能擅自替换药名或将两来源结局合并为已核实记录。摘要仅报告101例入组中的51例治疗完成者，非最终ITT；未命名PP集，未报告比较P值/CI或成熟器官保留随访。",
+      "dates": {
+        "conference": "ESTRO 2026",
+        "data_cutoff": "2025-11（具体日未报告）",
+        "registry_last_update": "2024-06-17",
+        "source_review": "2026-11-09"
+      },
+      "resolutionNeeded": "Original corrected abstract, public protocol amendment or subsequent primary report that verifies the administered PD-1 drug and connects the reported cohort to the registry."
+    },
+    {
+      "key": "torch-le-nct06455124",
+      "title": "TORCH-LE (NCT06455124): protocol only, clinical outcomes pending",
+      "sources": [
+        "https://journals.sagepub.com/doi/10.1177/11795549261475518",
+        "https://clinicaltrials.gov/study/NCT06455124",
+        "https://pubmed.ncbi.nlm.nih.gov/42571219/"
+      ],
+      "sourceLevel": "Original peer-reviewed full-text protocol and official registry verified; no trial outcome report or posted results.",
+      "reason": "仅研究方案：高危pT1或pT2早期低位MSS/pMMR直肠癌局切后，单臂Ⅱ期，计划60例。无实际入组或疗效/安全性结果，设计假设不能当作观察结局。登记仍列Recruiting但最后更新2024-06-13，预计完成日期已过不证明实际完成。方案与登记的入组边界、以及文内肠镜监测频率存在差异，留待澄清。",
+      "dates": {
+        "protocol_publication": "2026-08-07",
+        "registry_last_update": "2024-06-13",
+        "source_review": "2026-11-09"
+      },
+      "protocol": {
+        "plannedEnrollment": 60,
+        "actualEnrollment": null,
+        "design": "Prospective multicenter open-label single-arm phase II",
+        "regimen": "Post-local-excision SCRT 25 Gy/5 fractions, then four cycles of CapeOx + toripalimab",
+        "primaryEndpoint": "3-year local recurrence-free survival from treatment start to first pelvic recurrence",
+        "resultsPosted": false
+      }
     }
   ],
-  "lastReviewNote": "新增4条待完整核验线索；p53会议线索注册号未定，不推算或发布未核实疗效。既有临床结果未改，仅补充KRYSTAL-1相关美国监管适用性。"
+  "lastReviewNote": "另完成TORCH家族定向覆盖核查：iTNT以会议中期治疗完成者结果单列；E2药名冲突与LE无结果方案留待核验。此前13条待审线索保留。"
 }
