@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -100,14 +100,16 @@
         "https://www.sitcancer.org/blogs/keegan-mager/2026/11/07/sitc-2026-science-coverage-nov-6",
         "https://www.sitcancer.org/2026/abstracts/titles-and-publications",
         "https://jitc.bmj.com/content/14/Suppl_2",
-        "https://info.bmj.com/view/733231857/"
+        "https://info.bmj.com/view/733231857/",
+        "https://clinicaltrials.gov/study/NCT05194735?tab=results"
       ],
       "sourceLevel": "Official Nov7 conference recap verified; complete original abstract/poster unavailable.",
-      "reason": "Newly discovered conference backfill, not a new Nov7 efficacy readout. Mixed-tumor phase II interim includes CRC; verify original CRC denominator, response criteria, cutoff, confidence intervals and complete safety before inclusion. No numeric conclusions promoted. 2026-11-09身份复核：不能将该NCIⅡ期报告直接归于Alaunos NCT05194735；原始摘要注册号仍待核实。",
+      "reason": "Newly discovered conference backfill, not a new Nov7 efficacy readout. Mixed-tumor phase II interim includes CRC; verify original CRC denominator, response criteria, cutoff, confidence intervals and complete safety before inclusion. No numeric conclusions promoted. 2026-11-09身份复核：不能将该NCIⅡ期报告直接归于Alaunos NCT05194735；原始摘要注册号仍待核实。 2026-11-10登记复核：NCT05194735为已因资金/业务原因终止的AlaunosⅠ期混合实体瘤队列，8例接受输注，其中4例CRC；Ⅱ期未启动，首次结果发布于2025-11-10。登记说明数据库未完成全面清理、长期随访提前结束，不能作为上述NCIⅡ期报告或CRC特异疗效证据。",
       "dates": {
         "recap": "2026-11-07",
         "presentation": "2026-11-06",
-        "original_abstract_release": "Regular supplement generally released 2026-11-03; individual abstract metadata unverified."
+        "original_abstract_release": "Regular supplement generally released 2026-11-03; individual abstract metadata unverified.",
+        "registry_crosscheck": "2026-11-10"
       },
       "key": "sitc2026-553-p53-tcr"
     },
@@ -235,7 +237,67 @@
         "primaryEndpoint": "3-year local recurrence-free survival from treatment start to first pelvic recurrence",
         "resultsPosted": false
       }
+    },
+    {
+      "pmid": "43001364",
+      "title": "MRI, ERUS and FAPI PET/MRI after SCRT plus chemoimmunotherapy in pMMR LARC",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43001364/",
+        "https://www.tandfonline.com/doi/full/10.1080/14796694.2026.2760122"
+      ],
+      "sourceLevel": "Primary PubMed abstract verified; complete publisher text inaccessible.",
+      "reason": "Single-center retrospective surgical cohort; modalities assessed in unequal, partly overlapping subsets. Need complete selection and paired-comparison methods, confidence intervals and safety/context before curation. Diagnostic performance is not treatment efficacy and cannot establish safe omission of surgery.",
+      "dates": {
+        "first_online": "2026-11-09",
+        "source_review": "2026-11-10"
+      }
+    },
+    {
+      "pmid": "42525894",
+      "key": "find-nct05904665",
+      "title": "FIND randomized ctDNA-guided intensified surveillance after curative CRC surgery",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42525894/",
+        "https://ascopubs.org/doi/10.1200/JCO-25-03009",
+        "https://clinicaltrials.gov/study/NCT05904665"
+      ],
+      "sourceLevel": "Primary abstract and publisher publication chronology checked; publisher full text/PDF returned HTTP 403.",
+      "reason": "Historical coverage lead, not a new November readout. Need complete eligible/randomized/recurrence analysis denominators, follow-up, intervention pathway, confidence intervals, harms and limitations before inclusion. Earlier detection and receipt of curative-intent treatment do not establish an overall-survival benefit.",
+      "dates": {
+        "first_online": "2026-07-29",
+        "issue": "2026-11-10",
+        "source_review": "2026-11-10"
+      }
+    },
+    {
+      "pmid": "43000421",
+      "title": "Emergency laparoscopic versus open colonic resection: retrospective propensity-matched study",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43000421/",
+        "https://link.springer.com/article/10.1186/s13017-026-00721-y"
+      ],
+      "sourceLevel": "Full original publisher text checked; inconsistent open-surgery denominator prevents quantitative curation.",
+      "reason": "Historical August publication newly indexed. Mixed benign/malignant emergency cohort; abstract open-surgery count (377) conflicts with body (368), while total is 484. Matching and conversion groups require careful analysis-set extraction; residual confounding remains. Do not infer a randomized treatment advantage or generalize mixed-cohort outcomes to CRC.",
+      "dates": {
+        "first_online": "2026-08-10",
+        "source_review": "2026-11-10"
+      }
+    },
+    {
+      "key": "adg126-randomized-dose-nct05405595",
+      "title": "Muzastotug (ADG126) plus pembrolizumab randomized dose-optimization enrollment milestone",
+      "sources": [
+        "https://investor.adagene.com/news-releases/news-release-details/adagene-announces-completion-enrollment-randomized-dose",
+        "https://www.sec.gov/Archives/edgar/data/1818838/000110465926124143/tm2629316d1_ex99-1.htm",
+        "https://clinicaltrials.gov/study/NCT05405595"
+      ],
+      "sourceLevel": "Original sponsor announcement and SEC exhibit; enrollment milestone, not clinical results.",
+      "reason": "Sponsor reports completion of a 60-patient randomized dose-optimization cohort in late-line MSS CRC without liver metastases. Initial results are expected in the first half of 2027. No new efficacy/safety dataset; retain as follow-up lead only, separate from any prior nonrandomized cohorts.",
+      "dates": {
+        "announcement": "2026-11-09",
+        "source_review": "2026-11-10"
+      }
     }
   ],
-  "lastReviewNote": "补齐TORCH-C会议结果；E2官方V1历史已读取，但与原始会议药名仍冲突，保留待审。其余待审线索不改。"
+  "lastReviewNote": "日常检索未产生可完整核实的新临床结论；新增四条待审线索，共19条。保持会议摘要、登记、入组公告与全文证据的层级区分；既有研究不改。"
 }

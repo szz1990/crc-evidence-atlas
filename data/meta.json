@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-09",
+  "version": "2026-11-10",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-09T00:18:49Z",
+  "lastSourceFetchAt": "2026-11-10T00:51:21.227484+00:00",
   "lastClinicalVerificationAt": "2026-11-09",
   "curatedCount": 103,
-  "updateStatus": "Targeted TORCH-C conference backfill completed; TORCH-E2 public history checked, drug discrepancy remains pending",
+  "updateStatus": "Bounded source review completed; no verified clinical change; 103 studies and 123 charts retained",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -66,9 +66,14 @@
       "date": "2026-11-09",
       "type": "targeted-evidence-backfill",
       "note": "另行补齐TORCH-C局部晚期结肠癌ASCO 2026结果及ASTRO重复报告，严格区分随机120、mITT107、手术103分母；不将手术者pCR推为生存获益或全文证据。E2官方公开历史已读取，只有2024年V1且仍为toripalimab，会议药名冲突继续待审。库共103项研究、123张图；原102项未改，不推进当日全来源检索时间。"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "review",
+      "note": "检索23篇新索引文献、25项登记及1条历史勘误，并完成既有研究名称/注册号日期窗口核查；保留103项研究、123张结果图，既有临床数值与逐条核实日期不变。影像学评估、FIND、急诊手术及ADG126进展四条线索单独待审；FIND为7月在线发表后的11月刊期，入组完成公告不当作疗效结果。部分全文与会议增刊无法完整读取，未据未核实信息改写结论。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-09T00:18:49Z",
+  "lastSourceReviewAt": "2026-11-10T00:53:11.192700+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-09",
   "lastTargetedSourceReviewAt": "2026-11-09T12:29:31.805004+00:00"
