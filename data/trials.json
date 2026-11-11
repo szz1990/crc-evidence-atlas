@@ -11955,5 +11955,130 @@
         "sourceDate": "2026-05-27"
       }
     ]
+  },
+  {
+    "id": "precision",
+    "name": "PRECISION",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "可切除寡转移结直肠癌 · 围手术期ctDNA双检测",
+    "patientGroup": "≥20岁、ECOG 0–1，既往未接受转移灶治疗且影像学可完整切除的寡转移结直肠腺癌；可含两器官转移；118例合格，102例仅肝转移（86.4%）",
+    "molecular": "治疗前74基因ctDNA CGP（Guardant360）；不良基因谱定义为BRAF、KRAS、PIK3CA、SMAD4或TP53至少一项致病改变；术后约4周甲基化MRD（Guardant Reveal）",
+    "line": "可切除转移性疾病 / 围手术期",
+    "design": "多中心前瞻性观察研究；术前CGP前瞻检测，术后MRD回顾检测；非随机、非检测指导治疗试验",
+    "phase": "观察性",
+    "n": "130例入组；118例符合条件；110例根治切除；109例MRD可评估（1例在ACT开始后采样而排除）；20/118例与GALAXY重叠",
+    "arms": [
+      "单一观察队列：治疗前CGP → 临床决定NAC/根治切除 → 术后约4周MRD → 随访",
+      "按术前不良基因谱与术后MRD分层；NAC及ACT由临床决定，MRD结果未反馈治疗医生"
+    ],
+    "primaryEndpoint": "任何治疗前ctDNA检出率（Guardant360至少检出1个基因改变）；生存分层为探索性次要终点",
+    "results": [
+      "主要可行性终点：术前ctDNA检出114/118（96.6%）；不良基因谱75/118（63.6%）；术后MRD阳性34/109（31.2%）。",
+      "109例完整资料的多变量模型：不良基因谱与较短RFS相关，HR 3.28（95%CI 1.72–6.25）；MRD阳性HR 4.07（2.40–6.90）。模型同时纳入原发灶淋巴结状态。",
+      "双阳性28例 vs 基因谱最优/MRD阴性36例：中位RFS 4.9 vs 42.1个月，HR 13.28（95%CI 5.86–30.10）；此为非随机预后关联，不是治疗效果。",
+      "双阳性 vs 双阴性：TSF HR 8.98（95%CI 3.77–21.40），OS HR 9.21（2.06–41.18）；TSF定义为术后至不可切除复发或全因死亡。",
+      "高危双阳性亚组ACT分析经时间依赖Cox模型处理永生时间偏倚后，RFS HR 0.45（95%CI 0.18–1.23），不能确认或排除ACT获益，也不能据此取消ACT。"
+    ],
+    "followup": "根治切除110例中位随访30.5个月（范围6.4–42.7）；RFS/TSF/OS均从手术日起算",
+    "safety": "该报告未提供系统性不良事件或围手术期安全性结果；不能将未报告解释为无不良事件。无随机治疗组安全性比较。",
+    "limitations": "主要为可行性研究，生存分析未按治疗效应把握度设计；小样本非随机，治疗选择混杂；三组分层含事后合并，需外部验证。86.4%仅肝转移，不能直接外推低ctDNA释放的非肝转移；二元基因谱合并异质突变；20/118与GALAXY重叠，并非完全独立验证。",
+    "practiceImpact": "支持以术前基因谱＋术后MRD研究预后分层；不能证明检测指导治疗改善结局，或确认加用、停用辅助化疗的适应证。",
+    "conclusion": "双ctDNA检测提供探索性预后分层证据，不构成MRD指导治疗有效性的随机证据。",
+    "status": "已发表（历史补录）",
+    "publicationDate": "2026-10-28",
+    "sources": [
+      {
+        "title": "PRECISION原始全文，ESMO Open 2026；PMC13738285",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13738285/"
+      },
+      {
+        "title": "PubMed 42950585",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950585/"
+      },
+      {
+        "title": "原始出版 DOI 10.1016/j.esmoop.2026.108622",
+        "url": "https://doi.org/10.1016/j.esmoop.2026.108622"
+      }
+    ],
+    "keywords": [
+      "ctDNA",
+      "MRD",
+      "CGP",
+      "PRECISION",
+      "寡转移",
+      "观察性",
+      "预后",
+      "历史补录"
+    ],
+    "lastVerified": "2026-11-11",
+    "verifiedAt": "2026-11-11",
+    "registryId": "UMIN000042490",
+    "comparisonGroup": "可切除寡转移 · 围手术期ctDNA预后分层",
+    "evidenceLevel": "peer-reviewed observational study",
+    "reviewStatus": "verified",
+    "changeNote": "2026-11-11按原始全文历史补录；真实在线发表为2026-10-28，2026-11-10为厂商新闻而非新研究结果。明确130/118/110/109四层分母、与GALAXY重叠及非因果性质。",
+    "scheme": {
+      "population": "既往未治疗、可根治切除的寡转移结直肠癌；主要为肝转移",
+      "allocation": "单一前瞻性观察队列；无随机分配；MRD不用于治疗决定",
+      "arms": [
+        {
+          "label": "双检测观察路径",
+          "steps": [
+            "治疗前CGP（118例）",
+            "临床决定NAC；110例根治切除",
+            "术后约4周MRD（109例可评估）",
+            "临床决定ACT；按标志物分层观察RFS/TSF/OS"
+          ]
+        }
+      ],
+      "primaryEndpoint": "治疗前ctDNA检出率；生存关联为探索性次要终点",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13738285/"
+    },
+    "resultCharts": [
+      {
+        "title": "治疗前ctDNA检出率（主要可行性终点）",
+        "type": "proportion",
+        "endpoint": "ctDNA检出率",
+        "timepoint": "转移性疾病任何治疗前",
+        "population": "118例符合条件；114例检出ctDNA",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "单一观察队列",
+            "value": 96.6,
+            "n": 118,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "主要终点是检测可行性，不是治疗有效率；正文未给出该比例95%CI，未自行推算。",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13738285/",
+        "sourceDate": "2026-10-28"
+      },
+      {
+        "title": "双阳性与双阴性RFS预后关联",
+        "type": "hazard_ratio",
+        "endpoint": "RFS预后关联",
+        "timepoint": "术后；中位随访30.5个月",
+        "population": "109例MRD可评估中，双阳性28例 vs 基因谱最优/MRD阴性36例",
+        "unit": "HR",
+        "arms": [],
+        "hr": 13.28,
+        "hrCiLow": 5.86,
+        "hrCiHigh": 30.1,
+        "pValue": null,
+        "note": "同一研究内非随机标志物分层；非治疗效果。图2全局P值不能作为该两组HR的P值；未填入。",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13738285/",
+        "sourceDate": "2026-10-28"
+      }
+    ],
+    "molecularTags": [
+      "ctDNA/MRD"
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -164,7 +164,7 @@
         "https://www.sciencedirect.com/science/article/pii/S2468125326002608"
       ],
       "sourceLevel": "Primary indexed abstract identified; full text retrieval returned403.",
-      "reason": "Historical negative phaseIII evidence gap, not new Nov8 result. Need complete methods, analysis sets and safety verification before curation; retain reported95.44% CI level if later added.",
+      "reason": "Historical negative phase III evidence gap, not new Nov8 result. Need complete methods, analysis sets and safety verification before curation; retain reported95.44% CI level if later added.",
       "dates": {
         "first_online": "2026-09-23",
         "source_review": "2026-11-09"
@@ -297,7 +297,96 @@
         "announcement": "2026-11-09",
         "source_review": "2026-11-10"
       }
+    },
+    {
+      "pmid": "43005371",
+      "key": "fruq-folfiri-folfox-nct05634590",
+      "title": "Fruquintinib plus FOLFIRI/FOLFOX second-line RAS-mutant mCRC phase II",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43005371/",
+        "https://doi.org/10.1002/mco2.71137",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13745995/",
+        "https://clinicaltrials.gov/study/NCT05634590"
+      ],
+      "sourceLevel": "Full peer-reviewed manuscript retrieved through Europe PMC fullTextXML; current official registry checked.",
+      "reason": "42 treated,40 response-evaluable (one consent withdrawal and one early progression excluded). Table 2 combines a40-person header with survival estimates while methods define FAS/PPS without clearly mapping reported PFS to an analysis denominator. Registry last updated 2022-12-02 describes single-center planned 68 versus paper multicenter planned 43/actual 42; no updated public amendment verified. Keep unresolved rather than infer a PFS analysis set or reproduce cross-trial superiority claims. Supplement download returned HTML instead of DOCX.",
+      "dates": {
+        "first_online": "2026-11-08",
+        "source_review": "2026-11-11"
+      },
+      "resolutionNeeded": "Clear survival analysis population and protocol/amendment chronology; full supplementary material if it resolves those discrepancies."
+    },
+    {
+      "pmid": "43004518",
+      "title": "HAIP floxuridine after repeat local treatment for liver-only recurrent CRC",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43004518/",
+        "https://doi.org/10.1097/SLA.0000000000007247"
+      ],
+      "sourceLevel": "Original indexed abstract verified; full publisher article returned HTTP403.",
+      "reason": "Single-arm phase II, 45 patients; abstract reports failure of the prespecified 36-month hepatic disease-free survival hypothesis, with clinically relevant biliary toxicity. Preserve this negative lead. Full eligibility, analysis sets, endpoint/censoring methods and adverse-event detail remain unverified; do not present abstract results as a full-paper-reviewed record.",
+      "dates": {
+        "first_online": "2026-11-10",
+        "source_review": "2026-11-11"
+      }
+    },
+    {
+      "key": "ability1-mdna11-sitc2026-517",
+      "title": "ABILITY-1 MDNA11 SITC 2026 GI-cancer subgroup",
+      "sources": [
+        "https://ir.medicenna.com/static-files/89584888-1c9a-460a-a236-04d7252406a7",
+        "https://ir.medicenna.com/news-releases/news-release-details/medicenna-presents-ability-1-data-sitc-2026-showing-40-orr"
+      ],
+      "sourceLevel": "Original scientific presentation and sponsor chronology checked; conference-stage evidence.",
+      "reason": "Reported ORR pools 20 evaluable MSI-H or MSS/TMB-high GI patients across histologies and monotherapy/combination cohorts;8 responses include only 5 confirmed. The 40% figure is not CRC-specific. Require a CRC-specific denominator, confirmed-response accounting, timepoints and complete safety before curation. Nov 10 webinar is not first data release.",
+      "dates": {
+        "conference_presentation": "2026-11-07",
+        "press_release": "2026-11-09",
+        "source_review": "2026-11-11"
+      }
+    },
+    {
+      "pmid": "43004223",
+      "title": "Pretreatment T2WI AI prediction of response and prognosis in LARC",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43004223/",
+        "https://doi.org/10.1186/s12880-026-02649-w"
+      ],
+      "sourceLevel": "Primary indexed abstract screened; full methodological review not completed within this run.",
+      "reason": "Historical August retrospective development/validation study newly indexed. Moderate external discrimination and inconsistent DFS associations are exploratory; not evidence that imaging can safely replace surgery or guide a treatment change. Retain as lower-priority methodological lead.",
+      "dates": {
+        "first_online": "2026-08-11",
+        "source_review": "2026-11-11"
+      }
+    },
+    {
+      "pmid": "43004278",
+      "title": "SPLT totally laparoscopic versus laparoscopy-assisted left hemicolectomy",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43004278/",
+        "https://doi.org/10.1186/s12893-026-04139-w"
+      ],
+      "sourceLevel": "Primary indexed abstract screened; complete matched analysis and safety not reviewed.",
+      "reason": "Historical August retrospective 178-patient cohort newly indexed.45 versus133 are pre-matching counts; do not infer matched denominators, causal superiority or long-term oncological equivalence from short-term findings.",
+      "dates": {
+        "first_online": "2026-08-13",
+        "source_review": "2026-11-11"
+      }
+    },
+    {
+      "pmid": "43007602",
+      "title": "Comprehensive genomic profiling by RAS/BRAF status in mCRC",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43007602/",
+        "https://doi.org/10.1007/s11523-026-01272-7"
+      ],
+      "sourceLevel": "Primary indexed abstract screened; full eligible cohorts and denominators not verified.",
+      "reason": "Single-center retrospective CGP testing study. Actionable/discordant genomic findings do not establish clinical benefit from testing or a treatment regimen. Full plasma/tissue denominators and treatment-history confounding need review before quantitative curation.",
+      "dates": {
+        "first_online": "2026-11-10",
+        "source_review": "2026-11-11"
+      }
     }
   ],
-  "lastReviewNote": "日常检索未产生可完整核实的新临床结论；新增四条待审线索，共19条。保持会议摘要、登记、入组公告与全文证据的层级区分；既有研究不改。"
+  "lastReviewNote": "新增6条待审线索，共25条；包含全文分析集/登记差异、无法完整读取的阴性HAIP结果、混合瘤种会议亚组及低优先级观察性研究。PRECISION完整原文另行补录为历史观察性证据；既有103项不改。"
 }
