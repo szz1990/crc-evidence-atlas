@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -386,7 +386,82 @@
         "first_online": "2026-11-10",
         "source_review": "2026-11-11"
       }
+    },
+    {
+      "pmid": "42925880",
+      "key": "prabitas-schedule",
+      "title": "PRABITAS: simplified 14-day versus conventional 28-day FTD/TPI plus bevacizumab",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+        "https://doi.org/10.1016/S0140-6736(26)01782-4",
+        "https://jrct.mhlw.go.jp/en-latest-detail/jRCTs041230120"
+      ],
+      "sourceLevel": "Original PubMed abstract verified; complete Lancet paper, supplement and registry not available through attempted public routes.",
+      "reason": "Historical Oct 24 phase III noninferiority trial, not a Nov 11 new readout. 972 randomized but 970 analysed (14-day 484, 28-day 486); full eligibility, exact safety denominators, treatment-related deaths and per-protocol/sensitivity NI analysis remain to verify. Primary abstract establishes NI, not OS superiority. Hold complete curation rather than rely on secondary 970-randomized wording.",
+      "dates": {
+        "first_online": "2026-10-24",
+        "source_review": "2026-11-12"
+      }
+    },
+    {
+      "pmid": "43013573",
+      "title": "Initial 100 da Vinci single-port colorectal surgeries",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43013573/",
+        "https://doi.org/10.1097/SLE.0000000000001524"
+      ],
+      "sourceLevel": "Publisher and PubMed original abstract verified; full methods and safety not accessible.",
+      "reason": "Single-center retrospective 100-patient surgical case series, 72 colon/28 rectum, no randomized or concurrent comparator. Short-term feasibility cannot establish oncological equivalence or superiority to multiport robotics. Full eligibility, follow-up and complication details remain unverified.",
+      "dates": {
+        "first_online": "2026-11-11",
+        "source_review": "2026-11-12"
+      }
+    },
+    {
+      "pmid": "43013216",
+      "title": "Robotic TME 135-patient single-center oncological cohort",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43013216/",
+        "https://link.springer.com/article/10.1007/s13304-026-02915-0"
+      ],
+      "sourceLevel": "Publisher original abstract and metadata available; full article requires subscription.",
+      "reason": "Retrospective 135-patient single-arm cohort; no advantage of a CRM 5 mm threshold demonstrated. Full effect estimates, analysis denominators and safety unavailable; cannot infer robotic superiority or replace randomized surgery evidence.",
+      "dates": {
+        "first_online": "2026-11-11",
+        "source_review": "2026-11-12"
+      }
+    },
+    {
+      "key": "capecitabine-survival-correspondence-20261111",
+      "title": "Capecitabine survival letter and authors reply",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43012567/",
+        "https://pubmed.ncbi.nlm.nih.gov/43012550/",
+        "https://doi.org/10.1177/10781552261505873",
+        "https://doi.org/10.1177/10781552261505883"
+      ],
+      "sourceLevel": "PubMed letter metadata verified; no abstracts; publisher returned 403.",
+      "reason": "Full correspondence and the exact underlying cohort/consequence are unverified. Do not infer a correction, retraction or a change to reviewed capecitabine trial results from titles alone.",
+      "dates": {
+        "first_online": "2026-11-11",
+        "source_review": "2026-11-12"
+      }
+    },
+    {
+      "key": "nexera204-inca33890-mrd",
+      "title": "NEXERA-204 INCA33890 after resection and chemotherapy in ctDNA-positive MSS CRC",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07823322",
+        "https://www.natera.com/company/news/natera-announces-clinical-collaboration-with-incyte-on-interventional-phase-ii-study-in-colorectal-cancer/"
+      ],
+      "sourceLevel": "Official registry and Nov 10 sponsor protocol announcement checked; no results posted.",
+      "reason": "Single-arm phase II planned 40; ctDNA-positive stage II/III MSS CRC after curative resection and chemotherapy. Registry last updateSep 22 remains NOT_YET_RECRUITING with estimated dates. Collaboration or planned start does not establish enrollment, efficacy or safety; await actual results.",
+      "dates": {
+        "registry_last_update": "2026-09-22",
+        "announcement": "2026-11-10",
+        "source_review": "2026-11-12"
+      }
     }
   ],
-  "lastReviewNote": "新增6条待审线索，共25条；包含全文分析集/登记差异、无法完整读取的阴性HAIP结果、混合瘤种会议亚组及低优先级观察性研究。PRECISION完整原文另行补录为历史观察性证据；既有103项不改。"
+  "lastReviewNote": "新增5条待审线索，共30条：PRABITAS历史全文、两项单中心手术队列、卡培他滨来信/回复及NEXERA-204仅方案。原25条保留；腹膜转移ctDNA全文另行纳入，明确仅预后关联。"
 }

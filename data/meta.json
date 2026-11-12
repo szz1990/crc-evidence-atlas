@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-11",
+  "version": "2026-11-12",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-11T00:59:51.555969+00:00",
-  "lastClinicalVerificationAt": "2026-11-11",
-  "curatedCount": 104,
-  "updateStatus": "Bounded source review completed; one historical observational full-paper addition; 104 studies and 125 charts",
+  "lastSourceFetchAt": "2026-11-12T00:41:26.083132+00:00",
+  "lastClinicalVerificationAt": "2026-11-12",
+  "curatedCount": 105,
+  "updateStatus": "Bounded source review completed; one verified observational full-paper addition; 105 studies and 126 charts",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -76,9 +76,14 @@
       "date": "2026-11-11",
       "type": "evidence-backfill",
       "note": "检索58篇新索引文献、25项登记、4条勘误，并完成既有研究名称/注册号日期窗口核查。新增PRECISION的10月28日全文历史补录，明确130入组、118合格、110手术、109术后MRD可评价，且20例与GALAXY重叠；仅支持探索性预后关联，不证明检测指导治疗获益。共104项研究、125张图；原103项结论与数值未改。呋喹替尼联合化疗的分析集/登记差异、HAIP阴性结果全文及其他线索继续待审，未将未完整核实内容改写为治疗结论。"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "evidence",
+      "note": "检索39篇新索引文献、0项登记及1条勘误；既有研究名称/注册号13批检索共40次命中、33条去重记录。新增11月10日发表的腹膜转移CRS围手术期ctDNA观察队列，严格区分120例手术/87例纳入/83例术后检测及2–26周采样窗口，HR仅为未调整预后关联，不证明检测指导治疗获益。共105项研究、126张图；原104项结论与数值未改。PRABITAS为10月历史试验，因全文/完整安全性未核实留待补录，不将972例随机误写为970例随机。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-11T01:00:00.383891+00:00",
+  "lastSourceReviewAt": "2026-11-12T00:45:07.865654+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-09",
   "lastTargetedSourceReviewAt": "2026-11-09T12:29:31.805004+00:00"

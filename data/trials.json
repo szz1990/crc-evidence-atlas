@@ -12080,5 +12080,109 @@
     "molecularTags": [
       "ctDNA/MRD"
     ]
+  },
+  {
+    "id": "mdacc-crpm-perioperative-ctdna-2026",
+    "name": "MD Anderson CRPM：围手术期ctDNA队列",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "结直肠癌腹膜转移 · CRS前后ctDNA预后分层",
+    "patientGroup": "2021年1月至2025年10月在MD Anderson接受CRS±HIPEC的结直肠癌腹膜转移患者；120例手术患者中87例有至少一个指定围手术期ctDNA结果，含18例同步腹膜外转移及20例重复CRS。",
+    "molecular": "未按MMR或RAS筛选；5/87例dMMR，49/87例RAS突变；采用Signatera肿瘤知情ctDNA检测。",
+    "line": "围手术期 / 转移灶减瘤术后预后监测",
+    "design": "单中心回顾性观察队列；ctDNA来自前瞻性维护的INTERCEPT数据库；非随机，单变量Cox分析",
+    "phase": "观察性",
+    "n": "87/120例手术患者纳入；新辅助前34例、新辅助后/CRS前37例、CRS后83例、辅助治疗后10例可评估",
+    "arms": [
+      "同一手术队列按各时间点ctDNA阳性/阴性分层；非治疗分配。CRS后阳性30例、阴性53例。"
+    ],
+    "primaryEndpoint": "探索性预后关联：RFS、腹膜RFS（PRFS）及OS，均从CRS计时；原文未指定单一主要终点。",
+    "results": [
+      "新辅助前ctDNA阳性22/34（65%），排除4例同步腹膜外转移后为18/30（60%）；新辅助后/CRS前阳性10/37（27%）；CRS后阳性30/83（36%）。这些时间点分母不同，不能作为全队列连续清除率。",
+      "CRS后ctDNA阳性 vs 阴性：RFS HR 3.5（95%CI 2.1–5.9），P<0.001；PRFS HR 3.1（1.7–5.5），P<0.001；OS HR 6.7（2.3–19.7），P=0.001。均为未调整单变量预后关联。",
+      "CRS后ctDNA阳性组29/30（97%）出现复发，阴性组30/53（57%）出现复发；这是随访期间观察比例，不是固定时点KM风险估计，阴性不能排除复发。",
+      "新辅助后/CRS前ctDNA阳性 vs 阴性（10 vs 27例）：RFS HR 2.59（95%CI 1.06–6.34），P=0.037；PRFS HR 1.29（0.53–3.15），P=0.57。OS Cox HR 5.73（0.92–35.5），P=0.061，不能写为Cox检验显著；该OS比较的log-rank P=0.0356。",
+      "新辅助治疗前后配对22例中，18例基线阳性者有16例清除（89%）；CRS前后配对35例中，9例术前阳性者有3例清除（33%）。未证明ctDNA指导手术时机或辅助治疗可改善生存。"
+    ],
+    "followup": "中位26.2个月（95%CI 23.7–29.1）；CRS后检测规定为术后2–26周且辅助治疗前，实际中位7.7周（IQR 4.7–14）。",
+    "safety": "本研究未检验ctDNA指导的干预策略，也未提供可比较的治疗不良事件分析；不能据此推断省略、延后CRS或调整辅助治疗的安全性。",
+    "limitations": "单中心回顾性、选择性手术队列（87/120有ctDNA），多数低PCI（中位6）且92%达CC0；含腹膜外转移及重复CRS，非纯孤立腹膜转移。各时间点分母不同且样本少；检测/随访不标准，术后检测窗口宽而生存从CRS计时；MRD阳性者加强监测可带来检测偏倚。HR为未调整单变量关联，不能视为独立预测或治疗效果；无ctDNA指导策略随机比较。",
+    "practiceImpact": "提示CRPM术后ctDNA阳性可识别较高复发风险，但ctDNA低释放特征及阴性组仍高复发率限制排除能力；ctDNA指导CRS选择或治疗调整仍待前瞻性验证。",
+    "conclusion": "CRS后ctDNA阳性与较差RFS、PRFS及OS相关；这是预后证据，不证明ctDNA指导手术或系统治疗可获益。",
+    "status": "已发表",
+    "publicationDate": "2026-11-10",
+    "sources": [
+      {
+        "title": "原始开放获取全文：Brown等，Annals of Surgical Oncology（2026-11-10）",
+        "url": "https://link.springer.com/article/10.1245/s10434-026-20869-w"
+      },
+      {
+        "title": "原文表1：87例人群与治疗特征",
+        "url": "https://link.springer.com/article/10.1245/s10434-026-20869-w/tables/1"
+      },
+      {
+        "title": "原文表2：各时间点检测分母",
+        "url": "https://link.springer.com/article/10.1245/s10434-026-20869-w/tables/2"
+      },
+      {
+        "title": "PubMed PMID 43009710",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43009710/"
+      }
+    ],
+    "keywords": [
+      "ctDNA",
+      "CRPM",
+      "CRS",
+      "腹膜转移",
+      "Signatera",
+      "MRD",
+      "预后",
+      "观察性"
+    ],
+    "comparisonGroup": "腹膜转移 · CRS术后ctDNA预后关联",
+    "verifiedAt": "2026-11-12",
+    "lastVerified": "2026-11-12",
+    "registryId": null,
+    "evidenceLevel": "peer-reviewed observational study",
+    "reviewStatus": "verified",
+    "changeNote": "新增：2026-11-10原始全文及两张表完成核验；明确时间点分母、术后检测窗口、未调整关联及Cox/log-rank差异。",
+    "scheme": {
+      "population": "单中心2021–2025年CRPM手术患者120例中87例有指定时间点ctDNA；84例接受新辅助治疗，80例CC0、7例CC1，11例HIPEC。",
+      "allocation": "无随机分配；同一队列按实际检测时点的ctDNA状态进行观察性分层。",
+      "arms": [
+        {
+          "label": "CRPM手术队列（N=87）",
+          "steps": [
+            "新辅助治疗前ctDNA：N=34；个体化全身治疗，dMMR使用免疫治疗",
+            "新辅助后/CRS前ctDNA：N=37；CRS±HIPEC",
+            "CRS后2–26周、辅助治疗前ctDNA：N=83；阳性30、阴性53",
+            "临床个体化辅助治疗/监测；比较CRS起算的RFS、PRFS与OS"
+          ]
+        }
+      ],
+      "primaryEndpoint": "RFS：CRS至影像和/或活检证实任何部位复发；PRFS：CRS至腹膜复发；OS：CRS至任何原因死亡。未指定单一主要终点。",
+      "sourceUrl": "https://link.springer.com/article/10.1245/s10434-026-20869-w"
+    },
+    "resultCharts": [
+      {
+        "title": "CRS后ctDNA阳性/阴性：RFS预后关联",
+        "type": "hazard_ratio",
+        "endpoint": "RFS预后关联（未调整）",
+        "timepoint": "CRS后2–26周检测；RFS从CRS计时，中位随访26.2个月",
+        "population": "CRS后可评估83例：ctDNA阳性30例 vs 阴性53例；完整队列87例",
+        "unit": "HR",
+        "arms": [],
+        "hr": 3.5,
+        "hrCiLow": 2.1,
+        "hrCiHigh": 5.9,
+        "pValue": "<0.001",
+        "note": "同一研究内非随机标志物分层，单变量Cox HR；不是ctDNA指导干预的疗效，也不是固定时点绝对复发率。不重建KM曲线。",
+        "sourceUrl": "https://link.springer.com/article/10.1245/s10434-026-20869-w",
+        "sourceDate": "2026-11-10"
+      }
+    ],
+    "molecularTags": [
+      "ctDNA/MRD"
+    ]
   }
 ]
