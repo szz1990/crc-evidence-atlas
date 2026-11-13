@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-12",
+  "version": "2026-11-13",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-12T00:41:26.083132+00:00",
+  "lastSourceFetchAt": "2026-11-13T00:19:30.227842+00:00",
   "lastClinicalVerificationAt": "2026-11-12",
   "curatedCount": 105,
-  "updateStatus": "Bounded source review completed; one verified observational full-paper addition; 105 studies and 126 charts",
+  "updateStatus": "Bounded source review completed; no verified clinical change;105 studies and126 charts retained",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -81,9 +81,14 @@
       "date": "2026-11-12",
       "type": "evidence",
       "note": "检索39篇新索引文献、0项登记及1条勘误；既有研究名称/注册号13批检索共40次命中、33条去重记录。新增11月10日发表的腹膜转移CRS围手术期ctDNA观察队列，严格区分120例手术/87例纳入/83例术后检测及2–26周采样窗口，HR仅为未调整预后关联，不证明检测指导治疗获益。共105项研究、126张图；原104项结论与数值未改。PRABITAS为10月历史试验，因全文/完整安全性未核实留待补录，不将972例随机误写为970例随机。"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "review",
+      "note": "检索38篇新索引文献、52项登记和3条历史勘误/撤稿元数据；既有研究名称/注册号12批检索共183次命中、152条去重记录。审阅10条优先候选，保留105项研究、126张图及逐项临床核实日期。新增4条待审；内部数值矛盾、仅方案、模拟评估和业务更新不升级为已核实治疗结论。ATOMIC美国获批为10月8日已收录事件，不当作11月新读出。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-12T00:45:07.865654+00:00",
+  "lastSourceReviewAt": "2026-11-13T00:19:30.227842+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-09",
   "lastTargetedSourceReviewAt": "2026-11-09T12:29:31.805004+00:00"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -461,7 +461,63 @@
         "announcement": "2026-11-10",
         "source_review": "2026-11-12"
       }
+    },
+    {
+      "key": "chictr2500104302-sintilimab-tnt",
+      "title": "Sintilimab plus CAPOX induction versus consolidation around SCRT in pMMR/MSS LARC",
+      "sources": [
+        "https://www.frontiersin.org/journals/gastroenterology/articles/10.3389/fgstr.2026.1914389/full"
+      ],
+      "sourceLevel": "Original protocol full text reviewed; no clinical results.",
+      "reason": "Planned 36 patients; both groups contain sintilimab+CAPOX and 30 Gy/6 fractions. No immunotherapy-free comparator, efficacy or safety outcomes. Retrospective registration June 2025 after first enrollment December 2024. Do not treat design hypotheses as results.",
+      "dates": {
+        "first_online": "2026-11-12",
+        "source_review": "2026-11-13"
+      }
+    },
+    {
+      "pmid": "43017865",
+      "title": "CREATE versus conventional double-stapling for ultralow rectal cancer",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43017865/",
+        "https://doi.org/10.1097/DCR.0000000000004531"
+      ],
+      "sourceLevel": "Original PubMed abstract retrieved via EFetch; complete publisher article unavailable through attempted routes.",
+      "reason": "Retrospective multicenter PSM: 448 eligible, 168 matched (60 CREATE/108 conventional). Functional analysis restricted to stoma reversal and completed LARS questionnaires; exact timepoint denominators and full safety need verification. Early LARS association does not establish oncological noninferiority; no significant 24-month LARS difference.",
+      "dates": {
+        "first_online": "2026-11-12",
+        "source_review": "2026-11-13"
+      }
+    },
+    {
+      "pmid": "43015678",
+      "title": "Laparoscopic versus open sphincter-preserving rectal surgery: Fudan retrospective PSM cohort",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43015678/",
+        "https://link.springer.com/article/10.1186/s12885-026-16735-3",
+        "https://link.springer.com/content/pdf/10.1186/s12885-026-16735-3_reference.pdf"
+      ],
+      "sourceLevel": "Publisher article and reference PDF reviewed; unresolved internal denominators.",
+      "reason": "Historical August 12 first publication, not a new November readout. 9405 selected and 7738 matched (open4993/laparoscopic2745); main text and tables contain conflicting complication/mortality and temporary-stoma counts, denominators and percentages. Do not silently repair or curate numbers until reconciled. Anatomical sphincter preservation is not preserved continence or absence of LARS. Single-center retrospective association with temporal confounding and unequal followup.",
+      "dates": {
+        "first_online": "2026-08-12",
+        "source_review": "2026-11-13"
+      }
+    },
+    {
+      "pmid": "41726013",
+      "title": "CTRI/2021/05/033642: TNT versus conventional CRT interim randomized trial",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41726013/",
+        "https://doi.org/10.1007/s13193-025-02337-1"
+      ],
+      "sourceLevel": "Original PubMed abstract screened; full paper not reviewed this run.",
+      "reason": "Historical February 2026 publication surfaced by metadata update. 172 randomized (87/85), interim analysis150 (75/75). No primary pCR difference; exact pCR denominator, full safety and interim analysis plan require full-text verification before inclusion. Do not promote secondary 1-year distant-metastasis finding to mature survival superiority.",
+      "dates": {
+        "publication_issue": "2026-02",
+        "source_review": "2026-11-13"
+      }
     }
   ],
-  "lastReviewNote": "新增5条待审线索，共30条：PRABITAS历史全文、两项单中心手术队列、卡培他滨来信/回复及NEXERA-204仅方案。原25条保留；腹膜转移ctDNA全文另行纳入，明确仅预后关联。"
+  "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"
 }
