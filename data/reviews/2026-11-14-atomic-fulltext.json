@@ -1,0 +1,226 @@
+{
+  "type": "targeted-primary-source-verification",
+  "date": "2026-11-14",
+  "baseCommit": "73dfc48e4389f3be86b47071905245519e2a45a2",
+  "sourceFetchedAt": "2026-11-14T06:22:07.243723+00:00",
+  "reviewedAt": "2026-11-14T06:22:07.243723+00:00",
+  "clinicalVerificationDate": "2026-11-14",
+  "trialId": "atomic",
+  "added": 0,
+  "updated": 1,
+  "historicalEvidenceNotNewReadout": true,
+  "fullText": "Public author accepted manuscript corresponding to NEJM doi10.1056/NEJMoa2507874; acquired through Europe PMC fullTextXML and independently NCBI BioC XML.",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020640/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13020640/fullTextXML",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13020640/supplementaryFiles",
+    "https://pubmed.ncbi.nlm.nih.gov/41880612/"
+  ],
+  "supplementVerified": [
+    "TableS4 disposition",
+    "TableS7 treatment-related AE",
+    "FigureS3 OS",
+    "Supplementary methods,landmark and multiplicity"
+  ],
+  "eligibility": "R0,stageIII colon adenocarcinoma,anyT N1–2 M0;local IHC dMMR;age>=12;ECOG0–2;randomization within10weeks after surgery;one prior mFOLFOX6 cycle allowed.",
+  "denominators": {
+    "ITT": [
+      355,
+      357
+    ],
+    "exposureByRandomizedArm": [
+      350,
+      330
+    ],
+    "safetyByActualAtezolizumabExposure": [
+      346,
+      334
+    ],
+    "centralConfirmedMMR": 630,
+    "centralSubmitted": 689,
+    "posthocPP": 600,
+    "note": "Four randomized combination participants never received atezolizumab and entered control safety set."
+  },
+  "safety": {
+    "grade3to4AnyAECounts": [
+      291,
+      240
+    ],
+    "grade3to4TreatmentRelatedCounts": [
+      251,
+      206
+    ],
+    "grade5AE": [
+      6,
+      2
+    ],
+    "treatmentRelatedDeaths": [
+      2,
+      0
+    ],
+    "AEdiscontinuationCounts": [
+      62,
+      32
+    ],
+    "AEdiscontinuationRandomizedDenominator": [
+      355,
+      357
+    ],
+    "dispositionDeathOnTreatment": [
+      5,
+      2
+    ],
+    "note": "TableS4 death-on-treatment disposition and grade5 AE totals differ; do not substitute one for the other or merge endpoint definitions."
+  },
+  "efficacy": {
+    "DFSfollowupMonths": 40.9,
+    "DFS_HR": [
+      0.5,
+      0.35,
+      0.73
+    ],
+    "DFS_p": 0.0002,
+    "OSfollowupMonths": 45.8,
+    "OS_HR": [
+      0.9,
+      0.55,
+      1.47
+    ],
+    "OS_p": 0.6787,
+    "OSevents": [
+      31,
+      33
+    ]
+  },
+  "priorRecord": {
+    "id": "atomic",
+    "name": "ATOMIC / Alliance A021502",
+    "cancer": "结肠癌",
+    "setting": "术后辅助治疗",
+    "patientGroup": "已切除Ⅲ期dMMR结肠癌",
+    "molecular": "dMMR/MSI-H",
+    "line": "根治术后",
+    "design": "随机对照Ⅲ期，1:1",
+    "phase": "III",
+    "n": "712例：联合355例，化疗357例",
+    "arms": [
+      "阿替利珠单抗＋mFOLFOX6 6个月，再阿替利珠单抗6个月",
+      "mFOLFOX6 6个月"
+    ],
+    "primaryEndpoint": "DFS",
+    "results": "采用2026正式论文：3年DFS 86.3%（95%CI 81.8–89.8）vs 76.2%（70.9–80.6）；复发或死亡HR 0.50（95%CI 0.35–0.73），P<0.001。绝对差10.1个百分点。OS为次要终点，当前本条不作OS改善主张。",
+    "followup": "中位40.9个月",
+    "safety": "3–4级AE 84.1% vs 71.9%。",
+    "limitations": "仅适用于术后Ⅲ期dMMR；不能与NICHE-2术前单臂结果直接判优。2025会议数据与2026正文存在小幅数值更新，应保留版本区别。",
+    "practiceImpact": "成熟Ⅲ期随机证据；美国FDA已于2026-10-08批准阿替利珠单抗联合氟嘧啶及奥沙利铂用于Ⅲ期dMMR结肠癌辅助治疗。此为美国监管状态，不代表中国批准或指南推荐。",
+    "status": "正式论文已发表；美国FDA适应证2026-10-08获批",
+    "publicationDate": "2026-03-25",
+    "sources": [
+      {
+        "title": "ATOMIC正式论文，NEJM 2026",
+        "url": "https://www.nejm.org/doi/10.1056/NEJMoa2507874"
+      },
+      {
+        "title": "FDA批准通知，2026-10-08（美国）",
+        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer"
+      },
+      {
+        "title": "试验注册：NCT02912559",
+        "url": "https://clinicaltrials.gov/study/NCT02912559"
+      }
+    ],
+    "keywords": [
+      "dMMR",
+      "MSI-H",
+      "Ⅲ期",
+      "阿替利珠单抗",
+      "mFOLFOX6",
+      "免疫辅助治疗"
+    ],
+    "verifiedAt": "2026-11-02",
+    "registryId": "NCT02912559",
+    "category": "colon",
+    "comparisonGroup": "dMMR结肠癌 · 术后辅助免疫",
+    "conclusion": "Ⅲ期dMMR术后加用阿替利珠单抗显著改善DFS；尚不主张OS获益，监管结论限美国。",
+    "scheme": {
+      "population": "已切除Ⅲ期dMMR结肠癌",
+      "allocation": "随机对照Ⅲ期，1:1",
+      "arms": [
+        {
+          "label": "阿替利珠单抗＋mFOLFOX6 6个月，再阿替利珠单抗6个月",
+          "steps": [
+            "根治切除",
+            "阿替利珠单抗＋mFOLFOX6 6个月",
+            "阿替利珠单抗再6个月"
+          ]
+        },
+        {
+          "label": "mFOLFOX6 6个月",
+          "steps": [
+            "根治切除",
+            "mFOLFOX6 6个月",
+            "随访"
+          ]
+        }
+      ],
+      "primaryEndpoint": "DFS",
+      "sourceUrl": "https://www.nejm.org/doi/10.1056/NEJMoa2507874"
+    },
+    "resultCharts": [
+      {
+        "title": "3年DFS：dMMRⅢ期",
+        "type": "proportion",
+        "endpoint": "DFS",
+        "timepoint": "3年",
+        "population": "712例：联合355例，化疗357例",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "免疫＋化疗",
+            "value": 86.3,
+            "n": 355,
+            "ciLow": 81.8,
+            "ciHigh": 89.8
+          },
+          {
+            "label": "化疗",
+            "value": 76.2,
+            "n": 357,
+            "ciLow": 70.9,
+            "ciHigh": 80.6
+          }
+        ],
+        "hr": 0.5,
+        "hrCiLow": 0.35,
+        "hrCiHigh": 0.73,
+        "pValue": "<0.001",
+        "note": "组内比较；仅展示原文报告的估计值，不重建生存曲线。",
+        "sourceUrl": "https://www.nejm.org/doi/10.1056/NEJMoa2507874",
+        "sourceDate": "2026-03-25"
+      }
+    ],
+    "evidenceLevel": "随机研究/预设合并分析",
+    "reviewStatus": "verified",
+    "changeNote": "补充方案图、结果图和结论；保留原始来源及分母",
+    "molecularTags": [
+      "dmmr"
+    ]
+  },
+  "changes": "Existing primary DFS estimate confirmed; clinically important omissions completed, not a new outcome publication. Other104 records unchanged.",
+  "accessFailuresResolved": "PMC HTML/supplement direct links returned browser challenge; Europe PMC public full text/supplement endpoints succeeded; no CAPTCHA solved or access expanded.",
+  "validation": {
+    "validate": "passed105 trials/105 schemes/126 charts",
+    "build": "passed",
+    "javascriptSyntax": "passed",
+    "minimalDOMChecks": "passed105 detail renderings,search,empty search,version dialog,comparison",
+    "otherRecordsUnchanged": true,
+    "broadReviewCursorUnchanged": true,
+    "browserVisual": "not repeated; same-run Chromium blocked by socket() Operation not permitted; UI code unchanged"
+  },
+  "sourceFileSha256": {
+    "europepmc.xml": "2881d7632d4f79062ac48b9a50e0431250326691dcefe6633f75638fcef82264",
+    "ncbi.xml": "1a074ec6c79a05b69a2c1b0d6978a541c498a447a99e6fec60bc40938ca72276",
+    "supplement.pdf": "6c839261371b1d2111f423f48ffe59dc415815bc390ab85edad8fdf6395af516"
+  },
+  "sourceVersionReconciliation": "Accepted manuscript abstract lists DFS upper CI89.9 and P<0.0001, but body89.8/P0.0002. Final published PubMed abstract PMID41880612 confirms89.8/P<0.001. Preserve published abstract DFS estimates/chart P label; body P0.0002 explicitly attributed. No silent source conflation."
+}

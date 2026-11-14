@@ -5,7 +5,7 @@
   "trials": 105,
   "schemes": 105,
   "resultCharts": 126,
-  "clinicalVerificationDate": "2026-11-12",
+  "clinicalVerificationDate": "2026-11-14",
   "automaticReview": "enabled; scheduled review completed",
   "schedule": "Daily around 08:00 UTC+08:00",
   "configuredAt": "2026-11-03T11:33:55Z",
@@ -26,18 +26,18 @@
     "note": "No verified clinical changes;105 studies/126 charts retained. ATOMIC registry update repeats known results; preserve negative LARS and toxicity signals in pending leads.",
     "scope": "Date-granular overlap November13–14; all API pages consumed. Existing-study broad names generate false positives. Selective publisher/conference searches are not exhaustive."
   },
-  "sourceBaseCommit": "55f68300eca576c8a155f67e647096f76a274a4f",
-  "publicationMarker": "crc-2026-11-14-bounded-review",
+  "sourceBaseCommit": "73dfc48e4389f3be86b47071905245519e2a45a2",
+  "publicationMarker": "crc-2026-11-14-atomic-fulltext",
   "regulatoryVerificationDate": "2026-11-09",
   "targetedReview": {
-    "sourceFetchDate": "2026-11-09",
-    "reviewedAt": "2026-11-09T12:29:31.805004+00:00",
-    "candidatesReviewed": 2,
-    "addedConferenceRecords": 1,
+    "sourceFetchDate": "2026-11-14",
+    "reviewedAt": "2026-11-14T06:22:07.243723+00:00",
+    "candidatesReviewed": 1,
+    "added": 0,
+    "updatedExistingClinicalRecords": 1,
+    "clinicalChanges": 1,
     "newPendingEntries": 0,
-    "updatedPendingEntries": 1,
-    "totalPendingEntries": 15,
-    "note": "Historical TORCH-C conference evidence added with operated-only pCR denominator. TORCH-E2 public V1 history accessible but drug discrepancy unresolved. Prior 102 reviewed records and broad daily review cursor unchanged."
+    "note": "ATOMIC historical March2026 paper and supplement verified. DFS unchanged; OS, safety denominators, treatment-related deaths and discontinuation details completed. Broad daily review cursor and its summary unchanged."
   },
   "targetedReviewHistory": [
     {
@@ -48,6 +48,16 @@
       "newPendingEntries": 2,
       "totalPendingEntries": 15,
       "note": "Historical TORCH-iTNT conference response snapshot; TORCH-E2 drug identity unresolved; TORCH-LE protocol only. Existing 101 records unchanged. Broad daily source-review cursor not advanced."
+    },
+    {
+      "sourceFetchDate": "2026-11-09",
+      "reviewedAt": "2026-11-09T12:29:31.805004+00:00",
+      "candidatesReviewed": 2,
+      "addedConferenceRecords": 1,
+      "newPendingEntries": 0,
+      "updatedPendingEntries": 1,
+      "totalPendingEntries": 15,
+      "note": "Historical TORCH-C conference evidence added with operated-only pCR denominator. TORCH-E2 public V1 history accessible but drug discrepancy unresolved. Prior 102 reviewed records and broad daily review cursor unchanged."
     }
   ]
 }

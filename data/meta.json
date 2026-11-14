@@ -2,9 +2,9 @@
   "version": "2026-11-14",
   "publishedAt": "2026-11-03T11:31:53Z",
   "lastSourceFetchAt": "2026-11-14T00:42:12.077456+00:00",
-  "lastClinicalVerificationAt": "2026-11-12",
+  "lastClinicalVerificationAt": "2026-11-14",
   "curatedCount": 105,
-  "updateStatus": "Bounded source review completed; no verified clinical change; 105 studies and 126 charts retained",
+  "updateStatus": "Daily bounded review completed; targeted ATOMIC primary full-text and supplement verification completed; 105 studies and 126 charts retained",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -91,10 +91,15 @@
       "date": "2026-11-14",
       "type": "review",
       "note": "检索32篇新索引文献、32项登记和2条勘误/撤稿元数据，广泛检索另见3条完整性通知；既有研究12批共49次命中、43条去重记录。审阅9条优先候选，保留105项研究、126张图及逐条临床核实日期。4条线索单列待审，保留LARS主要评分阴性与elimusertib联合FOLFIRI毒性早停信号；登记业务更新不当作新疗效。部分全文及SITC增刊读取受限，未据摘要覆盖已审结论。"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "targeted-evidence-verification",
+      "note": "通过公开作者接受稿及补充附录完善ATOMIC历史证据。DFS数值不变，补全无显著OS获益、实际安全分母346/334、治疗相关3–4级毒性72.5%/61.7%、治疗相关死亡2/0及按随机分母报告的AE停药。非11月新读出，无新增研究；其余104项和当日全来源检索时间不改。"
     }
   ],
   "lastSourceReviewAt": "2026-11-14T00:42:12.077456+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
-  "lastTargetedSourceFetchDate": "2026-11-09",
-  "lastTargetedSourceReviewAt": "2026-11-09T12:29:31.805004+00:00"
+  "lastTargetedSourceFetchDate": "2026-11-14",
+  "lastTargetedSourceReviewAt": "2026-11-14T06:22:07.243723+00:00"
 }
