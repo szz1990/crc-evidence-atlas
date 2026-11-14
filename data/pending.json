@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -517,6 +517,69 @@
         "publication_issue": "2026-02",
         "source_review": "2026-11-13"
       }
+    },
+    {
+      "pmid": "43023689",
+      "title": "Colesevelam for major LARS: pilot randomized placebo-controlled crossover trial",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43023689/",
+        "https://doi.org/10.1093/bjsopen/zrag141"
+      ],
+      "sourceLevel": "Primary abstract verified; full publisher article inaccessible (HTTP 403), no PMC full-text identifier returned.",
+      "reason": "49 randomized but only36 per-protocol completers; LARS score did not significantly improve. Exploratory composite and BAM subset cannot replace the main negative result. Complete safety, prespecification, crossover carryover/period analysis and missing-data handling await full text.",
+      "dates": {
+        "pubmed_indexed": "2026-11-13",
+        "pubmed_publication_date": "2026-11-03",
+        "fetched": "2026-11-14T00:42:12.077456+00:00"
+      },
+      "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+    },
+    {
+      "pmid": "43021868",
+      "title": "Local excision versus ISR after nCRT: response-selected two-center cohort",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43021868/",
+        "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1936588/full"
+      ],
+      "sourceLevel": "Publisher full article and tables read.",
+      "reason": "Historical October29 paper newly indexed.367 patients,147 matched(LE56/ISR91); response selection not included in matching, overlap with prior106-patient cohort, no functional or permanent-stoma outcomes. Table4 labels a simultaneous-covariate model univariable; clarify Cox-model attribution and distinct log-rank/Cox P values before structured effect extraction. Non-significance does not establish equivalence.",
+      "dates": {
+        "first_online": "2026-10-29",
+        "fetched": "2026-11-14T00:42:12.077456+00:00"
+      },
+      "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+    },
+    {
+      "registryId": "NCT04895722",
+      "title": "KEYSTEP-008 pembrolizumab/quavonlimab versus pembrolizumab: historical registry results",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04895722?tab=results"
+      ],
+      "sourceLevel": "Complete public registry read; primary results June8,2026, not a November new readout.",
+      "reason": "302 randomized across treated/untreated cohorts. Prespecified any-AE and AE-discontinuation outcomes NOT_POSTED; SAE table is not equivalent. Last ORR comparison duplicates OG002/OG006 labels with a different estimate. Preserve uncertainty until safety and group mapping resolved.",
+      "dates": {
+        "results_first_posted": "2026-06-08",
+        "last_update_posted": "2026-11-13",
+        "fetched": "2026-11-14T00:42:12.077456+00:00"
+      },
+      "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+    },
+    {
+      "registryId": "NCT04535401",
+      "title": "Elimusertib plus FOLFIRI phase I: early closure for toxicity",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04535401?tab=results",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12183696/"
+      ],
+      "sourceLevel": "Historical2025 primary full paper and registry results read.",
+      "reason": "10 mixed-GI participants, only6 CRC; early termination for toxicity, MTD not established. Abstract reports4 DLT versus5 in text/patient table. Registry ORR/CBR nominal denominators differ from6 evaluable patients and some AE risk denominators are inconsistent. Retain negative signal; do not present mixed-cancer PFS as CRC-specific.",
+      "dates": {
+        "paper": "2025-01-22",
+        "results_first_posted": "2026-07-13",
+        "last_update_posted": "2026-11-13",
+        "fetched": "2026-11-14T00:42:12.077456+00:00"
+      },
+      "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
     }
   ],
   "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"
