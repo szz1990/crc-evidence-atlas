@@ -523,16 +523,22 @@
       "title": "Colesevelam for major LARS: pilot randomized placebo-controlled crossover trial",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/43023689/",
-        "https://doi.org/10.1093/bjsopen/zrag141"
+        "https://doi.org/10.1093/bjsopen/zrag141",
+        "https://oup.silverchair-cdn.com/article-minimal/9045596",
+        "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=379868&isReview=true"
       ],
-      "sourceLevel": "Primary abstract verified; full publisher article inaccessible (HTTP 403), no PMC full-text identifier returned.",
-      "reason": "49 randomized but only36 per-protocol completers; LARS score did not significantly improve. Exploratory composite and BAM subset cannot replace the main negative result. Complete safety, prespecification, crossover carryover/period analysis and missing-data handling await full text.",
+      "sourceLevel": "Publisher full text retrieved from observed public CDN redirect; complete supplementary DOCX and CONSORT checklist read. Original ANZCTR registration not accessible.",
+      "reason": "Overall LARS score remains negative(P=0.645),49 randomized/36 PP completers. Composite response was exploratory and unvalidated. Publisher abstract reports SF12-MCS+2.36 with95%CI0–10.25, whereas Table2 reports median3.46 with IQR0–10.25; do not relabel IQR as CI. Table1 sequence-sex counts conflict with percentages and total. TableS5 AE percentages imply36 completers but does not explicitly define safety denominator or grade distribution;13 randomized withdrawals include3 colesevelam and1 placebo constipation withdrawal. Original registration unavailable to verify prespecification and amendments. Retain pending rather than create a verified clinical record.",
       "dates": {
         "pubmed_indexed": "2026-11-13",
         "pubmed_publication_date": "2026-11-03",
-        "fetched": "2026-11-14T00:42:12.077456+00:00"
+        "fetched": "2026-11-14T00:42:12.077456+00:00",
+        "publisher_publication_date": "2026-11-13",
+        "publication_date_note": "Publisher November13 differs from PubMed day metadata November3; preserve provenance.",
+        "targeted_fetched": "2026-11-14T12:22:43.940706+00:00"
       },
-      "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+      "reviewedAt": "2026-11-14T12:22:43.940706+00:00",
+      "registryId": "ACTRN12620000755932"
     },
     {
       "pmid": "43021868",

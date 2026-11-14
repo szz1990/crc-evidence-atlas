@@ -1,0 +1,65 @@
+{
+  "type": "targeted-pending-source-review",
+  "date": "2026-11-14",
+  "baseCommit": "dbbe37d88f335fbfb310b2777598aa1c1d8e16ef",
+  "sourceFetchedAt": "2026-11-14T12:22:43.940706+00:00",
+  "reviewedAt": "2026-11-14T12:22:43.940706+00:00",
+  "candidate": "PMID43023689/ACTRN12620000755932",
+  "added": 0,
+  "updatedClinicalRecords": 0,
+  "pendingUpdated": 1,
+  "clinicalVerificationDateAdvanced": false,
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/43023689/",
+    "https://doi.org/10.1093/bjsopen/zrag141",
+    "https://oup.silverchair-cdn.com/article-minimal/9045596",
+    "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=379868&isReview=true"
+  ],
+  "fullTextAndSupplement": "Original publisher CDN full article and linked supplementary_data ZIP containing Supplementary_Materials.docx and CONSORT_2025_WoodfieldBAM.docx downloaded and read. No patient-level data published.",
+  "verifiedSourceDetails": {
+    "population": "Rectal cancer anterior resection after1999;bowel continuity restored;age18–85;major LARS>30 and loose/frequent stools.",
+    "design": "Double-blind randomized placebo-controlled two-period crossover,5weeks per treatment,6week washout.1:1 sequence randomization.",
+    "denominators": "289 screened,80 identified eligible,49 randomized,36 complete PP;18 completers in each sequence.19 SeHCAT-tested,16 with complete crossover data,17 with composite-response data.",
+    "primaryResult": "Table2 median LARS change0(IQR−5–0) versus0(IQR−3–0),P0.645;negative.",
+    "analysis": "All analyses described as PP;approximately2% score imputation;participant/period mixed model reported. Completer analysis not recast as49-person ITT.",
+    "composite": "12/36 versus3/36;unvalidated exploratory composite assembled from multiple outcomes. Not established primary efficacy or proven selection benefit.",
+    "safety": "13 withdrawals:7 during colesevelam,6 during placebo;constipation caused3 and1 respectively. SupplementTableS5 counts symptoms,not severe-AE grade-specific outcomes.",
+    "BAM": "8/19 tested positive;convenience geographic/funding subset,not prevalence estimate for allLARS. No confirmed subgroup efficacy."
+  },
+  "unresolved": [
+    "ANZCTR returned503 at www URL and403 at non-www;WHO ICTRP web record inaccessible. Cannot independently verify registration history and prespecified endpoints.",
+    "AbstractMCS+2.36/CI versusTable2+3.46/IQR discrepancy;no invented effect CI.",
+    "Table1 first sequence male6(67%),female12(33%) inconsistent with18-person denominator and totalmale25;no silent correction.",
+    "SupplementTableS4 chemotherapy23(72%) conflicts with23/36 and mainTable1 64%.",
+    "TableS5 safety denominator/grades and complete randomized-period exposure not explicitly defined."
+  ],
+  "decision": "Remain pending;no reviewed clinical conclusion overwritten. Primary-negative result retained.",
+  "priorPending": {
+    "pmid": "43023689",
+    "title": "Colesevelam for major LARS: pilot randomized placebo-controlled crossover trial",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/43023689/",
+      "https://doi.org/10.1093/bjsopen/zrag141"
+    ],
+    "sourceLevel": "Primary abstract verified; full publisher article inaccessible (HTTP 403), no PMC full-text identifier returned.",
+    "reason": "49 randomized but only36 per-protocol completers; LARS score did not significantly improve. Exploratory composite and BAM subset cannot replace the main negative result. Complete safety, prespecification, crossover carryover/period analysis and missing-data handling await full text.",
+    "dates": {
+      "pubmed_indexed": "2026-11-13",
+      "pubmed_publication_date": "2026-11-03",
+      "fetched": "2026-11-14T00:42:12.077456+00:00"
+    },
+    "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+  },
+  "validation": {
+    "validate": "passed",
+    "build": "passed",
+    "javascript": "node --check passed",
+    "uiLogic": "minimalDOM105details,search,emptysearch,history,comparison passed",
+    "clinicalDataUnchanged": true,
+    "browserVisual": "not repeated;earlier same-day socket permission block;UI code unchanged"
+  },
+  "sourceHashes": {
+    "minimal": "6ae42316b88166b6c93567a6a5c12dea06011a26658ff70140e2cdd7ee525212",
+    "supplement.zip": "9d6582736e23be3040cbdf3775f390679a4fca59356180e6a829680a14931242"
+  }
+}

@@ -26,18 +26,19 @@
     "note": "No verified clinical changes;105 studies/126 charts retained. ATOMIC registry update repeats known results; preserve negative LARS and toxicity signals in pending leads.",
     "scope": "Date-granular overlap November13–14; all API pages consumed. Existing-study broad names generate false positives. Selective publisher/conference searches are not exhaustive."
   },
-  "sourceBaseCommit": "73dfc48e4389f3be86b47071905245519e2a45a2",
-  "publicationMarker": "crc-2026-11-14-atomic-fulltext",
+  "sourceBaseCommit": "dbbe37d88f335fbfb310b2777598aa1c1d8e16ef",
+  "publicationMarker": "crc-2026-11-14-lars-pending-review",
   "regulatoryVerificationDate": "2026-11-09",
   "targetedReview": {
     "sourceFetchDate": "2026-11-14",
-    "reviewedAt": "2026-11-14T06:22:07.243723+00:00",
+    "reviewedAt": "2026-11-14T12:22:43.940706+00:00",
     "candidatesReviewed": 1,
     "added": 0,
-    "updatedExistingClinicalRecords": 1,
-    "clinicalChanges": 1,
+    "updatedExistingClinicalRecords": 0,
+    "clinicalChanges": 0,
     "newPendingEntries": 0,
-    "note": "ATOMIC historical March2026 paper and supplement verified. DFS unchanged; OS, safety denominators, treatment-related deaths and discontinuation details completed. Broad daily review cursor and its summary unchanged."
+    "updatedPendingEntries": 1,
+    "note": "LARS publisher full text and supplement obtained; registry inaccessible and reporting discrepancies unresolved. Retain pending. ATOMIC verification and all105 reviewed studies unchanged."
   },
   "targetedReviewHistory": [
     {
@@ -58,6 +59,16 @@
       "updatedPendingEntries": 1,
       "totalPendingEntries": 15,
       "note": "Historical TORCH-C conference evidence added with operated-only pCR denominator. TORCH-E2 public V1 history accessible but drug discrepancy unresolved. Prior 102 reviewed records and broad daily review cursor unchanged."
+    },
+    {
+      "sourceFetchDate": "2026-11-14",
+      "reviewedAt": "2026-11-14T06:22:07.243723+00:00",
+      "candidatesReviewed": 1,
+      "added": 0,
+      "updatedExistingClinicalRecords": 1,
+      "clinicalChanges": 1,
+      "newPendingEntries": 0,
+      "note": "ATOMIC historical March2026 paper and supplement verified. DFS unchanged; OS, safety denominators, treatment-related deaths and discontinuation details completed. Broad daily review cursor and its summary unchanged."
     }
   ]
 }

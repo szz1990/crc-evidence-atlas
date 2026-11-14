@@ -96,10 +96,15 @@
       "date": "2026-11-14",
       "type": "targeted-evidence-verification",
       "note": "通过公开作者接受稿及补充附录完善ATOMIC历史证据。DFS数值不变，补全无显著OS获益、实际安全分母346/334、治疗相关3–4级毒性72.5%/61.7%、治疗相关死亡2/0及按随机分母报告的AE停药。非11月新读出，无新增研究；其余104项和当日全来源检索时间不改。"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "targeted-pending-review",
+      "note": "LARS交叉试验的出版商正文及完整补充包已读取，总体LARS评分阴性。因登记原文不可访问、MCS摘要/表2及表1数字不一致、补充安全分母/分级不清，继续待审，不新增研究、不推进临床核实日期。保留105项研究和126张图。"
     }
   ],
   "lastSourceReviewAt": "2026-11-14T00:42:12.077456+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-14",
-  "lastTargetedSourceReviewAt": "2026-11-14T06:22:07.243723+00:00"
+  "lastTargetedSourceReviewAt": "2026-11-14T12:22:43.940706+00:00"
 }
