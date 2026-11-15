@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -586,6 +586,84 @@
         "fetched": "2026-11-14T00:42:12.077456+00:00"
       },
       "reviewedAt": "2026-11-14T00:42:12.077456+00:00"
+    },
+    {
+      "pmid": "43025422",
+      "title": "Targeting F.nucleatum with metronidazole plus tislelizumab and fruquintinib in MSS colorectal cancer: A multicenter phase 2 study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43025422/",
+        "https://doi.org/10.1016/j.ccell.2026.10.012",
+        "https://clinicaltrials.gov/study/NCT06356597"
+      ],
+      "sourceLevel": "PubMed primary abstract verified; full primary source not available for complete clinical verification.",
+      "reason": "Single-arm phase2 Fn-positive MSS mCRC,33 enrolled; abstract ORR19.4%/DCR83.9% lack explicit evaluable denominator and confidence intervals. CTgov NCT06356597 has no posted results. Full Cell/ScienceDirect/Elsevier responses are unavailable placeholders or403; EuropePMC has no full text/supplement. Do not infer31 evaluable, causal antimicrobial benefit or change practice.",
+      "dates": {
+        "pubmed_publication_metadata": "2026Nov13",
+        "fetched": "2026-11-15T00:58:59.765307+00:00"
+      },
+      "reviewedAt": "2026-11-15T00:58:59.765307+00:00",
+      "registryId": "NCT06356597"
+    },
+    {
+      "pmid": "43026201",
+      "title": "Predicting Blood Flow in Reconstructed Intestines Based on Abdominal Aortic Calcification and Clinical Effects of Left Colic Artery Preservation in Colorectal Cancer Surgery: A Subanalysis of the HiSCO-09 Study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43026201/",
+        "https://doi.org/10.1002/wjs.70672"
+      ],
+      "sourceLevel": "PubMed primary abstract verified; full primary source not available for complete clinical verification.",
+      "reason": "HiSCO-09 exploratory subanalysis of282,135 high aortic calcification. LCA-preservation subgroup may be confounded; exact subgroup denominators, adjusted estimates/CI and safety need full text. Wiley403; not established indication for vessel-preservation strategy.",
+      "dates": {
+        "pubmed_publication_metadata": "2026Nov13",
+        "fetched": "2026-11-15T00:58:59.765307+00:00"
+      },
+      "reviewedAt": "2026-11-15T00:58:59.765307+00:00"
+    },
+    {
+      "pmid": "43025066",
+      "title": "Factors associated with chemotherapy free interval (CFI) after induction chemotherapy in metastatic colorectal cancer (mCRC) based on a meta-analysis on ARCAD CRC database: The CFI-SCORE project.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43025066/",
+        "https://doi.org/10.1016/j.ejca.2026.118141"
+      ],
+      "sourceLevel": "PubMed primary abstract verified; full primary source not available for complete clinical verification.",
+      "reason": "CFI-SCORE individual-patient meta-analysis1188 across6 historical trials, modest discrimination0.56. Need full eligibility, six source trials/overlap, model specification, missingness, calibration and validation. Not proof that score-guided treatment breaks improve outcomes. Elsevier unavailable/ScienceDirect403.",
+      "dates": {
+        "pubmed_publication_metadata": "2026Nov09",
+        "fetched": "2026-11-15T00:58:59.765307+00:00"
+      },
+      "reviewedAt": "2026-11-15T00:58:59.765307+00:00"
+    },
+    {
+      "pmid": "43025264",
+      "title": "Efficacy and safety of cetuximab or capecitabine monotherapy as maintenance therapy in RAS/BRAF Wild-type metastatic colorectal cancer: a retrospective study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43025264/",
+        "https://doi.org/10.1016/j.ctarc.2026.101526"
+      ],
+      "sourceLevel": "PubMed primary abstract verified; full primary source not available for complete clinical verification.",
+      "reason": "Retrospective maintenance cohort162(cetuximab53/capecitabine27/observation82),not randomized. Need full adjusted HR/CI, time origin, confounding handling and grade-specific safety denominators. Nonsignificant agent comparison is not equivalence. Elsevier unavailable/ScienceDirect403.",
+      "dates": {
+        "pubmed_publication_metadata": "2026Nov06",
+        "fetched": "2026-11-15T00:58:59.765307+00:00"
+      },
+      "reviewedAt": "2026-11-15T00:58:59.765307+00:00"
+    },
+    {
+      "pmid": "43028790",
+      "title": "Secondary PRO analysis of TPB-informed multicomponent exercise during CRC systemic therapy",
+      "registryId": "ChiCTR2400087302",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43028790/",
+        "https://www.mdpi.com/2227-9032/14/21/3771"
+      ],
+      "sourceLevel": "Publisher full text and S1–S8 supplement read; original registry history inaccessible.",
+      "reason": "56 randomized;12week core outcomes observed28/27; secondary analysis co-primary designation not prespecified in parent trial,retrospective registration and attention imbalance. Core PRO estimates consistent, but stated grade3+chemotherapy AE by-group reporting not found in full text/supplement; original primary publication and full safety require verification. Not a multicenter-completed confirmatory result.",
+      "dates": {
+        "publication": "2026-11-04",
+        "fetched": "2026-11-15T00:58:59.765307+00:00"
+      },
+      "reviewedAt": "2026-11-15T00:58:59.765307+00:00"
     }
   ],
   "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"
