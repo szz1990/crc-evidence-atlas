@@ -26,19 +26,19 @@
     "note": "No verified clinical change.105 studies/126 charts retained. Potential Fn-targeted phase2 result remains pending full denominators/CI/safety verification.",
     "scope": "Inclusive November14–15 date window overlaps prior review. All returned API pages consumed; publisher and conference searches selective, not exhaustive."
   },
-  "sourceBaseCommit": "8eb00f3eb379fcba783380beb505acf0de3cdd88",
-  "publicationMarker": "crc-2026-11-15-bounded-review",
+  "sourceBaseCommit": "c73aa8ef866ac37af5157dbb58bfc992922f30a6",
+  "publicationMarker": "crc-2026-11-15-fn-registry-history",
   "regulatoryVerificationDate": "2026-11-09",
   "targetedReview": {
-    "sourceFetchDate": "2026-11-14",
-    "reviewedAt": "2026-11-14T12:22:43.940706+00:00",
+    "sourceFetchDate": "2026-11-15",
+    "reviewedAt": "2026-11-15T06:22:16.112781+00:00",
     "candidatesReviewed": 1,
     "added": 0,
     "updatedExistingClinicalRecords": 0,
     "clinicalChanges": 0,
     "newPendingEntries": 0,
     "updatedPendingEntries": 1,
-    "note": "LARS publisher full text and supplement obtained; registry inaccessible and reporting discrepancies unresolved. Retain pending. ATOMIC verification and all105 reviewed studies unchanged."
+    "note": "NCT06356597 historical registry changes verified; protocol timing/rationale and possible ChiCTR linkage unresolved. Pending only;daily review cursor and105 reviewed studies unchanged."
   },
   "targetedReviewHistory": [
     {
@@ -69,6 +69,17 @@
       "clinicalChanges": 1,
       "newPendingEntries": 0,
       "note": "ATOMIC historical March2026 paper and supplement verified. DFS unchanged; OS, safety denominators, treatment-related deaths and discontinuation details completed. Broad daily review cursor and its summary unchanged."
+    },
+    {
+      "sourceFetchDate": "2026-11-14",
+      "reviewedAt": "2026-11-14T12:22:43.940706+00:00",
+      "candidatesReviewed": 1,
+      "added": 0,
+      "updatedExistingClinicalRecords": 0,
+      "clinicalChanges": 0,
+      "newPendingEntries": 0,
+      "updatedPendingEntries": 1,
+      "note": "LARS publisher full text and supplement obtained; registry inaccessible and reporting discrepancies unresolved. Retain pending. ATOMIC verification and all105 reviewed studies unchanged."
     }
   ]
 }

@@ -1,0 +1,88 @@
+{
+  "type": "targeted-pending-registry-history-review",
+  "date": "2026-11-15",
+  "sourceBaseCommit": "c73aa8ef866ac37af5157dbb58bfc992922f30a6",
+  "sourceFetchedAt": "2026-11-15T06:22:16.112781+00:00",
+  "reviewedAt": "2026-11-15T06:22:16.112781+00:00",
+  "candidate": "PMID43025422/NCT06356597",
+  "added": 0,
+  "updatedClinicalRecords": 0,
+  "pendingUpdated": 1,
+  "clinicalVerificationDateAdvanced": false,
+  "sources": [
+    "https://clinicaltrials.gov/study/NCT06356597?tab=history&a=1#version-content-panel",
+    "https://clinicaltrials.gov/study/NCT06356597?tab=history&a=2#version-content-panel",
+    "https://www.chictr.org.cn/hvshowproject.html?id=269592&v=1.0",
+    "https://pubmed.ncbi.nlm.nih.gov/43025422/",
+    "https://doi.org/10.1016/j.ccell.2026.10.012",
+    "https://clinicaltrials.gov/study/NCT06356597"
+  ],
+  "registryHistory": {
+    "reviewedAt": "2026-11-15T06:22:16.112781+00:00",
+    "NCT06356597": {
+      "V1": {
+        "submitted": "2024-04-09",
+        "posted": "2024-04-10",
+        "primary": "ORR at3 and6months",
+        "enrollment": "25 estimated",
+        "FnCriterion": "deltaCT >= -22.24"
+      },
+      "V2": {
+        "submitted": "2026-02-22",
+        "posted": "2026-02-24",
+        "primary": "PFS",
+        "ORR": "secondary",
+        "enrollment": "33 actual",
+        "FnCriterion": "CT <35 with electrophoresis or Sanger confirmation"
+      },
+      "protocolId": "KY2024-004-A",
+      "protocolAttachments": "No protocol/SAP document attachment obtained from displayed Document Section"
+    },
+    "possibleRelatedRegistry": {
+      "id": "ChiCTR2500096485",
+      "status": "unconfirmed linkage",
+      "sourceAccess": "official-domain search-index V1 snapshot only;direct405",
+      "summary": "Indexed V1 dated2025-01-24: retrospective registration,25 planned,ORR primary; same ethics code and similar title/sites. These similarities do not establish an identical cohort."
+    },
+    "interpretation": "Registry change verified; protocol amendment timing/rationale and relation to outcome knowledge not verified. No misconduct inference."
+  },
+  "decision": "Retain pending. Do not replace reviewed clinical conclusions or infer response denominators. Need full paper,supplement,protocol/SAP and dated amendment explanation.",
+  "priorPending": {
+    "pmid": "43025422",
+    "title": "Targeting F.nucleatum with metronidazole plus tislelizumab and fruquintinib in MSS colorectal cancer: A multicenter phase 2 study.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/43025422/",
+      "https://doi.org/10.1016/j.ccell.2026.10.012",
+      "https://clinicaltrials.gov/study/NCT06356597"
+    ],
+    "sourceLevel": "PubMed primary abstract verified; full primary source not available for complete clinical verification.",
+    "reason": "Single-arm phase2 Fn-positive MSS mCRC,33 enrolled; abstract ORR19.4%/DCR83.9% lack explicit evaluable denominator and confidence intervals. CTgov NCT06356597 has no posted results. Full Cell/ScienceDirect/Elsevier responses are unavailable placeholders or403; EuropePMC has no full text/supplement. Do not infer31 evaluable, causal antimicrobial benefit or change practice.",
+    "dates": {
+      "pubmed_publication_metadata": "2026Nov13",
+      "fetched": "2026-11-15T00:58:59.765307+00:00"
+    },
+    "reviewedAt": "2026-11-15T00:58:59.765307+00:00",
+    "registryId": "NCT06356597"
+  },
+  "sourceLimitations": [
+    {
+      "source": "ChiCTR original V1",
+      "status": "405;official-domain search-index snapshot only"
+    },
+    {
+      "source": "WHO ICTRP",
+      "status": "403"
+    },
+    {
+      "source": "Cell/ScienceDirect/Elsevier full text",
+      "status": "still inaccessible;no full clinical verification possible"
+    }
+  ],
+  "validation": {
+    "validate": "passed",
+    "build": "passed",
+    "javascript": "node --check passed",
+    "uiLogic": "105details/search/history/comparison minimalDOM passed",
+    "browserVisual": "not repeated;earlier same-day socket permission block,UI source unchanged"
+  }
+}
