@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-15",
+  "version": "2026-11-16",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-15T00:58:59.765307+00:00",
+  "lastSourceFetchAt": "2026-11-16T00:54:10.974114+00:00",
   "lastClinicalVerificationAt": "2026-11-14",
   "curatedCount": 105,
   "updateStatus": "Bounded source review completed; no verified clinical change;105 studies and126 charts retained",
@@ -111,9 +111,14 @@
       "date": "2026-11-15",
       "type": "targeted-pending-review",
       "note": "定向核查Fn阳性MSS三联方案：NCT官方历史确认主要终点、计划/实际样本量及Fn筛选阈值在登记版本间变化。登记日期不等于实际方案修订日期，完整方案及统计计划未取得；继续待审，不作不当行为推断、不新增研究。105项研究和126张图保持不变。"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "review",
+      "note": "检索30篇新索引文献、0项登记及2条历史撤稿元数据；既有研究12批共24次命中、21条去重记录。审阅8条候选，保留105项研究、126张图和逐项临床核实日期。回顾性队列与全文不足线索保留待审，不将探索性关联或登记变化推为治疗获益。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-15T00:58:59.765307+00:00",
+  "lastSourceReviewAt": "2026-11-16T00:54:10.974114+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"

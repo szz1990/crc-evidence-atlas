@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -697,6 +697,80 @@
         "fetched": "2026-11-15T00:58:59.765307+00:00"
       },
       "reviewedAt": "2026-11-15T00:58:59.765307+00:00"
+    },
+    {
+      "pmid": "43034718",
+      "title": "Comprehensive characterisation of patients with colorectal cancer and permanently liver-limited disease.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43034718/",
+        "https://doi.org/10.1016/j.esmogo.2026.100434"
+      ],
+      "sourceLevel": "Primary abstract read;full clinical source unavailable",
+      "reason": "Retrospective1026 unresectable mCRC cohort; permanence of liver-only pattern depends on subsequent observation. Full methods,follow-up,genomic and immune subset denominators,estimates/CI not verified. Cannot infer local-treatment selection benefit. Elsevier195-byte Site Unavailable;EuropePMC no fulltext.",
+      "reviewedAt": "2026-11-16T00:54:10.974114+00:00",
+      "dates": {
+        "fetched": "2026-11-16T00:54:10.974114+00:00",
+        "pubmed_publication_metadata": "2026Dec"
+      }
+    },
+    {
+      "pmid": "43033460",
+      "title": "The Impact of Tumor Molecular Profile on Prognosis for Patients With Peritoneal Metastases From Colorectal Cancer Undergoing Cytoreductive Surgery and Hyperthermic Intraperitoneal Chemotherapy.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43033460/",
+        "https://doi.org/10.1002/jso.70454"
+      ],
+      "sourceLevel": "Primary abstract read;full clinical source unavailable",
+      "reason": "Retrospective159 CRS-HIPEC patients;73 documented mutations. Abstract supports adjusted RFS association but not independent OS association; heterogeneous mutation group, selection and confounding require full methods. PCI>15 label vs HR1.073 requires verification. Wiley403;complete morbidity and denominators unverified.",
+      "reviewedAt": "2026-11-16T00:54:10.974114+00:00",
+      "dates": {
+        "fetched": "2026-11-16T00:54:10.974114+00:00",
+        "pubmed_publication_metadata": "2026Nov14"
+      }
+    },
+    {
+      "pmid": "43033614",
+      "title": "Delayed diverting ileostomy reversal after sphincter-preserving rectal cancer surgery: Associated factors and early outcomes.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43033614/",
+        "https://doi.org/10.1016/j.amjsurg.2026.117366"
+      ],
+      "sourceLevel": "Primary abstract read;full clinical source unavailable",
+      "reason": "Retrospective243 patients who actually completed stoma reversal,not all diverted patients. Delay>6months associated with early outcomes; onset timing of stoma complications unreliable. Full adjusted estimates/CI,30day safety and denominators unverified. No causal benefit of earlier reversal inferred. Elsevier Site Unavailable.",
+      "reviewedAt": "2026-11-16T00:54:10.974114+00:00",
+      "dates": {
+        "fetched": "2026-11-16T00:54:10.974114+00:00",
+        "pubmed_publication_metadata": "2026Nov09"
+      }
+    },
+    {
+      "title": "Immune checkpoint inhibitor plus chemotherapy and bevacizumab in MSS/pMMR metastatic colorectal cancer: retrospective cohort",
+      "sources": [
+        "https://www.wjgnet.com/1948-5204/full/v18/i11/124022.htm",
+        "https://f6publishing.blob.core.windows.net/52e6242c-5520-474d-ab52-d17d0082bfe9/124022-supplementary-material.pdf"
+      ],
+      "sourceLevel": "Publisher full text and supplement read",
+      "reason": "123patients(31ICI/92control),PSM31/62. PFS association attenuates after liver-metastasis adjustment:HR0.604(95%CI0.345–1.057),P=.078;OS HR0.741(0.402–1.366),P=.336. Grade3+AE5/31vs16/92 uses unmatched safety denominator. Treatment-related death/discontinuation not found;mixed drugs/lines,selection/confounding. Low-priority pending,not confirmatory benefit.",
+      "reviewedAt": "2026-11-16T00:54:10.974114+00:00",
+      "dates": {
+        "publication": "2026-11-15",
+        "fetched": "2026-11-16T00:54:10.974114+00:00"
+      }
+    },
+    {
+      "pmid": "43032143",
+      "title": "Differences in treatment and outcomes between young and older patients with colorectal cancer liver metastases: an AmCORE-based study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43032143/",
+        "https://doi.org/10.1016/j.esmogo.2026.100435"
+      ],
+      "sourceLevel": "Final publication abstract verified;fulltext unavailable",
+      "reason": "Single-center retrospective351(31/164/156byage). PFS P=.019,OS P=.22;complete eligibility,time origin,followup,effectCI,safety and adjustment unavailable. Do not infer chemotherapy inefficacy or causal age effect. Earlier preprint OS P=.34 differs and cannot substitute for final paper.",
+      "reviewedAt": "2026-11-16T00:54:10.974114+00:00",
+      "dates": {
+        "onlinePublication": "2026-11-09",
+        "fetched": "2026-11-16T00:54:10.974114+00:00"
+      }
     }
   ],
   "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"
