@@ -12206,5 +12206,177 @@
     "molecularTags": [
       "ctDNA/MRD"
     ]
+  },
+  {
+    "id": "danis-3-registry",
+    "name": "daNIS-3：NIS793±替雷利珠单抗（二线；登记结果）",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "不可根治切除转移性结直肠癌 · 二线",
+    "patientGroup": "成人不可根治切除转移性结直肠腺癌，既往一线治疗期间或末次给药后6个月内进展；RECIST 1.1可测量病灶，ECOG 0–1。",
+    "molecular": "排除MSI-H/dMMR及BRAF V600突变；排除既往免疫或TGF-β靶向治疗。",
+    "line": "二线",
+    "design": "开放标签多中心Ⅱ期平台；安全导入后随机扩展；提前终止，最终描述性分析",
+    "phase": "II期",
+    "n": "202例：安全导入40例，随机扩展162例（80/29/53）",
+    "arms": [
+      "NIS793＋SoC，扩展FAS 80例",
+      "NIS793＋替雷利珠单抗＋SoC，扩展FAS 29例，仅FOLFIRI骨干",
+      "SoC：贝伐珠单抗＋FOLFIRI或mFOLFOX6，扩展FAS 53例"
+    ],
+    "primaryEndpoint": "安全导入：首周期28天DLT；扩展：研究者按RECIST 1.1评估的PFS，自随机化至进展或全因死亡。",
+    "results": [
+      "随机扩展FAS按NIS793＋SoC / NIS793＋替雷利珠单抗＋SoC / SoC顺序，中位PFS为5.1（95%CI 3.6–5.7）/3.7（2.2–5.6）/7.4（5.5–9.4）个月。登记未提供组间HR或P值，不作显著优效或劣效判断。",
+      "ORR分别8.8%（95%CI 3.6–17.2）/13.8%（3.9–31.7）/15.1%（6.7–27.6）；分母80/29/53。",
+      "中位OS为12.8（95%CI 8.0–14.2）/10.9（6.1–不可估）/不可估（11.6–不可估）个月。",
+      "2023年7月31日暂停NIS793及替雷利珠单抗，8月3日列为紧急安全措施；登记称mCRC获益/风险不利。患者可继续SoC；2025年1月20日完成，2026年11月16日首次公开结果。"
+    ],
+    "followup": "登记PFS/ORR结果时间框架约11个月，OS最长2年；未报告总体中位随访，不将时间框架当作中位随访。",
+    "safety": "扩展安全集按实际骨干分组：NIS＋FOLFIRI（n=65）AE 65、SAE 32、AE致停药19；NIS＋mFOLFOX6（n=15）14/6/5；NIS＋替雷利珠单抗＋FOLFIRI（n=29）26/9/5；SoC FOLFIRI（n=46）45/14/9；SoC mFOLFOX6（n=7）7/3/3。两个误随机患者按实际治疗计入安全组。各扩展组Fatal SAEs终点均0，但不能等同于零全因死亡或独立治疗归因死亡结论。缺少完整≥3级汇总；非严重AE列表空且计数0，与总体AE非零不同，不能解释为无非严重AE。",
+    "limitations": "登记结果，非同行评议；提前终止及停药后继续SoC影响估计。SAP规定描述性分析，不做正式假设检验；治疗策略分析纳入停药后事件，连续≥2次缺失/不充分评估后事件按前次充分评估删失。合并随机对照骨干，三药实验臂仅FOLFIRI；开放标签研究者评估。无组间HR/P值和完整分级/归因安全汇总。2023年安全事件不是2026年新发生事件。",
+    "practiceImpact": "不支持二线加用NIS793±替雷利珠单抗作为标准治疗；保留负面及提前终止研究，不能仅按中位数推断显著劣效或外推所有TGF-β药物。",
+    "conclusion": "登记描述性结果未显示加用NIS793±替雷利珠单抗的获益；研究因不利获益/风险提前终止，不能据此推荐临床使用。",
+    "status": "登记结果；提前终止",
+    "publicationDate": "2026-11-16",
+    "sources": [
+      {
+        "title": "ClinicalTrials.gov：首次公开结果（2026-11-16）",
+        "url": "https://clinicaltrials.gov/study/NCT04952753?tab=results"
+      },
+      {
+        "title": "完整官方登记API（方案、各分析分母及安全表）",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04952753"
+      },
+      {
+        "title": "公开试验方案（2024-03-11）",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04952753/Prot_004.pdf"
+      },
+      {
+        "title": "统计分析计划（2025-01-24），第41–43页",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04952753/SAP_005.pdf"
+      }
+    ],
+    "keywords": [
+      "daNIS-3",
+      "NIS793",
+      "TGF-β",
+      "替雷利珠单抗",
+      "阴性",
+      "登记结果",
+      "提前终止"
+    ],
+    "comparisonGroup": "MSS/pMMR转移性 · 二线免疫/靶向联合探索",
+    "verifiedAt": "2026-11-17",
+    "lastVerified": "2026-11-17",
+    "registryId": "NCT04952753",
+    "evidenceLevel": "registry results; randomized phase II expansion; descriptive analysis",
+    "reviewStatus": "verified",
+    "changeNote": "首次登记结果核验；读取完整结果、公开方案及SAP，明确提前终止、FAS/安全分母及描述性边界。",
+    "scheme": {
+      "population": "二线不可根治切除mCRC，ECOG 0–1；排除MSI-H/dMMR、BRAF V600突变",
+      "allocation": "安全导入40例；随机扩展162例，最终只做描述性分析",
+      "arms": [
+        {
+          "label": "NIS793＋SoC（80例）",
+          "steps": [
+            "分配相应方案",
+            "2023年NIS793/替雷利珠单抗停药；允许继续SoC",
+            "按RECIST 1.1评估PFS并随访OS"
+          ]
+        },
+        {
+          "label": "NIS793＋替雷利珠单抗＋SoC（29例）",
+          "steps": [
+            "分配相应方案",
+            "2023年NIS793/替雷利珠单抗停药；允许继续SoC",
+            "按RECIST 1.1评估PFS并随访OS"
+          ]
+        },
+        {
+          "label": "SoC（53例）",
+          "steps": [
+            "分配相应方案",
+            "2023年NIS793/替雷利珠单抗停药；允许继续SoC",
+            "按RECIST 1.1评估PFS并随访OS"
+          ]
+        }
+      ],
+      "primaryEndpoint": "扩展期研究者评估PFS",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT04952753?tab=results"
+    },
+    "resultCharts": [
+      {
+        "title": "daNIS-3随机扩展：中位PFS（登记结果）",
+        "type": "median",
+        "endpoint": "PFS",
+        "timepoint": "登记观察框架约11个月；不是中位随访",
+        "population": "扩展FAS 162例：80/29/53",
+        "unit": "months",
+        "arms": [
+          {
+            "label": "NIS＋SoC",
+            "value": 5.1,
+            "n": 80,
+            "ciLow": 3.6,
+            "ciHigh": 5.7
+          },
+          {
+            "label": "NIS＋TISLE＋SoC",
+            "value": 3.7,
+            "n": 29,
+            "ciLow": 2.2,
+            "ciHigh": 5.6
+          },
+          {
+            "label": "SoC",
+            "value": 7.4,
+            "n": 53,
+            "ciLow": 5.5,
+            "ciHigh": 9.4
+          }
+        ],
+        "hr": null,
+        "pValue": null,
+        "note": "95%CI；仅描述性，未提供HR/P值。提前终止；三药臂仅FOLFIRI，其他臂合并骨干。不能据中位数/点估计判断显著差异。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT04952753?tab=results",
+        "sourceDate": "2026-11-16"
+      },
+      {
+        "title": "daNIS-3随机扩展：ORR（登记结果）",
+        "type": "proportion",
+        "endpoint": "ORR",
+        "timepoint": "登记观察框架约11个月；不是中位随访",
+        "population": "扩展FAS 162例：80/29/53",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "NIS＋SoC",
+            "value": 8.8,
+            "n": 80,
+            "ciLow": 3.6,
+            "ciHigh": 17.2
+          },
+          {
+            "label": "NIS＋TISLE＋SoC",
+            "value": 13.8,
+            "n": 29,
+            "ciLow": 3.9,
+            "ciHigh": 31.7
+          },
+          {
+            "label": "SoC",
+            "value": 15.1,
+            "n": 53,
+            "ciLow": 6.7,
+            "ciHigh": 27.6
+          }
+        ],
+        "hr": null,
+        "pValue": null,
+        "note": "95%CI；仅描述性，未提供HR/P值。提前终止；三药臂仅FOLFIRI，其他臂合并骨干。不能据中位数/点估计判断显著差异。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT04952753?tab=results",
+        "sourceDate": "2026-11-16"
+      }
+    ]
   }
 ]

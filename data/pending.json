@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -771,6 +771,50 @@
         "onlinePublication": "2026-11-09",
         "fetched": "2026-11-16T00:54:10.974114+00:00"
       }
+    },
+    {
+      "pmid": "43037856",
+      "title": "Prognostic Significance of Pretreatment Lateral Pelvic Lymph Node Enlargement After Nonoperative Management for Rectal Cancer.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43037856/",
+        "https://doi.org/10.1245/s10434-026-20921-9"
+      ],
+      "sourceLevel": "Primary source reviewed; clinical verification incomplete",
+      "reason": "77例NOM回顾性队列，17例基线LPLN≥7mm；DMFS关联但事件仅9例，LRFS未显著不等于等效。Springer仅摘要/订阅预览，公开补充表已读且1例治疗后仍14mm；NOM准入、完整调整及安全性待正文，不推侧方清扫或强化治疗获益。",
+      "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
+    },
+    {
+      "pmid": "43037271",
+      "title": "UICC TNM 9th Edition Updates: Cancers of the Colon and Rectum.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43037271/",
+        "https://doi.org/10.1002/ijc.70767"
+      ],
+      "sourceLevel": "Primary source reviewed; clinical verification incomplete",
+      "reason": "UICC-9.1.2027修订摘要已读，Wiley正文/PDF403；确切生效日期、低位直肠定义、腹股沟结限定及TD算法未核实。2026年1月指旧第9版，不得套用本修订或外推AJCC/中国已实施。",
+      "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
+    },
+    {
+      "pmid": "43037074",
+      "title": "Eligibility and real-world use of adjuvant chemotherapy in colon cancer: a Dutch nationwide study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43037074/",
+        "https://doi.org/10.1093/jnci/djag432"
+      ],
+      "sourceLevel": "Primary source reviewed; clinical verification incomplete",
+      "reason": "荷兰44471例手术队列，22050例病理适宜者12748例启动辅助治疗；病理适宜不等于个体临床适宜。正文403，完整调整及患者选择待核，不能将全部未治疗判作不当医疗。",
+      "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
+    },
+    {
+      "pmid": "43035533",
+      "title": "Tucatinib and trastuzumab in advanced cancers with HER2 mutations or amplifications: a molecular screening and therapeutics (MoST) program substudy.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43035533/",
+        "https://doi.org/10.1038/s41698-026-01590-z"
+      ],
+      "sourceLevel": "Primary source reviewed; clinical verification incomplete",
+      "reason": "2026年7月24日旧文新索引；32例篮子试验含8例CRC。正文已读，KRAS共突变结肠癌摘要称response，结果段写最佳反应SD；需澄清，不推广KRAS突变适应证。整体ORR不可作CRC特异效果。",
+      "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
     }
   ],
   "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"

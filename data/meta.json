@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-16",
+  "version": "2026-11-17",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-16T00:54:10.974114+00:00",
-  "lastClinicalVerificationAt": "2026-11-14",
-  "curatedCount": 105,
-  "updateStatus": "Bounded source review completed; no verified clinical change;105 studies and126 charts retained",
+  "lastSourceFetchAt": "2026-11-17T01:03:20.990783+00:00",
+  "lastClinicalVerificationAt": "2026-11-17",
+  "curatedCount": 106,
+  "updateStatus": "Added daNIS-3 registry results;106 studies and128 charts;periodic reviewed updating",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -116,9 +116,14 @@
       "date": "2026-11-16",
       "type": "review",
       "note": "检索30篇新索引文献、0项登记及2条历史撤稿元数据；既有研究12批共24次命中、21条去重记录。审阅8条候选，保留105项研究、126张图和逐项临床核实日期。回顾性队列与全文不足线索保留待审，不将探索性关联或登记变化推为治疗获益。"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "evidence",
+      "note": "检索32篇新索引文献、33项登记和2条历史勘误/撤稿元数据，既有研究12批47次命中/40条去重。新增daNIS-3完整登记结果，明确提前终止、描述性阴性信号及安全分母；共106项研究、128张图。LPLN/NOM、TNM9.1.2027等待完整核验，不改既有研究结论。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-16T00:54:10.974114+00:00",
+  "lastSourceReviewAt": "2026-11-17T01:03:20.990783+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"
