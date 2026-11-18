@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-17",
+  "version": "2026-11-18",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-17T01:03:20.990783+00:00",
+  "lastSourceFetchAt": "2026-11-18T00:54:22.927421+00:00",
   "lastClinicalVerificationAt": "2026-11-17",
   "curatedCount": 106,
-  "updateStatus": "Added daNIS-3 registry results;106 studies and128 charts;periodic reviewed updating",
+  "updateStatus": "Review completed; 106 studies and 128 charts retained; no new curated clinical change",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -121,9 +121,14 @@
       "date": "2026-11-17",
       "type": "evidence",
       "note": "检索32篇新索引文献、33项登记和2条历史勘误/撤稿元数据，既有研究12批47次命中/40条去重。新增daNIS-3完整登记结果，明确提前终止、描述性阴性信号及安全分母；共106项研究、128张图。LPLN/NOM、TNM9.1.2027等待完整核验，不改既有研究结论。"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "review",
+      "note": "检索38篇新索引文献、25项登记，勘误专项0条；既有研究12批60次命中/53条去重。审阅8条优先候选，保留106项研究、128张图及逐项临床核实日期。LASRE术后APR亚组与分期完成率全文待核，两项免疫治疗仅方案单列；旧文新索引及观察性关联不升级为新治疗结论。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-17T01:03:20.990783+00:00",
+  "lastSourceReviewAt": "2026-11-18T00:54:22.927421+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -815,7 +815,50 @@
       "sourceLevel": "Primary source reviewed; clinical verification incomplete",
       "reason": "2026年7月24日旧文新索引；32例篮子试验含8例CRC。正文已读，KRAS共突变结肠癌摘要称response，结果段写最佳反应SD；需澄清，不推广KRAS突变适应证。整体ORR不可作CRC特异效果。",
       "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
+    },
+    {
+      "pmid": "43043823",
+      "title": "Preoperative Staging among Medicare Patients with Rectal Cancer Undergoing Proctectomy.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43043823/",
+        "https://doi.org/10.1097/XCS.0000000000002294"
+      ],
+      "sourceLevel": "pending-fulltext",
+      "reason": "Medicare回顾性10726例，90天内完整分期20.3%，扩大窗口比例明显升高；索赔记录缺失不等于未实施/不当医疗，全文及时间窗与新辅助疗程关系待核。",
+      "reviewedAt": "2026-11-18T00:54:22.927421+00:00"
+    },
+    {
+      "pmid": "43043402",
+      "title": "Laparoscopic versus open abdominoperineal resection in rectal cancer: lower successful resection and higher 3-year local recurrence: a multicenter study.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43043402/",
+        "https://doi.org/10.1007/s00464-026-13443-8"
+      ],
+      "sourceLevel": "pending-fulltext",
+      "reason": "LASRE术后APR选择亚组321例，随机后按最终术式选人并非独立APR随机比较；摘要局部复发信号不能推整体腹腔镜劣效。出版商仅订阅预览；完整分析分母、调整/交互及安全表待核。",
+      "reviewedAt": "2026-11-18T00:54:22.927421+00:00"
+    },
+    {
+      "registryId": "NCT07823322",
+      "title": "NEXERA-204 INCA33890 for ctDNA-positive stage II/III MSS CRC",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07823322"
+      ],
+      "sourceLevel": "protocol-only",
+      "reason": "11月17日登记更新，40例计划单臂II期，R0及化疗后MRD阳性、影像NED，排除既往IV期。主要3个月ctDNA清除，无结果。招募状态与未来预计开始日并列，不推断已治疗或疗效。",
+      "reviewedAt": "2026-11-18T00:54:22.927421+00:00"
+    },
+    {
+      "registryId": "NCT07363408",
+      "title": "Ivonescimab plus muzastotug with or without chemotherapy",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07363408",
+        "https://www.cityofhope.org/about-city-of-hope/newsroom/city-of-hope-and-adagene-open-clinical-trial-to-test-new-therapy-for-patients-with-hard-to-treat-colorectal-cancer"
+      ],
+      "sourceLevel": "protocol-only",
+      "reason": "11月17日机构启动公告，非疗效读出。公告最多36例，9月2日登记计划30例且未招募；保留差异。剂量探索I期，不能把既往其他联合研究数字当本试验结果。",
+      "reviewedAt": "2026-11-18T00:54:22.927421+00:00"
     }
   ],
-  "lastReviewNote": "新增4条待审线索，共34条：信迪利单抗TNT仅方案、CREATE完整分母、腹腔镜保肛队列内部数值矛盾及历史TNT随机研究全文；未据摘要或不一致数值改写已核实结论。"
+  "lastReviewNote": "新增4条待审/仅方案线索，共56条；本轮未增已审研究。"
 }
