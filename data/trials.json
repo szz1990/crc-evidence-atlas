@@ -12378,5 +12378,77 @@
         "sourceDate": "2026-11-16"
       }
     ]
+  },
+  {
+    "id": "trahd",
+    "name": "TRAHD：trametinib＋HDM201（阴性I期）",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "晚期/转移性 · 经治",
+    "patientGroup": "成人晚期KRAS或BRAF突变、TP53野生型CRC，既往接受氟尿嘧啶、奥沙利铂及伊立替康；实际11例均KRAS突变，中位既往3线。",
+    "molecular": "入组要求KRAS/BRAF突变及TP53野生型；1例入组后发现TP53突变从疗效集排除。",
+    "line": "经治；中位既往3线",
+    "design": "单中心开放标签I期剂量递增，TITE-CRM；因入组缓慢提前终止",
+    "phase": "I期",
+    "n": "论文治疗/安全集11例，疗效集10例；登记实际入组12例，差异未解释",
+    "arms": [
+      "trametinib每日口服＋HDM201每28天第1、8天口服；无对照"
+    ],
+    "primaryEndpoint": "最大耐受剂量及推荐II期剂量；DLT观察8周",
+    "results": [
+      "起始剂量trametinib 2 mg＋HDM201 40 mg：2/3例DLT；降为1.5 mg＋40 mg的5例、1.5 mg＋80 mg的3例均未发生DLT；不能将小样本无DLT等同于安全性确立。",
+      "疗效集10例：无客观缓解，2例稳定、8例进展。中位PFS 1.8个月（95%CI 1.3–1.8），中位OS 5.7个月（95%CI 1.6–7.4）。无对照组、无组间效应量。",
+      "2018年12月至2023年2月治疗11例；2023年7月因入组缓慢终止，未确定RP2D；不是2026年新发生的停试。"
+    ],
+    "followup": "论文未给总体中位随访；药物暴露中位数不作随访时间。",
+    "safety": "安全集11例均有TRAE，5例（45.5%）3级，无≥4级TRAE报告。皮疹9/11、腹泻8/11、口腔炎6/11。4例SAE，其中3例与治疗相关：疲劳、厌食、结核（SUSAR，发生于DLT窗口之后）。起始剂量一例毒性导致永久停药。无≥4级TRAE不能替代全因死亡分析。",
+    "limitations": "11例单中心非比较I期，提前终止，未确定RP2D；10例疗效集排除1例入组后发现TP53突变者。全部实际受试者KRAS突变，不能外推BRAF人群；药代/药效机制分析未开展。登记实际入组12例与论文治疗11例不一致，按论文分析分母呈现，不擅自解释第12例去向。",
+    "practiceImpact": "未支持该MEK＋MDM2联合进入常规CRC治疗；负面早期结果不能证明全部同类药物无效。",
+    "conclusion": "在本次小样本剂量探索中未观察到客观缓解，起始剂量不耐受且RP2D未确立。",
+    "status": "同行评议论文；I期提前终止",
+    "publicationDate": "2026-11-12",
+    "sources": [
+      {
+        "title": "BMC Cancer正式接受稿及全文（2026-11-12）",
+        "url": "https://doi.org/10.1186/s12885-026-17272-9"
+      },
+      {
+        "title": "官方登记：NCT03714958",
+        "url": "https://clinicaltrials.gov/study/NCT03714958"
+      }
+    ],
+    "keywords": [
+      "TRAHD",
+      "HDM201",
+      "MDM2",
+      "MEK",
+      "trametinib",
+      "阴性",
+      "KRAS"
+    ],
+    "comparisonGroup": "经治KRAS突变 · 早期靶向联合探索",
+    "verifiedAt": "2026-11-19",
+    "lastVerified": "2026-11-19",
+    "registryId": "NCT03714958",
+    "evidenceLevel": "peer-reviewed single-arm phase I; negative",
+    "reviewStatus": "verified",
+    "changeNote": "读取接受稿全文、补充材料与官方登记；分别保留11例安全、10例疗效和12例登记分母。",
+    "scheme": {
+      "population": "经治KRAS/BRAF突变、TP53野生型晚期CRC；实际均KRAS突变",
+      "allocation": "单臂剂量递增；治疗11例",
+      "arms": [
+        {
+          "label": "trametinib＋HDM201",
+          "steps": [
+            "每日trametinib；HDM201每28天第1/8天",
+            "8周DLT评估；剂量下调/中间剂量探索",
+            "影像疗效评估；提前终止未确定RP2D"
+          ]
+        }
+      ],
+      "primaryEndpoint": "MTD/RP2D",
+      "sourceUrl": "https://doi.org/10.1186/s12885-026-17272-9"
+    },
+    "resultCharts": []
   }
 ]
