@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-20",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -858,7 +858,50 @@
       "sourceLevel": "protocol-only",
       "reason": "11月17日机构启动公告，非疗效读出。公告最多36例，9月2日登记计划30例且未招募；保留差异。剂量探索I期，不能把既往其他联合研究数字当本试验结果。",
       "reviewedAt": "2026-11-18T00:54:22.927421+00:00"
+    },
+    {
+      "pmid": "43054192",
+      "title": "Releasing Immunosuppression in the Tumor: A Phase 1/2 Study of Arginase Inhibitor INCB001158 in Combination with Chemotherapy in Advanced Malignancies.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43054192/",
+        "https://doi.org/10.36401/JIPO-26-27"
+      ],
+      "sourceLevel": "pending-fulltext",
+      "reason": "INCB001158＋化疗I/II期含CRC，但摘要主要给胆道/卵巢癌疗效，不能移植到CRC。出版商403，CRC分母、疗效、安全表待核；期号2027年2月，PubMed/PMC元数据为2026年11月先行发布。",
+      "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
+    },
+    {
+      "pmid": "43056701",
+      "title": "The CHAMP-trial: The CHemopreventive effect of lithium on adenoma development in Familial AdenoMatous Polyposis; a single-arm, phase 2 trial.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43056701/",
+        "https://doi.org/10.14309/ctg.0000000000001126"
+      ],
+      "sourceLevel": "pending-fulltext",
+      "reason": "CHAMP单臂II期，12基线/11给药；APC缺陷克隆及腺瘤负荷未显著改善。出版商403；完整给药、分析与安全表待核，保留阴性线索。",
+      "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
+    },
+    {
+      "pmid": "43014085",
+      "title": "CA209-8M4 nivolumab plus TNT",
+      "sources": [
+        "https://doi.org/10.1016/j.esmoop.2026.108617",
+        "https://pubmed.ncbi.nlm.nih.gov/43014085/"
+      ],
+      "sourceLevel": "pending-fulltext",
+      "reason": "11月11日旧于检索窗的覆盖线索：29入组、28可评价；19/28为pCR与持续≥12月cCR复合mpCR，不是单纯pCR；摘要报告51.7%≥3级AE及1例死亡，不能据亮点称普遍轻微。出版商403，完整终点与安全归因待核。",
+      "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
+    },
+    {
+      "registryId": "NCT07829081",
+      "title": "RESIST：dMMR/MSI-H早期GI免疫后监测队列",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07829081"
+      ],
+      "sourceLevel": "protocol-only",
+      "reason": "11月19日登记更新，234计划；登记列观察性，Part A注册队列、Part B选取完全/近完全缓解后监测。主要CRC 24个月RFS，无结果；不是随机验证免手术，ctDNA不参与cCR判定。",
+      "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
     }
   ],
-  "lastReviewNote": "新增4条待审/仅方案线索，共56条；本轮未增已审研究。"
+  "lastReviewNote": "新增4条待核/仅方案线索；新增已核荷兰MIRACLE历史队列，不重复计算相关报告。"
 }

@@ -12450,5 +12450,112 @@
       "sourceUrl": "https://doi.org/10.1186/s12885-026-17272-9"
     },
     "resultCharts": []
+  },
+  {
+    "id": "miracle-dutch-ctdna",
+    "name": "MIRACLE（荷兰）：肝转移切除后ctDNA/CTC预后队列",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "孤立可切除肝转移 · 局部治疗后预后标志物",
+    "patientGroup": "荷兰4中心，2015年10月至2021年12月；孤立可切除CRLM，无围术期化疗，排除肝外转移及liver-first。241例前瞻性入组，排除53例，188例进入分析；中位年龄67岁（IQR 61–74），男性130/188（69.1%），直肠原发64/188（34%），同步肝转移69/188（36.7%）。",
+    "molecular": "不按MSI筛选；MSS103例、MSI3例、未知82例。基线14基因Oncomine cfDNA面板，术后主要以dPCR追踪基线检出的变异；CTC采用CellSearch，>2个/30 mL为阳性。",
+    "line": "可切除肝转移局部治疗；非系统治疗线次比较",
+    "design": "前瞻性多中心观察性生物标志物队列；不是ctDNA指导治疗随机试验",
+    "phase": "不适用（观察性）",
+    "n": "241入组；188分析；术后ctDNA可评估104，ctDNA多变量模型102",
+    "arms": [
+      "统一接受局部治疗、无围术期化疗；按术后ctDNA/CTC状态作观察性分组，不是治疗臂"
+    ],
+    "primaryEndpoint": "术后ctDNA检出与肝切除后1年内复发的关联；RFS按肝切除至影像确认局部/远处复发或末次随访定义。",
+    "results": [
+      "基线ctDNA可检出117/187；术后可评估104例中阳性28例。术后约3周采血，实际中位18天（IQR 15–22）。",
+      "术后ctDNA阳性与阴性的1年RFS为25%（95%CI 13–47）与54%（44–67），log-rank P=0.0011；调整Fong评分和原发部位后HR 2.35（95%CI 1.34–4.11），P=0.0028，模型N=102。",
+      "基线ctDNA检出与1年RFS差异不显著（45%对58%，P=0.089）；不等于术前ctDNA定量没有价值。",
+      "术后CTC正文报告14/158阳性，图2注写14/159，差异保留。调整模型N=156，CTC阳性相关HR 2.98（95%CI 1.56–5.71），P=0.0010；未据分母冲突绘制CTC结果图。"
+    ],
+    "followup": "中位37个月（IQR 26–53）；本报告主要分析1年RFS。",
+    "safety": "观察性采血/标志物研究，不比较抗肿瘤药物安全性；未提供系统性不良事件汇总，不能解释为无手术或采血风险。",
+    "limitations": "术后ctDNA仅在基线可追踪变异者中评估，不能把188例全部视为术后检测阴/阳性完整集；有限面板和缺失样本限制泛化。非随机、无ctDNA指导治疗，预后关联不能证明据此加化疗改善结局。正文/图注术后CTC分母158/159不一致。与复旦MIRACLE-1/2不同；2026术前ctDNA报告复用本队列，不另算独立研究。",
+    "practiceImpact": "提示术后MRD风险分层价值，仍需干预试验证明临床效用；不作为免除或增加辅助治疗的独立依据，亦不外推Ⅱ–Ⅲ期非转移性结肠癌。",
+    "conclusion": "术后ctDNA/CTC检出与更高复发风险相关，研究未验证ctDNA指导治疗的获益。",
+    "status": "同行评议观察性研究；历史覆盖补录",
+    "publicationDate": "2025-08-12",
+    "sources": [
+      {
+        "title": "主要报告：eClinicalMedicine（2025）",
+        "url": "https://doi.org/10.1016/j.eclinm.2025.103406"
+      },
+      {
+        "title": "完整正文与表1/2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12361997/"
+      },
+      {
+        "title": "同队列术前ctDNA定量报告（相关报告，不独立计数）",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070387/"
+      }
+    ],
+    "keywords": [
+      "MIRACLE",
+      "Erasmus",
+      "荷兰",
+      "ctDNA",
+      "CTC",
+      "肝转移",
+      "MRD",
+      "观察性"
+    ],
+    "comparisonGroup": "可切除孤立肝转移 · 术后标志物预后（非治疗比较）",
+    "verifiedAt": "2026-11-20",
+    "lastVerified": "2026-11-20",
+    "evidenceLevel": "prospective observational biomarker cohort",
+    "reviewStatus": "verified",
+    "changeNote": "历史覆盖补录；核验241入组/188分析/104术后ctDNA/102调整模型分母，区分复旦同名研究；相关术前报告不重复计数。",
+    "scheme": {
+      "population": "孤立可切除CRLM；无围术期化疗；荷兰4中心",
+      "allocation": "观察性；按标志物分层，不分配治疗",
+      "arms": [
+        {
+          "label": "同一观察队列",
+          "steps": [
+            "术前采血：ctDNA面板＋CTC",
+            "肝转移局部治疗，无围术期化疗",
+            "术后约3周采血；评估1年复发关联"
+          ]
+        }
+      ],
+      "primaryEndpoint": "术后ctDNA与1年复发/RFS关联",
+      "sourceUrl": "https://doi.org/10.1016/j.eclinm.2025.103406"
+    },
+    "resultCharts": [
+      {
+        "title": "荷兰MIRACLE：术后ctDNA状态与1年RFS（观察性）",
+        "type": "proportion",
+        "endpoint": "RFS",
+        "timepoint": "肝切除后1年；ctDNA采血约术后3周",
+        "population": "术后ctDNA可评估104例；阳性28、阴性76；非随机治疗组",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "ctDNA阳性",
+            "value": 25,
+            "n": 28,
+            "ciLow": 13,
+            "ciHigh": 47
+          },
+          {
+            "label": "ctDNA阴性",
+            "value": 54,
+            "n": 76,
+            "ciLow": 44,
+            "ciHigh": 67
+          }
+        ],
+        "hr": null,
+        "pValue": 0.0011,
+        "note": "Kaplan–Meier估计及95%CI；log-rank检验。不是治疗获益比较；仅基线可追踪变异者参与术后评估，不能将比例视为简单事件计数。",
+        "sourceUrl": "https://doi.org/10.1016/j.eclinm.2025.103406",
+        "sourceDate": "2025-08-12"
+      }
+    ]
   }
 ]
