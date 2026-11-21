@@ -12557,5 +12557,326 @@
         "sourceDate": "2025-08-12"
       }
     ]
+  },
+  {
+    "id": "find-ctdna-surveillance",
+    "name": "FIND：ctDNA甲基化触发影像的术后监测",
+    "cancer": "结直肠癌",
+    "category": "colon",
+    "setting": "Ⅰ–Ⅲ期结直肠癌 · R0术后监测（含结肠与直肠）",
+    "patientGroup": "中国6中心；成人Ⅰ–Ⅲ期结直肠癌，R0切除、术前无影像可见远处转移，ECOG 0–2；mITT中Ⅱ/Ⅲ期合计75.9%。",
+    "molecular": "不按MMR/RAS/BRAF筛选；采用特定血浆ctDNA甲基化检测。",
+    "line": "根治术后随访，不比较用药线次",
+    "design": "前瞻性多中心、随机1:1、监测策略对照",
+    "phase": "Ⅲ期",
+    "n": "795筛选；728随机（363/365）；584 mITT（289/295）；107复发（52/55）；548 PP（264/284）",
+    "arms": [
+      "ctDNA指导组：常规随访＋术前、术后1个月内及之后每3个月ctDNA监测（2年） → 阳性立即行胸腹盆增强CT；未证实复发则每2个月CT，并继续每3个月ctDNA → 连续两次ctDNA阴性后恢复常规CT频率",
+      "常规CT组：按常规影像随访；复发后按常规评估治疗"
+    ],
+    "primaryEndpoint": "影像证实复发的患者中，接受根治意向转移灶局部治疗的比例。",
+    "results": [
+      "mITT复发者：25/52（48.1%，95%CI 35.1–61.3）对13/55（23.6%，14.4–36.3）；RR 2.03（95%CI 1.19–3.57），P=0.008；绝对差24.4个百分点（95%CI 7.1–43.9）。",
+      "mITT复发发生率18.0%（52/289）对18.6%（55/295），HR 1.02（95%CI 0.70–1.49），P=0.919。临床检出复发的中位时间9.5对13.4个月，组间差3.9个月（95%CI 2.00–5.00），并非同一患者从ctDNA阳性到影像确诊的中位时间。",
+      "复发后PFS HR 0.51（95%CI 0.30–0.87），P=0.014，为探索性复发者分析，受检出时点影响。3年/5年OS尚未成熟。"
+    ],
+    "followup": "截至2026年2月，中位23.3个月（范围3.0–32.1）。",
+    "safety": "监测策略试验，主要报告未列系统性AE或追加CT的累积损害；生活质量、心理负担和成本尚待成熟结果。",
+    "limitations": "随机后144例排除；主要终点条件于已复发人群，不能作全体随机患者的治疗率。根治意向不等于治愈；监测强度、检出时点和局部治疗决策均会影响该结果。适用性取决于检测平台及影像/局部治疗资源。",
+    "practiceImpact": "提供按ctDNA信号加密影像的策略证据，不支持仅凭阳性启动全身治疗或用ctDNA取代常规影像；是否延长生存尚待随访。",
+    "conclusion": "ctDNA触发动态CT监测增加了复发后接受根治意向转移灶治疗的比例；未证实降低复发率或改善总生存。",
+    "status": "同行评议Ⅲ期；历史覆盖补录",
+    "publicationDate": "2026-07-29",
+    "sources": [
+      {
+        "title": "JCO主报告",
+        "url": "https://doi.org/10.1200/JCO-25-03009"
+      },
+      {
+        "title": "主报告PDF与图表",
+        "url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO-25-03009"
+      },
+      {
+        "title": "ClinicalTrials.gov登记",
+        "url": "https://clinicaltrials.gov/study/NCT05904665"
+      }
+    ],
+    "keywords": [
+      "FIND",
+      "NCT05904665",
+      "ctDNA",
+      "甲基化",
+      "MRD",
+      "术后随访",
+      "结肠癌",
+      "直肠癌"
+    ],
+    "comparisonGroup": "根治切除后 · 复发监测策略",
+    "verifiedAt": "2026-11-21",
+    "lastVerified": "2026-11-21",
+    "evidenceLevel": "peer-reviewed phase III randomized surveillance trial",
+    "reviewStatus": "verified",
+    "changeNote": "2025 ESMO GI为同一研究早期报告；明确主要终点分母为复发者。",
+    "scheme": {
+      "population": "中国6中心；成人Ⅰ–Ⅲ期结直肠癌，R0切除、术前无影像可见远处转移，ECOG 0–2；mITT中Ⅱ/Ⅲ期合计75.9%。",
+      "allocation": "前瞻性多中心、随机1:1、监测策略对照",
+      "arms": [
+        {
+          "label": "ctDNA指导组",
+          "steps": [
+            "常规随访＋术前、术后1个月内及之后每3个月ctDNA监测（2年）",
+            "阳性立即行胸腹盆增强CT；未证实复发则每2个月CT，并继续每3个月ctDNA",
+            "连续两次ctDNA阴性后恢复常规CT频率"
+          ]
+        },
+        {
+          "label": "常规CT组",
+          "steps": [
+            "按常规影像随访；复发后按常规评估治疗"
+          ]
+        }
+      ],
+      "primaryEndpoint": "影像证实复发的患者中，接受根治意向转移灶局部治疗的比例。",
+      "sourceUrl": "https://doi.org/10.1200/JCO-25-03009"
+    },
+    "resultCharts": [
+      {
+        "title": "FIND：复发者接受根治意向转移灶治疗",
+        "type": "proportion",
+        "endpoint": "根治意向转移灶治疗",
+        "timepoint": "中位随访23.3个月",
+        "population": "mITT内影像证实复发者107例；非全部随机人群",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "ctDNA指导随访",
+            "value": 48.1,
+            "n": 52,
+            "ciLow": 35.1,
+            "ciHigh": 61.3
+          },
+          {
+            "label": "标准CT随访",
+            "value": 23.6,
+            "n": 55,
+            "ciLow": 14.4,
+            "ciHigh": 36.3
+          }
+        ],
+        "pValue": 0.008,
+        "note": "25/52对13/55；比例95%CI来自图2B。RR 2.03（95%CI 1.19–3.57）；根治意向，不等于治愈。",
+        "sourceUrl": "https://doi.org/10.1200/JCO-25-03009",
+        "sourceDate": "2026-07-29"
+      }
+    ]
+  },
+  {
+    "id": "tec2-randomized-mss",
+    "name": "TEC2：替雷利珠单抗＋西妥昔单抗＋伊立替康",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "既往至少两线治疗失败 · MSS mCRC",
+    "patientGroup": "中国多中心；成人RAS/BRAF野生型、MSS转移性结直肠癌，至少两线既往治疗失败。",
+    "molecular": "RAS/BRAF WT、MSS；仅试验组探索基线ctDNA甲基化。",
+    "line": "三线及后线",
+    "design": "开放标签、多中心、随机2:1",
+    "phase": "Ⅱ期",
+    "n": "87随机/ITT（58/29）；86接受治疗（57/29）；试验组27例基线甲基化可评估",
+    "arms": [
+      "三联组：替雷利珠单抗＋西妥昔单抗＋伊立替康",
+      "对照组：研究者选择呋喹替尼、瑞戈非尼或TAS-102"
+    ],
+    "primaryEndpoint": "PFS；公开方案v2将起点改为随机化，并在比例风险不成立时加入Breslow–Gehan检验。",
+    "results": [
+      "中位PFS 4.4个月（95%CI 3.8–6.6）对2.0个月（1.9–5.4）；log-rank P=0.200，Breslow–Gehan P=0.009。全程Cox HR 0.73（95%CI 0.46–1.18），比例风险假设不成立，不宜视为恒定效应。",
+      "10个月分界来自观察到的曲线交叉；分界前HR 0.37（95%CI 0.21–0.64），P<0.001，为探索性时段结果。",
+      "中位OS 17.7对21.8个月，HR 1.01（95%CI 0.57–1.77），P=0.99；ORR 12/58（20.7%）对1/29（3.4%）。",
+      "试验组27例甲基化探索：阳性组中位OS 15.35个月，阴性组未达到（正文结果及图4；摘要中位数顺序不一致）；HR 8.72（95%CI 1.15–66.42）。不支持作为选择三联治疗的预测标志物。"
+    ],
+    "followup": "数据截止2025年6月30日；中位随访26.1个月。",
+    "safety": "≥3级治疗相关AE 15.8%对17.2%（治疗人群57/29）；未报告治疗相关死亡。",
+    "limitations": "开放标签小样本，异质对照且不能拆分三联成分。Breslow–Gehan规则于入组结束后加入方案v2（2024-05-08），SAP v2（2024-05-27）重复说明，均在数据截止前；未知当时接触数据情况。以曲线交叉选分界限制解释。甲基化为试验组内探索，未检验治疗交互。",
+    "practiceImpact": "支持进一步研究，不足以替代既定后线方案，也不宜按甲基化结果筛选。",
+    "conclusion": "PFS早期信号依赖检验方法，标准log-rank未显著，未证实OS获益。",
+    "status": "同行评议随机Ⅱ期（期刊先行接受稿）",
+    "publicationDate": "2026-11-12",
+    "sources": [
+      {
+        "title": "BMC Medicine正文及补充资料",
+        "url": "https://doi.org/10.1186/s12916-026-05411-9"
+      },
+      {
+        "title": "方案v2与修订历史",
+        "url": "https://static-content.springer.com/esm/art:10.1186%2Fs12916-026-05411-9/MediaObjects/12916_2026_5411_MOESM2_ESM.pdf"
+      },
+      {
+        "title": "SAP v2 §4.1",
+        "url": "https://static-content.springer.com/esm/art:10.1186%2Fs12916-026-05411-9/MediaObjects/12916_2026_5411_MOESM3_ESM.pdf"
+      },
+      {
+        "title": "ASCO 2026同队列报告",
+        "url": "https://www.asco.org/abstracts-presentations/262191"
+      },
+      {
+        "title": "ClinicalTrials.gov登记",
+        "url": "https://clinicaltrials.gov/study/NCT05278351"
+      }
+    ],
+    "keywords": [
+      "TEC2",
+      "NCT05278351",
+      "MSS",
+      "RAS/BRAF WT",
+      "替雷利珠单抗",
+      "西妥昔单抗",
+      "伊立替康"
+    ],
+    "comparisonGroup": "MSS mCRC · RAS/BRAF WT · 后线",
+    "verifiedAt": "2026-11-21",
+    "lastVerified": "2026-11-21",
+    "evidenceLevel": "peer-reviewed randomized phase II (accepted manuscript)",
+    "reviewStatus": "verified",
+    "changeNote": "同NCT合并ASCO报告；不与单臂TEC NCT05143099合并。注释分析修订、非比例风险及甲基化摘要差异。",
+    "scheme": {
+      "population": "中国多中心；成人RAS/BRAF野生型、MSS转移性结直肠癌，至少两线既往治疗失败。",
+      "allocation": "开放标签、多中心、随机2:1",
+      "arms": [
+        {
+          "label": "三联组",
+          "steps": [
+            "替雷利珠单抗＋西妥昔单抗＋伊立替康"
+          ]
+        },
+        {
+          "label": "对照组",
+          "steps": [
+            "研究者选择呋喹替尼、瑞戈非尼或TAS-102"
+          ]
+        }
+      ],
+      "primaryEndpoint": "PFS；公开方案v2将起点改为随机化，并在比例风险不成立时加入Breslow–Gehan检验。",
+      "sourceUrl": "https://doi.org/10.1186/s12916-026-05411-9"
+    },
+    "resultCharts": [
+      {
+        "title": "TEC2：中位PFS（非比例风险）",
+        "type": "median",
+        "endpoint": "PFS",
+        "timepoint": "中位随访26.1个月",
+        "population": "ITT 87例",
+        "unit": "months",
+        "arms": [
+          {
+            "label": "三联方案",
+            "value": 4.4,
+            "n": 58,
+            "ciLow": 3.8,
+            "ciHigh": 6.6
+          },
+          {
+            "label": "研究者选择",
+            "value": 2.0,
+            "n": 29,
+            "ciLow": 1.9,
+            "ciHigh": 5.4
+          }
+        ],
+        "pValue": null,
+        "note": "95%CI；log-rank P=0.200，Breslow–Gehan P=0.009。全程Cox HR不宜解释为恒定疗效。",
+        "sourceUrl": "https://doi.org/10.1186/s12916-026-05411-9",
+        "sourceDate": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "tiragolumab-atezo-bev-nct06784947",
+    "name": "阿替利珠单抗＋贝伐珠单抗＋Tiragolumab（登记结果）",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "既往治疗后不可切除MSS/pMMR mCRC",
+    "patientGroup": "美国科罗拉多大学单中心；成人、可测量不可切除转移性结直肠腺癌，ECOG 0–2；既往氟嘧啶、奥沙利铂和伊立替康进展或不耐受，左侧RAS/BRAF WT还要求既往抗EGFR治疗。",
+    "molecular": "MSS和/或pMMR；排除已知BRAF V600E，并非全员RAS野生型。",
+    "line": "既往标准化疗后（后线）",
+    "design": "单中心、开放标签、单臂；活检队列仅区分取样",
+    "phase": "Ⅱ期",
+    "n": "13入组；12接受方案且纳入疗效；登记AE分母13",
+    "arms": [
+      "同一治疗组：阿替利珠单抗＋贝伐珠单抗＋Tiragolumab静脉联合，每21天一周期 → 按RECIST 1.1评估；有/无活检者治疗相同"
+    ],
+    "primaryEndpoint": "RECIST 1.1客观缓解率（从基线至最后可得肿瘤评估，最长5个月）。",
+    "results": [
+      "接受治疗的12例中，3例客观缓解（25.0%；登记未给95%CI）。",
+      "中位PFS 3.75个月（95%CI 2.37个月至上限不可估计）；中位OS未达到，12例中1例记录死亡、11例删失。"
+    ],
+    "followup": "疗效评估窗口最长5个月；登记未报告中位随访。项目停止开发导致药物不可用，试验提前终止。",
+    "safety": "全部入组13例中7例至少一次严重AE、1例全因死亡；1例在首剂前发生严重AE而未给药。登记按全因收集，不能将7/13或死亡归为治疗相关。",
+    "limitations": "样本小、提前终止、无对照、短随访，PFS区间仅单侧可估；未见完整分层或归因数据。登记而非同行评议，不可与其他后线试验作反应率优劣比较。",
+    "practiceImpact": "登记结果用于了解早停试验与安全性，不支持改变MSS mCRC标准治疗。",
+    "conclusion": "12例接受三联治疗，观察到3例缓解；未验证与标准方案相比的疗效或TIGIT组分的增量贡献。",
+    "status": "ClinicalTrials.gov登记结果；提前终止；非同行评议",
+    "publicationDate": "2026-11-20",
+    "sources": [
+      {
+        "title": "ClinicalTrials.gov官方结果表",
+        "url": "https://clinicaltrials.gov/study/NCT06784947?tab=results"
+      },
+      {
+        "title": "美国NCI设计与入组说明",
+        "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-00314"
+      }
+    ],
+    "keywords": [
+      "NCT06784947",
+      "TIGIT",
+      "Tiragolumab",
+      "Atezolizumab",
+      "Bevacizumab",
+      "MSS",
+      "后线"
+    ],
+    "comparisonGroup": "MSS mCRC · 后线免疫联合（单臂探索）",
+    "verifiedAt": "2026-11-21",
+    "lastVerified": "2026-11-21",
+    "evidenceLevel": "registry results, phase II, single-arm",
+    "reviewStatus": "verified",
+    "changeNote": "2026-11-20首次公开登记结果；区分13入组/安全与12治疗/疗效，不推定AE归因。",
+    "scheme": {
+      "population": "美国科罗拉多大学单中心；成人、可测量不可切除转移性结直肠腺癌，ECOG 0–2；既往氟嘧啶、奥沙利铂和伊立替康进展或不耐受，左侧RAS/BRAF WT还要求既往抗EGFR治疗。",
+      "allocation": "单中心、开放标签、单臂；活检队列仅区分取样",
+      "arms": [
+        {
+          "label": "同一治疗组",
+          "steps": [
+            "阿替利珠单抗＋贝伐珠单抗＋Tiragolumab静脉联合，每21天一周期",
+            "按RECIST 1.1评估；有/无活检者治疗相同"
+          ]
+        }
+      ],
+      "primaryEndpoint": "RECIST 1.1客观缓解率（从基线至最后可得肿瘤评估，最长5个月）。",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06784947?tab=results"
+    },
+    "resultCharts": [
+      {
+        "title": "NCT06784947：登记ORR（单臂）",
+        "type": "proportion",
+        "endpoint": "RECIST 1.1 ORR",
+        "timepoint": "最长5个月",
+        "population": "接受治疗12例；非ITT随机比较",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "三联治疗",
+            "value": 25.0,
+            "n": 12,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "pValue": null,
+        "note": "3/12；登记未给95%CI。早停、单臂、非同行评议。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT06784947?tab=results",
+        "sourceDate": "2026-11-20"
+      }
+    ]
   }
 ]

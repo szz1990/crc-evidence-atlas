@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -901,7 +901,70 @@
       "sourceLevel": "protocol-only",
       "reason": "11月19日登记更新，234计划；登记列观察性，Part A注册队列、Part B选取完全/近完全缓解后监测。主要CRC 24个月RFS，无结果；不是随机验证免手术，ctDNA不参与cCR判定。",
       "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
+    },
+    {
+      "title": "OPTNT：早期低位直肠癌TNT后拟行局切",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42913867/",
+        "https://clinicaltrials.gov/study/NCT05563922"
+      ],
+      "pmid": "42913867",
+      "registryId": "NCT05563922",
+      "sourceLevel": "pending-fulltext",
+      "reason": "全文未获；摘要57/60，排除原因和病理分流待核。cCR、复合CR、保肛与3年器官保留结果不能混用。注册最后更新2022年。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "ALTA3263＋西妥昔单抗（ENA 2026）",
+      "sources": [
+        "https://www.alterome.com/news/",
+        "https://clinicaltrials.gov/study/NCT06835569"
+      ],
+      "registryId": "NCT06835569",
+      "sourceLevel": "pending-conference-source",
+      "reason": "11月20日I/Ib剂量递增早期报告；已核申办方发布、NCI设计。待正式会议结果核清剂量队列、疗效可评估分母和安全性，暂不纳入经核实结果。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "机器人与腹腔镜右半结肠切除长期结局（2057例）",
+      "sources": [
+        "https://doi.org/10.1080/07853890.2026.2765171"
+      ],
+      "pmid": "43062104",
+      "sourceLevel": "pending-fulltext",
+      "reason": "单中心回顾性，待核全文分组、时间趋势、术者/手术选择及随访调整，不能根据摘要认定生存因果优势。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "MRI引导部位特异性ELAPE",
+      "sources": [
+        "https://doi.org/10.1097/DCR.0000000000004395"
+      ],
+      "pmid": "43061791",
+      "sourceLevel": "pending-fulltext",
+      "reason": "新索引论文无摘要，病例选择与长期病理/复发结果须核全文。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "老年局部进展期直肠癌术前CRT",
+      "sources": [
+        "https://doi.org/10.1177/11795549261504647"
+      ],
+      "pmid": "43061262",
+      "sourceLevel": "pending-fulltext",
+      "reason": "外科手术队列5533例；摘要未发现调整后OS/DFS改善，存在治疗选择，不作为省略放疗证据。全文与效应量待深入核对。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "二线Serplulimab＋贝伐珠单抗＋化疗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07951619"
+      ],
+      "registryId": "NCT07951619",
+      "sourceLevel": "protocol-only",
+      "reason": "左侧、RAS/NRAS/BRAF WT且一线抗EGFR后新登记，无结果。",
+      "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
     }
   ],
-  "lastReviewNote": "新增4条待核/仅方案线索；新增已核荷兰MIRACLE历史队列，不重复计算相关报告。"
+  "lastReviewNote": "新增6条待核/仅方案线索；新增FIND、TEC2与NCT06784947，既有研究结果未改。"
 }
