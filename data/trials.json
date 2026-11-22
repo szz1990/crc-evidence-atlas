@@ -12878,5 +12878,184 @@
         "sourceDate": "2026-11-20"
       }
     ]
+  },
+  {
+    "id": "choice-ii",
+    "name": "CHOICE II",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "超低位直肠癌 · cT1–3aN0–1M0，pMMR/MSS",
+    "patientGroup": "中国11中心；肿瘤下缘距肛缘≤5 cm，cT1–3aN0–1M0，经证实pMMR/MSS。方案允许有保肛意愿的18–75岁人群。",
+    "molecular": "pMMR/MSS",
+    "line": "初治 / 新辅助",
+    "design": "前瞻性、多中心、开放标签、1:1随机对照",
+    "phase": "Ⅱ/Ⅲ期（登记）",
+    "n": "201筛选；180随机；169进入主要分析（85/84）；99行手术（48/51）",
+    "arms": [
+      "nCRT＋信迪利单抗：长程放化疗（50 Gy/25次） → 按方案在放化疗期间加信迪利单抗2周期，随后CAPOX＋信迪利单抗2周期 → cCR观察等待；ncCR由MDT选择观察等待、局切或TME；iCR行TME",
+      "nCRT：长程放化疗（50 Gy/25次） → 随后CAPOX 2周期 → 按反应采用相同分流原则"
+    ],
+    "primaryEndpoint": "完成新辅助治疗后临床完全缓解（cCR）率。",
+    "results": [
+      "主要分析169例：cCR 36.5%对17.9%，P=0.007（按报告比例相差18.6个百分点）；未报告置信区间。",
+      "同一主要分析人群的复合CR（cCR或pCR）50.6%对27.4%，P=0.002。",
+      "限实际接受手术者：pCR 25.0%（48例中）对15.7%（51例中），P=0.249；非全随机人群的pCR比较。",
+      "会议摘要未报告长期器官保留、局部再生长或功能结局结果；DFS及OS尚未成熟。"
+    ],
+    "followup": "摘要未报告中位随访；DFS/OS尚未成熟。",
+    "safety": "总体AE 72.9%对66.3%（P>0.05）；3–4级AE 7.1%对3.8%（P=0.34）。摘要未明确安全性分母或详细治疗相关死亡；不显著不等于毒性相当。",
+    "limitations": "仅截至2026年ASCO会议摘要；随机后11例未纳入主要分析，分组原因及完整ITT结果待全文；开放标签，cCR评估和ncCR管理可能受判定/中心策略影响。手术亚组系治疗后选择。",
+    "practiceImpact": "支持在这一分期和治疗平台进一步验证加入PD-1的价值；不证明长期器官保留、肿瘤学安全、去放疗可行性或与短程放疗方案的优劣。",
+    "conclusion": "在此特定pMMR/MSS低位人群中，加入信迪利单抗提高了报告的cCR率；长期临床获益未证实。",
+    "status": "2026 ASCO随机试验摘要；补录",
+    "publicationDate": "2026-06-01",
+    "sources": [
+      {
+        "title": "2026 ASCO摘要3640",
+        "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3640"
+      },
+      {
+        "title": "正式会议摘要PDF",
+        "url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.3640"
+      },
+      {
+        "title": "BMJ Open同行评议方案",
+        "url": "https://doi.org/10.1136/bmjopen-2022-069793"
+      },
+      {
+        "title": "ClinicalTrials.gov登记",
+        "url": "https://clinicaltrials.gov/study/NCT05215379"
+      }
+    ],
+    "keywords": [
+      "CHOICE II",
+      "CHCRS-Immunity",
+      "NCT05215379",
+      "信迪利单抗",
+      "低位直肠癌",
+      "长程放化疗",
+      "cCR",
+      "器官保留"
+    ],
+    "comparisonGroup": "早期低位直肠癌 · 免疫器官保留",
+    "verifiedAt": "2026-11-22",
+    "lastVerified": "2026-11-22",
+    "evidenceLevel": "official ASCO abstract; randomized; protocol peer-reviewed, results not full paper",
+    "reviewStatus": "verified",
+    "changeNote": "新增正式随机摘要；区分筛选、随机、主要分析和手术分母；与CHOICE-I不同，不将短期cCR视作持久器官保留。",
+    "scheme": {
+      "population": "中国11中心；肿瘤下缘距肛缘≤5 cm，cT1–3aN0–1M0，经证实pMMR/MSS。方案允许有保肛意愿的18–75岁人群。",
+      "allocation": "前瞻性、多中心、开放标签、1:1随机对照",
+      "arms": [
+        {
+          "label": "nCRT＋信迪利单抗",
+          "steps": [
+            "长程放化疗（50 Gy/25次）",
+            "按方案在放化疗期间加信迪利单抗2周期，随后CAPOX＋信迪利单抗2周期",
+            "cCR观察等待；ncCR由MDT选择观察等待、局切或TME；iCR行TME"
+          ]
+        },
+        {
+          "label": "nCRT",
+          "steps": [
+            "长程放化疗（50 Gy/25次）",
+            "随后CAPOX 2周期",
+            "按反应采用相同分流原则"
+          ]
+        }
+      ],
+      "primaryEndpoint": "完成新辅助治疗后临床完全缓解（cCR）率。",
+      "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3640"
+    },
+    "resultCharts": [
+      {
+        "title": "CHOICE II：临床完全缓解",
+        "type": "proportion",
+        "endpoint": "cCR",
+        "timepoint": "完成新辅助治疗后；会议摘要未给出实际评估时间分布",
+        "population": "主要分析169例（非全部随机）",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "nCRT＋信迪利单抗",
+            "value": 36.5,
+            "n": 85,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "nCRT",
+            "value": 17.9,
+            "n": 84,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "pValue": 0.007,
+        "note": "组间绝对比例差18.6个百分点；摘要未报告置信区间。",
+        "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3640",
+        "sourceDate": "2026-06-01"
+      },
+      {
+        "title": "CHOICE II：临床或病理完全缓解",
+        "type": "proportion",
+        "endpoint": "复合CR",
+        "timepoint": "完成新辅助治疗后；会议摘要未给出实际评估时间分布",
+        "population": "主要分析169例（非全部随机）",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "nCRT＋信迪利单抗",
+            "value": 50.6,
+            "n": 85,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "nCRT",
+            "value": 27.4,
+            "n": 84,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "pValue": 0.002,
+        "note": "复合终点，非持续器官保留率。",
+        "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3640",
+        "sourceDate": "2026-06-01"
+      },
+      {
+        "title": "CHOICE II：手术者病理完全缓解",
+        "type": "proportion",
+        "endpoint": "pCR",
+        "timepoint": "完成新辅助治疗后；会议摘要未给出实际评估时间分布",
+        "population": "实际手术99例，治疗后选择",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "nCRT＋信迪利单抗",
+            "value": 25,
+            "n": 48,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "nCRT",
+            "value": 15.7,
+            "n": 51,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "pValue": 0.249,
+        "note": "不能推广为全随机人群pCR；两组分母为各自实际手术人数。",
+        "sourceUrl": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3640",
+        "sourceDate": "2026-06-01"
+      }
+    ],
+    "registryId": "NCT05215379",
+    "molecularTags": [
+      "pMMR/MSS"
+    ]
   }
 ]

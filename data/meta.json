@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-21",
+  "version": "2026-11-22",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-21T00:20:30.963059+00:00",
-  "lastClinicalVerificationAt": "2026-11-21",
-  "curatedCount": 111,
-  "updateStatus": "Review completed; FIND, TEC2 and NCT06784947 added; 111 studies, 132 charts",
+  "lastSourceFetchAt": "2026-11-22T00:44:47Z",
+  "lastClinicalVerificationAt": "2026-11-22",
+  "curatedCount": 112,
+  "updateStatus": "Review completed; CHOICE II randomized ASCO abstract backfilled; 112 studies, 135 charts",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -141,9 +141,14 @@
       "date": "2026-11-21",
       "type": "review",
       "note": "检索51篇新索引、22项登记、4条勘误/撤稿相关元数据；既有研究12批、41条去重。复核10项候选，新增FIND、TEC2及NCT06784947登记结果；原108项结论未改。"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "review",
+      "note": "检索13篇新索引、0项登记、0条勘误/撤稿相关元数据；既有研究12批、49条去重。复核8项候选，补录CHOICE II随机会议摘要；IMPROVE-IT2仅方案待更；原111项结论未改。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-21T00:20:30.963059+00:00",
+  "lastSourceReviewAt": "2026-11-22T00:44:47.082909+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"

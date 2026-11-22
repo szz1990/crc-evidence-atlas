@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -964,7 +964,19 @@
       "sourceLevel": "protocol-only",
       "reason": "左侧、RAS/NRAS/BRAF WT且一线抗EGFR后新登记，无结果。",
       "reviewedAt": "2026-11-21T00:20:30.963059+00:00"
+    },
+    {
+      "title": "IMPROVE-IT2：术后ctDNA指导影像随访",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04084249",
+        "https://cdn.clinicaltrials.gov/large-docs/49/NCT04084249/SAP_001.pdf",
+        "https://cdn.clinicaltrials.gov/large-docs/49/NCT04084249/Prot_002.pdf"
+      ],
+      "registryId": "NCT04084249",
+      "sourceLevel": "protocol-only",
+      "reason": "随机前尚未发生分子复发；SAP记录359入组、299随机。ctDNA阳性触发影像；初次影像阴性可追加系列PET/CT。主要终点为三年内复发者接受根治意向局部治疗比例；未核实成熟结果。",
+      "reviewedAt": "2026-11-22T00:44:47.082909+00:00"
     }
   ],
-  "lastReviewNote": "新增6条待核/仅方案线索；新增FIND、TEC2与NCT06784947，既有研究结果未改。"
+  "lastReviewNote": "新增1条仅方案线索（IMPROVE-IT2）；完成CHOICE II正式摘要补录，CA209-8M4仍待核全文。"
 }
