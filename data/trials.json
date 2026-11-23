@@ -13057,5 +13057,102 @@
     "molecularTags": [
       "pMMR/MSS"
     ]
+  },
+  {
+    "id": "zhongshan-eftr-qi",
+    "name": "中山医院低位直肠癌 EFTR 先导病例系列（Qi 等）",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "低位直肠癌 · 新辅助治疗后cCR/ncCR",
+    "patientGroup": "低位直肠腺癌（肿瘤下缘距肛缘≤5 cm），初始cT2–3N0–1M0；新辅助治疗后cCR或ncCR，拒绝TME且病灶经MDT评估适合内镜切除。",
+    "molecular": "未按MMR筛选；未报告分层",
+    "line": "初治 / 新辅助后器官保留",
+    "design": "单中心、无对照先导病例系列；2019–2024年",
+    "phase": "病例系列（无试验分期）",
+    "n": "28例接受EFTR；cCR 6例，ncCR 22例",
+    "arms": [
+      "计划长程放化疗（卡培他滨＋50.4 Gy/28次）后巩固CAPOX 4周期；23例完成计划治疗 → 至少1个月后判断临床反应；经MDT执行内镜下全层切除（EFTR） → 按病理及手术意愿随访、补救根治术或追加治疗"
+    ],
+    "primaryEndpoint": "无预设主要终点报告；描述整块及R0切除、切除标本病理、安全与随访。",
+    "results": [
+      "整块及R0切除28/28；切除标本ypT0 17/28、ypT1 5/28、ypT2 6/28。",
+      "cCR者ypT0为6/6，ncCR者为11/22；仅指局切标本，无淋巴结病理分期。",
+      "6例ypT2中，1例补救根治术，5例拒绝补救术后接受追加治疗（正文记录化疗及局部加量照射）。",
+      "随访期间未报告局部再生长、复发或远处转移；这是包含补救或追加治疗的路径结果。"
+    ],
+    "followup": "中位25个月（IQR 18–28；范围9–46）",
+    "safety": "2/28术后便血需紧急内镜检查，1例重度LARS，无泌尿生殖系统损伤报告。表2无LARS分层计数与总数不一致，不推算分层率。",
+    "limitations": "样本小且严格筛选，没有W&W或TME对照；不能评估淋巴结残余或比较肿瘤学安全性。与较早同中心系列的个体重叠未核实，不应合并计数。",
+    "practiceImpact": "为前瞻性研究的局切标本病理分流和功能随访提供参考，不支持常规用EFTR替代W&W或TME。",
+    "conclusion": "在精选病例中可全层获取标本并见到临床与局部病理评估不一致，但不能据此确定长期器官保留或肿瘤学安全性。",
+    "status": "Gut Endoscopy news全文（期刊内部评审）；历史补录",
+    "publicationDate": "2026-01-06",
+    "sources": [
+      {
+        "title": "Qi等：Gut原文（含表2）",
+        "url": "https://gut.bmj.com/content/gutjnl/early/2026/01/06/gutjnl-2025-336549.full.pdf"
+      }
+    ],
+    "keywords": [
+      "EFTR",
+      "内镜全层切除",
+      "ncCR",
+      "cCR",
+      "器官保留",
+      "局部切除"
+    ],
+    "comparisonGroup": "直肠癌 · 器官保留策略",
+    "verifiedAt": "2026-11-23",
+    "lastVerified": "2026-11-23",
+    "evidenceLevel": "single-center uncontrolled pilot case series; internally peer reviewed",
+    "reviewStatus": "verified",
+    "changeNote": "补录原文；区分ypT0与ypT0N0、区分包含追加治疗的队列结局与EFTR单独疗效。",
+    "registryId": "",
+    "molecularTags": [],
+    "scheme": {
+      "population": "低位直肠腺癌（肿瘤下缘距肛缘≤5 cm），初始cT2–3N0–1M0；新辅助治疗后cCR或ncCR，拒绝TME且病灶经MDT评估适合内镜切除。",
+      "allocation": "单中心、无对照先导病例系列；2019–2024年",
+      "arms": [
+        {
+          "label": "EFTR路径",
+          "steps": [
+            "计划长程放化疗（卡培他滨＋50.4 Gy/28次）后巩固CAPOX 4周期；23例完成计划治疗",
+            "至少1个月后判断临床反应；经MDT执行内镜下全层切除（EFTR）",
+            "按病理及手术意愿随访、补救根治术或追加治疗"
+          ]
+        }
+      ],
+      "primaryEndpoint": "无预设主要终点报告；描述整块及R0切除、切除标本病理、安全与随访。",
+      "sourceUrl": "https://gut.bmj.com/content/gutjnl/early/2026/01/06/gutjnl-2025-336549.full.pdf"
+    },
+    "resultCharts": [
+      {
+        "title": "中山EFTR：各临床反应亚组的局切标本ypT0",
+        "type": "proportion",
+        "endpoint": "局部切除标本ypT0",
+        "timepoint": "EFTR时；放疗至EFTR中位12周",
+        "population": "28例接受内镜全层切除；以下为同队列的临床反应亚组",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "cCR（6/6）",
+            "value": 100,
+            "n": 6,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "ncCR（11/22）",
+            "value": 50,
+            "n": 22,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "note": "描述性亚组，非干预对照；不能评价淋巴结状态；未报告区间或组间检验。",
+        "sourceUrl": "https://gut.bmj.com/content/gutjnl/early/2026/01/06/gutjnl-2025-336549.full.pdf",
+        "sourceDate": "2026-01-06"
+      }
+    ]
   }
 ]

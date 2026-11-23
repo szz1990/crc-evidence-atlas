@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -883,14 +883,16 @@
     },
     {
       "pmid": "43014085",
-      "title": "CA209-8M4 nivolumab plus TNT",
+      "title": "CA209-8M4：nivolumab加TNT",
       "sources": [
         "https://doi.org/10.1016/j.esmoop.2026.108617",
-        "https://pubmed.ncbi.nlm.nih.gov/43014085/"
+        "https://pubmed.ncbi.nlm.nih.gov/43014085/",
+        "https://clinicaltrials.gov/study/NCT03921684"
       ],
       "sourceLevel": "pending-fulltext",
-      "reason": "11月11日旧于检索窗的覆盖线索：29入组、28可评价；19/28为pCR与持续≥12月cCR复合mpCR，不是单纯pCR；摘要报告51.7%≥3级AE及1例死亡，不能据亮点称普遍轻微。出版商403，完整终点与安全归因待核。",
-      "reviewedAt": "2026-11-20T01:00:05.024555+00:00"
+      "reason": "注册核实29例入组、无登记结果；已列pCR、治疗期间AE及复合mpCR三个主要终点；论文摘要29例入组、28例可评价，mpCR为19/28（手术pCR 6例，加持续cCR 13例），免疫相关AE报告为4/29，化免期间≥3级AE为51.7%并有1例死亡。全文仍未能获取，不将摘要小样本或历史阈值视作随机证据。",
+      "reviewedAt": "2026-11-23T00:51:03.956428+00:00",
+      "registryId": "NCT03921684"
     },
     {
       "registryId": "NCT07829081",
@@ -976,7 +978,39 @@
       "sourceLevel": "protocol-only",
       "reason": "随机前尚未发生分子复发；SAP记录359入组、299随机。ctDNA阳性触发影像；初次影像阴性可追加系列PET/CT。主要终点为三年内复发者接受根治意向局部治疗比例；未核实成熟结果。",
       "reviewedAt": "2026-11-22T00:44:47.082909+00:00"
+    },
+    {
+      "title": "BNT122-01：ctDNA阳性术后个体化mRNA疫苗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04486378",
+        "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm",
+        "https://biontechse.gcs-web.com/static-files/290ddc60-a4f5-41d1-ae73-9ef62eb3a450"
+      ],
+      "registryId": "NCT04486378",
+      "sourceLevel": "sponsor-termination-no-results",
+      "reason": "申办方2026-08-28宣布依独立DSMB建议终止；此前越过无效界值，最新复核发现OS数值不平衡（未公布方向和效应量），无新安全性信号。11月申报进一步确认终止；10月注册仍显示Active, not recruiting且无结果，不能视预计完成时间为疗效读出。保留负面状态线索，等待DFS、OS及安全性完整数据。",
+      "reviewedAt": "2026-11-23T00:51:03.956428+00:00"
+    },
+    {
+      "title": "RECTIFY-1：MSS/pMMR I期直肠癌新辅助BOT/BAL",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07735624"
+      ],
+      "registryId": "NCT07735624",
+      "sourceLevel": "protocol-only",
+      "reason": "单中心开放标签Ⅱ期单臂，cT1–2N0M0，预计16例；6个月cCR或nCR后局切pCR为主要终点。注册仍招募，未报告疗效。",
+      "reviewedAt": "2026-11-23T00:51:03.956428+00:00"
+    },
+    {
+      "title": "TNT期间他汀及阿司匹林既往用药与CR",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43068487/"
+      ],
+      "pmid": "43068487",
+      "sourceLevel": "pending-fulltext",
+      "reason": "澳大利亚多中心回顾性队列360人；未观察到他汀（OR 1.55，95%CI 0.97–2.48）或阿司匹林（OR 0.99，95%CI 0.47–2.10）与复合CR显著相关；不是随机加药研究，处方混杂及全文方法待核。",
+      "reviewedAt": "2026-11-23T00:51:03.956428+00:00"
     }
   ],
-  "lastReviewNote": "新增1条仅方案线索（IMPROVE-IT2）；完成CHOICE II正式摘要补录，CA209-8M4仍待核全文。"
+  "lastReviewNote": "新增3条未有完整结果线索；更新CA209-8M4待核信息。"
 }

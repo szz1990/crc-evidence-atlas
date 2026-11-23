@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-22",
+  "version": "2026-11-23",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-22T00:44:47Z",
-  "lastClinicalVerificationAt": "2026-11-22",
-  "curatedCount": 112,
-  "updateStatus": "Review completed; CHOICE II randomized ASCO abstract backfilled; 112 studies, 135 charts",
+  "lastSourceFetchAt": "2026-11-23T00:51:03Z",
+  "lastClinicalVerificationAt": "2026-11-23",
+  "curatedCount": 113,
+  "updateStatus": "Review completed; Zhongshan EFTR pilot case series backfilled; 113 studies, 136 charts",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -146,9 +146,14 @@
       "date": "2026-11-22",
       "type": "review",
       "note": "检索13篇新索引、0项登记、0条勘误/撤稿相关元数据；既有研究12批、49条去重。复核8项候选，补录CHOICE II随机会议摘要；IMPROVE-IT2仅方案待更；原111项结论未改。"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "review",
+      "note": "检索22篇新索引、0项登记、1条勘误/撤稿相关元数据；既有研究12批、160条去重。复核8项候选，补录中山EFTR先导系列；RECTIFY-1仅方案、BNT122-01终止待结果；原112项结论未改。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-22T00:44:47.082909+00:00",
+  "lastSourceReviewAt": "2026-11-23T00:51:03.956428+00:00",
   "lastRegulatoryVerificationAt": "2026-11-09",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"
