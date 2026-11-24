@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -1010,7 +1010,80 @@
       "sourceLevel": "pending-fulltext",
       "reason": "澳大利亚多中心回顾性队列360人；未观察到他汀（OR 1.55，95%CI 0.97–2.48）或阿司匹林（OR 0.99，95%CI 0.47–2.10）与复合CR显著相关；不是随机加药研究，处方混杂及全文方法待核。",
       "reviewedAt": "2026-11-23T00:51:03.956428+00:00"
+    },
+    {
+      "title": "NEO-RT（CCTG CO.32）",
+      "sources": [
+        "https://doi.org/10.1200/OA-25-00176",
+        "https://clinicaltrials.gov/study/NCT06205485",
+        "https://doi.org/10.1200/OA-26-00099"
+      ],
+      "registryId": "NCT06205485",
+      "sourceLevel": "protocol-only",
+      "reason": "计划250例，pMMR cT1–3abN0且适合经肛局切；12周FOLFOX/CAPOX对54 Gy同步含氟嘧啶放化疗，后按反应选择局切、观察或补救。治疗开始后14–16周评估cCR，先检验cCR非劣效，达到后再检验复评后12个月重度LARS优效。ctDNA是伴随研究，不用于分配。登记招募中，未报告结果。勘误为两条参考文献，不改设计。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "TNT后MRI与术后病理分期不符",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43071553/",
+        "https://doi.org/10.1002/jso.70433"
+      ],
+      "pmid": "43071553",
+      "sourceLevel": "pending-fulltext",
+      "reason": "单中心有手术病理的选择队列48例，33/48存在T或N分期差异；不能视为cCR误判率或推广至W&W，排除免疫治疗，完整定义与回归方法待核。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "REACT：高危直肠癌术后ctDNA阳性辅助化疗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07188025"
+      ],
+      "registryId": "NCT07188025",
+      "sourceLevel": "protocol-only",
+      "reason": "荷兰PLCRC队列内开放随机Ⅲ期，预计103例；根治术后ctDNA阳性，化疗对无辅助化疗；ITT 2年DFS。排除W&W及接受过新辅助含奥沙利铂系统治疗者。最近登记发布日期2026-10-02，非本窗口新读出。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "NIMBLE-CRC：pMMR结肠癌新辅助zanzalintinib＋retifanlimab",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07677579"
+      ],
+      "registryId": "NCT07677579",
+      "sourceLevel": "protocol-only",
+      "reason": "Ⅱ期单臂预计26例，可切除Ⅱ–Ⅲ期pMMR结肠癌，以两周期后14–35天内接受根治意向手术的可行性为主要终点。2026-11-23登记尚未招募、无结果；不以标题中的Rectal将其归为直肠癌。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "ROSETTA CRC-203：一线pumitamig加化疗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07221357"
+      ],
+      "registryId": "NCT07221357",
+      "sourceLevel": "protocol-only",
+      "reason": "随机Ⅱ/Ⅲ期，比较pumitamig加化疗与贝伐珠单抗加化疗在未治疗不可切除或转移性CRC中的疗效；预计990例。2026-11-23登记招募中，无比较结果。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "HARMONi-GI3：一线ivonescimab加FOLFOX",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07228832"
+      ],
+      "registryId": "NCT07228832",
+      "sourceLevel": "protocol-only",
+      "reason": "双盲随机Ⅲ期，ivonescimab或贝伐珠单抗加FOLFOX，预计900例，主要终点为独立评审PFS。2026-11-23登记招募中，无结果。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "LiGeR-CRC1：左侧RAS/BRAF野生型mCRC一线petosemtamab",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07702032"
+      ],
+      "registryId": "NCT07702032",
+      "sourceLevel": "protocol-only",
+      "reason": "开放标签随机Ⅲ期，petosemtamab或西妥昔单抗加mFOLFOX6/FOLFIRI；预计960例，主要终点为盲态独立评审PFS及ORR。2026-11-23登记招募中，无结果。",
+      "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
     }
   ],
-  "lastReviewNote": "新增3条未有完整结果线索；更新CA209-8M4待核信息。"
+  "lastReviewNote": "新增7条未有完整结果线索；包括NEO-RT、REACT及转移性CRC研究；均未报告比较结果。"
 }

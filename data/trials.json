@@ -13154,5 +13154,132 @@
         "sourceDate": "2026-01-06"
       }
     ]
+  },
+  {
+    "id": "cctg-neo-co28",
+    "name": "CCTG NEO（CO.28）· 化疗先行后经肛切除",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "中低位直肠癌 · 选择性器官保留",
+    "patientGroup": "经MRI分期的中低位高至中分化直肠腺癌cT1–3abN0，适合经肛局部切除。入组58例，MMR已知55例均为pMMR，另3例未知。",
+    "molecular": "55例pMMR；3例未知；非按MMR纳入",
+    "line": "初治 / 新辅助后器官保留",
+    "design": "加拿大及美国多中心、单臂Ⅱ期；Simon两阶段最小最大设计",
+    "phase": "Ⅱ期",
+    "n": "58例入组且开始化疗；56例行经肛局切，52/56 R0",
+    "arms": [
+      "mFOLFOX6六周期或CAPOX四周期（约3个月）；本研究不安排常规新辅助放疗 → 化疗后评估：有反应者在化疗结束后2–6周行经肛内镜手术/局部切除（TES） → 依局切病理分流：ypT0或低风险ypT1，且N0/X随访；残余高风险、进展或切除不充分按方案建议根治手术；个别病例接受其他补救治疗"
+    ],
+    "primaryEndpoint": "方案定义器官保留率（psOPR）：局切达ypT0/1N0/X且避免根治手术；ITT按58例计。",
+    "results": [
+      "JCO主要终点：方案定义器官保留33/58，57%（90% CI 45–68）；实际观察46/58，79%（90% CI 69–88），后者包含23例被建议TME中拒绝手术而转随访的13例，不是按方案成功率或长期器官保留率。",
+      "56/58接受局切，52/56 R0。论文中位随访15.4个月，观察到2例局部区域复发；该报告时无远处复发或死亡。",
+      "注册延长随访（非同行评审更新，均为58例分析）：3年局部区域复发7.1%（95% CI 2.7–17.7），远处复发5.3%（1.7–15.4），DFS 84.3%（72.0–91.5）。注册DFS包括复发、无记录复发部位即开始非方案治疗或死亡；不由早期论文复发数推算。"
+    ],
+    "followup": "JCO主要终点报告中位15.4个月；注册另列3年KM估计。",
+    "safety": "主要终点论文表2：胃肠道3级13/58、4级1/58，血液学3级5/58、4级4/58；分项不相加，未见5级事件。56例局切中52例R0，2例R1、2例R2。延长随访注册AE表列全因死亡2/58及严重AE 1/58，不能视为治疗相关死亡；治疗期间分级AE见原文表2。",
+    "limitations": "单臂且选择适合局切者，不提供相对放化疗、免疫联合或TME的非劣效/优效证据；局切不能完整分期区域淋巴结；论文表3的10例后续TME中有2例ypN1（不能视作全队列淋巴结阳性率）。部分患者拒绝推荐TME导致方案与实际器官保留口径不同；3年结果为注册报告。",
+    "practiceImpact": "支持继续开展化疗先行的随机对照研究，不支持据此普遍省略放疗；后续随机试验NEO-RT（CO.32）尚无结果。",
+    "conclusion": "高度筛选人群中化疗先行加经肛局切可探索器官保留；不能用79%作为有计划省略手术或长期控制的基准。",
+    "status": "JCO原始报告＋ClinicalTrials.gov 3年结果；历史补录",
+    "publicationDate": "2022-08-18",
+    "sources": [
+      {
+        "title": "Kennecke等：JCO主要终点全文",
+        "url": "https://doi.org/10.1200/JCO.22.00184"
+      },
+      {
+        "title": "NCT03259035：3年结果及安全性登记",
+        "url": "https://clinicaltrials.gov/study/NCT03259035?tab=results"
+      },
+      {
+        "title": "独立后续随机研究NEO-RT（CO.32）方案（非本队列结果）",
+        "url": "https://doi.org/10.1200/OA-25-00176"
+      },
+      {
+        "title": "NCT06205485：NEO-RT随机研究注册（未报告结果）",
+        "url": "https://clinicaltrials.gov/study/NCT06205485"
+      }
+    ],
+    "keywords": [
+      "CCTG CO.28",
+      "NEO",
+      "经肛内镜手术",
+      "TES",
+      "局部切除",
+      "器官保留",
+      "选择性省略放疗",
+      "pMMR",
+      "FOLFOX",
+      "CAPOX"
+    ],
+    "comparisonGroup": "直肠癌 · 器官保留策略",
+    "verifiedAt": "2026-11-24",
+    "lastVerified": "2026-11-24",
+    "evidenceLevel": "multicenter single-arm phase II; separate longer-term registry results",
+    "reviewStatus": "verified",
+    "changeNote": "历史补录：明确JCO按方案器官保留与观察性实际器官保留的区别；单列3年注册KM结果。",
+    "registryId": "NCT03259035",
+    "molecularTags": [
+      "pMMR"
+    ],
+    "scheme": {
+      "population": "经MRI分期的中低位高至中分化直肠腺癌cT1–3abN0，适合经肛局部切除。入组58例，MMR已知55例均为pMMR，另3例未知。",
+      "allocation": "加拿大及美国多中心、单臂Ⅱ期；Simon两阶段最小最大设计",
+      "arms": [
+        {
+          "label": "化疗先行路径",
+          "steps": [
+            "mFOLFOX6六周期或CAPOX四周期（约3个月）；本研究不安排常规新辅助放疗",
+            "化疗后评估：有反应者在化疗结束后2–6周行经肛内镜手术/局部切除（TES）",
+            "依局切病理分流：ypT0或低风险ypT1，且N0/X随访；残余高风险、进展或切除不充分按方案建议根治手术；个别病例接受其他补救治疗"
+          ]
+        }
+      ],
+      "primaryEndpoint": "方案定义器官保留率（psOPR）：局切达ypT0/1N0/X且避免根治手术；ITT按58例计。",
+      "sourceUrl": "https://doi.org/10.1200/JCO.22.00184"
+    },
+    "resultCharts": [
+      {
+        "title": "NEO：方案定义器官保留",
+        "type": "proportion",
+        "endpoint": "方案定义器官保留率",
+        "timepoint": "局切后的病理分流及根治手术执行情况",
+        "population": "ITT：全部58例",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "方案定义（33/58，90% CI）",
+            "value": 57,
+            "n": 58,
+            "ciLow": 45,
+            "ciHigh": 68
+          }
+        ],
+        "note": "90% CI；不含拒绝建议TME后观察的13例，不是3年持续保留率。",
+        "sourceUrl": "https://doi.org/10.1200/JCO.22.00184",
+        "sourceDate": "2022-08-18"
+      },
+      {
+        "title": "NEO：3年无病生存",
+        "type": "proportion",
+        "endpoint": "无病生存率（DFS）",
+        "timepoint": "自入组起3年",
+        "population": "ITT：全部58例",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "3年DFS（95% CI）",
+            "value": 84.3,
+            "n": 58,
+            "ciLow": 72.0,
+            "ciHigh": 91.5
+          }
+        ],
+        "note": "95% CI；ClinicalTrials.gov报告的Kaplan–Meier时间点，非独立验证队列；不重建曲线。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT03259035?tab=results",
+        "sourceDate": "2026-04-09"
+      }
+    ]
   }
 ]
