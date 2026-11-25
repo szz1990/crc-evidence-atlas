@@ -4163,7 +4163,7 @@
       "辅助化疗由临床决定，非随机分配"
     ],
     "primaryEndpoint": "ctDNA/MRD与DFS、OS及辅助治疗结局的关联",
-    "results": "术后MRD窗口ctDNA阳性与较差DFS（HR 11.99，P<0.0001）及OS（HR 9.68，P<0.0001）相关。该HR是标志物阳性/阴性的预后关联，不能用作某治疗相对另一治疗的风险降低。",
+    "results": "术后MRD窗口ctDNA阳性与较差DFS（HR 11.99，P<0.0001）及OS（HR 9.68，P<0.0001）相关。该HR是标志物阳性/阴性的预后关联，不能用作某治疗相对另一治疗的风险降低。 关联研究 β-CORRECT（Scientific Reports，2026-11-18）：以另一肿瘤知情型检测回顾分析GALAXY部分既有患者。468例纳入检测研究，417例进入至少一项分析，中位随访1.9年；混合Ⅱ–Ⅲ期及可切除Ⅳ期结肠/直肠癌。术后、确定性治疗后和监测分析分别为241、367和398例，部分时点共用样本。ctDNA阳性对阴性的未调整DFS HR依次为7.5（95% CI 4.3–13.1）、24.0（13.8–41.7）和36.6（21.9–61.2），均P<0.0001。22例术后阳性、接受辅助化疗且化疗后有结果的探索分析：首次治疗后仍阳性者复发7/7，转阴者复发4/15；后者不等于持续清除。不提供随机治疗安全性比较，观察性化疗结果不能确定疗效预测或改变随访与用药策略；非独立的患者队列。",
     "followup": "中位23个月；数据截止2024-06-03",
     "safety": "观察性检测研究，无随机治疗组安全性比较。",
     "limitations": "治疗选择混杂，含转移性根治切除患者；不能仅据观察性关联确认ctDNA的治疗获益预测作用或取消辅助治疗。",
@@ -4178,6 +4178,10 @@
       {
         "title": "试验注册：UMIN000039205",
         "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000044197"
+      },
+      {
+        "title": "Hashimoto等：β-CORRECT（GALAXY重叠样本，不同检测平台）",
+        "url": "https://www.nature.com/articles/s41598-026-79295-3?error=cookies_not_supported"
       }
     ],
     "keywords": [
@@ -4186,9 +4190,10 @@
       "CIRCULATE",
       "观察性",
       "预后",
-      "辅助化疗"
+      "辅助化疗",
+      "β-CORRECT"
     ],
-    "verifiedAt": "2026-11-02",
+    "verifiedAt": "2026-11-25",
     "registryId": "UMIN000039205",
     "category": "colon",
     "comparisonGroup": "术后ctDNA · 风险适应策略",
@@ -4237,8 +4242,9 @@
     ],
     "evidenceLevel": "前瞻性观察队列",
     "reviewStatus": "verified",
-    "changeNote": "补充方案图、结果图和结论；保留原始来源及分母",
-    "molecularTags": []
+    "changeNote": "在GALAXY主条目下交叉链接β-CORRECT的不同检测平台回顾性亚组；保留母队列结论及所有既有来源，不重复计数。",
+    "molecularTags": [],
+    "lastVerified": "2026-11-25"
   },
   {
     "id": "niche-2",
@@ -13279,6 +13285,118 @@
         "note": "95% CI；ClinicalTrials.gov报告的Kaplan–Meier时间点，非独立验证队列；不重建曲线。",
         "sourceUrl": "https://clinicaltrials.gov/study/NCT03259035?tab=results",
         "sourceDate": "2026-04-09"
+      }
+    ]
+  },
+  {
+    "id": "ompenaclid-rgx202-002",
+    "name": "RGX-202-002 · Ompenaclid加FOLFIRI/贝伐珠单抗",
+    "cancer": "结直肠癌",
+    "category": "metastatic",
+    "setting": "RAS突变不可切除晚期或转移性结直肠癌 · 既往含奥沙利铂",
+    "patientGroup": "RAS突变、可测量的不可切除局部晚期或转移性CRC，成人、ECOG 0–1；通常在一线含奥沙利铂方案进展后，另允许含奥沙利铂辅助治疗结束后12个月内转移者；dMMR/MSI-H须既往接受相应免疫治疗。",
+    "molecular": "实验室确认RAS突变，非KRAS单一亚型",
+    "line": "二线为主",
+    "design": "随机1:1安慰剂对照Ⅱ期；登记载明四方设盲，按既往贝伐珠单抗暴露分层",
+    "phase": "Ⅱ期",
+    "n": "76例随机（38/38），安全性分母37/38",
+    "arms": [
+      "Ompenaclid＋FOLFIRI＋贝伐珠单抗",
+      "安慰剂＋FOLFIRI＋贝伐珠单抗"
+    ],
+    "primaryEndpoint": "研究者按RECIST 1.1评估的客观缓解率（ORR）：从随机至影像学进展，最长约12个月；ITT。",
+    "results": [
+      "主要终点阴性：两组ORR均为8/38（21.1%，按登记计数换算），分层单侧P=1.000。登记标明研究因未达到主要终点而终止。",
+      "中位PFS 8.8个月（90% CI 5.72–11.10）与8.1个月（5.55–10.94）；登记的分层HR 0.810（90% CI 0.4768–1.3750），分层单侧log-rank P=0.5104（为另一检验）。",
+      "12个月OS百分比分别88.5%（90% CI 79.5–97.5）与61.3%（44.3–78.4），仅描述性登记；未报告组间OS检验或成熟的OS HR，不能据此确认生存获益。"
+    ],
+    "followup": "登记ORR观察最长约12个月；未报告中位随访。",
+    "safety": "两组任何AE为37/37、38/38；严重AE为12/37、9/38。全因死亡按随机人群为4/38、11/38，不能当作治疗相关死亡；严重AE不等同于≥3级TRAE。",
+    "limitations": "小样本Ⅱ期、主要终点阴性。结局来自登记，研究者评估ORR；未见同行评审主报告。OS数据少、描述性且无比较检验。",
+    "practiceImpact": "不支持在标准二线骨架中常规加用ompenaclid。",
+    "conclusion": "在该随机Ⅱ期中加入ompenaclid未提高客观缓解率；OS描述性差异不足以改变结论。",
+    "status": "主要终点阴性 · ClinicalTrials.gov结果（首次2026-02-20；登记更新2026-11-24）",
+    "publicationDate": "2026-02-20",
+    "sources": [
+      {
+        "title": "ClinicalTrials.gov：NCT05983367结果及安全性",
+        "url": "https://clinicaltrials.gov/study/NCT05983367?tab=results"
+      },
+      {
+        "title": "ClinicalTrials.gov：原始方案与统计分析计划",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05983367/Prot_SAP_000.pdf"
+      },
+      {
+        "title": "欧盟官方CTIS登记：2023-503356-27-00",
+        "url": "https://euclinicaltrials.eu/ctis-public/view/2023-503356-27-00?lang=en"
+      }
+    ],
+    "keywords": [
+      "ompenaclid",
+      "RGX-202-002",
+      "阴性试验",
+      "RAS mutant",
+      "FOLFIRI",
+      "贝伐珠单抗"
+    ],
+    "comparisonGroup": "RAS突变 · 二线靶向联合探索",
+    "verifiedAt": "2026-11-25",
+    "lastVerified": "2026-11-25",
+    "evidenceLevel": "randomized phase II; registry-posted results only",
+    "reviewStatus": "verified",
+    "changeNote": "依据官方登记补录已报告的阴性随机Ⅱ期；不是11月首次读出。",
+    "registryId": "NCT05983367",
+    "molecularTags": [],
+    "scheme": {
+      "population": "RAS突变、可测量的不可切除局部晚期或转移性CRC，成人、ECOG 0–1；通常在一线含奥沙利铂方案进展后，另允许含奥沙利铂辅助治疗结束后12个月内转移者；dMMR/MSI-H须既往接受相应免疫治疗。",
+      "allocation": "随机1:1安慰剂对照Ⅱ期；登记载明四方设盲，按既往贝伐珠单抗暴露分层",
+      "arms": [
+        {
+          "label": "Ompenaclid＋FOLFIRI＋贝伐珠单抗",
+          "steps": [
+            "Ompenaclid与FOLFIRI＋贝伐珠单抗",
+            "按RECIST随访直至进展或其他终止条件"
+          ]
+        },
+        {
+          "label": "安慰剂＋FOLFIRI＋贝伐珠单抗",
+          "steps": [
+            "匹配安慰剂与同一联合骨架",
+            "同样评估肿瘤反应与安全性"
+          ]
+        }
+      ],
+      "primaryEndpoint": "研究者按RECIST 1.1评估的客观缓解率（ORR）：从随机至影像学进展，最长约12个月；ITT。",
+      "sourceUrl": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05983367/Prot_SAP_000.pdf"
+    },
+    "resultCharts": [
+      {
+        "title": "RGX-202-002：主要终点ORR",
+        "type": "proportion",
+        "endpoint": "研究者RECIST 1.1客观缓解率",
+        "timepoint": "至影像学进展，最长约12个月",
+        "population": "ITT：76例随机",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "Ompenaclid组（8/38）",
+            "value": 21.1,
+            "n": 38,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "安慰剂组（8/38）",
+            "value": 21.1,
+            "n": 38,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "pValue": "=1.000",
+        "note": "比例按登记计数换算至一位小数，无组别CI；P值为登记分层单侧检验，主要终点未达到。",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT05983367?tab=results",
+        "sourceDate": "2026-02-20"
       }
     ]
   }

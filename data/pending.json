@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -785,14 +785,16 @@
     },
     {
       "pmid": "43037271",
-      "title": "UICC TNM 9th Edition Updates: Cancers of the Colon and Rectum.",
+      "title": "UICC-9.1.2027与ICCR结直肠手术病理报告草案",
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/43037271/",
-        "https://doi.org/10.1002/ijc.70767"
+        "https://doi.org/10.1002/ijc.70767",
+        "https://www.iccr-cancer.org/datasets/datasets-under-consultation/",
+        "https://www.iccr-cancer.org/wp-content/uploads/2026/10/Draft-ICCR-Colorectal-2nd-ed-v2.0-bookmark.pdf#page=4"
       ],
-      "sourceLevel": "Primary source reviewed; clinical verification incomplete",
-      "reason": "UICC-9.1.2027修订摘要已读，Wiley正文/PDF403；确切生效日期、低位直肠定义、腹股沟结限定及TD算法未核实。2026年1月指旧第9版，不得套用本修订或外推AJCC/中国已实施。",
-      "reviewedAt": "2026-11-17T01:03:20.990783+00:00"
+      "sourceLevel": "pending-fulltext",
+      "reason": "ICCR征求意见至2026-12-09；草案p.4依据2025版UICC第9版及截至2026-08-21勘误，仍列单一M1c；不是R1采纳证明。R1摘要确认M1c1/M1c2和TD分期描述项；完整分期表和中国采用时间待核，AJCC美国项目日期另计。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
     },
     {
       "pmid": "43037074",
@@ -1083,7 +1085,58 @@
       "sourceLevel": "protocol-only",
       "reason": "开放标签随机Ⅲ期，petosemtamab或西妥昔单抗加mFOLFOX6/FOLFIRI；预计960例，主要终点为盲态独立评审PFS及ORR。2026-11-23登记招募中，无结果。",
       "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
+    },
+    {
+      "title": "FOREST：局部进展期直肠癌器官保留登记",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07957690"
+      ],
+      "registryId": "NCT07957690",
+      "sourceLevel": "protocol-only",
+      "reason": "前瞻性观察队列，计划400；入组后12个月是否存活且直肠在位；观察等待、局切后保留、拒绝建议根治术分开记录。11月24日首次公开注册，研究登记起始为2020-04-01；无结果。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+    },
+    {
+      "title": "MUNLARC：黏液与非黏液局部进展期直肠癌",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07956182"
+      ],
+      "registryId": "NCT07956182",
+      "sourceLevel": "protocol-only",
+      "reason": "多中心回顾队列，计划300，分别评价MR再分期和术后病理降期；不是随机分组或蛋白亚型验证。11月24日首次公开注册，无结果。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+    },
+    {
+      "title": "SISReal：小肠黏膜下层材料增强直肠吻合",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07209787"
+      ],
+      "registryId": "NCT07209787",
+      "sourceLevel": "protocol-only",
+      "reason": "多中心随机研究，计划966例，比较增强与常规吻合；主要终点为术后30天吻合口漏（ISREC A/B/C）。注册招募，无结果。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+    },
+    {
+      "title": "高危pMMR局部进展期直肠癌：DCSZ11加短程放疗和化疗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07580339"
+      ],
+      "registryId": "NCT07580339",
+      "sourceLevel": "protocol-only",
+      "reason": "单臂Ⅱ期，计划30例；复合完全缓解和药物毒性致停药为主要终点。登记cCR口径包含1年内无复发/转移要求；尚未招募，无结果。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+    },
+    {
+      "title": "RAPTOR：同期机器人或腹腔镜直肠及肝手术",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43076974/",
+        "https://doi.org/10.1007/s00464-026-13563-1"
+      ],
+      "pmid": "43076974",
+      "sourceLevel": "pending-fulltext",
+      "reason": "美国NCDB回顾性比较940例，同期微创切除病例倾向匹配每组312例；摘要报告低中转，无生存显著差异，缺肝手术复杂度。全文待取得，不推荐据此改变入路。",
+      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
     }
   ],
-  "lastReviewNote": "新增7条未有完整结果线索；包括NEO-RT、REACT及转移性CRC研究；均未报告比较结果。"
+  "lastReviewNote": "新增5条未有完整结果线索；含FOREST、MUNLARC、SISReal及其他候选；更新UICC与ICCR版本区别。"
 }
