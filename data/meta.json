@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-25",
+  "version": "2026-11-26",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-25T00:52:35Z",
-  "lastClinicalVerificationAt": "2026-11-25",
-  "curatedCount": 115,
-  "updateStatus": "Review completed; negative RGX-202-002 backfilled and beta-CORRECT linked under GALAXY; 115 studies, 139 charts",
+  "lastSourceFetchAt": "2026-11-26T00:21:29Z",
+  "lastClinicalVerificationAt": "2026-11-26",
+  "curatedCount": 116,
+  "updateStatus": "Review completed; historical AZUR-1 regulatory and clinical evidence added; 116 studies, 140 charts",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -161,10 +161,15 @@
       "date": "2026-11-25",
       "type": "review",
       "note": "检索49篇新索引、30项登记、3条勘误/撤稿相关元数据；既有研究13批、32条去重。复核10项候选，补录RGX-202-002阴性随机Ⅱ期登记结果，GALAXY补充β-CORRECT重叠亚组关联；其余既有研究不变，待核线索独立记录。"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "review",
+      "note": "检索113篇新索引、53项登记、5条勘误/撤稿相关元数据；既有研究13批、74条去重。复核10项候选，补录AZUR-1历史期中结果及美国加速批准；既有Cercek条目仅追加区分性来源，临床数值不变。CHOICE II、氯叶绿酸等仍待全文。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-25T00:52:35.108366+00:00",
-  "lastRegulatoryVerificationAt": "2026-11-09",
+  "lastSourceReviewAt": "2026-11-26T00:21:29.210582+00:00",
+  "lastRegulatoryVerificationAt": "2026-11-26",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"
 }

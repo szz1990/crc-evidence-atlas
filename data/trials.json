@@ -804,7 +804,7 @@
     ],
     "followup": "全研究复发随访中位20.0个月；不能替代直肠队列随访",
     "safety": "全研究95%无不良事件或仅可逆1–2级事件；未损害根治切除机会。",
-    "limitations": "单臂且完成治疗分母；不是所有未筛选直肠癌的100%疗效；cCR不等于病理已证实治愈。",
+    "limitations": "单臂且完成治疗分母；不是所有未筛选直肠癌的100%疗效；cCR不等于病理已证实治愈。 FDA同一说明书另载不同注册队列AZUR-1（NCT05723562）；不要合并结果或混用不同数据截点。",
     "practiceImpact": "dMMR患者重要器官保留路径，需可靠MMR检测、规范评估及长期监测。",
     "status": "已发表",
     "publicationDate": "2025-04-27",
@@ -816,6 +816,10 @@
       {
         "title": "NCT04165772",
         "url": "https://clinicaltrials.gov/study/NCT04165772"
+      },
+      {
+        "title": "FDA审评时分别描述MSK研究及独立注册试验AZUR-1（见工作台AZUR-1）",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf"
       }
     ],
     "keywords": [
@@ -833,7 +837,7 @@
     "conclusion": "完成治疗的dMMR直肠队列全部达到cCR，支持进一步无手术管理研究；单臂且未必均有长期随访。",
     "evidenceLevel": "single-arm",
     "reviewStatus": "verified",
-    "changeNote": "补充结构化方案、同研究内结果图、结论；保留既有核验和分母注释",
+    "changeNote": "补充结构化方案、同研究内结果图、结论；保留既有核验和分母注释 2026-11-26仅补充试验区分及FDA链接，不修改该研究数值或既往临床核验日期。",
     "scheme": {
       "population": "局限期直肠癌 · dMMR器官保留",
       "allocation": "前瞻性单臂、按癌种分队列",
@@ -13397,6 +13401,118 @@
         "note": "比例按登记计数换算至一位小数，无组别CI；P值为登记分层单侧检验，主要终点未达到。",
         "sourceUrl": "https://clinicaltrials.gov/study/NCT05983367?tab=results",
         "sourceDate": "2026-02-20"
+      }
+    ]
+  },
+  {
+    "id": "azur-1",
+    "name": "AZUR-1 · Dostarlimab",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "局限期直肠癌 · dMMR器官保留",
+    "patientGroup": "初治、可经内镜和影像评估的MSI-H/dMMR局部进展期直肠癌：Ⅱ期（T3–T4N0）或Ⅲ期（任何T、N+）。",
+    "molecular": "dMMR/MSI-H",
+    "line": "初治 / 新辅助与围手术期",
+    "design": "国际多中心、开放标签、单臂注册试验",
+    "phase": "Ⅱ",
+    "n": "154入组及治疗；ICR cCR12可评价116，研究者可评价144",
+    "arms": [
+      "Dostarlimab单药500 mg静脉，每3周1次，最多9周期 → 完成治疗后多模态复评；符合cCR进入非手术管理及密切随访 → 未达cCR、进展或复发者由研究者评估标准治疗"
+    ],
+    "primaryEndpoint": "独立中心审评（ICR）持续12个月cCR，自末剂后首次评估达到cCR起算（FDA审批终点）；另报告研究者评价。",
+    "results": [
+      "中心审评cCR12：54/116，47%（95% CI 37%–56%）；研究者：98/144，68%（95% CI 60%–76%）。另有38例中心判cCR尚未满12个月；不同评估者、成熟度和分母，不是两治疗组。",
+      "截至期中截点，110/154（71%）仅用Dostarlimab后未接受其他抗肿瘤治疗且未进展或复发；这是当时的治疗路径状态，不是cCR12或3年器官保留。26例手术（可伴其他治疗），13例另行系统或放射治疗，1例进展后无进一步治疗，4例退出或失访。",
+      "仅用Dostarlimab后选择手术者12/15为pCR，不能外推全队列。中心ORR 121/154（79%，95% CI 71%–85%），这一报告口径包括cCR、ncCR和PR，不能替代cCR。"
+    ],
+    "followup": "2026-04-20预设期中截点；总体中位随访约26个月（论文26.3个月，范围2–36）。",
+    "safety": "FDA说明书154例：严重不良反应20%，因不良反应永久停药3%、中断19%，免疫介导反应23%。说明书记载1例肠梗阻相关术后并发脓毒症死亡；截点共6例死亡（任意原因）。论文摘要另报告≥3级免疫介导AE 4例（3%）。",
+    "limitations": "单臂、期中、中心与研究者评价成熟度不同，无随机TNT或手术对照；不能估计比较生存获益，或从现有读数推断长期无病器官保留。与NCT04165772为不同试验，不合并。FDA消息页将中心cCR12的区间下限写为27%，采用正式说明书表13 Clopper–Pearson 37%。",
+    "practiceImpact": "美国FDA于2026-10-19加速批准用于经FDA授权固瘤检测确认的成人Ⅱ/Ⅲ期MSI-H/dMMR LARC。并非中国适应证；不适用于pMMR。要求继续核实cCR12/24/36、3年器官保留和复发/转移及5年生存。",
+    "status": "正式论文期中结果 / 美国FDA加速批准",
+    "publicationDate": "2026-10-25",
+    "sources": [
+      {
+        "title": "FDA说明书§14.2表13与§6.1安全性",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf"
+      },
+      {
+        "title": "FDA加速批准函及上市后研究要求5084-1",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761174Orig1s015ltr.pdf"
+      },
+      {
+        "title": "正式期中报告 Annals of Oncology",
+        "url": "https://doi.org/10.1016/j.annonc.2026.10.1280"
+      },
+      {
+        "title": "ClinicalTrials.gov AZUR-1登记",
+        "url": "https://clinicaltrials.gov/study/NCT05723562"
+      },
+      {
+        "title": "FDA批准网页（cCR12区间下限以正式说明书为准）",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer"
+      }
+    ],
+    "keywords": [
+      "AZUR-1",
+      "dostarlimab",
+      "Jemperli",
+      "dMMR",
+      "MSI-H",
+      "cCR12",
+      "器官保留"
+    ],
+    "comparisonGroup": "dMMR直肠癌 · 非手术策略",
+    "verifiedAt": "2026-11-26",
+    "lastVerified": "2026-11-26",
+    "evidenceLevel": "single-arm phase 2, interim; FDA prescribing information and peer-reviewed report abstract",
+    "reviewStatus": "verified",
+    "changeNote": "历史补录；区分中心审评、研究者、总体和手术选择分母；FDA说明书与批准函为定量和监管主要来源。",
+    "registryId": "NCT05723562",
+    "molecularTags": [
+      "dmmr"
+    ],
+    "conclusion": "国际单臂注册试验显示部分患者在单药后持续临床完全缓解；美国批准仍为加速批准，长期比较获益未确定。",
+    "scheme": {
+      "population": "初治、可经内镜和影像评估的MSI-H/dMMR局部进展期直肠癌：Ⅱ期（T3–T4N0）或Ⅲ期（任何T、N+）。",
+      "allocation": "国际多中心开放单臂",
+      "arms": [
+        {
+          "label": "Dostarlimab",
+          "steps": [
+            "Dostarlimab单药500 mg静脉，每3周1次，最多9周期",
+            "完成治疗后多模态复评；符合cCR进入非手术管理及密切随访",
+            "未达cCR、进展或复发者由研究者评估标准治疗"
+          ]
+        }
+      ],
+      "primaryEndpoint": "独立中心审评（ICR）持续12个月cCR，自末剂后首次评估达到cCR起算（FDA审批终点）；另报告研究者评价。",
+      "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf"
+    },
+    "resultCharts": [
+      {
+        "title": "AZUR-1：独立中心审评持续12个月cCR",
+        "type": "proportion",
+        "endpoint": "cCR12（ICR）",
+        "timepoint": "2026-04-20期中截点；自末剂后首次达到cCR起至少12个月",
+        "population": "独立中心审评的116例可评价患者，非全部154例",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "Dostarlimab",
+            "value": 47,
+            "n": 116,
+            "ciLow": 37,
+            "ciHigh": 56
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "54/116；95% CI为FDA说明书表13原值。另有38例中心判cCR尚未满12个月。研究者为不同评估分母，不作为对照。",
+        "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf",
+        "sourceDate": "2026-10-19"
       }
     ]
   }

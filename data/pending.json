@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -1136,7 +1136,96 @@
       "sourceLevel": "pending-fulltext",
       "reason": "美国NCDB回顾性比较940例，同期微创切除病例倾向匹配每组312例；摘要报告低中转，无生存显著差异，缺肝手术复杂度。全文待取得，不推荐据此改变入路。",
       "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+    },
+    {
+      "title": "CHOICE II：11月25日正式论文，仍待全文核对",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43084781/",
+        "https://doi.org/10.1002/advs.78907",
+        "https://clinicaltrials.gov/study/NCT05215379"
+      ],
+      "pmid": "43084781",
+      "registryId": "NCT05215379",
+      "linkedCuratedId": "choice-ii",
+      "sourceLevel": "pending-fulltext",
+      "reason": "Advanced Science及DOI元数据和PubMed摘要可核，Wiley正文、PDF、XML未取得。180例随机、mITT 85/84；初次cCR 36.5%/17.9%，绝对差18.6个百分点（95% CI 5.5–31.7），RR 2.04（95% CI 1.19–3.50），P=.007。论文摘要AE对照64.3%，会议为66.3%，待核安全性分母及分级、器官保留/局部再生长和随机后排除；暂不覆盖原会议记录。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "Chlorophyllin：强化TNT期间的急性毒性预防",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43084277/",
+        "https://jamanetwork.com/journals/jamaoncology/article-abstract/2857374",
+        "https://clinicaltrials.gov/study/NCT05856305"
+      ],
+      "pmid": "43084277",
+      "registryId": "NCT05856305",
+      "sourceLevel": "pending-fulltext",
+      "reason": "JAMA Oncology 11月25日正式摘要；登记实际入组76，摘要分析73（37/36），尚未核随机后3人去向。合并消化、血液、泌尿急性≥2级毒性24/37 vs 34/36，绝对降低29.6个百分点（90% CI 15.2–43.9），RR .69（90% CI .56–.86），P=.003；≥3级10/37 vs19/36。正文流程与严重、终止和远期肿瘤结局待核；不能外推所有TNT方案。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "荷兰pT1高危结肠癌局切后补充手术登记队列",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43078133/",
+        "https://doi.org/10.1055/a-2985-7117"
+      ],
+      "pmid": "43078133",
+      "sourceLevel": "pending-fulltext",
+      "reason": "75院2592例原发局切pT1，经20个插补数据集分别纳入1831–1855高危，44.3%接受补充手术；预后为相对超额风险1.56（95% CI .71–3.47），不是DFS/OS HR，亦非无获益或等效证据。待核全文、时间起算和风险分层，保留适应证混杂。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "美国直肠癌观察等待路径时间队列",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43077876/",
+        "https://doi.org/10.1016/j.jss.2026.10.051"
+      ],
+      "pmid": "43077876",
+      "sourceLevel": "pending-fulltext",
+      "reason": "33中心545例总样本；摘要报告84例（23.8%）局部再生长，比例显然非按总545例计算，实际可用分母待核。治疗后MRI/内镜/cCR中位间隔分别42/50/62天为描述，不是推荐阈值。待核与既有美国协作队列重叠。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "ROBBIN：高危Ⅱ期及Ⅲ期非MSI-H/dMMR结肠癌围手术期Ⅲ期",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07958080"
+      ],
+      "registryId": "NCT07958080",
+      "sourceLevel": "protocol-only",
+      "reason": "官方11月25日首次登记，未开始招募，计划850。新辅助BOT+BAL后标准手术及按风险辅助/观察，对照直接标准手术及按风险辅助/观察；中心盲审EFS（至60个月）为主要终点，12月ctDNA阴性为次要终点，ctDNA不负责治疗分流；无结果。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "TME-short：新辅助后明显退缩但仍需手术",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07959835"
+      ],
+      "registryId": "NCT07959835",
+      "sourceLevel": "protocol-only",
+      "reason": "11月25日登记未开始招募，中低位、距肛缘≤10 cm、新辅助后肿瘤缩小≥50%且不宜W&W，随机TME-short vs标准TME；主要3年DFS，非劣界值−10个百分点。结构化计划610例，摘要约606，差异待方案，不能视作现证据。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "围手术期运动与直肠前切除后LARS",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07959224"
+      ],
+      "registryId": "NCT07959224",
+      "sourceLevel": "protocol-only",
+      "reason": "11月25日登记未招募，预计92例，Ⅰ–Ⅲ期直肠癌、行前切除/一期吻合不造口；比较分阶段运动和常规护理，主要终点术前至术后6个月LARS评分变化；不是入组重度患者的改善试验，无结果。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "中山大学pMMR/MSS直肠癌低剂量放疗化免适应性方案",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07448142"
+      ],
+      "registryId": "NCT07448142",
+      "sourceLevel": "protocol-only",
+      "reason": "10月15日更新；招募中、随机Ⅱ期计划50，两组均从治疗开始即低剂量放疗加pucotenlimab/CAPEOX，2周期MRI/内镜复评；PR/SD停止后续低剂量放疗、继续化免，局部进展挽救放化疗。主要cCR或pCR；摘要与分组/干预字段对照射次数不一致，不能确定总剂量；非初始免放疗对照、无结果。",
+      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
     }
   ],
-  "lastReviewNote": "新增5条未有完整结果线索；含FOREST、MUNLARC、SISReal及其他候选；更新UICC与ICCR版本区别。"
+  "lastReviewNote": "新增8条未有完整结果线索；涵盖CHOICE II正式摘要、氯叶绿酸、ROBBIN等；仅方案不作结果。"
 }
