@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -1156,13 +1156,15 @@
       "sources": [
         "https://pubmed.ncbi.nlm.nih.gov/43084277/",
         "https://jamanetwork.com/journals/jamaoncology/article-abstract/2857374",
-        "https://clinicaltrials.gov/study/NCT05856305"
+        "https://clinicaltrials.gov/study/NCT05856305",
+        "https://doi.org/10.1001/jamaoncol.2026.4843",
+        "https://doi.org/10.1001/jamaoncol.2026.5134"
       ],
       "pmid": "43084277",
       "registryId": "NCT05856305",
       "sourceLevel": "pending-fulltext",
-      "reason": "JAMA Oncology 11月25日正式摘要；登记实际入组76，摘要分析73（37/36），尚未核随机后3人去向。合并消化、血液、泌尿急性≥2级毒性24/37 vs 34/36，绝对降低29.6个百分点（90% CI 15.2–43.9），RR .69（90% CI .56–.86），P=.003；≥3级10/37 vs19/36。正文流程与严重、终止和远期肿瘤结局待核；不能外推所有TNT方案。",
-      "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+      "reason": "JAMA Oncology 11月25日正式摘要；同期编辑部导读确认76例随机，73例开始试验药并分析（37/36）；各组随机分配和3例未用药的原因仍待正文；导读不是独立证据。合并消化、血液、泌尿急性≥2级毒性24/37 vs 34/36，绝对降低29.6个百分点（90% CI 15.2–43.9），RR .69（90% CI .56–.86），P=.003；≥3级10/37 vs19/36。正文流程与严重、终止和远期肿瘤结局待核；不能外推所有TNT方案。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
     },
     {
       "title": "荷兰pT1高危结肠癌局切后补充手术登记队列",
@@ -1225,7 +1227,62 @@
       "sourceLevel": "protocol-only",
       "reason": "10月15日更新；招募中、随机Ⅱ期计划50，两组均从治疗开始即低剂量放疗加pucotenlimab/CAPEOX，2周期MRI/内镜复评；PR/SD停止后续低剂量放疗、继续化免，局部进展挽救放化疗。主要cCR或pCR；摘要与分组/干预字段对照射次数不一致，不能确定总剂量；非初始免放疗对照、无结果。",
       "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
+    },
+    {
+      "title": "DINOMITE：独立监查委员会暂停更新",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06834126"
+      ],
+      "registryId": "NCT06834126",
+      "sourceLevel": "registry-status-no-results",
+      "reason": "11月25日登记更新为暂停。官方注明11月19日由DSMC暂停，等待75%数据录入、分析与剂量决定；未公开毒性事件或疗效结果，不推断安全原因。随机Ⅰ期计划36例，MSS T3–4或N+ M0，标准短程放疗/巩固化疗±罂粟碱，主要急性和迟发剂量限制性毒性。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
+    },
+    {
+      "title": "RAS/BRAF野生型mCRC一线脂质体伊立替康Ⅱ联合",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07958262"
+      ],
+      "registryId": "NCT07958262",
+      "sourceLevel": "protocol-only",
+      "reason": "11月25日登记，未开始招募；单臂Ⅰ/Ⅱ期计划35例，RAS/BRAF野生型一线mCRC，伊立替康脂质体Ⅱ＋5-FU/LV＋西妥昔单抗β，先安全导入，主要观察首周期至14天的≥3级治疗相关不良事件与DLT。无结果。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
+    },
+    {
+      "title": "mRCAT-E：早期MSS直肠癌缩小放疗靶区",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07068763",
+        "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.TPS3687"
+      ],
+      "registryId": "NCT07068763",
+      "sourceLevel": "protocol-only",
+      "reason": "招募中，预计52例，单臂cT2–3N0M0、距肛缘≤7 cm、pMMR/MSS或MSI-L。所有人原发瘤床25 Gy/5次、不择期照射区域引流结，后接卡培他滨和PD-1/CTLA-4抑制；治疗后1–2周为首评，登记复合CR窗至化免后12周；无结果，不是省去全部放疗。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
+    },
+    {
+      "title": "mRCAT-III：Ⅲ期会议结果与登记待对照",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06507371",
+        "https://ascopubs.org/doi/10.1200/JCO.2026.44.17_suppl.LBA3515",
+        "https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.TPS3641"
+      ],
+      "registryId": "NCT06507371",
+      "sourceLevel": "pending-conference-detail",
+      "reason": "2026 ASCO摘要报两组154例，pCR 47/77 vs 22/77（P<.001），但47/77按算术为61.0%，不等于摘要61.4%。6月30日官方登记仍列预计170、三组（含常规照野+PD-1探索臂）、无登记结果。待核流向与百分比；主比较同时改变照野与PD-1，不能归因于照野，或支持完全免放疗。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
+    },
+    {
+      "title": "mRCAT原始Ⅱ期方案：与mRCAT-E和Ⅲ期分开",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT05972655",
+        "https://doi.org/10.1186/s12885-024-12994-0"
+      ],
+      "registryId": "NCT05972655",
+      "pmid": "39385104",
+      "sourceLevel": "protocol-only",
+      "reason": "2024已发表方案，拟32例MSS/pMMR中低位局部晚期直肠癌，原发瘤床短程放疗不含引流结，联合CAPOX与替雷利珠单抗，主要终点pCR。检索未见该独立注册的完整结果，不能借用Ⅲ期结果。",
+      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
     }
   ],
-  "lastReviewNote": "新增8条未有完整结果线索；涵盖CHOICE II正式摘要、氯叶绿酸、ROBBIN等；仅方案不作结果。"
+  "lastReviewNote": "新增5条待审线索；DINOMITE登记暂停、mRCAT家族分开记录，其余方案无结果；CHOICE II和氯叶绿酸仍待全文。"
 }
