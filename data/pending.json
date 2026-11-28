@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "status": "unreviewed-for-curated-inclusion",
   "items": [
     {
@@ -1087,14 +1087,16 @@
       "reviewedAt": "2026-11-24T00:46:15.071140+00:00"
     },
     {
-      "title": "FOREST：局部进展期直肠癌器官保留登记",
+      "title": "FOREST：器官保留观察队列",
       "sources": [
-        "https://clinicaltrials.gov/study/NCT07957690"
+        "https://clinicaltrials.gov/study/NCT07957690",
+        "https://doi.org/10.1002/ijc.70126",
+        "https://doi.org/10.3390/jcm15020844"
       ],
       "registryId": "NCT07957690",
       "sourceLevel": "protocol-only",
-      "reason": "前瞻性观察队列，计划400；入组后12个月是否存活且直肠在位；观察等待、局切后保留、拒绝建议根治术分开记录。11月24日首次公开注册，研究登记起始为2020-04-01；无结果。",
-      "reviewedAt": "2026-11-25T00:52:35.108366+00:00"
+      "reason": "已登记观察性计划400例；12个月指标是已知状态者存活且原位直肠未根治切除，允许局切，不要求无病、无永久造口。既往PROM出版物不替代登记主要终点，不将队列重复计数。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
     },
     {
       "title": "MUNLARC：黏液与非黏液局部进展期直肠癌",
@@ -1150,21 +1152,6 @@
       "sourceLevel": "pending-fulltext",
       "reason": "Advanced Science及DOI元数据和PubMed摘要可核，Wiley正文、PDF、XML未取得。180例随机、mITT 85/84；初次cCR 36.5%/17.9%，绝对差18.6个百分点（95% CI 5.5–31.7），RR 2.04（95% CI 1.19–3.50），P=.007。论文摘要AE对照64.3%，会议为66.3%，待核安全性分母及分级、器官保留/局部再生长和随机后排除；暂不覆盖原会议记录。",
       "reviewedAt": "2026-11-26T00:21:29.210582+00:00"
-    },
-    {
-      "title": "Chlorophyllin：强化TNT期间的急性毒性预防",
-      "sources": [
-        "https://pubmed.ncbi.nlm.nih.gov/43084277/",
-        "https://jamanetwork.com/journals/jamaoncology/article-abstract/2857374",
-        "https://clinicaltrials.gov/study/NCT05856305",
-        "https://doi.org/10.1001/jamaoncol.2026.4843",
-        "https://doi.org/10.1001/jamaoncol.2026.5134"
-      ],
-      "pmid": "43084277",
-      "registryId": "NCT05856305",
-      "sourceLevel": "pending-fulltext",
-      "reason": "JAMA Oncology 11月25日正式摘要；同期编辑部导读确认76例随机，73例开始试验药并分析（37/36）；各组随机分配和3例未用药的原因仍待正文；导读不是独立证据。合并消化、血液、泌尿急性≥2级毒性24/37 vs 34/36，绝对降低29.6个百分点（90% CI 15.2–43.9），RR .69（90% CI .56–.86），P=.003；≥3级10/37 vs19/36。正文流程与严重、终止和远期肿瘤结局待核；不能外推所有TNT方案。",
-      "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
     },
     {
       "title": "荷兰pT1高危结肠癌局切后补充手术登记队列",
@@ -1282,7 +1269,76 @@
       "sourceLevel": "protocol-only",
       "reason": "2024已发表方案，拟32例MSS/pMMR中低位局部晚期直肠癌，原发瘤床短程放疗不含引流结，联合CAPOX与替雷利珠单抗，主要终点pCR。检索未见该独立注册的完整结果，不能借用Ⅲ期结果。",
       "reviewedAt": "2026-11-27T00:08:22.451242+00:00"
+    },
+    {
+      "title": "COPEC：CAPOX疗程比较与两周期ctDNA",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04922853",
+        "https://doi.org/10.1200/JCO.2025.43.16_suppl.3535",
+        "https://doi.org/10.1158/1078-0432.CCR-25-3774",
+        "https://doi.org/10.1158/1078-0432.31910767",
+        "https://doi.org/10.1158/1078-0432.31910764"
+      ],
+      "registryId": "NCT04922853",
+      "pmid": "41556959",
+      "sourceLevel": "pending-parent-and-linked-secondary",
+      "reason": "主试验ASCO 3535：2 vs 4周期，573入组，主分析527；pTRG3 74/266 vs 69/261，摘要p=.722不能单独确立非劣，待主报告/SAP置信限。ctDNA子研究153例为同试验；动态高低风险38/64 vs11/89（差反应定义为pTRG3或远转），调整OR 11.69（95%CI 5.00–27.25）。补表6在4周期组可复核C2阳性差反应11/20、阴性9/47；2周期组的术前BS/C2时间不可并作固定周期；4周期组仅1例cT3N0。非ctDNA指导、非免疫联合、非器官保留比较。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
+    },
+    {
+      "title": "中低位局部进展期直肠癌：自适应短程照射及化免顺序",
+      "sources": [
+        "https://doi.org/10.3389/fgstr.2026.1914389"
+      ],
+      "registryId": "ChiCTR2500104302",
+      "pmid": "43100889",
+      "sourceLevel": "protocol-only",
+      "reason": "36例计划，随机Ⅱ期；两臂均接受30 Gy/6次、CAPOX和信迪利单抗，比较放疗先行与分段诱导。均计划全程后2–4周手术，距SCRT不同（诱导8–10周、巩固14–16周）。主要pCR为ypT0N0，但局切可能无区域病理，待结果核分母。2024-12-04首例、2025-06-13回顾登记，无结果。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
+    },
+    {
+      "title": "早期低位pMMR直肠癌短程放化免保留研究",
+      "sources": [
+        "https://www.chictr.org.cn/hvshowproject.html?id=289362&v=1.0"
+      ],
+      "registryId": "ChiCTR2500113784",
+      "sourceLevel": "protocol-only",
+      "reason": "中山六院多中心单臂Ⅱ期，33例计划，pMMR cT2–3a/bN0M0，距肛缘≤5cm，SCRT序贯CAPOX和信迪利。主要cCR与局切ypT0–1，ypT1非严格病理CR；无结果，不是免放疗。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
+    },
+    {
+      "title": "FIRM：术前mFOLFOX6＋斯鲁利单抗",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06688786",
+        "https://www.asco.org/abstracts-presentations/255239",
+        "https://doi.org/10.1200/JCO.2026.44.19_suppl.110"
+      ],
+      "registryId": "NCT06688786",
+      "sourceLevel": "pending-conference-detail",
+      "reason": "两次ASCO同一30例低至高位pMMR局部进展队列；2例因AE停治，28例完成队列所报pCR 12/28；其中1例SD加做nCRT，实际直接TME 27例，不能称无RT手术分母28。更新6例G3 AE；未充分核实手术流向与完整结果，不可作低位对照率。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
+    },
+    {
+      "title": "SCRT-SEQ：短程放疗后先用PD-1或同步CAPOX",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07963553"
+      ],
+      "registryId": "NCT07963553",
+      "sourceLevel": "protocol-only",
+      "reason": "11月27日官方登记，拟104例pMMR/MSS局部进展期直肠癌、随机Ⅱ期；两组先完成SCRT，再比较免疫先行或与CAPOX同步。主要为放疗结束后第21、14天外周CD8 TCR克隆扩增，非临床缓解或免放疗；未开始招募，尚无结果。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
+    },
+    {
+      "title": "SCAR：CAPOX与PD-1加用塞来昔布",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT05731726",
+        "https://doi.org/10.1016/j.annonc.2025.08.1359"
+      ],
+      "registryId": "NCT05731726",
+      "sourceLevel": "pending-conference-detail",
+      "reason": "2025 ESMO原摘要22例入组、18例根治术、pCR 4/18；当时排除cT2–3N0。2026厂商预览非正式会议原件，待核3544P的纳排、筛选流向和RT暴露，不写入更新率；单臂不能估计口服药增量。",
+      "reviewedAt": "2026-11-28T00:59:08.205920+00:00"
     }
   ],
-  "lastReviewNote": "新增5条待审线索；DINOMITE登记暂停、mRCAT家族分开记录，其余方案无结果；CHOICE II和氯叶绿酸仍待全文。"
+  "lastReviewNote": "氯叶绿酸全文已核并转正；COPEC主报告、FIRM/SCAR更新待核；ChiCTR两项和FOREST未替作疗效证据。"
 }

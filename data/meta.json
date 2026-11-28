@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-27",
+  "version": "2026-11-28",
   "publishedAt": "2026-11-03T11:31:53Z",
-  "lastSourceFetchAt": "2026-11-27T00:08:22.364760926Z",
-  "lastClinicalVerificationAt": "2026-11-27",
-  "curatedCount": 116,
-  "updateStatus": "Review completed; TORCH secondary sources linked; 116 studies and 140 charts unchanged",
+  "lastSourceFetchAt": "2026-11-28T00:59:08Z",
+  "lastClinicalVerificationAt": "2026-11-28",
+  "curatedCount": 118,
+  "updateStatus": "Review completed; two supportive care RCTs added; 118 studies and 143 charts",
   "reviewPolicy": "Primary-source verification required before inclusion or numeric updates; do not conflate fetched with verified",
   "history": [
     {
@@ -171,9 +171,14 @@
       "date": "2026-11-27",
       "type": "review",
       "note": "检索194篇新索引、26项登记、3条勘误相关元数据；既有研究13批、100条去重。复核10项，关联两项TORCH二次分析；主试验数据与收录总数不变。新增5条待审线索。"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "review",
+      "note": "检索170篇新索引、25项登记、3条勘误相关元数据；既有研究13批、118条去重。复核10项，补录氯叶绿酸TNT减毒与度洛西汀预防OIPN阴性Ⅱ期；原临床卡未改。"
     }
   ],
-  "lastSourceReviewAt": "2026-11-27T00:08:22.451242+00:00",
+  "lastSourceReviewAt": "2026-11-28T00:59:08.205920+00:00",
   "lastRegulatoryVerificationAt": "2026-11-26",
   "lastTargetedSourceFetchDate": "2026-11-15",
   "lastTargetedSourceReviewAt": "2026-11-15T06:22:16.112781+00:00"

@@ -13525,5 +13525,274 @@
         "sourceDate": "2026-10-19"
       }
     ]
+  },
+  {
+    "id": "chlorophyllin-tnt",
+    "name": "Chlorophyllin · TNT急性毒性预防",
+    "cancer": "直肠癌",
+    "category": "rectal",
+    "setting": "局部进展期直肠癌 · TNT支持治疗",
+    "patientGroup": "成人、非转移性中低位局部进展期直肠腺癌，可接受放化疗；启治者T3占71%、N+占79%，未按MMR选择。",
+    "molecular": "不限MMR（未报告分层结果）",
+    "line": "新辅助／支持治疗",
+    "design": "印度同体系两中心、随机1:1、双盲安慰剂对照",
+    "phase": "Ⅱ",
+    "n": "115筛查、76随机、73开始研究用药纳入主分析（氯叶绿酸37、安慰剂36）",
+    "arms": [
+      "口服氯叶绿酸750 mg/日＋同等TNT，实际28/37接受近距离放疗加量",
+      "安慰剂＋同等TNT，实际32/36接受近距离放疗加量"
+    ],
+    "primaryEndpoint": "自治疗开始至细胞毒治疗结束后3个月，胃肠道、血液或泌尿生殖系统合计发生CTCAE v5.0 ≥2级急性毒性的比例。",
+    "results": [
+      "≥2级合计毒性：24/37（65%）vs 34/36（94%），绝对减少29.6个百分点（双侧90% CI 15.2–43.9）；正文粗RR 0.69（90% CI 0.56–0.85，P=.003），调整RR 0.69（90% CI 0.56–0.86，P=.005）。",
+      "探索性≥3级合计毒性：10/37（27%）vs19/36（53%），绝对减少25.8个百分点（90% CI 7.5–44.0）；正文调整RR 0.52（90% CI 0.30–0.90，P=.049）。≥3级胃肠毒性1/37 vs8/36。",
+      "需化疗减量4/37 vs10/36（P=.07）。一年DFS 36/37 vs34/36；样本小且肿瘤结局探索性，不能判断抗癌疗效或等效。"
+    ],
+    "followup": "急性毒性至细胞毒治疗结束后3个月；文中另报一年探索性肿瘤结局，晚期毒性及长期疗效未成熟。",
+    "safety": "正文未报告4级毒性。3人因非治疗相关事件中止治疗；死亡2例（氯叶绿酸组TNT期间心脏事件、安慰剂组术后尿路感染并脓毒症），作者未报告意外的严重药物相关AE。报告另列全类型AE，勿与主要三领域复合分母混用。",
+    "limitations": "小样本、同一机构体系，非全随机分析；常规化疗和近距离加量实际有组间差异（28/37 vs32/36），不同TNT方案能否外推不明，未收集配套患者报告结局。正文与摘要个别CI端点不同，以正文分粗/调整列示。",
+    "practiceImpact": "支持进一步多中心Ⅲ期验证的减毒信号，不能作为常规支持用药、放疗增敏、器官保留或替代TNT依据。",
+    "status": "同行评议随机Ⅱ期 · 早期支持治疗信号",
+    "publicationDate": "2026-11-25",
+    "sources": [
+      {
+        "title": "JAMA Oncology 正式论文（含正文安全性及主结果）",
+        "url": "https://doi.org/10.1001/jamaoncol.2026.4843"
+      },
+      {
+        "title": "ClinicalTrials.gov 试验登记",
+        "url": "https://clinicaltrials.gov/study/NCT05856305"
+      }
+    ],
+    "keywords": [
+      "Chlorophyllin",
+      "氯叶绿酸",
+      "新辅助",
+      "TNT",
+      "毒性",
+      "支持治疗"
+    ],
+    "comparisonGroup": "直肠癌 · TNT支持治疗（非抗癌比较）",
+    "verifiedAt": "2026-11-28",
+    "lastVerified": "2026-11-28",
+    "evidenceLevel": "phase 2 randomized double-blind placebo-controlled; peer-reviewed full article",
+    "reviewStatus": "verified",
+    "changeNote": "初次核正文；区分76随机与73启治分析、90% CI及未成熟肿瘤结局。",
+    "registryId": "NCT05856305",
+    "molecularTags": [],
+    "conclusion": "特定TNT路径下，随机Ⅱ期观察到合计急性毒性降低，主要是胃肠道信号；需要独立验证和较长安全随访。",
+    "scheme": {
+      "population": "成人、非转移性中低位局部进展期直肠腺癌，可接受放化疗；启治者T3占71%、N+占79%，未按MMR选择。",
+      "allocation": "双盲1:1随机",
+      "arms": [
+        {
+          "label": "氯叶绿酸",
+          "steps": [
+            "口服氯叶绿酸750 mg/日",
+            "共用治疗：短程放疗 → 18周化疗；60/73实际接受近距离放疗加量",
+            "启治前10–14天开始研究用药或安慰剂，至细胞毒治疗结束后3个月"
+          ]
+        },
+        {
+          "label": "安慰剂",
+          "steps": [
+            "匹配安慰剂",
+            "共用治疗：短程放疗 → 18周化疗；60/73实际接受近距离放疗加量",
+            "启治前10–14天开始研究用药或安慰剂，至细胞毒治疗结束后3个月"
+          ]
+        }
+      ],
+      "primaryEndpoint": "自治疗开始至细胞毒治疗结束后3个月，胃肠道、血液或泌尿生殖系统合计发生CTCAE v5.0 ≥2级急性毒性的比例。",
+      "sourceUrl": "https://doi.org/10.1001/jamaoncol.2026.4843"
+    },
+    "resultCharts": [
+      {
+        "title": "TNT主要复合终点：≥2级急性毒性",
+        "type": "proportion",
+        "endpoint": "胃肠/血液/泌尿生殖≥2级合计毒性",
+        "timepoint": "自治疗开始至细胞毒治疗结束后3个月",
+        "population": "随机76例；结果分母为开始试验药的73例（37/36），非全随机人群。",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "氯叶绿酸",
+            "value": 65,
+            "n": 37,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "安慰剂",
+            "value": 94,
+            "n": 36,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": 0.003,
+        "note": "24/37 vs34/36；绝对减少29.6个百分点（90% CI 15.2–43.9），P为正文未调整比较。",
+        "sourceUrl": "https://doi.org/10.1001/jamaoncol.2026.4843",
+        "sourceDate": "2026-11-25"
+      },
+      {
+        "title": "TNT探索性终点：≥3级急性毒性",
+        "type": "proportion",
+        "endpoint": "胃肠/血液/泌尿生殖≥3级合计毒性",
+        "timepoint": "自治疗开始至细胞毒治疗结束后3个月",
+        "population": "随机76例；结果分母为开始试验药的73例（37/36），非全随机人群。",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "氯叶绿酸",
+            "value": 27,
+            "n": 37,
+            "ciLow": null,
+            "ciHigh": null
+          },
+          {
+            "label": "安慰剂",
+            "value": 53,
+            "n": 36,
+            "ciLow": null,
+            "ciHigh": null
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": 0.03,
+        "note": "10/37 vs19/36；绝对减少25.8个百分点（90% CI 7.5–44.0），P为正文未调整比较。",
+        "sourceUrl": "https://doi.org/10.1001/jamaoncol.2026.4843",
+        "sourceDate": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "alliance-a221805",
+    "name": "Alliance A221805 · 度洛西汀预防奥沙利铂神经毒性",
+    "cancer": "结直肠癌",
+    "category": "colon",
+    "setting": "Ⅱ–Ⅲ期结直肠癌 · 奥沙利铂支持治疗",
+    "patientGroup": "Ⅱ–Ⅲ期CRC，年龄≥25岁、ECOG 0–2、无基线周围神经病变，计划接受含奥沙利铂方案。",
+    "molecular": "未按分子亚型选择",
+    "line": "围手术期／支持治疗",
+    "design": "73中心、双盲1:1:1随机；Ⅱ期筛选剂量，安慰剂为校准，未按正式组间假设检验设计",
+    "phase": "Ⅱ期已发表；Ⅲ期提前终止",
+    "n": "Ⅱ期199随机、143主终点可评估、185毒性可评估；登记总计220，另21入Ⅲ期",
+    "arms": [
+      "度洛西汀30 mg每日，首周期起约17周，与含奥沙利铂化疗并行",
+      "度洛西汀60 mg每日，首周期起约17周，与含奥沙利铂化疗并行",
+      "安慰剂每日，首周期起约17周，与含奥沙利铂化疗并行"
+    ],
+    "primaryEndpoint": "用QLQ-CIPN20六项评价；奥沙利铂治疗及结束约1个月期间最高分≤2且未因感觉性神经毒性退组，定义为预防成功。",
+    "results": [
+      "Ⅱ期按正文表2，30 mg：30/46（65.2%，90% CI 52.1–76.8）；60 mg：31/47（66.0%，90% CI 53.0–77.4）；安慰剂：34/50（68.0%，90% CI 55.5–78.8）。不同缺失假设的敏感性分析未呈现增益。",
+      "11月27日登记初报显示DSMB据Ⅱ期结果提前结束；Ⅲ期仅入21例，不能建立确证比较。登记主结果把响应例数放在分析人数位置；Ⅱ期分母采用正式正文，Ⅲ期数据暂不比较。"
+    ],
+    "followup": "预防终点评估至第19–21周；不提供长期慢性神经病变预防结论。",
+    "safety": "按正式论文Ⅱ期安全集，≥3级任意原因AE为19/63、22/61、19/61。全组7例4级AE、2例死亡；作者认定其中仅1例4级低钾可能与研究药相关。登记安全分组标题、描述与分母不一致，不用登记替换论文。",
+    "limitations": "剂量筛选而非确证优效；143/199有主要终点、依从性较低。论文摘要与正文表1的60 mg/安慰剂随机分组66/67顺序不一致，保留总199、明确表2分析分母。登记不与已发表Ⅱ期合并。",
+    "practiceImpact": "不支持常规度洛西汀预防感觉性OIPN；该研究不推翻对已发生疼痛性神经病变的治疗证据。",
+    "status": "正式Ⅱ期阴性信号；登记显示Ⅲ期提前停",
+    "publicationDate": "2026-03-25",
+    "sources": [
+      {
+        "title": "JCO Oncology Advances 正式Ⅱ期报告（表2和表4）",
+        "url": "https://doi.org/10.1200/oa-25-00107"
+      },
+      {
+        "title": "ClinicalTrials.gov 2026-11-27 初报结果及终止状态",
+        "url": "https://clinicaltrials.gov/study/NCT04137107?tab=results"
+      }
+    ],
+    "keywords": [
+      "Alliance",
+      "A221805",
+      "度洛西汀",
+      "奥沙利铂",
+      "周围神经病变",
+      "OIPN"
+    ],
+    "comparisonGroup": "结直肠癌 · 奥沙利铂支持治疗",
+    "verifiedAt": "2026-11-28",
+    "lastVerified": "2026-11-28",
+    "evidenceLevel": "peer-reviewed phase II randomized screening; registry posting for early termination only",
+    "reviewStatus": "verified",
+    "changeNote": "历史Ⅱ期全文核实；仅以2026-11-27登记记录提前结束，保留结果与分组分母疑点。",
+    "registryId": "NCT04137107",
+    "molecularTags": [],
+    "conclusion": "两剂量均未显示预防性增益；Ⅲ期关闭，未提供确证性效应。",
+    "scheme": {
+      "population": "Ⅱ–Ⅲ期CRC，年龄≥25岁、ECOG 0–2、无基线周围神经病变，计划接受含奥沙利铂方案。",
+      "allocation": "Ⅱ期1:1:1双盲随机",
+      "arms": [
+        {
+          "label": "度洛西汀30 mg",
+          "steps": [
+            "含奥沙利铂化疗首周期开始分配干预",
+            "持续约17周，按预设PRO评估"
+          ]
+        },
+        {
+          "label": "度洛西汀60 mg",
+          "steps": [
+            "含奥沙利铂化疗首周期开始分配干预",
+            "持续约17周，按预设PRO评估"
+          ]
+        },
+        {
+          "label": "安慰剂",
+          "steps": [
+            "含奥沙利铂化疗首周期开始分配干预",
+            "持续约17周，按预设PRO评估"
+          ]
+        }
+      ],
+      "primaryEndpoint": "用QLQ-CIPN20六项评价；奥沙利铂治疗及结束约1个月期间最高分≤2且未因感觉性神经毒性退组，定义为预防成功。",
+      "sourceUrl": "https://doi.org/10.1200/oa-25-00107"
+    },
+    "resultCharts": [
+      {
+        "title": "Ⅱ期：预防感觉性奥沙利铂神经毒性",
+        "type": "proportion",
+        "endpoint": "达到预防响应标准",
+        "timepoint": "至21周",
+        "population": "Ⅱ期主终点可评价143人（199随机），不含Ⅲ期。",
+        "unit": "%",
+        "arms": [
+          {
+            "label": "度洛西汀30 mg",
+            "value": 65.2,
+            "n": 46,
+            "ciLow": 52.1,
+            "ciHigh": 76.8
+          },
+          {
+            "label": "度洛西汀60 mg",
+            "value": 66,
+            "n": 47,
+            "ciLow": 53,
+            "ciHigh": 77.4
+          },
+          {
+            "label": "安慰剂",
+            "value": 68,
+            "n": 50,
+            "ciLow": 55.5,
+            "ciHigh": 78.8
+          }
+        ],
+        "hr": null,
+        "hrCiLow": null,
+        "hrCiHigh": null,
+        "pValue": null,
+        "note": "30/46、31/47、34/50，各为原文双侧90%精确CI；Ⅱ期非确证组间检验。",
+        "sourceUrl": "https://doi.org/10.1200/oa-25-00107",
+        "sourceDate": "2026-03-25"
+      }
+    ]
   }
 ]
